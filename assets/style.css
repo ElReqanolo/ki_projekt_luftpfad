@@ -360,3 +360,15 @@ dialog::backdrop { background: rgba(23, 36, 43, .45); }
 .tok-result .bad { color: var(--danger); font-weight: 600; }
 .ablage-err { padding: .7rem 1rem; margin: 0; background: #f8e3e0; }
 .reason { background: var(--p3-bg); border-left: 4px solid var(--p3); padding: .6rem .8rem; margin: 0; }
+
+.account { display: flex; flex-direction: column; gap: .3rem; color: #dfe7e6; font-size: .84rem; margin-bottom: .4rem; }
+.account b { color: #fff; }
+.account .acc-links { display: flex; gap: .8rem; flex-wrap: wrap; }
+.account a, .account .link { color: #dfe7e6; font-size: .84rem; }
+.account .acc-in { background: #fff; color: var(--ink); border-color: #fff; font-size: .9rem; padding: .35em .9em; margin: 0; }
+.adm-form { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .8rem 1rem; align-items: end; background: var(--panel); padding: 1rem; }
+.adm-form label { display: flex; flex-direction: column; gap: .25rem; font-size: .82rem; color: var(--muted); }
+.adm-form input, .adm-form select { padding: .45em .5em; border: 1.5px solid var(--rule); border-radius: 4px; font-size: .95rem; color: var(--ink); }
+.pwbox { background: var(--p1-bg); border-left: 4px solid var(--p1); padding: 1rem 1.2rem; margin: 1rem 0; }
+.pwbox code { font-size: 1rem; font-weight: 700; }
+.dlg details summary { cursor: pointer; font-weight: 600; margin-bottom: .6rem; }

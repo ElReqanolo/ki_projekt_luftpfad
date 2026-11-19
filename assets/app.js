@@ -90,7 +90,7 @@
     document.body.classList.remove('nav-open'); $('.menu-btn').setAttribute('aria-expanded', 'false');
     const nav = view === 'person' ? 'person-' + a : view === 'projekt' ? 'projekte' : view === 'datei' ? 'dateien' : (view || 'home');
     $$('.nav a[data-nav]').forEach(x => x.toggleAttribute('aria-current', x.dataset.nav === nav));
-    const views = { '': home, firma, projekte, projekt: () => projekt(a), dateien, datei: () => datei(a, b), person: () => person(a, b), suche: () => suche(decodeURIComponent(a || '')) };
+    const views = { '': home, firma, projekte, projekt: () => projekt(a), dateien, datei: () => datei(a, b), person: () => person(a, b), suche: () => suche(decodeURIComponent(a || '')), admin };
     (views[view || ''] || home)();
     paintStatus();
     window.scrollTo(0, 0);
@@ -311,7 +311,8 @@
   function statusPanel(el, p) {
     if (!el || !p) return;
     const o = Ablage.status.get(p.id);
-    const canWrite = !!Ablage.token();
+    const me = Ablage.auth.user();
+    const canWrite = Ablage.auth.enabled() ? !!me : !!Ablage.token();
     const open = o.feedback.filter(f => !f.erledigt);
     const steps = [['offen', 'Offen'], ['ki_erledigt', 'Von KI erledigt'], ['ueberprueft', 'Überprüft'], ['fertig', 'Abgenommen']];
     const idx = steps.findIndex(s => s[0] === o.status);
@@ -333,9 +334,9 @@
         <form class="fb-form" id="fb-form">
           <label for="fb-text">${o.status === 'offen' ? 'Hinweis für die KI (optional)' : 'Verbesserungen oder Fehler'}</label>
           <textarea id="fb-text" rows="5" placeholder="${o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 25.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
-          <div class="fb-row"><label>Name <input id="fb-von" value="${esc(Ablage.LS.get('name', ''))}" placeholder="Ihr Name" ${canWrite ? '' : 'disabled'}></label>
+          <div class="fb-row">${me ? `<span class="muted small">Eingetragen als <b>${esc(me.name)}</b></span><input type="hidden" id="fb-von" value="${esc(me.name)}">` : `<label>Name <input id="fb-von" value="${esc(Ablage.LS.get('name', ''))}" placeholder="Ihr Name" ${canWrite ? '' : 'disabled'}></label>`}
             <button class="btn primary" ${canWrite ? '' : 'disabled'}>${o.status === 'offen' ? 'Hinweis speichern' : 'Als überprüft markieren und an KI geben'}</button></div>
-          ${canWrite ? '' : `<p class="hint">Zum Eintragen ein GitHub-Token in den <button type="button" class="link" data-settings-global>Ablage-Einstellungen</button> hinterlegen.</p>`}
+          ${canWrite ? '' : Ablage.auth.enabled() ? `<p class="hint">Zum Eintragen bitte <button type="button" class="link" data-login>anmelden</button>.</p>` : `<p class="hint">Zum Eintragen ein GitHub-Token in den <button type="button" class="link" data-settings-global>Ablage-Einstellungen</button> hinterlegen.</p>`}
         </form>` : ''}
       ${o.status === 'ki_erledigt' ? `<label class="perfect"><input type="checkbox" id="fb-ok" ${canWrite ? '' : 'disabled'}> <span><b>Passt so, perfekt.</b> Haken setzen, um das Projekt abzunehmen.</span></label>` : ''}
       ${o.status === 'fertig' ? `<label class="perfect is-done"><input type="checkbox" id="fb-reopen" checked ${canWrite ? '' : 'disabled'}> <span><b>Abgenommen.</b> Haken entfernen, um die Abnahme zurückzunehmen.</span></label>` : ''}
@@ -363,14 +364,14 @@
     };
     const ok = $('#fb-ok', el);
     if (ok) ok.onchange = async () => {
-      const von = Ablage.LS.get('name', '') || (await ask('Projekt abnehmen', [{ name: 'von', label: 'Ihr Name' }], 'Abnehmen') || {}).von;
+      const von = (me && me.name) || Ablage.LS.get('name', '') || (await ask('Projekt abnehmen', [{ name: 'von', label: 'Ihr Name' }], 'Abnehmen') || {}).von;
       if (!von) { ok.checked = false; return; }
       Ablage.LS.set('name', von);
       save(x => { x.status = 'fertig'; x.verlauf.push({ datum: now(), von, art: 'abgenommen', text: 'Haken gesetzt: abgenommen' }); }, `Status ${p.id}: abgenommen von ${von}`, 'Projekt abgenommen.');
     };
     const ro = $('#fb-reopen', el);
     if (ro) ro.onchange = () => {
-      const von = Ablage.LS.get('name', '') || 'Gruppe';
+      const von = (me && me.name) || Ablage.LS.get('name', '') || 'Gruppe';
       save(x => { x.status = 'ki_erledigt'; x.verlauf.push({ datum: now(), von, art: 'zurueckgenommen', text: 'Abnahme zurückgenommen' }); }, `Status ${p.id}: Abnahme zurückgenommen`, 'Abnahme zurückgenommen.');
     };
   }
@@ -510,6 +511,7 @@
     const vr = e.target.closest('[data-view-repo]');
     if (vr) { Ablage.readRepo(vr.dataset.viewRepo).then(b => b.text()).then(t => showText(vr.dataset.viewRepo, t)).catch(err => toast(err.message)); return; }
     if (e.target.closest('[data-settings-global]')) { settings(); return; }
+    if (e.target.closest('[data-login]')) { loginDialog(); return; }
     const dl = e.target.closest('[data-dl-ablage]');
     if (dl) { const [pers, path] = dl.dataset.dlAblage.split('|'); Ablage.backend().read(pers, path).then(b => download(b, path.split('/').pop())).catch(err => toast(err.message)); }
     if (!e.target.closest('#drawer') && $('#drawer').classList.contains('on') && !q) closeDrawer();
@@ -543,7 +545,12 @@
     async function refresh() {
       const be = B();
       $('#badge').textContent = be.label();
-      $('#store-hint').innerHTML = be.name === 'github'
+      const me = Ablage.auth.user();
+      $('#store-hint').innerHTML = be.name === 'github' && Ablage.auth.enabled()
+        ? (!me ? `Lesen geht ohne Anmeldung. Zum Anlegen und Hochladen bitte <button class="link" data-login>anmelden</button>.`
+          : be.canWritePerson(p.ordner) ? `Angemeldet als <b>${esc(me.name)}</b>. Dateien werden in <a href="${Ablage.repoUrl()}/tree/${Ablage.config.branch}/${Ablage.config.ablagePfad}/${p.ordner}" target="_blank" rel="noopener">ablage/${p.ordner}</a> gespeichert und sind für die ganze Gruppe sichtbar.`
+          : `Angemeldet als <b>${esc(me.name)}</b>. In dieser Ablage dürfen nur ${esc(p.name)} und das Admin-Konto schreiben; lesen und herunterladen können alle.`)
+        : be.name === 'github'
         ? (be.canWrite() ? `Dateien werden als Commit in <a href="${Ablage.repoUrl()}/tree/${Ablage.config.branch}/${Ablage.config.ablagePfad}/${p.ordner}" target="_blank" rel="noopener">ablage/${p.ordner}</a> gespeichert und sind für die ganze Gruppe sichtbar.`
           : `Lesen geht ohne Anmeldung. Zum Hochladen ein GitHub-Token in den <button class="link" data-settings>Ablage-Einstellungen</button> hinterlegen oder dort auf „Nur dieser Browser“ umstellen.`)
         : `Dateien bleiben nur in diesem Browser auf diesem Gerät. Für eine gemeinsame Ablage in den <button class="link" data-settings>Ablage-Einstellungen</button> GitHub wählen.`;
@@ -579,7 +586,13 @@
         <button class="btn" id="b-projdirs">${missing.length} Projektordner anlegen</button> <span class="muted">${missing.map(x => esc(projFolder(x))).join(', ')}</span></div>` : '';
       const pb = $('#b-projdirs'); if (pb) pb.onclick = () => guard(async () => { for (const x of missing) await B().mkdir(p.ordner, projFolder(x)); toast('Projektordner angelegt.'); });
     }
-    const needWrite = () => { if (B().canWrite()) return false; settings('Zum Anlegen von Ordnern und Hochladen braucht die gemeinsame Ablage ein GitHub-Token. Tragen Sie es unten ein und klicken Sie auf „Token prüfen“. Alternativ „Nur dieser Browser“ wählen.'); return true; };
+    const needWrite = () => {
+      if (B().name === 'github' && Ablage.auth.enabled()) {
+        if (!Ablage.auth.user()) { loginDialog('Zum Anlegen von Ordnern und Hochladen bitte anmelden.'); return true; }
+        if (!B().canWritePerson(p.ordner)) { toast(`In dieser Ablage dürfen nur ${p.name} und das Admin-Konto schreiben.`, 5000); return true; }
+        return false;
+      }
+      if (B().canWrite()) return false; settings('Zum Anlegen von Ordnern und Hochladen braucht die gemeinsame Ablage ein GitHub-Token. Tragen Sie es unten ein und klicken Sie auf „Token prüfen“. Alternativ „Nur dieser Browser“ wählen.'); return true; };
     async function guard(fn) {
       if (needWrite()) return;
       el.classList.add('busy');
@@ -594,7 +607,7 @@
       list.forEach(f => { f.relPath = f.webkitRelativePath || f.name; });
       const info = await ask(`${list.length} ${list.length === 1 ? 'Datei' : 'Dateien'} nach „${p.ordner}${cwd ? '/' + cwd : ''}“ hochladen`, [
         { name: 'herkunft', label: 'Herkunft oder Quelle', hint: 'Woher stammt der Inhalt? Zum Beispiel „Antwort Kantbogen aus Uebergaben/K61 vom 30.11.“ oder „eigene Auswertung aus Trend_EZ_EG…csv“.' },
-        { name: 'von', label: 'Abgelegt von', value: Ablage.LS.get('name', p.name) }], 'Hochladen');
+        { name: 'von', label: 'Abgelegt von', value: (Ablage.auth.user() || {}).name || Ablage.LS.get('name', p.name) }], 'Hochladen');
       if (!info) return;
       Ablage.LS.set('name', info.von);
       await guard(async () => {
@@ -613,6 +626,7 @@
     el.onclick = async e => {
       const t = e.target.closest('button'); if (!t) return;
       if (t.matches('[data-settings]')) return settings();
+      if (t.matches('[data-login]')) return;
       if (t.dataset.cd !== undefined) { cwd = t.dataset.cd; draw(); return; }
       if (t.dataset.get) { try { download(await B().read(p.ordner, t.dataset.get), t.dataset.get.split('/').pop()); } catch (err) { toast(err.message); } return; }
       if (t.dataset.edit) {
@@ -696,19 +710,35 @@
         <label class="radio"><input type="radio" name="mode" value="github" ${mode === 'github' ? 'checked' : ''}> <span><b>GitHub-Repository ${esc(C.owner)}/${esc(C.repo)}</b><small>Gemeinsam für die ganze Gruppe. Jede Änderung ist ein Commit mit Datum, nachvollziehbar in der Historie.</small></span></label>
         <label class="radio"><input type="radio" name="mode" value="local" ${mode === 'local' ? 'checked' : ''}> <span><b>Nur dieser Browser</b><small>Ohne Anmeldung, aber nur auf diesem Gerät sichtbar.</small></span></label>
       </fieldset>
+      <label>Adresse des Login-Dienstes<input name="worker" value="${esc(Ablage.LS.get('workerUrl', '') || '')}" placeholder="${esc(C.workerUrl || 'https://luftpfad-login.<name>.workers.dev')}" autocomplete="off">
+        <small>${C.workerUrl ? 'Leer lassen, um die Adresse aus der Seite zu verwenden.' : 'Nach dem Einrichten des Cloudflare Workers hier eintragen (siehe worker/EINRICHTEN.md).'} Mit Login-Dienst braucht niemand ein GitHub-Token.</small></label>
+      <div class="btnrow" style="margin-top:0"><button type="button" class="btn" id="w-check">Login-Dienst prüfen</button></div>
+      <ul class="tok-result" id="w-result" aria-live="polite"></ul>
+      <details ${Ablage.auth.enabled() ? '' : 'open'}><summary>Ohne Login-Dienst: eigenes GitHub-Token</summary>
       <label>GitHub-Token zum Hochladen<input name="token" type="password" value="${esc(Ablage.token())}" autocomplete="off" placeholder="github_pat_…">
         <small>Auf GitHub unter Settings › Developer settings › Fine-grained tokens anlegen, nur für dieses Repository, Berechtigung „Contents: Read and write“. Das Token bleibt nur in diesem Browser gespeichert.</small></label>
       <div class="btnrow" style="margin-top:0"><button type="button" class="btn" id="tok-check">Token prüfen</button></div>
-      <ul class="tok-result" id="tok-result" aria-live="polite"></ul>
+      <ul class="tok-result" id="tok-result" aria-live="polite"></ul></details>
       <div class="btnrow"><button value="cancel" class="btn">Abbrechen</button><button value="ok" class="btn primary">Speichern</button></div></form>`;
     d.onclose = () => {
       if (d.returnValue !== 'ok') return;
       Ablage.setMode(d.querySelector('[name=mode]:checked').value);
       Ablage.setToken(d.querySelector('[name=token]').value.trim());
+      const w = d.querySelector('[name=worker]').value.trim().replace(/\/+$/, '');
+      if (w !== (Ablage.LS.get('workerUrl', '') || '')) { Ablage.LS.set('workerUrl', w); Ablage.LS.set('session', null); renderAccount(); }
       toast('Einstellungen gespeichert.');
       Ablage.status.data = null;
       route();
       Ablage.status.load(true).then(() => { paintStatus(); const sp = $('#st-panel'); if (sp) statusPanel(sp, PROJ[sp.dataset.id]); });
+    };
+    $('#w-check', d).onclick = async () => {
+      const out = $('#w-result', d), w = d.querySelector('[name=worker]').value.trim().replace(/\/+$/, '') || Ablage.config.workerUrl;
+      if (!w) { out.innerHTML = '<li class="bad">✗ Bitte zuerst die Adresse eintragen.</li>'; return; }
+      out.innerHTML = '<li>Prüfe …</li>';
+      try {
+        const r = await (await fetch(w + '/')).json();
+        out.innerHTML = r.ok ? `<li class="good">✓ Login-Dienst erreichbar, Repository ${esc(r.repo || '?')}</li>` : '<li class="bad">✗ Unerwartete Antwort.</li>';
+      } catch (e) { out.innerHTML = `<li class="bad">✗ Nicht erreichbar (${esc(e.message)}). Adresse und ALLOWED_ORIGINS im Worker prüfen.</li>`; }
     };
     $('#tok-check', d).onclick = async () => {
       const t = d.querySelector('[name=token]').value.trim(), out = $('#tok-result', d);
@@ -720,6 +750,125 @@
     d.returnValue = ''; d.showModal();
   }
   $('#open-settings').onclick = settings;
+
+  // ------------------------------------------------------------------ Anmeldung
+  function renderAccount() {
+    const el = $('#account'); if (!el) return;
+    if (!Ablage.auth.enabled()) { el.innerHTML = ''; return; }
+    const u = Ablage.auth.user();
+    el.innerHTML = u ? `<span>Angemeldet als <b>${esc(u.name)}</b>${u.role === 'admin' ? ' (Admin)' : u.person ? ` (Person ${u.person})` : ''}</span>
+        <span class="acc-links">${u.role === 'admin' ? '<a href="#/admin">Benutzer verwalten</a>' : '<button class="link" id="acc-pw">Passwort ändern</button>'}<button class="link" id="acc-out">Abmelden</button></span>`
+      : `<button class="btn small acc-in" data-login>Anmelden</button>`;
+    const o = $('#acc-out'); if (o) o.onclick = () => { Ablage.auth.logout(); toast('Abgemeldet.'); };
+    const pw = $('#acc-pw'); if (pw) pw.onclick = changePasswordDialog;
+  }
+  function loginDialog(reason) {
+    const d = $('#dlg');
+    d.innerHTML = `<form method="dialog" class="dlg" id="login-form"><h2>Anmelden</h2>${typeof reason === 'string' ? `<p class="reason">${esc(reason)}</p>` : ''}
+      <label>Benutzername<input name="login" autocomplete="username" required autocapitalize="none"></label>
+      <label>Passwort<input name="password" type="password" autocomplete="current-password" required></label>
+      <p class="error" id="login-err" hidden></p>
+      <div class="btnrow"><button value="cancel" class="btn" formnovalidate>Abbrechen</button><button value="ok" class="btn primary">Anmelden</button></div></form>`;
+    const f = $('#login-form', d);
+    f.onsubmit = async e => {
+      if (e.submitter && e.submitter.value === 'cancel') return;
+      e.preventDefault();
+      const err = $('#login-err', d); err.hidden = true;
+      try {
+        const u = await Ablage.auth.login(f.login.value.trim(), f.password.value);
+        d.close(); toast(`Angemeldet als ${u.name}.`);
+      } catch (x) { err.textContent = x.message; err.hidden = false; }
+    };
+    d.onclose = null; d.returnValue = ''; d.showModal(); f.login.focus();
+  }
+  async function changePasswordDialog() {
+    const r = await ask('Passwort ändern', [{ name: 'old', label: 'Bisheriges Passwort', type: 'password' }, { name: 'neu', label: 'Neues Passwort (mindestens 8 Zeichen)', type: 'password' }], 'Ändern');
+    if (!r) return;
+    try { await Ablage.auth.changePassword(r.old, r.neu); toast('Passwort geändert. Bitte mit dem neuen Passwort anmelden.', 5000); loginDialog(); }
+    catch (e) { toast(e.message, 6000); }
+  }
+  window.addEventListener('luftpfad-auth', () => {
+    renderAccount();
+    Ablage.status.data = null;
+    route();
+    Ablage.status.load(true).then(() => { paintStatus(); const sp = $('#st-panel'); if (sp) statusPanel(sp, PROJ[sp.dataset.id]); });
+  });
+
+  // ------------------------------------------------------------------ Benutzerverwaltung (Admin)
+  const pwGen = () => { const c = 'abcdefghijkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789'; const a = crypto.getRandomValues(new Uint32Array(12)); return [...a].map(x => c[x % c.length]).join(''); };
+  const loginOf = name => slug(name.split(' ')[0]).toLowerCase();
+  async function admin() {
+    const u = Ablage.auth.user();
+    main.innerHTML = `<header class="page-head"><h1>Benutzer verwalten</h1>
+      <p class="lead">Jede Person meldet sich mit eigenem Konto an und darf in ihrer eigenen Datenablage und im Projektstatus schreiben. Das Admin-Konto darf alles.</p></header>
+      <section class="block" id="adm"></section>`;
+    const el = $('#adm');
+    if (!Ablage.auth.enabled()) { el.innerHTML = '<p class="hint">Der Login-Dienst ist noch nicht eingerichtet. Anleitung: worker/EINRICHTEN.md im Repository, danach die Adresse in den Ablage-Einstellungen eintragen.</p>'; return; }
+    if (!u || u.role !== 'admin') { el.innerHTML = `<p class="hint">Diese Seite ist nur für das Admin-Konto. <button class="link" data-login>Als Admin anmelden</button></p>`; return; }
+    let users = [];
+    try { users = await Ablage.auth.users(); } catch (e) { el.innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
+    const missing = S.personen.filter(p => !users.some(x => x.person === p.nr));
+    el.innerHTML = `
+      ${missing.length ? `<div class="suggest"><p>Für ${missing.map(p => esc(p.name)).join(', ')} gibt es noch kein Konto.</p>
+        <button class="btn" id="adm-all">${missing.length} Konten mit Startpasswort anlegen</button></div>` : ''}
+      <div id="adm-new-pw"></div>
+      <h2>Konten <small>${users.length}</small></h2>
+      <table class="grid"><thead><tr><th>Benutzername</th><th>Name</th><th>Person</th><th>Rolle</th><th><span class="vh">Aktionen</span></th></tr></thead><tbody>
+        <tr><td><b>admin</b></td><td>Admin</td><td>–</td><td>Admin</td><td class="muted small">Passwort im Cloudflare-Dashboard (ADMIN_PASSWORD)</td></tr>
+        ${users.map(x => `<tr><td><b>${esc(x.login)}</b></td><td>${esc(x.name)}</td><td>${x.person ? personLink(x.person) : '–'}</td><td>${x.role === 'admin' ? 'Admin' : 'Person'}</td>
+          <td class="act"><button class="btn small" data-adm-pw="${esc(x.login)}">Neues Passwort</button><button class="btn small" data-adm-edit="${esc(x.login)}">Bearbeiten</button><button class="btn small danger" data-adm-del="${esc(x.login)}">Löschen</button></td></tr>`).join('')}
+      </tbody></table>
+      <h2>Konto anlegen</h2>
+      <form class="adm-form" id="adm-form">
+        <label>Benutzername<input name="login" required pattern="[a-z0-9._\-]{2,32}" placeholder="z. B. elena" autocapitalize="none"></label>
+        <label>Name<input name="name" required placeholder="z. B. Elena Voss"></label>
+        <label>Person<select name="person"><option value="">keine</option>${S.personen.map(p => `<option value="${p.nr}">${p.nr} – ${esc(p.name)}</option>`).join('')}</select></label>
+        <label>Rolle<select name="role"><option value="person">Person</option><option value="admin">Admin</option></select></label>
+        <label>Passwort<input name="password" value="${pwGen()}" minlength="8"></label>
+        <button class="btn primary">Konto anlegen</button>
+      </form>`;
+    const showPw = list => { $('#adm-new-pw').innerHTML = `<div class="pwbox"><h3>Zugangsdaten zum Weitergeben</h3><p>Diese Passwörter werden nur jetzt angezeigt. Jede Person kann ihr Passwort danach unter „Passwort ändern“ selbst ändern.</p>
+      <table class="grid"><thead><tr><th>Name</th><th>Benutzername</th><th>Passwort</th></tr></thead><tbody>${list.map(x => `<tr><td>${esc(x.name)}</td><td><code>${esc(x.login)}</code></td><td><code>${esc(x.password)}</code></td></tr>`).join('')}</tbody></table>
+      <p class="small">Seite: ${esc(location.origin + location.pathname)}</p></div>`; };
+    const allBtn = $('#adm-all');
+    if (allBtn) allBtn.onclick = async () => {
+      const made = [];
+      try {
+        for (const p of missing) {
+          let login = loginOf(p.name); if (users.some(x => x.login === login)) login += p.nr;
+          const password = pwGen();
+          await Ablage.auth.saveUser({ login, name: p.name, person: p.nr, role: 'person', password });
+          made.push({ name: p.name, login, password });
+        }
+      } catch (e) { toast(e.message, 6000); }
+      await admin(); if (made.length) showPw(made);
+    };
+    $('#adm-form').onsubmit = async e => {
+      e.preventDefault();
+      const f = e.target, data = Object.fromEntries(new FormData(f));
+      try { await Ablage.auth.saveUser(data); await admin(); if (data.password) showPw([{ name: data.name, login: data.login.toLowerCase(), password: data.password }]); toast('Konto gespeichert.'); }
+      catch (x) { toast(x.message, 6000); }
+    };
+    el.onclick = async e => {
+      const b = e.target.closest('button'); if (!b) return;
+      if (b.dataset.admPw) {
+        const x = users.find(y => y.login === b.dataset.admPw), password = pwGen();
+        const ok = await ask(`Neues Passwort für ${x.name}`, [{ name: 'password', label: 'Neues Passwort', value: password }], 'Speichern', 'Die bisherige Anmeldung dieser Person wird dabei beendet.');
+        if (!ok) return;
+        try { await Ablage.auth.saveUser({ ...x, password: ok.password }); await admin(); showPw([{ name: x.name, login: x.login, password: ok.password }]); } catch (er) { toast(er.message, 6000); }
+      }
+      if (b.dataset.admEdit) {
+        const x = users.find(y => y.login === b.dataset.admEdit), f = $('#adm-form');
+        f.login.value = x.login; f.name.value = x.name; f.person.value = x.person || ''; f.role.value = x.role; f.password.value = '';
+        f.password.placeholder = 'leer lassen = Passwort bleibt'; f.querySelector('button').textContent = 'Änderungen speichern'; f.scrollIntoView({ behavior: 'smooth' }); f.name.focus();
+      }
+      if (b.dataset.admDel) {
+        const ok = await ask(`Konto „${b.dataset.admDel}“ löschen?`, [], 'Löschen', 'Die Person kann sich danach nicht mehr anmelden. Ihre Dateien bleiben in der Ablage.');
+        if (ok) { try { await Ablage.auth.deleteUser(b.dataset.admDel); await admin(); toast('Konto gelöscht.'); } catch (er) { toast(er.message, 6000); } }
+      }
+    };
+  }
+  renderAccount();
 
   boot();
 })();

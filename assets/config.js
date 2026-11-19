@@ -4,5 +4,8 @@ window.LUFTPFAD_CONFIG = {
   owner: 'ElReqanolo',
   repo: 'ki_projekt_luftpfad',
   branch: 'main',
-  ablagePfad: 'ablage'
+  ablagePfad: 'ablage',
+  // Adresse des Login-Dienstes (Cloudflare Worker), z. B. 'https://luftpfad-login.<name>.workers.dev'.
+  // Leer = ohne Login, Schreiben nur mit eigenem GitHub-Token.
+  workerUrl: ''
 };

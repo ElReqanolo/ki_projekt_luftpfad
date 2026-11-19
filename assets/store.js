@@ -15,6 +15,26 @@
     set: (k, v) => { try { localStorage.setItem('luftpfad.' + k, JSON.stringify(v)); } catch (e) { /* privat */ } }
   };
   const HIDDEN = ['.gitkeep', '.meta.json'];
+  // Login-Dienst (Cloudflare Worker): Adresse aus config.js oder aus den Einstellungen
+  const workerUrl = () => String(LS.get('workerUrl', '') || C.workerUrl || '').replace(/\/+$/, '');
+  const session = () => LS.get('session', null);
+  const sessionUser = () => { const s = session(); return s && s.user ? s.user : null; };
+  async function wfetch(path, opts = {}) {
+    const headers = Object.assign({}, opts.headers || {});
+    const s = session(); if (s && s.token) headers.Authorization = 'Bearer ' + s.token;
+    if (opts.body && typeof opts.body !== 'string') { opts = Object.assign({}, opts, { body: JSON.stringify(opts.body) }); headers['Content-Type'] = 'application/json'; }
+    let res;
+    try { res = await fetch(workerUrl() + path, Object.assign({}, opts, { headers })); }
+    catch (e) { const err = new Error('Login-Dienst nicht erreichbar (' + workerUrl() + '). Adresse in den Einstellungen prüfen.'); err.status = 0; throw err; }
+    if (res.status === 401 && s) { LS.set('session', null); window.dispatchEvent(new Event('luftpfad-auth')); }
+    if (!res.ok) {
+      let msg = res.status + ' ' + res.statusText;
+      try { const j = await res.clone().json(); msg = j.error || j.message || msg; } catch (e) { /* leer */ }
+      if (res.status === 409 || res.status === 422) msg = 'Die Datei wurde gerade von jemand anderem geändert. Bitte erneut versuchen.';
+      const err = new Error(msg); err.status = res.status; throw err;
+    }
+    return res;
+  }
   const isHidden = p => HIDDEN.includes(p.split('/').pop());
 
   // ------------------------------------------------------------ GitHub
@@ -23,6 +43,18 @@
   let treeCache = null, treeTime = 0;
 
   async function gh(path, opts = {}) {
+    if (workerUrl()) {
+      const [p, q] = path.split('?');
+      const qs = new URLSearchParams(q || ''); qs.delete('t');
+      let body;
+      if (opts.body) {
+        const b = JSON.parse(opts.body);
+        if (b.sha) qs.set('sha', b.sha);
+        if (opts.method === 'PUT') body = b.content || '';
+        if (b.message) qs.set('m', b.message.replace(/^Ablage [^:]+: /, '').replace(/^Status [^:]+: /, '').slice(0, 100));
+      }
+      return wfetch('/gh/' + p + (qs.toString() ? '?' + qs : ''), { method: opts.method || 'GET', headers: opts.headers && opts.headers.Accept ? { Accept: opts.headers.Accept } : {}, body });
+    }
     const token = LS.get('token', '');
     const headers = Object.assign({ Accept: 'application/vnd.github+json' }, opts.headers || {});
     if (opts.body) headers['Content-Type'] = 'application/json';
@@ -65,8 +97,13 @@
 
   const GitHub = {
     name: 'github',
-    label: () => `GitHub: ${C.owner}/${C.repo}`,
-    canWrite: () => !!LS.get('token', ''),
+    label: () => workerUrl() ? `Gemeinsame Ablage (GitHub ${C.owner}/${C.repo})` : `GitHub: ${C.owner}/${C.repo}`,
+    canWrite: () => workerUrl() ? !!sessionUser() : !!LS.get('token', ''),
+    canWritePerson(person) {
+      if (!workerUrl()) return !!LS.get('token', '');
+      const u = sessionUser(); if (!u) return false;
+      return u.role === 'admin' || `Person_${u.person}` === person;
+    },
     async list(person) {
       const pre = root(person) + '/';
       return (await tree()).filter(e => e.path.startsWith(pre)).map(e => ({
@@ -147,6 +184,7 @@
     name: 'local',
     label: () => 'Nur dieser Browser',
     canWrite: () => true,
+    canWritePerson: () => true,
     async all() { return (await tx('readonly', s => s.getAll())) || []; },
     async list(person) {
       return (await this.all()).filter(i => i.person === person).map(i => ({ path: i.path, type: i.type, size: i.size || 0 }));
@@ -193,7 +231,8 @@
     async load(force) {
       if (this.data && !force) return this.data;
       const tries = [];
-      if (LS.get('token', '')) tries.push(async () => JSON.parse(await (await gh(`contents/status.json?ref=${encodeURIComponent(C.branch)}&t=${Date.now()}`, { headers: { Accept: 'application/vnd.github.raw' } })).text()));
+      if (workerUrl()) tries.push(async () => JSON.parse(await (await gh(`contents/status.json?ref=${encodeURIComponent(C.branch)}`, { headers: { Accept: 'application/vnd.github.raw' } })).text()));
+      if (!workerUrl() && LS.get('token', '')) tries.push(async () => JSON.parse(await (await gh(`contents/status.json?ref=${encodeURIComponent(C.branch)}&t=${Date.now()}`, { headers: { Accept: 'application/vnd.github.raw' } })).text()));
       tries.push(async () => { const r = await fetch(`https://raw.githubusercontent.com/${C.owner}/${C.repo}/${C.branch}/status.json?t=${Date.now()}`); if (!r.ok) throw new Error(r.status); return r.json(); });
       tries.push(async () => { const r = await fetch('status.json?t=' + Date.now()); if (!r.ok) throw new Error(r.status); return r.json(); });
       for (const t of tries) { try { this.data = await t(); return this.data; } catch (e) { /* nächste Quelle */ } }
@@ -206,7 +245,7 @@
     },
     // fn(projektObjekt) ändert das Projekt; wird bei Konflikt mit frischen Daten wiederholt
     async update(id, fn, message) {
-      if (!LS.get('token', '')) throw new Error('Zum Speichern bitte in den Ablage-Einstellungen ein GitHub-Token hinterlegen.');
+      if (workerUrl() ? !sessionUser() : !LS.get('token', '')) throw new Error(workerUrl() ? 'Zum Speichern bitte zuerst anmelden.' : 'Zum Speichern bitte in den Ablage-Einstellungen ein GitHub-Token hinterlegen.');
       for (let attempt = 0; attempt < 3; attempt++) {
         const r = await gh(`contents/status.json?ref=${encodeURIComponent(C.branch)}&t=${Date.now()}`);
         const file = await r.json();
@@ -224,7 +263,7 @@
 
   // Beliebige Datei aus dem Repository lesen (z. B. Ergebnisse des Agenten)
   async function readRepo(path) {
-    if (LS.get('token', '')) {
+    if (workerUrl() || LS.get('token', '')) {
       return (await gh(`contents/${encPath(path)}?ref=${encodeURIComponent(C.branch)}&t=${Date.now()}`, { headers: { Accept: 'application/vnd.github.raw' } })).blob();
     }
     const r = await fetch(`https://raw.githubusercontent.com/${C.owner}/${C.repo}/${C.branch}/${encPath(path)}?t=${Date.now()}`);
@@ -261,7 +300,29 @@
     return steps;
   }
 
+  const Auth = {
+    enabled: () => !!workerUrl(),
+    url: workerUrl,
+    user: sessionUser,
+    async login(login, password) {
+      const r = await (await wfetch('/login', { method: 'POST', body: { login, password } })).json();
+      LS.set('session', r); treeCache = null; Status.data = null;
+      window.dispatchEvent(new Event('luftpfad-auth'));
+      return r.user;
+    },
+    logout() { LS.set('session', null); treeCache = null; window.dispatchEvent(new Event('luftpfad-auth')); },
+    async changePassword(oldPassword, newPassword) {
+      await wfetch('/password', { method: 'POST', body: { oldPassword, newPassword } });
+      this.logout();
+    },
+    async ping() { return (await wfetch('/')).json(); },
+    async users() { return (await (await wfetch('/users')).json()).users; },
+    async saveUser(u) { return (await (await wfetch('/users', { method: 'POST', body: u })).json()).user; },
+    async deleteUser(login) { await wfetch('/users/' + encodeURIComponent(login), { method: 'DELETE' }); }
+  };
+
   window.Ablage = {
+    auth: Auth,
     checkToken,
     status: Status,
     readRepo,

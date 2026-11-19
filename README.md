@@ -27,10 +27,9 @@ Lokal ansehen: `python3 -m http.server` im Repository starten und `http://localh
 
 Jede Person hat unter *Person › Datenablage* eine eigene Ablage mit Ordnern und Dateien. Beim Hochladen wird die **Herkunft** abgefragt („Antwort Kantbogen aus Uebergaben/K61 vom 30.11.“), damit auch dort jede Information ihre Quelle behält. Ordner, deren Name mit der Projektnummer beginnt (z. B. `A018_…`), erscheinen auch auf der Projektseite.
 
-Zwei Speicherorte (umschaltbar unter *Ablage-Einstellungen*):
+**Anmelden:** Mit dem Login-Dienst (Cloudflare Worker, kostenlos) meldet sich jede Person mit eigenem Benutzernamen und Passwort an und darf in ihrer eigenen Ablage schreiben; das Konto `admin` darf alles und verwaltet die Benutzer unter *Benutzer verwalten*. Niemand braucht ein GitHub-Token. Einrichtung: [`worker/EINRICHTEN.md`](worker/EINRICHTEN.md), Code: `worker/worker.js`.
 
-- **GitHub-Repository** (Standard, gemeinsam für die Gruppe): Dateien landen als Commit unter `ablage/Person_N/`. Lesen geht ohne Anmeldung. Zum Hochladen braucht jede Person ein eigenes Token: GitHub › Settings › Developer settings › Fine-grained tokens › *Generate new token*, Repository `ki_projekt_luftpfad` auswählen, Berechtigung **Contents: Read and write**. Das Token wird nur im eigenen Browser gespeichert. Für Schreibzugriff muss die Person Mitglied (Collaborator) des Repositorys sein.
-- **Nur dieser Browser**: ohne Anmeldung, aber nur auf dem eigenen Gerät sichtbar.
+Ohne Login-Dienst gibt es zwei Ausweichwege (unter *Ablage-Einstellungen*): ein eigenes GitHub-Token je Person oder „Nur dieser Browser“ (nur auf dem eigenen Gerät sichtbar).
 
 Grenze: Einzelne Dateien bis 50 MB.
 
