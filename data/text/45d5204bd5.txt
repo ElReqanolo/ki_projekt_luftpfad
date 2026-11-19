@@ -1,0 +1,89 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 2,5 Stunden. Federführend: Selim Ahrens (Person 3).
+
+Diese Aufgabe ist Schritt 1 von 2 der Kette Jahresterminplan 2027. Danach: Rückmeldung der Torwinkel Gebäudeservice GmbH und Abstimmungsnotiz der Thermenfeld Wärme und Wasser GmbH, beide bis 30.11.
+
+Auftrag
+
+Torwinkel bittet um Ihre Wartungs- und Prüftermine 2027 mit Anlage, Dauer und Abschaltung (Postfach Nr. 12). Legen Sie die Termine fest. Beachten Sie dabei:
+
+-   den Terminplan 2026 und die tatsächlichen Termine 2026 laut Wartungsprotokollen. Wo beides nicht zusammenpasst, entscheiden Sie, was 2027 gilt
+
+-   die Hygieneinspektion laut Vertrag und die letzten Inspektionen laut Ihrem Briefing
+
+-   wer bei Ihnen die Brandschutzklappen prüfen kann, seit Maximilian Backhaus nicht mehr da ist
+
+-   welche Termine die Lüftung eines ganzen Bereichs abschalten und welche Mieter und die Gastronomie das trifft
+
+-   Ihre eigene Kapazität laut Ihrem Briefing
+
+-   den Sommer: Werten Sie Ihre Einsatzliste aus. In welchen Monaten 2025 und 2026 kamen die meisten Einsätze wegen zu warmer Räume, und wie viele Stunden haben sie gebunden? Welche Wartung legen Sie deshalb nicht in diese Monate, und welche Reserve halten Sie 2027 frei? Legen Sie fest, nach welcher Spalte Sie zählen, und nennen Sie, was sich ändert, wenn Sie nach einer anderen Spalte zählen.
+
+Kennzeichnen Sie jeden Termin mit Abschaltung. Begründen Sie die drei Termine, die Sie für die heikelsten halten. Legen Sie fest, wen Sie einsetzen, und wo Sie einen Termin offen lassen.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Terminliste 2027 als Tabelle mit den Spalten Anlage, Leistung, Monat, Dauer in Stunden, Abschaltung (ja oder nein), Personal, bei einer Abschaltung zusätzlich die Betroffenen (nach Flächenspiegel) und was im selben Zeitraum sonst in Ihren Unterlagen liegt
+
+-   Eine Monatsauswertung der Einsätze 2025 und 2026 mit Anzahl und Stunden je Monat und Ihrer Zählbasis, dazu für den Monat mit den meisten Einsätzen die Zahl nach jeder Zählbasis, die die Liste zulässt
+
+-   Ihre Sommerreserve für 2027 in Stunden und Monaten
+
+-   Die Begründung der drei heikelsten Termine mit Fundstelle
+
+-   Eine Liste der Stellen, an denen Plan 2026, Protokolle und Briefing verschiedene Termine nennen, mit allen Stellen und der Entscheidung, was für 2027 gilt (gibt es keine, steht das dort)
+
+-   Ein Vermerk zur Rückmeldung von Torwinkel und zur Abstimmungsnotiz von Thermenfeld, mit den höchstens zwei geänderten Terminen und der Begründung für die übrigen
+
+Einsatz von KI
+
+-   Abgeben: Umbau des Terminplans 2026 in eine Tabelle 2027, Zählen der Einsätze je Monat
+
+-   Teilen: Abgleich Plan gegen Protokolle
+
+-   Behalten: Festlegung der Termine mit Abschaltung, Sommerreserve, Einsatz des Personals
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                                                                Fundstelle                                 Größe
+  ----------------- ------------------------------------------------------------------------------------------ ------------------------------------------ -----------------
+  Datenraum         04_Datenraum/04, Nr. 04.05.028                                                             Jahresterminplan 2026, XLSX                10 KB
+
+  Datenraum         04_Datenraum/04, Nr. 04.21.04.190, 04.21.04.168                                            Prüfung Brandschutzklappen 2026 und 2025   0,2 MB
+
+  Firmenablage      03_Material/Postfach/12_2026-11-13_Jahresterminplan_2027_Ihre_Wartungstermine_bis_30.eml   ganze Datei                                1 KB
+
+  Firmenablage      03_Material/Laufwerk/Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx                          ganze Datei                                13 KB
+
+  Datenraum         04_Datenraum/03, Nr. 03.10.02.017                                                          Flächenspiegel, wer wo im Haus sitzt       0,1 MB
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tabellen
+
+Laden Sie Tabellen als Datei hoch und lassen Sie die KI mit ihrer Rechenfunktion (je nach Anbieter Datenanalyse oder Code-Ausführung) rechnen, nicht als eingefügten Text. Läuft sie nicht, geben Sie Ausschnitte als CSV-Text. Prüfen Sie drei Werte selbst in der Tabelle nach und vermerken Sie das im Lernprotokoll.
+
+Übergabe
+
+Ihre Terminliste liegt bis 25.11. in Uebergaben/K63. Torwinkel meldet bis 30.11. in denselben Ordner, welche Termine mit Mietern oder anderen Firmen kollidieren, und Thermenfeld legt dort bis 30.11. eine Abstimmungsnotiz ab. Fehlt die Rückmeldung am Morgen danach, legt die Spielleitung eine Rückmeldung in denselben Ordner. Ändern Sie danach höchstens zwei Termine und begründen Sie, warum die übrigen bleiben.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Zählung: Die Monatsauswertung nennt die Zählbasis und gibt für den Monat mit den meisten Einsätzen die Zahl nach jeder Zählbasis an, die die Liste zulässt.
+
+7. Betroffene: Zu jedem Termin mit Abschaltung steht, wer betroffen ist (nach Flächenspiegel), und was in demselben Zeitraum sonst in Ihren Unterlagen liegt.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

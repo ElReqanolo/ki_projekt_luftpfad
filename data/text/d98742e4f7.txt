@@ -1,0 +1,74 @@
+--- Seite 1 ---
+ Aufgabe A007: Was ohne Übergabe liegen geblieben ist
+ Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa
+ 1,5 Stunden. Federführend: Kevin Schuster (Person 5).
+ Beginnen Sie diese Aufgabe nach der Sitzung am 19.11. und schließen Sie sie bis 2.12.2026 ab.
+ Diese Aufgabe ist Schritt 1 von 2 der Kette Abgang ohne Übergabe. Danach: A008 (Signalsteg
+ Messtechnik GmbH, Raumlot Objektmanagement GmbH, Torwinkel Gebäudeservice GmbH, Thermenfeld
+ Wärme und Wasser GmbH, Richtgrund Beratung GmbH, Werkraum Projektbüros GmbH, Kantbogen
+ Bestand GmbH, Luftpfad Anlagentechnik GmbH).
+
+ Auftrag
+ Eine Person Ihrer Firma hat gekündigt, ihr letzter Arbeitstag war der 5.11.2026. Es gibt keine Übergabe.
+ Sichten Sie Notizen, Fristenliste, Kalender und Entwürfe und listen Sie alles auf, was jetzt jemand
+ übernehmen muss. Trennen Sie in Ihrer Liste, was aus einer Datei belegt ist und was Sie nur vermuten.
+ Suchen Sie nach allem, was als Nachweis für die Wartungen der letzten drei Jahre dienen müsste, und
+ halten Sie fest, was Sie gefunden haben und wo Sie gesucht haben. Vermerken Sie außerdem, wo man
+ etwas erwarten würde und nichts steht.
+
+ Was Sie abgeben
+ Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG).
+ Pflichtangaben:
+  • Tabelle der offenen Punkte mit Nr, Was, Frist als Datum TT.MM.JJJJ (oder "ohne Frist"), Gegenüber,
+    Quelle mit Dateiname und Zeile, "belegt" oder "vermutet", bei einem Punkt, der in zwei Quellen steht,
+    der Vermerk "doppelt in" mit der Zeile der anderen Quelle
+  • Eine Liste "Erwartet, aber nicht gefunden" (gibt es keine, steht das dort), jeweils mit dem Ort, an dem
+    Sie gesucht haben
+  • Eine Liste der Widersprüche zwischen den Quellen mit beiden Fundstellen (gibt es keine, steht das
+    dort)
+  • Die ersten drei Punkte, die zuerst erledigt werden, mit Begründung
+
+ Einsatz von KI
+  • Abgeben: Kalenderdatei in Tabelle umwandeln
+  • Teilen: Zusammenführen der vier Quellen
+  • Behalten: Was zuerst erledigt wird
+ Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+ Material
+ Quelle              Wo im Paket                                                       Fundstelle    Größe
+ Firmenablage        8 Dateien in 03_Material/Abgang und Unterordnern                  ganze Datei   84 KB
+ Firmenablage        03_Material/Postfach/00_Postfach_als_Text.txt                     ganze Datei   12 KB
+ Firmenablage        03_Material/Laufwerk/Laufwerk_Export_Luftpfad_Anlagentechnik.xl   ganze Datei   25 KB
+                     sx
+
+
+
+ Eingang aus Ihrer Gruppe
+ Die Rechnungen in Fristenliste und Kalender gleichen Sie mit Kai Landmann ab (Offene-Posten-Liste,
+ A161), die Vorgänge zu den warmen Räumen mit Selim Ahrens (A162, A165). Vermerken Sie, was die
+ beiden bestätigt haben.
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                            Seite 1
+
+--- Seite 2 ---
+ Woran es gemessen wird
+ 1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+ 2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der
+ Originalstelle bei.
+ 3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+ 4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+ 5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie
+ die Stelle mit Beleg.
+ 6. Vollständigkeit: Jede Zeile der Fristenliste, der Notizen und des Kalenders ist in der Tabelle enthalten
+ oder trägt den Vermerk "doppelt in" mit der Zeile der anderen Quelle.
+ 7. Fristen: Jede Frist steht als Datum im Format TT.MM.JJJJ. Bei Widersprüchen stehen beide Daten mit
+ Quelle.
+ Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                         Seite 2
+

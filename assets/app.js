@@ -1,0 +1,587 @@
+/* Luftpfad Anlagentechnik – Projektakte. Einseitige Anwendung ohne Abhängigkeiten. */
+(function () {
+  'use strict';
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const main = $('#main');
+  let S, FILES = {}, PROJ = {}, PERS = {}, CITES = {}, SEARCH = null;
+
+  const COLORS = { 1: 'p1', 2: 'p2', 3: 'p3', 4: 'p4', 5: 'p5' };
+  const AREA_LABEL = { Allgemein: 'Allgemein', Person_1: 'Person 1', Person_2: 'Person 2', Person_3: 'Person 3', Person_4: 'Person 4', Person_5: 'Person 5' };
+  const fmtSize = b => b < 1024 ? b + ' B' : b < 1048576 ? (b / 1024).toFixed(0) + ' KB' : (b / 1048576).toFixed(1).replace('.', ',') + ' MB';
+  const fileUrl = f => 'files/' + f.path.split('/').map(encodeURIComponent).join('/');
+  const slug = s => s.replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/Ä/g, 'Ae').replace(/Ö/g, 'Oe').replace(/Ü/g, 'Ue').replace(/ß/g, 'ss')
+    .normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^A-Za-z0-9]+/g, '_').replace(/^_|_$/g, '').slice(0, 42).replace(/_$/, '');
+  const projFolder = p => `${p.id}_${slug(p.titel.split(':')[0])}`;
+  const personDot = n => `<span class="dot ${COLORS[n]}" aria-hidden="true"></span>`;
+  const personLink = n => { const p = PERS[n]; return `<a class="plink ${COLORS[n]}" href="#/person/${n}">${personDot(n)}${esc(p.name)}</a>`; };
+  const ext = f => `<span class="ext ext-${f.ext}">${esc(f.ext)}</span>`;
+
+  function toast(msg, ms = 3200) {
+    const t = $('#toast'); t.textContent = msg; t.classList.add('on');
+    clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('on'), ms);
+  }
+  function download(blob, name) {
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  }
+  async function zipFiles(list, name) {
+    toast(`ZIP wird gepackt (${list.length} Dateien) …`, 60000);
+    const entries = [];
+    for (const f of list) entries.push({ name: f.path, data: new Uint8Array(await (await fetch(fileUrl(f))).arrayBuffer()) });
+    download(makeZip(entries), name); toast('ZIP heruntergeladen.');
+  }
+
+  // ------------------------------------------------------------------ Laden
+  async function boot() {
+    try { S = await (await fetch('data/site.json')).json(); } catch (e) {
+      main.innerHTML = `<div class="empty"><h1>Daten nicht gefunden</h1><p>Die Datei data/site.json fehlt. Bauen Sie die Daten mit <code>python3 tools/build.py</code> und öffnen Sie die Seite über einen Webserver (nicht als Datei).</p></div>`;
+      return;
+    }
+    S.dateien.forEach(f => FILES[f.id] = f);
+    S.projekte.forEach(p => PROJ[p.id] = p);
+    S.personen.forEach(p => PERS[p.nr] = p);
+    indexCitations();
+    $('#stand').textContent = 'Stand der Unterlagen: ' + S.stand;
+    $('#nav-persons').insertAdjacentHTML('beforeend', S.personen.map(p =>
+      `<a href="#/person/${p.nr}" data-nav="person-${p.nr}" class="${COLORS[p.nr]}">${personDot(p.nr)}<span>${esc(p.name)}<small>${esc(p.funktion.split(' (')[0])}</small></span></a>`).join(''));
+    window.addEventListener('hashchange', route);
+    route();
+  }
+  function indexCitations() {
+    const add = (html, where) => (String(html).match(/data-file="([0-9a-f]+)"/g) || []).forEach(m => {
+      const id = m.slice(11, -1); (CITES[id] = CITES[id] || new Map()).set(where.key, where);
+    });
+    const walk = (o, where) => { if (typeof o === 'string') add(o, where); else if (o && typeof o === 'object') Object.values(o).forEach(v => walk(v, where)); };
+    S.projekte.forEach(p => walk(p, { key: 'p' + p.id, label: `${p.id} ${p.titel}`, href: `#/projekt/${p.id}` }));
+    S.personen.forEach(p => walk(p.profil.concat([p.quelle]), { key: 'n' + p.nr, label: p.name, href: `#/person/${p.nr}` }));
+    walk(S.firma, { key: 'firma', label: 'Unternehmen', href: '#/firma' });
+  }
+
+  // ------------------------------------------------------------------ Routing
+  function route() {
+    const [, view, a, b] = (location.hash || '#/').split('/');
+    closeDrawer();
+    document.body.classList.remove('nav-open'); $('.menu-btn').setAttribute('aria-expanded', 'false');
+    const nav = view === 'person' ? 'person-' + a : view === 'projekt' ? 'projekte' : view === 'datei' ? 'dateien' : (view || 'home');
+    $$('.nav a[data-nav]').forEach(x => x.toggleAttribute('aria-current', x.dataset.nav === nav));
+    const views = { '': home, firma, projekte, projekt: () => projekt(a), dateien, datei: () => datei(a, b), person: () => person(a, b), suche: () => suche(decodeURIComponent(a || '')) };
+    (views[view || ''] || home)();
+    window.scrollTo(0, 0);
+    main.focus({ preventScroll: true });
+  }
+
+  // ------------------------------------------------------------------ Übersicht
+  function home() {
+    const ps = S.personen;
+    const W = 980, y = 70, xs = ps.map((_, i) => 100 + i * 192);
+    const svg = `<svg class="schema" viewBox="0 0 ${W} 230" role="img" aria-label="Die fünf Personen der Gruppe, verbunden wie Abzweige eines Luftkanals">
+      <defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="arrow"/></marker></defs>
+      <rect x="10" y="${y - 16}" width="${W - 40}" height="32" rx="4" class="duct"/>
+      <path d="M24 ${y} H${W - 50}" class="flow" marker-end="url(#arr)"/>
+      ${ps.map((p, i) => `<a href="#/person/${p.nr}" class="branch ${COLORS[p.nr]}">
+          <rect x="${xs[i] - 9}" y="${y + 16}" width="18" height="62" class="stub"/>
+          <circle cx="${xs[i]}" cy="${y + 96}" r="17" class="node"/>
+          <text x="${xs[i]}" y="${y + 101}" class="node-n">${p.nr}</text>
+          <text x="${xs[i]}" y="${y + 138}" class="node-name">${esc(p.name)}</text>
+          <text x="${xs[i]}" y="${y + 156}" class="node-role">${esc(p.funktion.split(' (')[0].replace('Servicetechniker ', 'Service '))}</text>
+        </a>`).join('')}
+    </svg>`;
+    const due = S.projekte.filter(p => p.id !== 'START').slice().sort((a, b) => toDate(a.due) - toDate(b.due) || a.id.localeCompare(b.id));
+    const lage = S.firmenbriefing.sections.find(s => s.title.startsWith('19'));
+    main.innerHTML = `
+      <section class="hero">
+        <h1>Luftpfad Anlagentechnik GmbH</h1>
+        <p class="lead">${S.firma.kurz} <span class="qs">${S.firma.kurzQuelle}</span></p>
+        ${svg}
+        <ul class="schema-list">${ps.map(p => `<li class="${COLORS[p.nr]}"><a href="#/person/${p.nr}">${personDot(p.nr)}<b>${esc(p.name)}</b> <span>${esc(p.funktion.split(' (')[0])}</span></a></li>`).join('')}</ul>
+      </section>
+      <section class="block">
+        <h2>Was bis zum 2.12. ansteht</h2>
+        <ol class="timeline">${due.map(p => `<li class="${COLORS[p.person]}">
+          <time>${esc(p.due.slice(0, 6))}</time>
+          <a href="#/projekt/${p.id}"><b>${esc(p.id)}</b> ${esc(p.titel)}</a>
+          <span class="who">${personDot(p.person)}${esc(PERS[p.person].name)}</span></li>`).join('')}</ol>
+        <p class="src-note">Termine aus ${S.allgemein['00_Bis_zum_2_12'] ? qLink(S.allgemein['00_Bis_zum_2_12'].file, 'Termine nach Datum') : ''} und den Aufgabenblättern.</p>
+      </section>
+      ${lage ? `<section class="block">
+        <h2>Die Lage im November 2026</h2>
+        <div class="prose">${lage.parts.map(x => x.html).join('')}</div>
+        <p class="src-note">Quelle: ${qLink(S.firmenbriefing.file, 'Abschnitt 19, S. ' + lage.page)}</p>
+      </section>` : ''}`;
+  }
+  const toDate = d => { const [t, m, j] = d.split('.'); return new Date(+j, +m - 1, +t).getTime(); };
+  function qLink(fileId, loc) {
+    const f = FILES[fileId]; if (!f) return '';
+    const lab = (f.name.startsWith('Firmenbriefing') ? 'Firmenbriefing' : f.name.replace(/\.[^.]+$/, '').replace(/_/g, ' ')) + (loc ? ', ' + loc : '');
+    return `<a class="q" href="#/datei/${f.id}" data-file="${f.id}" data-loc="${esc(loc || '')}" title="Quelle: ${esc(f.path)}">${esc(lab)}</a>`;
+  }
+
+  // ------------------------------------------------------------------ Unternehmen
+  function firma() {
+    const F = S.firma;
+    main.innerHTML = `
+      <header class="page-head"><h1>${esc(F.name)}</h1><p class="lead">${F.kurz} <span class="qs">${F.kurzQuelle}</span></p></header>
+      <nav class="toc" aria-label="Auf dieser Seite">
+        <a href="#steckbrief">Steckbrief</a><a href="#leistung">Leistung</a><a href="#vertraege">Verträge</a><a href="#gegenueber">Gegenüber</a><a href="#chronik">Chronik</a><a href="#abweichungen">Abweichungen</a><a href="#briefing">Firmenbriefing</a><a href="#kurs">Kursunterlagen</a>
+      </nav>
+      <section class="block" id="steckbrief"><h2>Steckbrief</h2>
+        <table class="facts"><tbody>${F.steckbrief.map(r => `<tr><th scope="row">${esc(r.k)}</th><td>${r.v}<div class="qs">${r.q}</div></td></tr>`).join('')}</tbody></table>
+      </section>
+      <section class="block" id="leistung"><h2>Was wir tun und was nicht</h2><ul class="claims">${F.leistung.map(li).join('')}</ul>
+        <h3>Unsere Rolle im Haus Bogenfeld 12</h3><ul class="claims">${F.rolle.map(li).join('')}</ul></section>
+      <section class="block" id="vertraege"><h2>Verträge</h2>
+        <table class="grid"><thead><tr><th>Vertrag</th><th>Partner</th><th>Beginn</th><th>Stand</th><th>Quelle</th></tr></thead>
+        <tbody>${F.vertraege.map(v => `<tr><td>${v.name}</td><td>${v.partner}</td><td class="num">${v.beginn}</td><td>${v.stand}</td><td class="qs">${v.q}</td></tr>`).join('')}</tbody></table></section>
+      <section class="block" id="gegenueber"><h2>Mit wem wir zu tun haben</h2>
+        <table class="grid"><thead><tr><th>Firma</th><th>Rolle</th><th>Ansprechpersonen</th><th>Quelle</th></tr></thead>
+        <tbody>${F.gegenueber.map(v => `<tr><td>${v.firma}</td><td>${v.rolle}</td><td>${v.personen}</td><td class="qs">${v.q}</td></tr>`).join('')}</tbody></table></section>
+      <section class="block" id="chronik"><h2>Chronik</h2>
+        <ol class="chron">${F.chronik.map(c => `<li><time>${c.d}</time><span>${c.t}</span><span class="qs">${c.q}</span></li>`).join('')}</ol></section>
+      <section class="block" id="abweichungen"><h2>Wo sich Quellen widersprechen</h2>
+        <p class="hint">Beide Fundstellen stehen nebeneinander. Was gilt, entscheidet die Gruppe nach Prüfung am Original.</p>
+        <table class="grid diff"><thead><tr><th>Angabe</th><th>Quelle A</th><th>Quelle B</th></tr></thead>
+        <tbody>${F.abweichungen.map(v => `<tr><th scope="row">${v.was}</th><td>${v.a}</td><td>${v.b}</td></tr>`).join('')}</tbody></table></section>
+      <section class="block" id="briefing"><h2>Firmenbriefing, alle Abschnitte</h2>
+        <p class="hint">Wortlaut aus ${qLink(S.firmenbriefing.file, '')}, Stand 18.11.2026. Jeder Abschnitt nennt seine Seite.</p>
+        ${briefingHtml(S.firmenbriefing, null)}</section>
+      <section class="block" id="kurs"><h2>Kursunterlagen der Gruppe</h2>
+        ${[['00_Start_Gruppe', 'Startblatt der Gruppe'], ['00_Ablauf', 'Ablauf'], ['00_Bis_zum_2_12', 'Bis zum 2.12.'], ['00_Startfrage', 'Startfrage'], ['00_Inhaltsverzeichnis', 'Inhaltsverzeichnis']]
+          .map(([k, t]) => `<details class="acc"><summary>${t}</summary><div class="prose">${S.allgemein[k].html}</div><p class="src-note">Quelle: ${qLink(S.allgemein[k].file, '')}</p></details>`).join('')}
+      </section>`;
+  }
+  const li = s => `<li>${s}</li>`;
+
+  function briefingHtml(b, owner) {
+    return `${b.intro.trim() ? `<div class="prose intro">${b.intro}</div>` : ''}` + b.sections.map(sec => `
+      <details class="acc">
+        <summary><span>${esc(sec.title)}</span><span class="pg">S. ${sec.page}</span></summary>
+        ${sec.parts.map(p => p.private ? `
+          <div class="private" data-private>
+            <h4>${esc(p.title)}</h4>
+            <p>Diesen Teil legt laut Aufgabe A097 nur ${esc(owner || 'die Person')} selbst offen.</p>
+            <button class="btn small" data-reveal>Trotzdem anzeigen</button>
+            <div class="prose" hidden>${p.html}</div>
+            <p class="src-note">Quelle: ${qLink(b.file, `${sec.title.split(' ')[0] === sec.title ? '' : 'Abschnitt ' + sec.title.split(' ')[0] + ', '}S. ${p.page}`)}</p>
+          </div>` : `
+          ${p.title ? `<h4>${esc(p.title)}</h4>` : ''}<div class="prose">${p.html}</div>`).join('')}
+        <p class="src-note">Quelle: ${qLink(b.file, `Abschnitt ${esc(sec.title.split(' ')[0])}, S. ${sec.page}`)}</p>
+      </details>`).join('');
+  }
+
+  // ------------------------------------------------------------------ Person
+  function person(n, tab) {
+    const p = PERS[n]; if (!p) return home();
+    tab = tab || 'projekte';
+    const lead = S.projekte.filter(x => x.person === p.nr);
+    const part = S.projekte.filter(x => x.person !== p.nr && (x.persons || []).includes(p.nr));
+    const tabs = [['projekte', 'Projekte'], ['ablage', 'Datenablage'], ['briefing', 'Personenbriefing'], ['dateien', 'Unterlagen im Ordner']];
+    main.innerHTML = `
+      <header class="person-head ${COLORS[p.nr]}">
+        <p class="folder">${esc(p.ordner.replace('_', ' '))}</p>
+        <h1>${esc(p.name)}</h1>
+        <p class="role">${esc(p.funktion)}</p>
+        <dl class="contact">
+          <div><dt>Kürzel</dt><dd>${esc(p.kuerzel)}</dd></div>
+          <div><dt>Im Unternehmen seit</dt><dd>${esc(p.seit)}</dd></div>
+          <div><dt>Jahrgang</dt><dd>${esc(p.jahrgang)}</dd></div>
+          <div><dt>Mail</dt><dd><a href="mailto:${esc(p.mail)}">${esc(p.mail)}</a></dd></div>
+          <div><dt>Telefon</dt><dd>${esc(p.telefon)}</dd></div>
+          <div><dt>Stunden bis 2.12.</dt><dd>${esc(p.stunden)}</dd></div>
+        </dl>
+        <p class="qs">${p.quelle}</p>
+      </header>
+      <section class="block profile"><ul class="claims">${p.profil.map(li).join('')}</ul>
+        <p>Beginnt nach der Sitzung mit <b>${esc(p.beginnt)}</b> <span class="qs">${p.beginntQuelle}</span></p></section>
+      <div class="tabs" role="tablist">${tabs.map(([k, t]) => `<a role="tab" href="#/person/${n}/${k}" aria-selected="${k === tab}">${t}</a>`).join('')}</div>
+      <section class="block" id="tab"></section>`;
+    const el = $('#tab');
+    if (tab === 'projekte') {
+      el.innerHTML = `<h2>Federführend</h2>${projList(lead)}${part.length ? `<h2>Beteiligt</h2>${projList(part)}` : ''}`;
+    } else if (tab === 'briefing') {
+      el.innerHTML = `<p class="hint">Persönliches Briefing, Stand 18.11.2026: ${qLink(p.briefing.file, '')} · Startblatt: ${qLink(p.startblatt, '')}</p>${briefingHtml(p.briefing, p.name)}`;
+    } else if (tab === 'dateien') {
+      const fs = S.dateien.filter(f => f.area === p.ordner);
+      el.innerHTML = `<div class="row-between"><h2>Unterlagen im Ordner ${esc(p.ordner)}</h2><button class="btn" id="zip-person">Ordner als ZIP</button></div>${fileTable(fs, true)}`;
+      $('#zip-person').onclick = () => zipFiles(fs, `${p.ordner}_${slug(p.name)}.zip`);
+    } else if (tab === 'ablage') {
+      ablage(el, p);
+    }
+  }
+  function projList(list) {
+    if (!list.length) return '<p class="hint">Keine Projekte.</p>';
+    return `<ul class="projlist">${list.map(p => `<li class="${COLORS[p.person]}">
+      <a href="#/projekt/${p.id}"><b>${esc(p.id)}</b><span>${esc(p.titel)}</span></a>
+      <span class="meta">bis ${esc(p.due)} · ${esc(p.aufwand)} · ${esc(p.kette)}</span></li>`).join('')}</ul>`;
+  }
+
+  // ------------------------------------------------------------------ Projekte
+  function projekte() {
+    const by = (location.hash.includes('nach=person')) ? 'person' : 'kette';
+    const groups = new Map();
+    S.projekte.forEach(p => {
+      const k = by === 'person' ? p.person : p.kette;
+      if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p);
+    });
+    const order = by === 'person' ? [...groups.keys()].sort() : [...groups.keys()];
+    main.innerHTML = `
+      <header class="page-head"><h1>Projekte</h1>
+        <p class="lead">Jede Aufgabe ist ein Projekt mit Zusammenfassung, Fristen und allen zugehörigen Dateien. Jede Aussage verweist auf die Stelle, aus der sie stammt.</p></header>
+      <div class="seg" role="group" aria-label="Gruppieren nach">
+        <a href="#/projekte" aria-pressed="${by === 'kette'}">nach Vorgang</a><a href="#/projekte/?nach=person" aria-pressed="${by === 'person'}">nach Person</a></div>
+      ${order.map(k => `<section class="block"><h2>${by === 'person' ? personDot(k) + esc(PERS[k].name) : esc(k)}
+        ${by === 'kette' && S.ketten[k] ? `<small>${esc(S.ketten[k])}</small>` : ''}</h2>${projList(groups.get(k))}</section>`).join('')}`;
+  }
+
+  async function projekt(id) {
+    const p = PROJ[id]; if (!p) return projekte();
+    const fs = S.dateien.filter(f => f.projects.includes(id));
+    const folders = [...new Set(fs.map(f => f.path.split('/').slice(0, -1).join('/')))];
+    main.innerHTML = `
+      <header class="page-head proj ${COLORS[p.person]}">
+        <p class="folder"><a href="#/projekte">Projekte</a> / ${esc(p.kette)}</p>
+        <h1><span class="pid">${esc(p.id)}</span> ${esc(p.titel)}</h1>
+        <dl class="contact">
+          <div><dt>Federführend</dt><dd>${personLink(p.person)}</dd></div>
+          <div><dt>Beteiligt</dt><dd>${(p.persons || []).filter(n => n !== p.person).map(personLink).join(' ') || '–'}</dd></div>
+          <div><dt>Fertig bis</dt><dd>${esc(p.due)}</dd></div>
+          <div><dt>Aufwand</dt><dd>${esc(p.aufwand)}</dd></div>
+        </dl>
+      </header>
+      <section class="block summary">
+        <h2>Zusammenfassung</h2>
+        <p class="hint">Aus den Unterlagen zusammengestellt. Die Markierung hinter jeder Aussage zeigt, aus welcher Datei und Stelle sie stammt.</p>
+        <h3>Worum es geht</h3><p class="claim">${p.worum}</p>
+        <h3>Was die Unterlagen sagen</h3><ul class="claims">${p.fakten.map(li).join('')}</ul>
+        <h3>Abgabe und Fristen</h3><ul class="claims">${p.abgabe.map(li).join('')}</ul>
+        <h3>Beteiligte und Übergaben</h3><ul class="claims">${p.beteiligte.map(li).join('')}</ul>
+      </section>
+      <section class="block">
+        <div class="row-between"><h2>Dateien zum Projekt <small>${fs.length}</small></h2>${fs.length ? '<button class="btn" id="zip-proj">Alle als ZIP</button>' : ''}</div>
+        ${fs.length ? folders.map(d => `<h4 class="folderpath">${esc(d)}</h4>${fileTable(fs.filter(f => f.path.startsWith(d + '/') && !f.path.slice(d.length + 1).includes('/')), false)}`).join('') : '<p class="hint">Die Unterlagen zu dieser Übung liegen im Kursteam und sind nicht Teil des Pakets.</p>'}
+        <p class="src-note">Zuordnung nach Spalte „gebraucht für“ in ${qLink(S.allgemein['00_Inhaltsverzeichnis'].file, 'Dateien')} und dem Aufgabenblatt.</p>
+      </section>
+      <section class="block" id="proj-ablage"><h2>In der Datenablage abgelegt</h2><p class="hint">Wird geladen …</p></section>
+      ${p.aufgabenblatt ? `<section class="block"><details class="acc"><summary>Aufgabenblatt im Wortlaut</summary>
+        <div class="prose">${p.aufgabenblatt.html}</div><p class="src-note">Quelle: ${qLink(p.aufgabenblatt.file, '')}</p></details></section>` : ''}`;
+    const zb = $('#zip-proj'); if (zb) zb.onclick = () => zipFiles(fs, `${p.id}_${slug(p.titel)}.zip`);
+    // Dateien aus der Ablage, die in einem Ordner mit der Projektnummer liegen
+    const box = $('#proj-ablage');
+    try {
+      const all = await Ablage.backend().listAll();
+      const hits = all.filter(x => x.path.split('/').some(seg => seg === id || seg.startsWith(id + '_')));
+      box.innerHTML = `<h2>In der Datenablage abgelegt <small>${hits.length}</small></h2>` + (hits.length ? `<table class="grid files"><thead><tr><th>Datei</th><th>Person</th><th>Größe</th><th></th></tr></thead><tbody>
+        ${hits.map(h => { const n = +h.person.split('_')[1]; return `<tr><td>${esc(h.path)}</td><td>${PERS[n] ? personLink(n) : esc(h.person)}</td><td class="num">${fmtSize(h.size || 0)}</td>
+          <td class="act"><button class="btn small" data-dl-ablage="${esc(h.person)}|${esc(h.path)}">Herunterladen</button></td></tr>`; }).join('')}</tbody></table>`
+        : `<p class="hint">Noch nichts abgelegt. Dateien, die eine Person in ihrer Datenablage im Ordner „${esc(projFolder(p))}“ ablegt, erscheinen hier.</p>`);
+    } catch (e) { box.innerHTML = `<h2>In der Datenablage abgelegt</h2><p class="hint">${esc(e.message)}</p>`; }
+  }
+
+  // ------------------------------------------------------------------ Dateien
+  function fileTable(list, showFolder) {
+    if (!list.length) return '<p class="hint">Keine Dateien.</p>';
+    return `<table class="grid files"><thead><tr><th>Datei</th>${showFolder ? '<th>Ordner</th>' : ''}<th>Typ</th><th>Größe</th><th>Projekte</th><th><span class="vh">Aktionen</span></th></tr></thead><tbody>
+      ${list.map(f => `<tr>
+        <td><a href="#/datei/${f.id}">${esc(f.name)}</a></td>
+        ${showFolder ? `<td class="muted">${esc(f.path.split('/').slice(0, -1).join('/'))}</td>` : ''}
+        <td>${ext(f)}</td><td class="num">${fmtSize(f.size)}</td>
+        <td><div class="tags">${f.projects.map(x => x === 'ALLG' ? '<span class="muted small">Allgemein</span>' : `<a href="#/projekt/${x}" class="tag">${x}</a>`).join('')}</div></td>
+        <td class="act"><a class="btn small" href="${fileUrl(f)}" download>Herunterladen</a></td></tr>`).join('')}</tbody></table>`;
+  }
+
+  function dateien() {
+    const q = new URLSearchParams((location.hash.split('?')[1]) || '');
+    const area = q.get('bereich') || '', cat = q.get('art') || '', typ = q.get('typ') || '';
+    const cats = [...new Set(S.dateien.map(f => f.category))], typs = [...new Set(S.dateien.map(f => f.ext))].sort();
+    const fs = S.dateien.filter(f => (!area || f.area === area) && (!cat || f.category === cat) && (!typ || f.ext === typ));
+    const opt = (v, cur, lab) => `<option value="${esc(v)}" ${v === cur ? 'selected' : ''}>${esc(lab || v)}</option>`;
+    const folders = [...new Set(fs.map(f => f.path.split('/').slice(0, -1).join('/')))];
+    main.innerHTML = `
+      <header class="page-head"><h1>Alle Dateien</h1><p class="lead">${S.dateien.length} Originaldateien aus dem Paket, nach Ordnern wie im Kursteam. Jede Datei lässt sich ansehen und herunterladen.</p></header>
+      <form class="filters" id="ff">
+        <label>Bereich <select name="bereich">${opt('', area, 'alle')}${Object.keys(AREA_LABEL).map(k => opt(k, area, AREA_LABEL[k] + (PERS[k.split('_')[1]] ? ' – ' + PERS[k.split('_')[1]].name : ''))).join('')}</select></label>
+        <label>Art <select name="art">${opt('', cat, 'alle')}${cats.map(c => opt(c, cat)).join('')}</select></label>
+        <label>Typ <select name="typ">${opt('', typ, 'alle')}${typs.map(c => opt(c, typ)).join('')}</select></label>
+        <span class="count">${fs.length} Dateien · ${fmtSize(fs.reduce((s, f) => s + f.size, 0))}</span>
+        <button type="button" class="btn" id="zip-all">Auswahl als ZIP</button>
+      </form>
+      ${folders.map(d => `<section class="block tight"><h2 class="folderpath">${esc(d)}</h2>${fileTable(fs.filter(f => f.path.split('/').slice(0, -1).join('/') === d), false)}</section>`).join('')}`;
+    $('#ff').onchange = e => {
+      const fd = new URLSearchParams(new FormData(e.currentTarget)); [...fd.keys()].forEach(k => !fd.get(k) && fd.delete(k));
+      location.hash = '#/dateien/?' + fd.toString();
+    };
+    $('#zip-all').onclick = () => zipFiles(fs, 'Luftpfad_Anlagentechnik_Auswahl.zip');
+  }
+
+  async function datei(id, pageArg) {
+    const f = FILES[id]; if (!f) return dateien();
+    const page = (pageArg || '').match(/seite-(\d+)/) ? +pageArg.split('-')[1] : null;
+    const cites = [...(CITES[id] || new Map()).values()];
+    main.innerHTML = `
+      <header class="page-head"><p class="folder"><a href="#/dateien">Dateien</a> / ${esc(f.path.split('/').slice(0, -1).join(' / '))}</p>
+        <h1 class="fname">${esc(f.name)}</h1>
+        <div class="btnrow"><a class="btn primary" href="${fileUrl(f)}" download>Herunterladen (${fmtSize(f.size)})</a>
+          <a class="btn" href="${fileUrl(f)}${page ? '#page=' + page : ''}" target="_blank" rel="noopener">Original im neuen Tab öffnen</a></div></header>
+      <section class="block cols">
+        <dl class="kv"><div><dt>Typ</dt><dd>${esc(f.kind)}</dd></div><div><dt>Bereich</dt><dd>${esc(AREA_LABEL[f.area] || f.area)}</dd></div>
+          ${f.pages ? `<div><dt>Seiten</dt><dd>${f.pages}${f.ocr ? ' (Scan, Text per Texterkennung)' : ''}</dd></div>` : ''}
+          ${f.hint ? `<div><dt>Laut Inhaltsverzeichnis gebraucht für</dt><dd>${esc(f.hint)}</dd></div>` : ''}
+          <div><dt>Projekte</dt><dd><div class="tags">${f.projects.map(x => x === 'ALLG' ? '<span class="tag">Allgemein</span>' : `<a class="tag" href="#/projekt/${x}">${x} ${esc(PROJ[x] ? PROJ[x].titel : '')}</a>`).join('')}</div></dd></div>
+          <div><dt>Zitiert auf</dt><dd>${cites.length ? cites.map(c => `<a href="${c.href}">${esc(c.label)}</a>`).join('<br>') : 'noch nirgends'}</dd></div></dl>
+      </section>
+      <section class="block" id="preview"><h2>Inhalt</h2></section>`;
+    const pv = $('#preview');
+    if (f.ext === 'pdf') pv.insertAdjacentHTML('beforeend', `<iframe class="pdf" src="${fileUrl(f)}#page=${page || 1}&view=FitH" title="${esc(f.name)}"></iframe>`);
+    if (f.ext === 'png') pv.insertAdjacentHTML('beforeend', `<img class="plan" src="${fileUrl(f)}" alt="${esc(f.name)}">`);
+    const txt = await (await fetch(`data/text/${f.id}.txt`)).text();
+    if (txt.trim()) pv.insertAdjacentHTML('beforeend', `<details class="acc" ${f.ext === 'pdf' || f.ext === 'png' ? '' : 'open'}><summary>Textfassung${f.ocr ? ' (Texterkennung, kann Lesefehler enthalten)' : ''}</summary>${textView(txt, f)}</details>`);
+    if (page) { const el = $(`#seite-${page}`); if (el) { el.closest('details').open = true; } }
+  }
+  function textView(txt, f) {
+    if (f.ext === 'csv' || f.ext === 'xlsx') {
+      const lines = txt.split('\n');
+      const rows = lines.slice(0, 400).map(l => l.startsWith('--- Blatt') ? `<tr class="sheet"><th colspan="40">${esc(l.replace(/-/g, '').trim())}</th></tr>`
+        : `<tr>${l.split(f.ext === 'csv' ? /[;,](?=(?:[^"]*"[^"]*")*[^"]*$)/ : ' | ').map(c => `<td>${esc(c.replace(/^"|"$/g, ''))}</td>`).join('')}</tr>`).join('');
+      return `<div class="scroll"><table class="sheet-t"><tbody>${rows}</tbody></table></div>${lines.length > 400 ? `<p class="hint">Erste 400 von ${lines.length} Zeilen. Vollständig in der Originaldatei.</p>` : ''}`;
+    }
+    return `<pre class="text">${esc(txt).replace(/^--- Seite (\d+) ---$/gm, '<span class="pagemark" id="seite-$1">Seite $1</span>')}</pre>`;
+  }
+
+  // ------------------------------------------------------------------ Suche
+  async function suche(q) {
+    $('#q').value = q;
+    main.innerHTML = `<header class="page-head"><h1>Suche</h1><p class="lead">„${esc(q)}“ in Dateinamen, Projekten und im Text aller Unterlagen.</p></header><section class="block" id="res"><p class="hint">Suche läuft …</p></section>`;
+    if (q.trim().length < 2) { $('#res').innerHTML = '<p class="hint">Bitte mindestens zwei Zeichen eingeben.</p>'; return; }
+    SEARCH = SEARCH || await (await fetch('data/search.json')).json();
+    const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+    const projHits = S.projekte.filter(p => terms.every(t => (p.id + ' ' + p.titel + ' ' + p.worum).toLowerCase().includes(t)));
+    const fileHits = [];
+    for (const f of S.dateien) {
+      const body = SEARCH[f.id] || '', low = body.toLowerCase(), name = f.path.toLowerCase();
+      if (!terms.every(t => low.includes(t) || name.includes(t))) continue;
+      const i = low.indexOf(terms[0]);
+      const pageMatch = i >= 0 ? (body.slice(0, i).match(/--- Seite (\d+) ---/g) || []).pop() : null;
+      const snip = i >= 0 ? body.slice(Math.max(0, i - 90), i + 160) : '';
+      fileHits.push({ f, page: pageMatch ? pageMatch.match(/\d+/)[0] : null, snip, n: terms.reduce((s, t) => s + low.split(t).length - 1, 0) });
+    }
+    fileHits.sort((a, b) => b.n - a.n);
+    const mark = s => { let h = esc(s); terms.forEach(t => { h = h.replace(new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), m => `<mark>${m}</mark>`); }); return h; };
+    $('#res').innerHTML = `
+      ${projHits.length ? `<h2>Projekte</h2>${projList(projHits)}` : ''}
+      <h2>Unterlagen <small>${fileHits.length}</small></h2>
+      ${fileHits.length ? `<ol class="hits">${fileHits.map(h => `<li><a href="#/datei/${h.f.id}${h.page ? '/seite-' + h.page : ''}">${esc(h.f.name)}</a>
+        <span class="muted">${esc(h.f.path.split('/').slice(0, -1).join('/'))}${h.page ? ', Seite ' + h.page : ''} · ${h.n} Treffer</span>
+        ${h.snip ? `<p>… ${mark(h.snip.replace(/--- Seite \d+ ---/g, ' '))} …</p>` : ''}</li>`).join('')}</ol>` : '<p class="hint">Keine Unterlagen enthalten alle Suchwörter. Versuchen Sie ein einzelnes Wort oder eine Belegnummer wie 2026/3328.</p>'}`;
+  }
+  let searchT;
+  $('#q').addEventListener('input', e => { clearTimeout(searchT); const v = e.target.value; searchT = setTimeout(() => { if (v.trim().length > 1) location.hash = '#/suche/' + encodeURIComponent(v); }, 350); });
+
+  // ------------------------------------------------------------------ Quellen-Leiste
+  async function openDrawer(fileId, loc) {
+    const f = FILES[fileId]; if (!f) return;
+    const page = (loc.match(/S\.\s*(\d+)/) || [])[1];
+    const d = $('#drawer'), inner = $('.drawer-inner', d);
+    inner.innerHTML = `
+      <button class="close" aria-label="Schließen">Schließen</button>
+      <p class="folder">Quelle</p>
+      <h2>${esc(f.name)}</h2>
+      <p class="muted">${esc(f.path)}</p>
+      ${loc ? `<p class="loc">Stelle: <b>${esc(loc)}</b></p>` : ''}
+      <div class="btnrow">
+        <a class="btn primary" href="#/datei/${f.id}${page ? '/seite-' + page : ''}">Datei ansehen</a>
+        <a class="btn" href="${fileUrl(f)}" download>Herunterladen</a>
+        ${f.ext === 'pdf' ? `<a class="btn" href="${fileUrl(f)}#page=${page || 1}" target="_blank" rel="noopener">PDF${page ? ' an Seite ' + page : ''} öffnen</a>` : ''}
+      </div>
+      <div class="excerpt"><p class="hint">Auszug wird geladen …</p></div>`;
+    d.classList.add('on'); d.setAttribute('aria-hidden', 'false');
+    $('.close', d).onclick = closeDrawer; $('.close', d).focus();
+    const txt = await (await fetch(`data/text/${f.id}.txt`)).text();
+    let part = txt;
+    if (page) { const m = txt.split(/^--- Seite \d+ ---$/m); part = m[+page] || txt; }
+    $('.excerpt', inner).innerHTML = `<h3>${page ? 'Text von Seite ' + page : 'Text der Datei'}</h3><pre class="text">${esc(part.trim().slice(0, 6000))}${part.length > 6000 ? '\n…' : ''}</pre>`;
+  }
+  function closeDrawer() { const d = $('#drawer'); d.classList.remove('on'); d.setAttribute('aria-hidden', 'true'); }
+
+  document.addEventListener('click', e => {
+    const q = e.target.closest('a.q');
+    if (q && !e.metaKey && !e.ctrlKey) { e.preventDefault(); openDrawer(q.dataset.file, q.dataset.loc || ''); return; }
+    const rv = e.target.closest('[data-reveal]');
+    if (rv) { const box = rv.closest('[data-private]'); $('.prose', box).hidden = false; rv.remove(); return; }
+    const dl = e.target.closest('[data-dl-ablage]');
+    if (dl) { const [pers, path] = dl.dataset.dlAblage.split('|'); Ablage.backend().read(pers, path).then(b => download(b, path.split('/').pop())).catch(err => toast(err.message)); }
+    if (!e.target.closest('#drawer') && $('#drawer').classList.contains('on') && !q) closeDrawer();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+  $('.menu-btn').onclick = () => { const o = document.body.classList.toggle('nav-open'); $('.menu-btn').setAttribute('aria-expanded', String(o)); };
+
+  // ------------------------------------------------------------------ Datenablage
+  function ablage(el, p) {
+    const B = () => Ablage.backend();
+    let cwd = sessionStorage.getItem('cwd.' + p.ordner) || '';
+    let items = [], meta = {};
+    const myProjects = S.projekte.filter(x => x.person === p.nr || (x.persons || []).includes(p.nr));
+
+    el.innerHTML = `
+      <div class="row-between"><h2>Datenablage von ${esc(p.name)}</h2><span class="store-badge" id="badge"></span></div>
+      <p class="hint" id="store-hint"></p>
+      <div class="toolbar">
+        <nav class="crumbs" id="crumbs" aria-label="Ordnerpfad"></nav>
+        <div class="btnrow">
+          <button class="btn" id="b-mkdir">Neuer Ordner</button>
+          <label class="btn">Dateien hochladen<input type="file" id="b-files" multiple hidden></label>
+          <label class="btn">Ordner hochladen<input type="file" id="b-dir" webkitdirectory multiple hidden></label>
+          <button class="btn" id="b-zip">Ordner als ZIP</button>
+        </div>
+      </div>
+      <div class="dropzone" id="drop"><div id="listing"><p class="hint">Wird geladen …</p></div>
+        <p class="drop-hint">Dateien hierher ziehen, um sie in diesen Ordner hochzuladen.</p></div>
+      <div id="proj-folders"></div>`;
+
+    async function refresh() {
+      const be = B();
+      $('#badge').textContent = be.label();
+      $('#store-hint').innerHTML = be.name === 'github'
+        ? (be.canWrite() ? `Dateien werden als Commit in <a href="${Ablage.repoUrl()}/tree/${Ablage.config.branch}/${Ablage.config.ablagePfad}/${p.ordner}" target="_blank" rel="noopener">ablage/${p.ordner}</a> gespeichert und sind für die ganze Gruppe sichtbar.`
+          : `Lesen geht ohne Anmeldung. Zum Hochladen ein GitHub-Token in den <button class="link" data-settings>Ablage-Einstellungen</button> hinterlegen oder dort auf „Nur dieser Browser“ umstellen.`)
+        : `Dateien bleiben nur in diesem Browser auf diesem Gerät. Für eine gemeinsame Ablage in den <button class="link" data-settings>Ablage-Einstellungen</button> GitHub wählen.`;
+      try {
+        [items, meta] = await Promise.all([be.list(p.ordner), be.getMeta(p.ordner)]);
+      } catch (e) { $('#listing').innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
+      if (cwd && !items.some(i => i.type === 'dir' && i.path === cwd)) cwd = '';
+      draw();
+    }
+    function draw() {
+      sessionStorage.setItem('cwd.' + p.ordner, cwd);
+      const segs = cwd ? cwd.split('/') : [];
+      $('#crumbs').innerHTML = `<button class="link" data-cd="">${esc(p.ordner)}</button>` + segs.map((s, i) => ` / <button class="link" data-cd="${esc(segs.slice(0, i + 1).join('/'))}">${esc(s)}</button>`).join('');
+      const pre = cwd ? cwd + '/' : '';
+      const here = items.filter(i => i.path.startsWith(pre) && i.path.length > pre.length && !i.path.slice(pre.length).includes('/'));
+      const dirs = here.filter(i => i.type === 'dir').sort((a, b) => a.path.localeCompare(b.path));
+      const files = here.filter(i => i.type === 'file').sort((a, b) => a.path.localeCompare(b.path));
+      const count = d => items.filter(i => i.type === 'file' && i.path.startsWith(d + '/')).length;
+      const pid = (cwd.split('/')[0].match(/^(A\d{3}|START|UEB-[A-Z]+)(_|$)/) || [])[1];
+      $('#listing').innerHTML = (pid && PROJ[pid] ? `<p class="proj-link">Dieser Ordner gehört zum Projekt <a href="#/projekt/${pid}">${pid} ${esc(PROJ[pid].titel)}</a>.</p>` : '') +
+        (dirs.length || files.length ? `<table class="grid files ablage"><thead><tr><th>Name</th><th>Herkunft</th><th>Größe</th><th><span class="vh">Aktionen</span></th></tr></thead><tbody>
+        ${cwd ? `<tr><td colspan="4"><button class="link" data-cd="${esc(segs.slice(0, -1).join('/'))}">.. eine Ebene höher</button></td></tr>` : ''}
+        ${dirs.map(d => `<tr class="dir"><td><button class="link folder-btn" data-cd="${esc(d.path)}">${esc(d.path.slice(pre.length))}</button></td><td class="muted">${count(d.path)} Dateien</td><td></td>
+          <td class="act"><button class="btn small danger" data-rm="${esc(d.path)}" data-type="dir">Löschen</button></td></tr>`).join('')}
+        ${files.map(f => { const m = meta[f.path] || {}; return `<tr><td>${esc(f.path.slice(pre.length))}</td>
+          <td class="herkunft">${m.herkunft ? esc(m.herkunft) : '<span class="muted">nicht angegeben</span>'}${m.von || m.am ? `<small>${esc([m.von, m.am].filter(Boolean).join(', '))}</small>` : ''}</td>
+          <td class="num">${fmtSize(f.size)}</td>
+          <td class="act"><button class="btn small" data-get="${esc(f.path)}">Herunterladen</button><button class="btn small" data-edit="${esc(f.path)}">Herkunft</button><button class="btn small danger" data-rm="${esc(f.path)}" data-type="file">Löschen</button></td></tr>`; }).join('')}
+        </tbody></table>` : `<div class="empty"><p>${cwd ? 'Dieser Ordner ist leer.' : 'Die Ablage ist noch leer.'} Laden Sie Dateien hoch oder legen Sie einen Ordner an.</p></div>`);
+      // Projektordner vorschlagen
+      const missing = myProjects.filter(x => !items.some(i => i.type === 'dir' && !i.path.includes('/') && (i.path === x.id || i.path.startsWith(x.id + '_'))));
+      $('#proj-folders').innerHTML = !cwd && missing.length ? `<div class="suggest"><p>Ordner je Projekt halten die Ablage projektweise sortiert. Was in einem Projektordner liegt, erscheint auch auf der Projektseite.</p>
+        <button class="btn" id="b-projdirs">${missing.length} Projektordner anlegen</button> <span class="muted">${missing.map(x => esc(projFolder(x))).join(', ')}</span></div>` : '';
+      const pb = $('#b-projdirs'); if (pb) pb.onclick = () => guard(async () => { for (const x of missing) await B().mkdir(p.ordner, projFolder(x)); toast('Projektordner angelegt.'); });
+    }
+    async function guard(fn) {
+      if (!B().canWrite()) { settings(); toast('Zum Schreiben bitte zuerst ein GitHub-Token hinterlegen.'); return; }
+      el.classList.add('busy');
+      try { await fn(); } catch (e) { toast(e.message, 6000); }
+      el.classList.remove('busy');
+      await refresh();
+    }
+    async function uploadFiles(fileList) {
+      const list = [...fileList]; if (!list.length) return;
+      list.forEach(f => { f.relPath = f.webkitRelativePath || f.name; });
+      const info = await ask(`${list.length} ${list.length === 1 ? 'Datei' : 'Dateien'} nach „${p.ordner}${cwd ? '/' + cwd : ''}“ hochladen`, [
+        { name: 'herkunft', label: 'Herkunft oder Quelle', hint: 'Woher stammt der Inhalt? Zum Beispiel „Antwort Kantbogen aus Uebergaben/K61 vom 30.11.“ oder „eigene Auswertung aus Trend_EZ_EG…csv“.' },
+        { name: 'von', label: 'Abgelegt von', value: Ablage.LS.get('name', p.name) }], 'Hochladen');
+      if (!info) return;
+      Ablage.LS.set('name', info.von);
+      await guard(async () => {
+        const am = new Date().toLocaleDateString('de-DE');
+        const changes = {};
+        for (let i = 0; i < list.length; i++) {
+          toast(`Lade hoch: ${list[i].relPath} (${i + 1}/${list.length})`, 60000);
+          if (list[i].size > 50 * 1048576) throw new Error(`${list[i].name} ist größer als 50 MB.`);
+          await B().upload(p.ordner, cwd, list[i]);
+          changes[(cwd ? cwd + '/' : '') + list[i].relPath] = { herkunft: info.herkunft, von: info.von, am };
+        }
+        await B().setMeta(p.ordner, changes);
+        toast(`${list.length} ${list.length === 1 ? 'Datei' : 'Dateien'} hochgeladen.`);
+      });
+    }
+    el.onclick = async e => {
+      const t = e.target.closest('button'); if (!t) return;
+      if (t.matches('[data-settings]')) return settings();
+      if (t.dataset.cd !== undefined) { cwd = t.dataset.cd; draw(); return; }
+      if (t.dataset.get) { try { download(await B().read(p.ordner, t.dataset.get), t.dataset.get.split('/').pop()); } catch (err) { toast(err.message); } return; }
+      if (t.dataset.edit) {
+        const m = meta[t.dataset.edit] || {};
+        const r = await ask(`Herkunft von „${t.dataset.edit}“`, [{ name: 'herkunft', label: 'Herkunft oder Quelle', value: m.herkunft || '' }, { name: 'von', label: 'Abgelegt von', value: m.von || Ablage.LS.get('name', p.name) }], 'Speichern');
+        if (r) guard(() => B().setMeta(p.ordner, { [t.dataset.edit]: Object.assign({}, m, r) }));
+        return;
+      }
+      if (t.dataset.rm) {
+        const isDir = t.dataset.type === 'dir';
+        const ok = await ask(`${isDir ? 'Ordner' : 'Datei'} „${t.dataset.rm}“ löschen?`, [], 'Löschen', isDir ? 'Der Ordner wird mit allen enthaltenen Dateien gelöscht.' : 'Die Datei wird aus der Ablage entfernt.');
+        if (ok) guard(async () => {
+          await B().remove(p.ordner, t.dataset.rm);
+          const gone = Object.keys(meta).filter(k => k === t.dataset.rm || k.startsWith(t.dataset.rm + '/'));
+          if (gone.length) await B().setMeta(p.ordner, Object.fromEntries(gone.map(k => [k, null])));
+          toast(`${isDir ? 'Ordner' : 'Datei'} gelöscht.`);
+        });
+      }
+    };
+    $('#b-mkdir').onclick = async () => {
+      const r = await ask('Neuer Ordner' + (cwd ? ` in „${cwd}“` : ''), [{ name: 'name', label: 'Ordnername', hint: 'Tipp: mit Projektnummer beginnen, z. B. „A018_Angebot_Raumlot“, dann erscheint der Inhalt auf der Projektseite.' }], 'Ordner anlegen');
+      if (r && r.name.trim()) guard(async () => { await B().mkdir(p.ordner, (cwd ? cwd + '/' : '') + r.name.trim().replace(/[\\/:*?"<>|]+/g, '_')); toast('Ordner angelegt.'); });
+    };
+    $('#b-files').onchange = e => { uploadFiles(e.target.files); e.target.value = ''; };
+    $('#b-dir').onchange = e => { uploadFiles(e.target.files); e.target.value = ''; };
+    $('#b-zip').onclick = () => guardRead(async () => {
+      const pre = cwd ? cwd + '/' : '';
+      const fs = items.filter(i => i.type === 'file' && i.path.startsWith(pre));
+      if (!fs.length) return toast('In diesem Ordner liegen keine Dateien.');
+      const entries = [];
+      for (const f of fs) { toast(`Packe ${f.path} …`, 60000); entries.push({ name: f.path.slice(pre.length), data: new Uint8Array(await (await B().read(p.ordner, f.path)).arrayBuffer()) }); }
+      download(makeZip(entries), `${p.ordner}${cwd ? '_' + cwd.replace(/\//g, '_') : ''}.zip`); toast('ZIP heruntergeladen.');
+    });
+    async function guardRead(fn) { try { await fn(); } catch (e) { toast(e.message, 6000); } }
+    const drop = $('#drop');
+    drop.ondragover = e => { e.preventDefault(); drop.classList.add('over'); };
+    drop.ondragleave = () => drop.classList.remove('over');
+    drop.ondrop = e => { e.preventDefault(); drop.classList.remove('over'); uploadFiles(e.dataTransfer.files); };
+    el.addEventListener('ablage-changed', refresh);
+    refresh();
+  }
+
+  // ------------------------------------------------------------------ Dialoge
+  function ask(title, fields, okLabel, text) {
+    const d = $('#dlg');
+    d.innerHTML = `<form method="dialog" class="dlg"><h2>${esc(title)}</h2>${text ? `<p>${esc(text)}</p>` : ''}
+      ${fields.map(f => `<label>${esc(f.label)}<input name="${f.name}" value="${esc(f.value || '')}" ${f.type ? `type="${f.type}"` : ''}>${f.hint ? `<small>${esc(f.hint)}</small>` : ''}</label>`).join('')}
+      <div class="btnrow"><button value="cancel" class="btn" formnovalidate>Abbrechen</button><button value="ok" class="btn primary ${okLabel === 'Löschen' ? 'danger' : ''}">${esc(okLabel)}</button></div></form>`;
+    return new Promise(res => {
+      d.onclose = () => res(d.returnValue === 'ok' ? Object.fromEntries(fields.map(f => [f.name, d.querySelector(`[name="${f.name}"]`).value])) : null);
+      d.returnValue = ''; d.showModal();
+      const first = d.querySelector('input'); if (first) first.focus();
+    });
+  }
+  function settings() {
+    const d = $('#dlg'), mode = Ablage.LS.get('mode', 'github'), C = Ablage.config;
+    d.innerHTML = `<form method="dialog" class="dlg"><h2>Ablage-Einstellungen</h2>
+      <fieldset><legend>Wo die Datenablage gespeichert wird</legend>
+        <label class="radio"><input type="radio" name="mode" value="github" ${mode === 'github' ? 'checked' : ''}> <span><b>GitHub-Repository ${esc(C.owner)}/${esc(C.repo)}</b><small>Gemeinsam für die ganze Gruppe. Jede Änderung ist ein Commit mit Datum, nachvollziehbar in der Historie.</small></span></label>
+        <label class="radio"><input type="radio" name="mode" value="local" ${mode === 'local' ? 'checked' : ''}> <span><b>Nur dieser Browser</b><small>Ohne Anmeldung, aber nur auf diesem Gerät sichtbar.</small></span></label>
+      </fieldset>
+      <label>GitHub-Token zum Hochladen<input name="token" type="password" value="${esc(Ablage.token())}" autocomplete="off" placeholder="github_pat_…">
+        <small>Auf GitHub unter Settings › Developer settings › Fine-grained tokens anlegen, nur für dieses Repository, Berechtigung „Contents: Read and write“. Das Token bleibt nur in diesem Browser gespeichert.</small></label>
+      <div class="btnrow"><button value="cancel" class="btn">Abbrechen</button><button value="ok" class="btn primary">Speichern</button></div></form>`;
+    d.onclose = () => {
+      if (d.returnValue !== 'ok') return;
+      Ablage.setMode(d.querySelector('[name=mode]:checked').value);
+      Ablage.setToken(d.querySelector('[name=token]').value.trim());
+      toast('Einstellungen gespeichert.');
+      if (location.hash.includes('/ablage')) route();
+    };
+    d.returnValue = ''; d.showModal();
+  }
+  $('#open-settings').onclick = settings;
+
+  boot();
+})();

@@ -1,0 +1,89 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 3,5 Stunden. Federführend: Elena Voss (Person 4).
+
+Diese Aufgabe ist Schritt 1 von 2 der Kette Forum zu warm. Danach: Antwort der Thermenfeld Wärme und Wasser GmbH bis 30.11. Dazwischen liegt das Angebot der Signalsteg Messtechnik GmbH (Teil 4).
+
+Auftrag
+
+Am 30.10. wurde im Forum der Stellantrieb getauscht. Torwinkel meldet weiter "Raum EG Forum heizt sich auf".
+
+Teil 1, Auswertung: Werten Sie die Trendaufzeichnung der Automationsstation aus und klären Sie, woran es liegt: am Volumenstrom, an der Zulufttemperatur nach dem Lufterhitzer der Etagenzentrale EG oder an der Heizwasserseite. Prüfen Sie, ob die Aufzeichnung in sich stimmig ist, bevor Sie rechnen. Legen Sie fest, welche Spalten der Aufzeichnung die Frage entscheiden, und begründen Sie die Auswahl.
+
+Teil 2, eigene Protokolle: Am 02.11.2026 hat Maximilian Backhaus an der Wärmerückgewinnung der Etagenzentralen EG und 1.OG "Regelventile und Stellantriebe geprüft" und "Ohne Befund" geschrieben (Protokoll 09354). Passt das zu Ihrer Datenreihe? Prüfen Sie im Leistungsverzeichnis des Vertrags VTR-1005 (Firmenbriefing, Abschnitt 8), welche Bauteile der Etagenzentrale EG Luftpfad wartet.
+
+Teil 3, Entscheidung: Schreiben Sie eine kurze fachliche Stellungnahme an Thermenfeld. Entscheiden Sie, ob Sie Thermenfeld um eine Prüfung der Heizwasserseite bitten oder ob Sie die Ursache bei Luftpfad sehen. Legen Sie außerdem eine Sofortmaßnahme bis zur Antwort fest: Sie haben mit dem Servicenotebook Zugriff auf die Automationsstation. Welche Wirkung hat jede Sofortmaßnahme, die Sie erwägen, auf den Lufterhitzer und auf das, was Mieter und Torwinkel sehen? Nennen Sie das Risiko und wer freigeben muss. Jede Wahl hat Folgen: für die Kosten, für Ihr Verhältnis zu Thermenfeld, für Kevin Schuster, der die Protokolle von Backhaus vertreten muss, und für die Mieterin im Forum.
+
+Teil 4, ab 27.11.: Signalsteg Messtechnik GmbH bietet beiden Gruppen eine unabhängige Raumklimamessung im Forum an (Uebergaben/K64, Konrad Elster). Messen heißt, dass jemand mit eigenen Geräten im Raum und womöglich hinter dem Lufterhitzer Werte aufzeichnet, die nicht aus Ihrer Station stammen. Lesen Sie das Angebot und entscheiden Sie für Luftpfad: Darf Signalsteg in die Etagenzentrale EG, und geben Sie Ihre Rohdaten der Station heraus, ja, nein oder mit Auflagen? Die Kosten der Messung entscheidet Kai Landmann (A166), Sie legen ihm eine Empfehlung vor. Vergleichen Sie Ihre Trendkurve mit dem Messplan, bevor Sie zusagen. Eine Messung kann Ihre Auswertung belegen oder widerlegen. Wer Nein sagt, muss es gegenüber Torwinkel, Thermenfeld und der Mieterin erklären. Stimmen Sie sich mit Henrike Baum ab und schreiben Sie Konrad Elster eine kurze Antwort mit Begründung.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Eine Auswertung mit einem Diagramm und der Angabe der Zeilen der CSV-Datei, aus denen jede Aussage stammt
+
+-   Eine Liste dessen, was Ihnen an der Datei aufgefallen ist, mit Zeile und Behandlung (ist nichts aufgefallen, steht das dort mit der Begründung)
+
+-   Der Abgleich mit Protokoll 09354: was das Protokoll sagt, was die Datenreihe am 02.11. zeigt, und was das Firmenbriefing (Abschnitt 8) zur Wartung des Lufterhitzers sagt
+
+-   Die Stellungnahme an Thermenfeld bis 25.11. in K64
+
+-   Die Entscheidung zur Sofortmaßnahme mit Freigabevermerk (wer, wann, alter und neuer Wert)
+
+-   Ein Vermerk zur Antwort von Thermenfeld
+
+-   Die Antwort an Signalsteg bis 30.11. zu Zugang und Rohdaten, mit der Empfehlung zu den Kosten an Kai Landmann
+
+Einsatz von KI
+
+-   Abgeben: Diagramm aus der CSV
+
+-   Teilen: Prüfung der Datei, Auswertung der Zeitreihe
+
+-   Behalten: Ursache, Sofortmaßnahme, Zuständigkeit und Ton gegenüber Thermenfeld
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                                                 Fundstelle                               Größe
+  ----------------- --------------------------------------------------------------------------- ---------------------------------------- -----------------
+  Firmenablage      03_Material/GA/Trend_EZ_EG_Forum_2026-10-26_bis_2026-11-17.csv              ganze Datei                              30 KB
+
+  Firmenablage      03_Material/Postfach/16_2026-11-18_Forum_und_EZ_EG.eml                      ganze Datei                              1 KB
+
+  Firmenablage      03_Material/Postfach/06_2026-11-03_Stand_Raum_EG_Forum_heizt_sich_auf.eml   ganze Datei                              1 KB
+
+  Datenraum         04_Datenraum/04, Nr. 04.21.04.192 (Dateiname beginnt mit der Nummer)        Wartungsprotokoll 09354 vom 02.11.2026   0,1 MB
+
+  Briefing          01_Briefings (Firmenbriefing), Abschnitt 8                                  Leistungen aus laufenden Verträgen       96 KB
+
+  Vorarbeit         Angebot von Signalsteg, Kursteam-Ordner Uebergaben/K64                      ab 27.11.                                50 KB
+  --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tabellen
+
+Laden Sie Tabellen als Datei hoch und lassen Sie die KI mit ihrer Rechenfunktion (je nach Anbieter Datenanalyse oder Code-Ausführung) rechnen, nicht als eingefügten Text. Läuft sie nicht, geben Sie Ausschnitte als CSV-Text. Prüfen Sie drei Werte selbst in der Tabelle nach und vermerken Sie das im Lernprotokoll.
+
+Übergabe
+
+Ihre Stellungnahme liegt bis 25.11. in Uebergaben/K64. Thermenfeld antwortet bis 30.11. in denselben Ordner. Fehlt die Antwort am Morgen danach, legt die Spielleitung eine Antwort in denselben Ordner.
+
+Signalsteg legt sein Angebot bis 27.11. in denselben Ordner (A152). Ihre Antwort an Signalsteg legen Sie bis 30.11. dort ab, neben die kaufmännische Antwort von Kai Landmann (A166). Beide Antworten dürfen sich nicht widersprechen. Fehlt das Angebot am Morgen nach dem 27.11., legt die Spielleitung eines in denselben Ordner.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Datei: Jede Aussage zur Datenreihe nennt Spalte und Zeitraum. Jeder Wert, den Sie nicht in einen Mittelwert aufnehmen, ist mit Zeile und Grund genannt.
+
+7. Ursache: Die Stellungnahme unterscheidet "belegt durch die Datenreihe", "belegt durch ein Dokument" und "Vermutung". Die Zuständigkeit ist mit der Stelle im Firmenbriefing (Abschnitt 8) belegt.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

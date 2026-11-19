@@ -1,0 +1,487 @@
+--- Seite 1 ---
+ Inhaltsverzeichnis Luftpfad Anlagentechnik GmbH
+ Paket für die Arbeit im Haus am Bogenfeld, Bogenfeld 12, Stuttgart-Vaihingen. Stand 18.11.2026.
+
+ So fangen Sie an
+  • Öffnen Sie zuerst das Startblatt der Gruppe (00_Start_Gruppe.pdf, in 0_Allgemein) und in Ihrem Ordner
+    Person_N das Startblatt (00_Start_Person_N.pdf). Lesen Sie dann das Firmenbriefing und Ihr eigenes
+    Personenbriefing in 01_Briefings. Dieses Inhaltsverzeichnis und den Ablauf nutzen Sie zum
+    Nachschlagen.
+  • Dieses Inhaltsverzeichnis und den Ablauf gibt es zum Lesen auch als PDF: 00_Inhaltsverzeichnis.pdf
+    und 00_Ablauf.pdf.
+  • Was Ihre Gruppe bis zum 2.12. abgibt oder an andere Firmen übergibt, wer in der Gruppe was macht
+    und wohin es geht, steht nach Tagen geordnet in 00_Bis_zum_2_12.pdf (auch als .md).
+  • Die Aufgaben stehen in 02_Aufgaben, je Aufgabe ein Blatt als DOCX und als PDF.
+  • Laden Sie je Chat nur die Dateien hoch, die das Aufgabenblatt nennt. Richtwert: höchstens 8 Dateien
+    und 10 MB je Chat. Nennt ein Blatt mehr Dateien (Spalte Portionen 2 im Ladeplan), laden Sie sie in
+    zwei Chats: zuerst die Dateien, die das Blatt zuerst nennt, dann den Rest.
+  • Liest ein Chat eine gescannte Seite nicht, laden Sie die Seite als Bild hoch.
+  • Legen Sie Ihre Projektmappe mit den Vorlagen aus 05_Vorlagen an. START und Protokoll liegen dort
+    als DOCX und als MD, die DOCX lassen sich auch am iPad in Teams oder Word bearbeiten.
+  • Mails (EML) zeigen Teams und die Dateien-App am iPad nicht immer an. Das Postfach gibt es deshalb
+    als 03_Material/Postfach/00_Postfach_als_Text.txt, die Mitteilung im Abgang als TXT neben der EML
+    (03_Material/Abgang/01_Mitteilung_Austritt.txt). Kalender (ICS) gibt es zusätzlich als CSV mit gleichem
+    Namen, die CSV zeigt jede Anwendung. Öffnen Sie die ICS nicht in der Kalender-App, sonst landen die
+    Termine in Ihrem eigenen Kalender.
+  • Alle Dateien liegen im Kursteam. Laden Sie nur den Allgemein-Teil Ihrer Firma (Ordner 0_Allgemein)
+    und Ihren eigenen Ordner Person_1 bis Person_5. In beiden Ordnern gelten dieselben Unterordner und
+    Pfade wie in diesem Verzeichnis (01_Briefings, 02_Aufgaben, 03_Material und so weiter). Die Spalte
+    Liegt in der Dateiliste zeigt, wo eine Datei liegt. In Ihrem Ordner finden Sie dazu ein Startblatt
+    (00_Start_Person_N.pdf).
+  • Im Datenraumauszug beginnt jeder Dateiname mit der Nummer aus dem Aufgabenblatt.
+
+ Wer bei Ihnen mitspielt
+ Figur                                 Funktion                                                 Ordner im Kursteam
+ Henrike Baum                          Technische Geschäftsführung                              Person 1
+ Kai Landmann                          Kaufmännischer Geschäftsführer                           Person 2
+ Selim Ahrens                          Disposition Fachfirma                                    Person 3
+ Elena Voss                            Automationsfachkraft                                     Person 4
+ Nachfolge: Kevin Schuster             Servicetechniker Lüftung und Kälte, seit 16.11.2026 im   Person 5
+                                       Unternehmen, Nachfolge für Maximilian Backhaus ohne
+                                       Übergabe
+
+ Ihre Gruppe verteilt die fünf Figuren selbst, getauscht werden kann zu jedem Semesterbeginn. Die
+ Nummer folgt dem Rang in der Firma.
+
+ Am 19.11. in der Vorlesung
+ In der Sitzung arbeitet Ihre Gruppe an der Antrittsvorstellung, der genaue Ablauf steht in 00_Ablauf.md.
+ Danach beginnt jede Person mit der Aufgabe in der Tabelle. Alle Aufgaben sind bis 2.12.2026 fertig, außer
+ die Spalte fertig bis nennt einen anderen Tag.
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                              Seite 1
+
+--- Seite 2 ---
+ Person                                            beginnt nach der Sitzung
+ Henrike Baum (Person 1)                           Wartungsbericht Lüftung
+ Kai Landmann (Person 2)                           Posteingang sortieren
+ Selim Ahrens (Person 3)                           Projektmappe für die eigene Firma anlegen
+ Elena Voss (Person 4)                             Trendaufzeichnung Forum
+ Kevin Schuster (Person 5)                         Was ohne Übergabe liegen geblieben ist
+
+
+
+ Aufgaben
+ Aufgabe                                                 Beginn           fertig bis       federführend                Aufwand
+ Projektmappe für die eigene Firma anlegen               19.11.           2.12.2026        Selim Ahrens (Person 3)     1h
+ Unsere Firma auf einer Seite                            19.11.           2.12.2026        Kai Landmann (Person 2)     1h
+ Posteingang sortieren                                   19.11.           2.12.2026        Kai Landmann (Person 2)     1,5 h
+ Der erste Auftrag in fünf Teilen                        19.11.           2.12.2026        Henrike Baum (Person 1)     1h
+ Wer ist wer im Haus                                     19.11.           2.12.2026        Selim Ahrens (Person 3)     1h
+ Rundgang als Sprachnotiz                                19.11.           2.12.2026        Kevin Schuster (Person 5)   1h
+ Was ohne Übergabe liegen geblieben ist                  19.11.           2.12.2026        Kevin Schuster (Person 5)   1,5 h
+ Übergabeliste prüfen und Nachfolge regeln               19.11.           2.12.2026        Kevin Schuster (Person 5)   2,5 h
+ Hauschronik 1990 bis 2026 mit Zusammenführung           19.11.           2.12.2026        Elena Voss (Person 4)       2,5 h
+ Wartungsbericht Lüftung                                 19.11.           2.12.2026        Henrike Baum (Person 1)     2,5 h
+ Vortrag                                                 19.11.           2.12.2026        Henrike Baum (Person 1)     3h
+ Offene Rechnungen und Preisanpassung                    19.11.           2.12.2026        Kai Landmann (Person 2)     2,5 h
+ Wartungstermine 2027                                    19.11.           2.12.2026        Selim Ahrens (Person 3)     2,5 h
+ Trendaufzeichnung Forum                                 19.11.           2.12.2026        Elena Voss (Person 4)       3,5 h
+ Protokoll 09384                                         19.11.           30.11.2026       Kevin Schuster (Person 5)   1,5 h
+ Prüfauftrag der Verwaltung                              19.11.           2.12.2026        Selim Ahrens (Person 3)     2h
+ Regierechnung Forum                                     19.11.           2.12.2026        Kai Landmann (Person 2)     1,5 h
+
+ Federführend heißt: diese Person sorgt dafür, dass die Aufgabe fertig wird, und gibt sie ab. Gearbeitet
+ wird gemeinsam. Tauschen Sie, wenn es in der Gruppe besser passt, und vermerken Sie es im Protokoll.
+
+ Was Sie je Aufgabe laden
+ Laden Sie nie das ganze Paket in einen Chat. Die Tabelle zeigt je Aufgabe die Dateien, die das
+ Aufgabenblatt nennt, in einer Form (PDF statt DOCX) mit grober Textmenge, ohne das Aufgabenblatt
+ selbst. Rechnen Sie mit dem kleinsten Abo: manche Chats fassen im Standardmodus nur rund 32.000
+ Token. Geben Sie deshalb je Chat höchstens rund 20.000 Token Text hinein und teilen Sie größere
+ Aufgaben in Portionen (Spalte Portionen): zuerst die Abschnitte, die die Aufgabe braucht, dann den Rest.
+ Tabellen nicht als Text einfügen, sondern als Datei hochladen und nach einzelnen Blättern, Monaten oder
+ Zählern fragen. Der Rest des Pakets ist zum Nachschlagen.
+
+ Aufgabe                                            Dateien         MB                 Text rund       davon           Portionen
+                                                                                       Token           Tabellen
+ Projektmappe für die eigene Firma anlegen          6               0,5                27.062          0               2
+ Unsere Firma auf einer Seite                       5               0,4                11.731          0               1
+ Posteingang sortieren                              2               0,0                4.007           1.041           1
+ Der erste Auftrag in fünf Teilen                   1               0,1                10.275          0               1
+ Wer ist wer im Haus                                3               0,2                10.941          0               1
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                              Seite 2
+
+--- Seite 3 ---
+ Aufgabe                                            Dateien         MB           Text rund          davon             Portionen
+                                                                                 Token              Tabellen
+ Rundgang als Sprachnotiz                           3               0,2          3.518              0                 1
+ Was ohne Übergabe liegen geblieben ist             9               0,1          4.457              342               2
+ Übergabeliste prüfen und Nachfolge regeln          7               0,3          2.726              342               1
+ Hauschronik 1990 bis 2026                          8               1,5          3.122              0                 1
+ Wartungsbericht Lüftung                            7               1,4          8.282              0                 1
+ Vortrag                                            6               0,5          27.062             0                 2
+ Offene Rechnungen und Preisanpassung               7               0,8          6.901              878               1
+ Wartungstermine 2027                               6               0,2          7.623              6.073             1
+ Trendaufzeichnung Forum                            5               0,2          18.323             7.405             1
+ Protokoll 09384                                    5               0,6          3.098              0                 1
+ Prüfauftrag der Verwaltung                         5               0,1          14.386             3.586             1
+ Regierechnung Forum                                5               0,7          8.913              3.777             1
+
+
+
+ Dateien
+ Datei                                         Größe       Text rund      gebraucht für                                   Liegt in
+                                                           Token
+ 00_Ablauf.md                                  7,7 KB      1.962          Nachschlagen                                    Allgemei
+                                                                                                                          n
+ 00_Ablauf.pdf                                 68,7 KB     2.611          Nachschlagen                                    Allgemei
+                                                                                                                          n
+ 00_Bis_zum_2_12.md                            6,5 KB      1.652          Termine bis 2.12.                               Allgemei
+                                                                                                                          n
+ 00_Bis_zum_2_12.pdf                           68,9 KB     2.488          Termine bis 2.12.                               Allgemei
+                                                                                                                          n
+ 00_Inhaltsverzeichnis.pdf                     85,4 KB     10.629         Nachschlagen                                    Allgemei
+                                                                                                                          n
+ 00_Start_Gruppe.md                            8,0 KB      2.020          Erstes Lesen                                    Allgemei
+                                                                                                                          n
+ 00_Start_Gruppe.pdf                           69,1 KB     2.589          Erstes Lesen                                    Allgemei
+                                                                                                                          n
+ 00_Startfrage.md                              2,3 KB      576            Antrittsvorstellung                             Allgemei
+                                                                                                                          n
+ 00_Startfrage.pdf                             65,1 KB     627            Antrittsvorstellung                             Allgemei
+                                                                                                                          n
+ 01_Briefings/Firmenbriefing_Luftpfad_Anl      49,5 KB     9.878          Projektmappe für die eigene Firma               Allgemei
+ agentechnik.docx                                                         anlegen, Unsere Firma auf einer Seite,          n
+                                                                          Der erste Auftrag in fünf Teilen, Wer ist
+                                                                          wer im Haus, Vortrag,
+                                                                          Trendaufzeichnung Forum und
+                                                                          Prüfauftrag der Verwaltung
+ 01_Briefings/Firmenbriefing_Luftpfad_Anl      94,6 KB     10.275         Projektmappe für die eigene Firma               Allgemei
+ agentechnik.pdf                                                          anlegen, Unsere Firma auf einer Seite,          n
+                                                                          Der erste Auftrag in fünf Teilen, Wer ist
+                                                                          wer im Haus, Vortrag,
+                                                                          Trendaufzeichnung Forum und
+                                                                          Prüfauftrag der Verwaltung
+ 01_Briefings/Personenbriefing_Elena_Vo        40,7 KB     2.695          Projektmappe für die eigene Firma               Person
+ ss.docx                                                                  anlegen und Vortrag                             4
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                             Seite 3
+
+--- Seite 4 ---
+ Datei                                         Größe       Text rund   gebraucht für                            Liegt in
+                                                           Token
+ 01_Briefings/Personenbriefing_Elena_Vo        71,2 KB     2.774       Projektmappe für die eigene Firma        Person
+ ss.pdf                                                                anlegen und Vortrag                      4
+ 01_Briefings/Personenbriefing_Henrike_        40,9 KB     3.021       Projektmappe für die eigene Firma        Person
+ Baum.docx                                                             anlegen und Vortrag                      1
+ 01_Briefings/Personenbriefing_Henrike_        72,1 KB     3.139       Projektmappe für die eigene Firma        Person
+ Baum.pdf                                                              anlegen und Vortrag                      1
+ 01_Briefings/Personenbriefing_Kai_Land        41,6 KB     3.434       Projektmappe für die eigene Firma        Person
+ mann.docx                                                             anlegen und Vortrag                      2
+ 01_Briefings/Personenbriefing_Kai_Land        73,5 KB     3.548       Projektmappe für die eigene Firma        Person
+ mann.pdf                                                              anlegen und Vortrag                      2
+ 01_Briefings/Personenbriefing_Kevin_Sc        42,3 KB     4.496       Projektmappe für die eigene Firma        Person
+ huster.docx                                                           anlegen und Vortrag                      5
+ 01_Briefings/Personenbriefing_Kevin_Sc        76,5 KB     4.630       Projektmappe für die eigene Firma        Person
+ huster.pdf                                                            anlegen und Vortrag                      5
+ 01_Briefings/Personenbriefing_Selim_Ah        40,5 KB     2.609       Projektmappe für die eigene Firma        Person
+ rens.docx                                                             anlegen und Vortrag                      3
+ 01_Briefings/Personenbriefing_Selim_Ah        70,8 KB     2.700       Projektmappe für die eigene Firma        Person
+ rens.pdf                                                              anlegen und Vortrag                      3
+ 02_Aufgaben/A001_Projektmappe_fuer_           36,7 KB     345         Projektmappe für die eigene Firma        Allgemei
+ die_eigene_Firma_anlegen.docx                                         anlegen                                  n
+ 02_Aufgaben/A001_Projektmappe_fuer_           62,2 KB     343         Projektmappe für die eigene Firma        Allgemei
+ die_eigene_Firma_anlegen.pdf                                          anlegen                                  n
+ 02_Aufgaben/A002_Unsere_Firma_auf_e           36,8 KB     407         Unsere Firma auf einer Seite             Allgemei
+ iner_Seite.docx                                                                                                n
+ 02_Aufgaben/A002_Unsere_Firma_auf_e           62,3 KB     409         Unsere Firma auf einer Seite             Allgemei
+ iner_Seite.pdf                                                                                                 n
+ 02_Aufgaben/A003_Posteingang_sortier          37,0 KB     438         Posteingang sortieren                    Person
+ en.docx                                                                                                        2
+ 02_Aufgaben/A003_Posteingang_sortier          62,8 KB     442         Posteingang sortieren                    Person
+ en.pdf                                                                                                         2
+ 02_Aufgaben/A004_Der_erste_Auftrag_in         36,9 KB     418         Der erste Auftrag in fünf Teilen         Person
+ _fuenf_Teilen.docx                                                                                             1
+ 02_Aufgaben/A004_Der_erste_Auftrag_in         62,7 KB     420         Der erste Auftrag in fünf Teilen         Person
+ _fuenf_Teilen.pdf                                                                                              1
+ 02_Aufgaben/A005_Wer_ist_wer_im_Hau           36,7 KB     271         Wer ist wer im Haus                      Person
+ s.docx                                                                                                         3
+ 02_Aufgaben/A005_Wer_ist_wer_im_Hau           62,0 KB     275         Wer ist wer im Haus                      Person
+ s.pdf                                                                                                          3
+ 02_Aufgaben/A006_Rundgang_als_Spra            36,7 KB     290         Rundgang als Sprachnotiz                 Person
+ chnotiz.docx                                                                                                   5
+ 02_Aufgaben/A006_Rundgang_als_Spra            62,0 KB     293         Rundgang als Sprachnotiz                 Person
+ chnotiz.pdf                                                                                                    5
+ 02_Aufgaben/A007_Was_ohne_Ueberga             36,9 KB     430         Was ohne Übergabe liegen geblieben ist   Person
+ be_liegen_geblieben_ist.docx                                                                                   5
+ 02_Aufgaben/A007_Was_ohne_Ueberga             62,7 KB     430         Was ohne Übergabe liegen geblieben ist   Person
+ be_liegen_geblieben_ist.pdf                                                                                    5
+ 02_Aufgaben/A008_Uebergabeliste_prue          37,9 KB     991         Übergabeliste prüfen und Nachfolge       Person
+ fen_und_Nachfolge_regeln.docx                                         regeln                                   5
+ 02_Aufgaben/A008_Uebergabeliste_prue          65,0 KB     1.008       Übergabeliste prüfen und Nachfolge       Person
+ fen_und_Nachfolge_regeln.pdf                                          regeln                                   5
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                   Seite 4
+
+--- Seite 5 ---
+ Datei                                         Größe       Text rund   gebraucht für                             Liegt in
+                                                           Token
+ 02_Aufgaben/A014_Hauschronik_1990_b           37,3 KB     638         Hauschronik 1990 bis 2026                 Person
+ is_2026_mit_Zusammenfuehrung.docx                                                                               4
+ 02_Aufgaben/A014_Hauschronik_1990_b           63,5 KB     656         Hauschronik 1990 bis 2026                 Person
+ is_2026_mit_Zusammenfuehrung.pdf                                                                                4
+ 02_Aufgaben/A018_Wartungsbericht_Lu           37,6 KB     818         Wartungsbericht Lüftung                   Person
+ eftung_gegen_Auswertung.docx                                                                                    1
+ 02_Aufgaben/A018_Wartungsbericht_Lu           64,8 KB     835         Wartungsbericht Lüftung                   Person
+ eftung_gegen_Auswertung.pdf                                                                                     1
+ 02_Aufgaben/A097_Vortrag_Firma_Rolle          37,7 KB     868         Vortrag                                   Allgemei
+ n_Ergebnisse.docx                                                                                               n
+ 02_Aufgaben/A097_Vortrag_Firma_Rolle          64,7 KB     882         Vortrag                                   Allgemei
+ n_Ergebnisse.pdf                                                                                                n
+ 02_Aufgaben/A161_Offene_Rechnungen            38,0 KB     1.026       Offene Rechnungen und Preisanpassung      Person
+ _Preisanpassung_und_Kuendigungsfenst                                                                            2
+ er.docx
+ 02_Aufgaben/A161_Offene_Rechnungen            65,5 KB     1.041       Offene Rechnungen und Preisanpassung      Person
+ _Preisanpassung_und_Kuendigungsfenst                                                                            2
+ er.pdf
+ 02_Aufgaben/A162_Wartungstermine_20           37,7 KB     850         Wartungstermine 2027                      Person
+ 27_und_Abschaltungen_festlegen.docx                                                                             3
+ 02_Aufgaben/A162_Wartungstermine_20           64,3 KB     869         Wartungstermine 2027                      Person
+ 27_und_Abschaltungen_festlegen.pdf                                                                              3
+ 02_Aufgaben/A163_Trendaufzeichnung_           38,4 KB     1.254       Trendaufzeichnung Forum                   Person
+ Forum_Lueftung_oder_Heizung.docx                                                                                4
+ 02_Aufgaben/A163_Trendaufzeichnung_           65,6 KB     1.271       Trendaufzeichnung Forum                   Person
+ Forum_Lueftung_oder_Heizung.pdf                                                                                 4
+ 02_Aufgaben/A164_Protokoll_09384_Ru           38,0 KB     1.014       Protokoll 09384                           Person
+ eckfrage_zur_Abnahme.docx                                                                                       5
+ 02_Aufgaben/A164_Protokoll_09384_Ru           65,1 KB     1.043       Protokoll 09384                           Person
+ eckfrage_zur_Abnahme.pdf                                                                                        5
+ 02_Aufgaben/A165_Pruefauftrag_der_Ve          38,0 KB     1.013       Prüfauftrag der Verwaltung                Person
+ rwaltung_zu_warme_Bueros.docx                                                                                   3
+ 02_Aufgaben/A165_Pruefauftrag_der_Ve          65,2 KB     1.042       Prüfauftrag der Verwaltung                Person
+ rwaltung_zu_warme_Bueros.pdf                                                                                    3
+ 02_Aufgaben/A166_Regierechnung_Foru           38,5 KB     1.338       Regierechnung Forum                       Person
+ m_Messung_und_Versicherungsnachwei                                                                              2
+ s.docx
+ 02_Aufgaben/A166_Regierechnung_Foru           65,9 KB     1.353       Regierechnung Forum                       Person
+ m_Messung_und_Versicherungsnachwei                                                                              2
+ s.pdf
+ 03_Material/Abgang/01_Mitteilung_Austri       1,1 KB      223         Was ohne Übergabe liegen geblieben ist    Person
+ tt.eml                                                                                                          5
+ 03_Material/Abgang/01_Mitteilung_Austri       0,9 KB      239         "Was ohne Übergabe liegen geblieben       Person
+ tt.txt                                                                ist" (Lesefassung der EML)                5
+ 03_Material/Abgang/02_Abwesenheitsno          0,3 KB      66          Was ohne Übergabe liegen geblieben ist    Person
+ tiz.txt                                                                                                         5
+ 03_Material/Abgang/03_Notizen_MBa.txt         1,0 KB      250         Was ohne Übergabe liegen geblieben ist,   Allgemei
+                                                                       Wartungsbericht Lüftung und Protokoll     n
+                                                                       09384
+ 03_Material/Abgang/04_Meine_Fristen_          5,9 KB      342         Was ohne Übergabe liegen geblieben ist    Person
+ MBa.xlsx                                                              und Übergabeliste prüfen und Nachfolge    5
+                                                                       regeln
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                    Seite 5
+
+--- Seite 6 ---
+ Datei                                         Größe       Text rund   gebraucht für                            Liegt in
+                                                           Token
+ 03_Material/Abgang/05_Kalender_MBa.ic         0,8 KB      204         Was ohne Übergabe liegen geblieben ist   Person
+ s                                                                     und Übergabeliste prüfen und Nachfolge   5
+                                                                       regeln
+ 03_Material/Abgang/05_Kalender_MBa.c          0,6 KB      160         Was ohne Übergabe liegen geblieben ist   Person
+ sv                                                                    und Übergabeliste prüfen und Nachfolge   5
+                                                                       regeln
+ 03_Material/Abgang/06_Entwuerfe/Entwu         36,0 KB     91          Was ohne Übergabe liegen geblieben ist   Person
+ rf_1_Telefonnotiz_Buero_im_Kern_2_T.d                                                                          5
+ ocx
+ 03_Material/Abgang/06_Entwuerfe/Entwu         35,9 KB     76          Was ohne Übergabe liegen geblieben ist   Person
+ rf_2_Raum_EG_Forum_heizt_sich_auf.do                                                                           5
+ cx
+ 03_Material/GA/Trend_EZ_EG_Forum_2            29,5 KB     7.405       Trendaufzeichnung Forum                  Person
+ 026-10-26_bis_2026-11-17.csv                                                                                   4
+ 03_Material/Geschossplan/Grundriss_EG         68,7 KB     1.600       Rundgang als Sprachnotiz                 Person
+ .png                                                                                                           5
+ 03_Material/Geschossplan/Grundriss_U          47,5 KB     1.600       Rundgang als Sprachnotiz                 Person
+ G.png                                                                                                          5
+ 03_Material/Laufwerk/Einsaetze_Raumkli        12,8 KB     3.586       Wartungstermine 2027, Prüfauftrag der    Allgemei
+ ma_Bogenfeld_2025_2026.xlsx                                           Verwaltung und Regierechnung Forum       n
+ 03_Material/Laufwerk/Indexreihen_VPI_B        7,9 KB      687         Offene Rechnungen und Preisanpassung     Person
+ asiszins.xlsx                                                                                                  2
+ 03_Material/Laufwerk/Laufwerk_Export_L        24,8 KB     9.586       Nachschlagen                             Allgemei
+ uftpfad_Anlagentechnik.xlsx                                                                                    n
+ 03_Material/Laufwerk/OP_Kantbogen_St          5,6 KB      191         Offene Rechnungen und Preisanpassung     Person
+ and_2026-11-18.xlsx                                                   und Regierechnung Forum                  2
+ 03_Material/Postfach/00_Posteingang_U         6,7 KB      1.041       Posteingang sortieren                    Allgemei
+ ebersicht.xlsx                                                                                                 n
+ 03_Material/Postfach/00_Postfach_als_T        11,7 KB     2.966       Posteingang sortieren und Was ohne       Allgemei
+ ext.txt                                                               Übergabe liegen geblieben ist            n
+ 03_Material/Postfach/01_2026-08-03_Tel        0,9 KB      167         Prüfauftrag der Verwaltung               Allgemei
+ efonnotiz_Buero_im_Kern_2_Treppenhau                                                                           n
+ s_zu_warm.eml
+ 03_Material/Postfach/02_2026-09-07_Be         1,3 KB      261         Prüfauftrag der Verwaltung               Allgemei
+ stellung_vom_07_09_2026.eml                                                                                    n
+ 03_Material/Postfach/03_2026-10-19_Sta        0,6 KB      96          Nachschlagen                             Allgemei
+ nd_Pfeifen_am_Auslass_EG_Westfoyer.                                                                            n
+ eml
+ 03_Material/Postfach/04_2026-10-21_Sta        0,6 KB      95          Nachschlagen                             Allgemei
+ nd_Buero_im_OG3_Buero_Nord_zu_war                                                                              n
+ m.eml
+ 03_Material/Postfach/05_2026-11-02_Sta        0,6 KB      97          Prüfauftrag der Verwaltung               Allgemei
+ nd_Buero_im_Kern_2_Treppenhaus_zu_                                                                             n
+ warm.eml
+ 03_Material/Postfach/06_2026-11-03_Sta        0,6 KB      94          Trendaufzeichnung Forum                  Allgemei
+ nd_Raum_EG_Forum_heizt_sich_auf.eml                                                                            n
+ 03_Material/Postfach/07_2026-11-06_Dr         0,5 KB      57          Nachschlagen                             Allgemei
+ ucker_im_Buero.eml                                                                                             n
+ 03_Material/Postfach/08_2026-11-06_Pfli       0,5 KB      71          Nachschlagen                             Allgemei
+ chtschulung_Datenschutz.eml                                                                                    n
+ 03_Material/Postfach/09_2026-11-09_Za         0,6 KB      92          Nachschlagen                             Allgemei
+ hlungseingang_fehlt_2026_3326.eml                                                                              n
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                   Seite 6
+
+--- Seite 7 ---
+ Datei                                         Größe       Text rund   gebraucht für                           Liegt in
+                                                           Token
+ 03_Material/Postfach/10_2026-11-10_Za         0,6 KB      90          Regierechnung Forum                     Allgemei
+ hlungseingang_fehlt_2026_1182.eml                                                                             n
+ 03_Material/Postfach/11_2026-11-13_A          0,7 KB      109         Nachschlagen                            Allgemei
+ W_Stand_Pfeifen_am_Auslass_EG_West                                                                            n
+ foyer.eml
+ 03_Material/Postfach/12_2026-11-13_Ja         0,7 KB      125         Wartungstermine 2027                    Allgemei
+ hresterminplan_2027_Ihre_Wartungsterm                                                                         n
+ ine_bis_30.eml
+ 03_Material/Postfach/13_2026-11-16_Za         0,6 KB      92          Nachschlagen                            Allgemei
+ hlungseingang_fehlt_2026_3322.eml                                                                             n
+ 03_Material/Postfach/14_2026-11-18_Za         0,6 KB      92          Nachschlagen                            Allgemei
+ hlungseingang_fehlt_2026_3327.eml                                                                             n
+ 03_Material/Postfach/15_2026-11-18_Off        1,3 KB      275         Offene Rechnungen und Preisanpassung    Allgemei
+ ene_Posten_Kantbogen.eml                                                                                      n
+ 03_Material/Postfach/16_2026-11-18_For        1,2 KB      246         Trendaufzeichnung Forum und             Allgemei
+ um_und_EZ_EG.eml                                                      Regierechnung Forum                     n
+ 03_Material/Postfach/17_2026-11-18_Kla        0,8 KB      149         Übergabeliste prüfen und Nachfolge      Allgemei
+ ppenpruefung_Bogenfeld.eml                                            regeln                                  n
+ 03_Material/Postfach/18_2026-11-18_Ab         1,1 KB      230         Offene Rechnungen und Preisanpassung    Allgemei
+ rechnung_Wartungen_November.eml                                       und Protokoll 09384                     n
+ 04_Datenraum/00_Auszug_Datenraumin            7,7 KB      1.740       Nachschlagen                            Allgemei
+ dex.xlsx                                                                                                      n
+ 04_Datenraum/03/03.10.02.017_2026-11          52,1 KB     318         Rundgang als Sprachnotiz und            Allgemei
+ -03_Flaechenspiegel_Raumlot_Objektma                                  Wartungstermine 2027                    n
+ nagement.pdf
+ 04_Datenraum/03/03.13.01.012_2008-12          335,8       880         Hauschronik 1990 bis 2026               Allgemei
+ -31_Rueckgabeprotokoll_Mietflaeche_Br         KB                                                              n
+ enner_D.pdf
+ 04_Datenraum/04/04.03.01.018_2018-03          640,4       4.800       Wartungsbericht Lüftung, Offene         Allgemei
+ -06_Wartungsvertrag_Torwinkel.pdf             KB                      Rechnungen und Preisanpassung und       n
+                                                                       Regierechnung Forum
+ 04_Datenraum/04/04.05.028_2025-11-15          10,1 KB     2.487       Wartungstermine 2027                    Allgemei
+ _Jahresterminplan_Torwinkel.xlsx                                                                              n
+ 04_Datenraum/04/04.21.04.145_2024-10          76,6 KB     580         Übergabeliste prüfen und Nachfolge      Allgemei
+ -07_Wartungsprotokoll_Luftpfad_Anlagen                                regeln                                  n
+ techni.pdf
+ 04_Datenraum/04/04.21.04.168_2025-10          73,4 KB     551         Übergabeliste prüfen und Nachfolge      Allgemei
+ -07_Wartungsprotokoll_Luftpfad_Anlagen                                regeln und Wartungstermine 2027         n
+ techni.pdf
+ 04_Datenraum/04/04.21.04.180_2026-03          85,8 KB     362         Wartungsbericht Lüftung                 Allgemei
+ -30_Wartungsprotokoll_Luftpfad_Anlagen                                                                        n
+ techni.pdf
+ 04_Datenraum/04/04.21.04.182_2026-04          94,2 KB     674         Wartungsbericht Lüftung und Protokoll   Allgemei
+ -29_Wartungsprotokoll_Luftpfad_Anlagen                                09384                                   n
+ techni.pdf
+ 04_Datenraum/04/04.21.04.184_2026-04          84,2 KB     322         Wartungsbericht Lüftung                 Allgemei
+ -30_Wartungsprotokoll_Luftpfad_Anlagen                                                                        n
+ techni.pdf
+ 04_Datenraum/04/04.21.04.189_2026-09          85,2 KB     344         Übergabeliste prüfen und Nachfolge      Allgemei
+ -30_Wartungsprotokoll_Luftpfad_Anlagen                                regeln und Protokoll 09384              n
+ techni.pdf
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                  Seite 7
+
+--- Seite 8 ---
+ Datei                                         Größe       Text rund   gebraucht für                           Liegt in
+                                                           Token
+ 04_Datenraum/04/04.21.04.190_2026-09          77,1 KB     556         Übergabeliste prüfen und Nachfolge      Allgemei
+ -30_Wartungsprotokoll_Luftpfad_Anlagen                                regeln und Wartungstermine 2027         n
+ techni.pdf
+ 04_Datenraum/04/04.21.04.192_2026-11          84,4 KB     303         Trendaufzeichnung Forum                 Allgemei
+ -02_Wartungsprotokoll_Luftpfad_Anlagen                                                                        n
+ techni.pdf
+ 04_Datenraum/04/04.21.04.193_2026-11          372,9       1.600       Wartungsbericht Lüftung und Protokoll   Allgemei
+ -03_Wartungsprotokoll_Luftpfad_Anlagen        KB                      09384                                   n
+ techni.pdf
+ 04_Datenraum/07/07.01.01.021_2002-11          192,5       195         Unsere Firma auf einer Seite            Allgemei
+ -18_Handelsregisterauszug_aktuell_Luftp       KB                                                              n
+ fad_A.pdf
+ 04_Datenraum/07/07.01.01.041_2010-01          39,5 KB     234         Hauschronik 1990 bis 2026               Allgemei
+ -01_Partnerschaftsregisterauszug_aktuell                                                                      n
+ _Ins.pdf
+ 04_Datenraum/07/07.01.01.142_2024-12          42,0 KB     455         Unsere Firma auf einer Seite            Allgemei
+ -23_Handelsregisterauszug_chronologisc                                                                        n
+ h_Luft.pdf
+ 04_Datenraum/07/07.04.02.006_2018-03          51,3 KB     341         Unsere Firma auf einer Seite            Allgemei
+ -15_Firmensteckbrief_Luftpfad_Anlagent                                                                        n
+ echnik.pdf
+ 04_Datenraum/07/07.04.02.055_2024-12          42,5 KB     465         Unsere Firma auf einer Seite            Allgemei
+ -26_Firmenchronik_Luftpfad_Anlagentec                                                                         n
+ hnik.pdf
+ 04_Datenraum/07/07.17.02.061_2010-07          170,1       426         Hauschronik 1990 bis 2026               Allgemei
+ -18_Personen_steckbrief_Sievers_Haus-         KB                                                              n
+ _und_An.pdf
+ 04_Datenraum/07/07.17.02.065_2010-12          131,0       266         Hauschronik 1990 bis 2026               Allgemei
+ -27_Personen_steckbrief_Landeshauptst         KB                                                              n
+ adt_Stu.pdf
+ 04_Datenraum/07/07.19.02.040_2018-02          71,2 KB     444         Offene Rechnungen und Preisanpassung    Allgemei
+ -27_Angebot_Luftpfad_Anlagentechnik.p                                                                         n
+ df
+ 04_Datenraum/07/07.24.03.011_2023-12          91,0 KB     274         Wartungsbericht Lüftung und Offene      Allgemei
+ -04_Indexberechnung_Luftpfad_Anlagent                                 Rechnungen und Preisanpassung           n
+ echnik.pdf
+ 04_Datenraum/09/09.02.08.020_2008-04          229,2       371         Hauschronik 1990 bis 2026               Allgemei
+ -21_Maengelanzeige_Mieter_Sievers_Ha          KB                                                              n
+ us-_und.pdf
+ 04_Datenraum/09/09.02.08.024_2008-07          244,5       339         Hauschronik 1990 bis 2026               Allgemei
+ -31_Brief_Mietanpassung_Lemke_Immob           KB                                                              n
+ ilien.pdf
+ 04_Datenraum/09/09.02.09.024_2010-11          109,2       265         Hauschronik 1990 bis 2026               Allgemei
+ -05_Mieterrundschreiben_Winterdienst_S        KB                                                              n
+ ievers.pdf
+ 04_Datenraum/09/09.02.10.004_2011-03          226,8       341         Hauschronik 1990 bis 2026               Allgemei
+ -25_Brief_Mietanpassung_Insolvenzverw         KB                                                              n
+ altung.pdf
+ 04_Datenraum/11/11.13.02.013_2023-01          62,1 KB     327         Wer ist wer im Haus                     Allgemei
+ -02_Unterschriftenverzeichnis_Luftpfad_                                                                       n
+ Anlag.pdf
+ 04_Datenraum/11/11.13.02.031_2026-11          68,4 KB     339         Wer ist wer im Haus                     Allgemei
+ -04_Unterschriftenverzeichnis_Luftpfad_                                                                       n
+ Anlag.pdf
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                  Seite 8
+
+--- Seite 9 ---
+ Datei                                         Größe       Text rund   gebraucht für   Liegt in
+                                                           Token
+ 05_Vorlagen/START.docx                        36,6 KB     240         Nachschlagen    Allgemei
+                                                                                       n
+ 05_Vorlagen/START.md                          1,0 KB      246         Nachschlagen    Allgemei
+                                                                                       n
+ 05_Vorlagen/protokoll.docx                    36,3 KB     219         Nachschlagen    Allgemei
+                                                                                       n
+ 05_Vorlagen/protokoll.md                      0,8 KB      203         Nachschlagen    Allgemei
+                                                                                       n
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                          Seite 9
+

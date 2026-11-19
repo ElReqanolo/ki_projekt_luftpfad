@@ -1,0 +1,39 @@
+[OCR] Grundriss UG
+
+Haus am Bogenfeld, Bogenfeld 12, 70565 Stuttgart-Vaihingen. Bürohaus am Bogenfeld, Neubau 2017. Planstand 04.11.2026.
+
+1320 Treppe Nord
+
+1321 Aufzug
+
+1318 Treppe Südwest
+
+1322 Lastenaufzug
+
+Legende
+
+Räume
+
+Möbel
+
+Büro, Besprechung, Empfang: 1 Raum
+Lager und Logistik: 16 Räume
+Verkehr, Treppen, Aufzüge: 18 Räume
+Technik und Schächte: 14 Räume
+Sanitär und Personal: 4 Räume
+Reserve: 1 Raum
+
+Einrichtung: 32 Teile
+
+In diesem Geschoss keine Mieteinheit mit Räumen
+
+Treppen und Aufzüge, allgemein
+
+übrige Räume ohne Mieter dieses Geschosses
+
+1319 Treppe Südost
+
+Raumnummern wie im Raumbuch. Achsen in Metern, x nach Osten, y nach Norden. Norden oben
+
+54
+32

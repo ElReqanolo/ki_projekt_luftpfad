@@ -1,0 +1,91 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 2,5 Stunden. Federführend: Kai Landmann (Person 2).
+
+Diese Aufgabe ist Schritt 1 von 2 der Kette Vertrag VTR-1005. Danach: Antwort der Kantbogen Bestand GmbH bis 30.11. Die Regierechnung 2026-1182 behandelt A166, Ihr Schreiben enthält dazu einen eigenen Absatz.
+
+Auftrag
+
+Der Wartungsvertrag VTR-1005 mit der Kantbogen Bestand GmbH ist Ihr größter Vertrag am Bogenfeld. Klären Sie vier Fragen und entscheiden Sie dann, was Luftpfad der Eigentümerin schreibt. Arbeiten Sie in dieser Reihenfolge.
+
+1. Offene Posten: Welche Rechnungen an Kantbogen sind am 18.11.2026 fällig und nicht bezahlt? Gleichen Sie die Liste der Buchhaltung mit den Erinnerungen im Postfach ab. Prüfen Sie, ob Luftpfad auf eine überfällige Rechnung Zinsen verlangen kann und auf welche Vertragsstelle sich das stützt. Rechnen Sie sie für eine Rechnung Ihrer Wahl bis zu dem Tag, an dem Ihr Schreiben in K61 liegt. Den Basiszinssatz nehmen Sie aus der Tabelle der Buchhaltung. Halten Sie fest, wie Sie ihn geprüft haben und was Sie dabei gefunden haben.
+
+2. Preis 2027: Wie darf der Preis zum 1. Januar angepasst werden? Prüfen Sie, auf welcher Grundlage die Preisanpassung vom 04.12.2023 erfolgte und ob Vertrag, Angebot und Brief zusammenpassen. Rechnen Sie den neuen Satz Ingenieur zum 1. Januar 2027 und begründen Sie das Verfahren aus dem Vertrag.
+
+3. Laufzeit: Bis wann kann wer den Vertrag zu welchem Termin kündigen? Belegen Sie jede Angabe mit Seite und Paragraph.
+
+4. Abrechnung November: Jasmin Ebert fragt, ob sie die Wartungen vom 02.11. und 03.11. jetzt abrechnen soll (Postfach Nr. 18). Torwinkel prüft die Protokolle vom 03.11. bis 25.11. noch einmal (Aufgabe A164 bei Kevin Schuster). Entscheiden Sie: sofort abrechnen, eine Rechnung zurückhalten oder beide. Begründen Sie es aus Ihrer Lage gegenüber Kantbogen.
+
+Luftpfad wird von zwei Geschäftsführern gemeinsam vertreten. Entscheiden Sie deshalb mit Henrike Baum (Person 1): Zahlungserinnerung oder Mahnung, Preisanpassung ja oder nein, die Kündigungsmöglichkeit als Druckmittel nennen, still verstreichen lassen oder selbst kündigen, und was mit den Novemberrechnungen geschieht.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Offene-Posten-Abgleich als Tabelle mit allen Posten der Liste (Beleg, brutto, fällig am, Stand am 18.11.2026, Erinnerung ja oder nein mit Mailnummer), darunter die Summe der fälligen Posten und der Gesamtstand brutto, aus den Zeilen gerechnet
+
+-   Zinsrechnung für mindestens eine Rechnung mit Satz, Tagen und Betrag
+
+-   Die Preisanpassung als Rechnung mit Begründung des Verfahrens und Quelle der Zahlen
+
+-   Eine Aufstellung der Laufzeit: Beginn, Ende der laufenden Periode, letzter Tag für den Zugang einer Kündigung, jeweils mit Seite und Paragraph
+
+-   Die Antwort an Jasmin Ebert zur Novemberabrechnung (je Rechnung ausgestellt oder zurückgehalten)
+
+-   Das Schreiben an Kantbogen bis 25.11. in K61 mit dem Absatz zur Rechnung 2026-1182
+
+-   Ein Vermerk zur Antwort von Kantbogen
+
+Einsatz von KI
+
+-   Abgeben: Abgleich der Rechnungsliste mit dem Postfach
+
+-   Teilen: Zinsrechnung, Entwurf des Schreibens
+
+-   Behalten: Wahl der Grundlage der Preisanpassung, Entscheidung über Mahnung, Kündigungsmöglichkeit und Novemberrechnungen, Unterschrift
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                                            Fundstelle                                                                        Größe
+  ----------------- ---------------------------------------------------------------------- --------------------------------------------------------------------------------- -----------------
+  Firmenablage      03_Material/Laufwerk/OP_Kantbogen_Stand_2026-11-18.xlsx                ganze Datei                                                                       6 KB
+
+  Firmenablage      03_Material/Laufwerk/Indexreihen_VPI_Basiszins.xlsx                    ganze Datei                                                                       8 KB
+
+  Firmenablage      03_Material/Postfach/15_2026-11-18_Offene_Posten_Kantbogen.eml         ganze Datei                                                                       1 KB
+
+  Firmenablage      03_Material/Postfach/18_2026-11-18_Abrechnung_Wartungen_November.eml   ganze Datei                                                                       1 KB
+
+  Datenraum         04_Datenraum/04, Nr. 04.03.01.018                                      Wartungsvertrag VTR-1005, § 3 und § 4 (Seite 1), § 11 (Seite 2), § 16 (Seite 3)   0,6 MB
+
+  Datenraum         04_Datenraum/07, Nr. 07.24.03.011, 07.19.02.040                        Preisanpassung 2023, Angebot 2018                                                 0,2 MB
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Der Vertrag ist ein Scan. Liest ein Chat ihn nicht, laden Sie die Seite als Bild hoch.
+
+Tabellen
+
+Laden Sie Tabellen als Datei hoch und lassen Sie die KI mit ihrer Rechenfunktion (je nach Anbieter Datenanalyse oder Code-Ausführung) rechnen, nicht als eingefügten Text. Läuft sie nicht, geben Sie Ausschnitte als CSV-Text. Prüfen Sie drei Werte selbst in der Tabelle nach und vermerken Sie das im Lernprotokoll.
+
+Übergabe
+
+Ihr Schreiben an Kantbogen liegt bis 25.11. in Uebergaben/K61. Kantbogen antwortet bis 30.11. in denselben Ordner. Fehlt die Antwort am Morgen danach, legt die Spielleitung eine Antwort der Eigentümerin in denselben Ordner.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Zahlen: Die Summe der fälligen Posten, der Gesamtstand und jeder Zinsbetrag sind aus den Zeilen der Datei gerechnet und nicht aus der Summenzeile übernommen. Brutto und netto sind in jeder Spalte benannt.
+
+7. Vertrag: Zu Preis, Zinsen und Kündigung steht jeweils die Vertragsstelle mit Seite. Ein etwaiger Unterschied zwischen Vertrag, Angebot und Brief steht mit allen Beträgen und Stellen, und Sie halten fest, ob Sie dazu eine Unterlage anfordern.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

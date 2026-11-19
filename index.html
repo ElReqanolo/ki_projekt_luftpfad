@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luftpfad Anlagentechnik GmbH – Projektakte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2318242B'/%3E%3Cpath d='M6 12h14a4 4 0 1 0-4-4M6 20h18a4 4 0 1 1-4 4' stroke='%23fff' stroke-width='2.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+<header class="topbar">
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menü</button>
+  <a class="brand" href="#/">Luftpfad</a>
+</header>
+<nav id="nav" class="nav" aria-label="Hauptnavigation">
+  <a class="brand-big" href="#/"><span>Luftpfad</span><small>Anlagentechnik GmbH · Projektakte</small></a>
+  <form class="search" role="search" onsubmit="return false">
+    <label class="vh" for="q">In allen Unterlagen suchen</label>
+    <input id="q" type="search" placeholder="In allen Unterlagen suchen" autocomplete="off">
+  </form>
+  <div class="nav-group">
+    <a href="#/" data-nav="home">Übersicht</a>
+    <a href="#/firma" data-nav="firma">Unternehmen</a>
+    <a href="#/projekte" data-nav="projekte">Projekte</a>
+    <a href="#/dateien" data-nav="dateien">Alle Dateien</a>
+  </div>
+  <div class="nav-group" id="nav-persons"><h2>Personen</h2></div>
+  <div class="nav-foot">
+    <button class="link" id="open-settings">Ablage-Einstellungen</button>
+    <span id="stand"></span>
+  </div>
+</nav>
+<main id="main" tabindex="-1"></main>
+
+<aside id="drawer" class="drawer" aria-hidden="true" aria-label="Quelle">
+  <div class="drawer-inner"></div>
+</aside>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<dialog id="dlg"></dialog>
+
+<script src="assets/config.js"></script>
+<script src="assets/zip.js"></script>
+<script src="assets/store.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

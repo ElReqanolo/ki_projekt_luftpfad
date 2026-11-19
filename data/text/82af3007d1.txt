@@ -1,0 +1,69 @@
+--- Seite 1 ---
+ Aufgabe A005: Wer ist wer im Haus
+ Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 1
+ Stunde. Federführend: Selim Ahrens (Person 3).
+
+ Auftrag
+ Zeichnen Sie eine Karte der Firmen im Haus: Eigentümerin, Verwaltung, Dienstleister, Mieter, Prüfer,
+ Behörden. Markieren Sie, mit wem Ihre Firma direkt zu tun hat und über wen der Weg sonst läuft.
+
+ Was Sie abgeben
+ Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG).
+ Pflichtangaben:
+  • Karte als Bild oder Tabelle mit den sechs Gruppen Eigentümerin, Verwaltung, Dienstleister, Mieter,
+    Prüfer, Behörden
+  • Zu jeder genannten Firma Ansprechperson, Funktion und Quelle mit Dokument, Seite oder Abschnitt
+    und Datum des Stands
+  • Je Firma die Markierung "direkt" oder "über" mit dem Namen der Zwischenfirma und der Stelle
+    (Vertrag, Mail oder Briefing), die den Weg belegt
+  • Eine Liste der Personen oder Funktionen, zu denen zwei Quellen Verschiedenes sagen, mit beiden
+    Fundstellen (gibt es keine, steht das dort)
+  • Eine Liste der Gruppen ohne Quelle, mit "nicht belegt"
+
+ Einsatz von KI
+  • Abgeben: Zeichnung der Karte nach eigener Liste
+  • Teilen: Liste der Beteiligten aus dem Verzeichnis
+  • Behalten: Einordnung nach Gebäudemanagement
+ Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+ Material
+ Quelle          Wo im Paket                                        Fundstelle                                      Größe
+ Datenraum       04_Datenraum/11, Nr. 11.13.02.031,                 Ansprechpartner und Zeichnungsberechtigte,      0,1 MB
+                 11.13.02.013 (Dateiname beginnt mit der            mit Datum des Stands im Dokument
+                 Nummer)
+ Briefing        01_Briefings (Firmenbriefing)                      ganzes Briefing                                 96 KB
+ Datenraum       04_Datenraum/03, Nr. 03.10.02.017                  Flächenspiegel, wer wo im Haus sitzt (für die   0,1 MB
+                 (Dateiname beginnt mit der Nummer)                 Gruppe Mieter)
+
+
+
+ Eingang aus Ihrer Gruppe
+ Kevin Schuster liest in A007 Mitteilungen und Notizen der letzten Wochen. Fragen Sie in der Gruppe, ob
+ der Stand der Verzeichnisse zu dem passt, was die anderen aus ihren Unterlagen wissen, und nennen Sie
+ die Antwort als Quelle mit Datum.
+
+ Woran es gemessen wird
+ 1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+ 2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der
+ Originalstelle bei.
+ 3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                       Seite 1
+
+--- Seite 2 ---
+ 4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+ 5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie
+ die Stelle mit Beleg.
+ 6. Weg: Zu jeder Firma mit der Markierung "über" steht die Zwischenfirma und eine Stelle (Vertrag, Mail
+ oder Briefing), die den Weg belegt.
+ 7. Stand: Bei jeder Person aus einem Verzeichnis steht das Datum des Stands. Widerspricht eine andere
+ Unterlage dem Verzeichnis, steht der Vermerk mit Quelle.
+ Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                      Seite 2
+

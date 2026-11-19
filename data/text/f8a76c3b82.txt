@@ -1,0 +1,84 @@
+--- Seite 1 ---
+                                 Luftpfad Anlagentechnik GmbH
+                                          Luftbogen 9, 70372 Stuttgart Telefon 05990 1004-0
+
+
+
+
+  Wartungsprotokoll 09267
+Bearbeiter: Maximilian Backhaus, Servicetechniker Lüftung und Kälte
+ Datum                                         Auftraggeber
+ 30.09.2026                                    Torwinkel Gebäudeservice GmbH
+ Vertrag
+ VTR-1005
+
+Anlage Brandschutzklappen Lüftung (Sammelposten), AST-100006
+Standort alle Geschosse vom 1. UG bis 5. OG
+ Leistung
+ Funktionsprüfung Brandschutzklappen und Absperrvorrichtung Küchenabluft nach LüAR und Herstellerangaben
+ Ausführung
+ Maximilian Backhaus
+
+
+Prüfumfang
+ Geschoss                                                                                                    Brandschutzklappen geprüft
+ 1. UG                                                                                                                                       112
+ EG                                                                                                                                           22
+ 1. OG                                                                                                                                        49
+ 2. OG                                                                                                                                        15
+ 3. OG                                                                                                                                         8
+ 4. OG                                                                                                                                        13
+ 5. OG                                                                                                                                        16
+ Summe                                                                                                                                       235
+
+Davon 191 Klappen EI 90 (ve i↔o) S in Wänden, 4 Klappen EI 90 (ho i↔o) S in Decken und 40 Klappen EI 30 (ve
+i↔o) S in Flurwänden, darunter 24 Überströmklappen mit Rauchauslösung. Dazu die Absperrvorrichtung in der
+Küchenabluft im EG.
+
+Ausgeführte Arbeiten
+      Revisionsöffnung geöffnet, Klappenblatt, Dichtungen und Gehäuse auf Verschmutzung und Beschädigung
+      geprüft
+      Klappe von Hand und über den Antrieb ausgelöst, Schließen und Öffnen geprüft, Endschalter und Rückmeldung
+      zur Gebäudeleittechnik geprüft
+      Schmelzlot 72 °C auf Sichtbefund geprüft
+      Überströmklappen über den Rauchauslöser mit Prüfgas ausgelöst
+      Kennzeichnung mit Klappennummer kontrolliert
+
+Feststellungen
+Alle Klappen schließen und öffnen. Keine Mängel.
+Prüfliste je Klappe als Anlage im Servicebericht. Nächste Prüfung laut Plan: 02.10.2027.
+Protokoll als PDF aus dem Servicebericht, Bestätigung durch den Auftraggeber per Mail oder Gegenzeichnung.
+Prüfer:
+
+
+
+ Maximilian Backhaus
+Maximilian Backhaus
+
+
+Luftpfad Anlagentechnik GmbH         Telefon 05990 1004-0     HRB 724559, Amtsgericht Stuttgart     Nordsteg Kreditbank AG, IBAN DE00 9122
+Luftbogen 9, 70372 Stuttgart         Telefax 05990 1004-99    Geschäftsführung: Henrike Baum, Kai   1241 5798 8731 13, BIC NKKBDEK0
+                                                              Landmann
+                                                                                                                                    Seite 1 von 2
+
+--- Seite 2 ---
+Luftpfad Anlagentechnik GmbH                                                                                     Wartungsprotokoll 09267
+
+
+
+Gegenzeichnung Auftraggeber:
+
+
+
+ Dennis Prange
+Dennis Prange
+Haustechniker
+
+
+
+
+Luftpfad Anlagentechnik GmbH   Telefon 05990 1004-0    HRB 724559, Amtsgericht Stuttgart     Nordsteg Kreditbank AG, IBAN DE00 9122
+Luftbogen 9, 70372 Stuttgart   Telefax 05990 1004-99   Geschäftsführung: Henrike Baum, Kai   1241 5798 8731 13, BIC NKKBDEK0
+                                                       Landmann
+                                                                                                                             Seite 2 von 2
+

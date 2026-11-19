@@ -1,0 +1,5 @@
+"Betreff","Beginnt am","Beginnt um","Endet am","Endet um","Ganztägiges Ereignis","Beschreibung"
+"Rechnung 2026/3329 über 249,22 EUR netto (geprüft)","02.12.2026","09:00:00","02.12.2026","09:30:00","Aus","Kantbogen Bestand GmbH"
+"Rechnung 2026/3328 über 2.035,43 EUR netto (freigegeben)","18.11.2026","09:00:00","18.11.2026","09:30:00","Aus","Kantbogen Bestand GmbH"
+"Rechnung 2026/3326 über 536,66 EUR netto (freigegeben)","06.11.2026","09:00:00","06.11.2026","09:30:00","Aus","Kantbogen Bestand GmbH"
+"Rechnung 2026/3327 über 117,44 EUR netto (freigegeben)","15.11.2026","09:00:00","15.11.2026","09:30:00","Aus","Kantbogen Bestand GmbH"

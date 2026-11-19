@@ -1,0 +1,61 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 1 Stunde. Federführend: Selim Ahrens (Person 3).
+
+Diese Aufgabe gehört zu den ersten Aufgaben nach der Sitzung am 19.11.
+
+Auftrag
+
+Legen Sie für Ihre Firma eine Projektmappe an. Sie enthält die Datei START (DOCX oder MD) mit Firma, Rolle im Haus und Ansprechpersonen, die Ordner quellen, arbeit und ergebnisse und für jede Person ein eigenes Lernprotokoll (DOCX oder MD). Der Dateiname lautet protokoll_Person<Nr>, zum Beispiel protokoll_Person2.docx. Die Vorlagen liegen in 05_Vorlagen. Die DOCX-Fassung lässt sich auch am iPad in Teams oder Word bearbeiten. Jede Person trägt ihren Namen und ihre Funktion ein.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Bildschirmfoto der Ordnerstruktur mit den Ordnern quellen, arbeit und ergebnisse, auf dem der Ordnerpfad zu lesen ist
+
+-   START (DOCX oder MD) mit: Firma, drei Zeilen zur Rolle im Haus, fünf Personen mit Funktion und Fundstelle (Dokument und Abschnitt), mindestens vier Gegenfirmen mit Ansprechperson, Funktion und Fundstelle
+
+-   Fünf Lernprotokolle mit den Dateinamen protokoll_Person1 bis protokoll_Person5, jedes mit Name und Funktion
+
+-   Ein Satz im eigenen Lernprotokoll: Was die KI an der Gliederung geändert hat und was Sie behalten haben
+
+Einsatz von KI
+
+-   Abgeben: Gliederung der START vorschlagen
+
+-   Teilen: Kurzbeschreibung der Firma aus dem Briefing
+
+-   Behalten: Rollenverteilung in der Gruppe
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  ---------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                   Fundstelle        Größe
+  ----------------- --------------------------------------------- ----------------- -----------------
+  Briefing          01_Briefings (Firmenbriefing)                 ganzes Briefing   96 KB
+
+  Briefing          01_Briefings (Ihr eigenes Personenbriefing)   ganzes Briefing   0,1 MB
+  ---------------------------------------------------------------------------------------------------
+
+Eingang aus Ihrer Gruppe
+
+Namen und Funktionen der fünf Personen tragen Sie nicht allein zusammen. Jede der vier anderen Personen Ihrer Gruppe sagt Ihnen bis 25.11., welche Funktion in ihrem eigenen Personenbriefing steht. Vermerken Sie in START, woher jede Angabe stammt.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Ansprechpersonen: Zu jeder Person in START steht Dokument und Abschnitt. Ein etwaiger Unterschied zwischen zwei Stellen in Namen oder Funktion steht mit beiden Stellen.
+
+7. Aufbau: Alle fünf Lernprotokolle haben den vorgegebenen Dateinamen, und auf dem Bildschirmfoto ist der Ordnerpfad zu lesen.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

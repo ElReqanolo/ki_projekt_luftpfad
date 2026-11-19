@@ -1,0 +1,75 @@
+--- Seite 1 ---
+ Aufgabe A004: Der erste Auftrag in fünf Teilen
+ Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 1
+ Stunde. Federführend: Henrike Baum (Person 1).
+ Diese Aufgabe gehört zu den ersten Aufgaben nach der Sitzung am 19.11.
+
+ So fangen Sie an
+ Nehmen Sie eine Frage aus Ihrem Firmenbriefing, deren Antwort eine Zahl, ein Datum oder eine
+ Entscheidung ist und nicht schon als fertige Tabelle im Briefing steht. Beispiel aus einem anderen Alltag:
+ Bis wann muss ich einen Stromvertrag kündigen, damit er zum Jahresende endet?
+  • Fassung 1, ein Satz: diese Frage, sonst nichts.
+  • Fassung 2, fünf Teile: Ziel (wofür Sie die Antwort brauchen), Kontext (wer Sie sind, welches Briefing
+    anbei ist), Aufgabe (was die KI tun soll), Bedingungen (nur aus dem Briefing, mit Abschnitt, Annahmen
+    als Annahmen benannt) und Fertig-wenn.
+  • Fertig-wenn heißt: woran Sie erkennen, dass die Antwort reicht. Zum Beispiel: ein Datum, die
+    Vertragsstelle dazu und die Annahme, die Sie zum Zugang getroffen haben.
+ Stellen Sie beide Fassungen in zwei getrennten Chats und vergleichen Sie die Antworten.
+
+ Auftrag
+ Stellen Sie dieselbe Frage zu Ihrer Firma zweimal: einmal in einem Satz, einmal mit Ziel, Kontext,
+ Aufgabe, Bedingungen und Fertig-wenn. Vergleichen Sie beide Antworten und notieren Sie, was sich
+ geändert hat.
+
+ Was Sie abgeben
+ Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG).
+ Pflichtangaben:
+  • Die Frage im Wortlaut
+  • Fassung 1 und Fassung 2 im Wortlaut, bei Fassung 2 die fünf Teile benannt
+  • Beide Antworten unverändert
+  • Fünf Sätze Vergleich und im Lernprotokoll zu jedem Punkt Ihres Fertig-wenn "erfüllt" oder "nicht erfüllt"
+    mit der Stelle, an der Sie es geprüft haben
+  • Zu jeder Zahl und Aussage beider Antworten der Abschnitt im Briefing, und wo eine Antwort vom
+    Briefing abweicht, eine Liste der Abweichungen
+  • Bildschirmfoto der Briefingstelle, an der Sie die wichtigste Zahl oder Aussage geprüft haben
+
+ Einsatz von KI
+  • Teilen: Antworten
+  • Behalten: Vergleich und Urteil
+ Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+ Material
+ Quelle                 Wo im Paket                                 Fundstelle              Größe
+ Briefing               01_Briefings (Firmenbriefing)               ganzes Briefing         96 KB
+
+
+
+ Eingang aus Ihrer Gruppe
+ Selim Ahrens (A001) und Kai Landmann (A002) arbeiten mit demselben Firmenbriefing. Fragen Sie die
+ beiden, welche Frage sie dort offen gelassen haben, und nehmen Sie eine davon, wenn sie zu Ihrer
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                        Seite 1
+
+--- Seite 2 ---
+ Aufgabe passt.
+
+ Woran es gemessen wird
+ 1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+ 2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der
+ Originalstelle bei.
+ 3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+ 4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+ 5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie
+ die Stelle mit Beleg.
+ 6. Vergleich: Die fünf Sätze nennen die Unterschiede der beiden Antworten an Zahlen oder Aussagen,
+ nicht an Länge oder Stil. Gibt es keine, steht das dort mit der Stelle, an der Sie es geprüft haben.
+ 7. Fertig-wenn: Zu jedem Punkt Ihres Fertig-wenn steht im Lernprotokoll "erfüllt" oder "nicht erfüllt" mit der
+ Stelle, an der Sie es geprüft haben.
+ Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                          Seite 2
+

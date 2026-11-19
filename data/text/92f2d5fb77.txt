@@ -1,0 +1,93 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., Vorarbeit von Raumlot ab 30.11., fertig bis 2.12.2026, Aufwand etwa 2 Stunden. Federführend: Selim Ahrens (Person 3).
+
+Diese Aufgabe gehört zur Kette Raumtemperatur und Mieterbeschwerden. Vorher: A012 (Raumlot Objektmanagement GmbH). Die ausführliche fachliche Antwort folgt später in A042 (Luftpfad Anlagentechnik GmbH), erst nach dem 2. Dezember. Hier geht es um Ihre erste Einschätzung.
+
+Auftrag
+
+Raumlot bündelt die Beschwerden der Mieter über zu warme Büros und stellt Luftpfad bis 30.11. einen Prüfauftrag mit höchstens fünf Fragen. Gefragt wird, ob die Hitze an der Lüftung oder an der Kälteversorgung liegt. An der Antwort hängt, ob jemand eine Gewährleistung hätte nutzen müssen, und wer künftig zahlt.
+
+Teil 1, ab 19.11., Ihre eigene Bilanz: Werten Sie die Einsatzliste der Disposition aus.
+
+-   Wie viele Einsätze wegen zu warmer Räume hatte Luftpfad 2025 und 2026 am Bogenfeld, mit wie vielen Stunden und welchem Nettobetrag?
+
+-   In welchen Räumen war Luftpfad mehrmals, und wie oft innerhalb von zwölf Monaten im selben Raum?
+
+-   Wer hat die Einsätze bestellt, und wie hoch war jeweils der Betrag im Vergleich zur Freigabegrenze des Bestellers?
+
+-   Welche Anlagen warten Sie nach Briefing und Vertrag, und welche nicht?
+
+Teil 2, ab 30.11.: Lesen Sie den Prüfauftrag von Raumlot. Legen Sie je Frage fest: Was Luftpfad aus eigenen Unterlagen beantworten kann, was nur mit einer Messung vor Ort geht (mit Stunden, Termin und Person, abgestimmt mit Ihrer Terminliste aus A162) und was nicht zu Luftpfad gehört.
+
+Ihre Entscheidung
+
+Sie entscheiden, welche Ursache Luftpfad schriftlich vertritt, und ob Sie Raumlot Ihre Einsatzbilanz von sich aus zeigen. Beides hat Folgen: Sagt Luftpfad "Kälte", fragt Raumlot, was Luftpfad bisher am Haus getan hat. Sagt Luftpfad "Lüftung", fragt Raumlot, was Luftpfad in denselben Räumen bisher getan hat. Einen Preis für eine Messung legen Sie mit Henrike Baum (Person 1) fest, sie unterschreibt die Antwort.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Eine Einsatzbilanz 2025 und 2026 als Tabelle mit Einsätzen, Stunden und Nettobetrag je Jahr und gesamt, dazu die fünf häufigsten Räume mit Zahl und die Zählregel
+
+-   Eine Tabelle der Räume, in denen Luftpfad mehrmals war, mit der Zahl der Wiederholungen innerhalb von zwölf Monaten
+
+-   Eine Tabelle der Besteller mit Zahl der Einsätze, Bestellgrenze und höchstem Betrag
+
+-   Die Antwort an Raumlot je Frage getrennt in "aus eigenen Unterlagen belegt", "braucht eine Messung" (mit Stunden, Termin außerhalb der Spitzen aus A162, Person) und "gehört nicht zu Luftpfad", unterschrieben von Henrike Baum, bis 2.12. in K05
+
+-   Im Lernprotokoll ein Absatz zur Entscheidung, welche Ursache Luftpfad vertritt und ob Sie die Bilanz von sich aus zeigen
+
+Einsatz von KI
+
+-   Abgeben: Summen und Zählung je Raum und Monat
+
+-   Teilen: Entwurf der Antwort
+
+-   Behalten: Ursache, die Luftpfad vertritt, Umgang mit der eigenen Bilanz, Termin und Person
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                                                                                                                                                                                                                                  Fundstelle                                                Größe
+  ----------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------- -----------------
+  Firmenablage      03_Material/Laufwerk/Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx                                                                                                                                                                                            ganze Datei                                               13 KB
+
+  Firmenablage      03_Material/Postfach/01_2026-08-03_Telefonnotiz_Buero_im_Kern_2_Treppenhaus_zu_warm.eml, 02_2026-09-07_Bestellung_vom_07_09_2026.eml, 04_2026-10-21_Stand_Buero_im_OG3_Buero_Nord_zu_warm.eml, 05_2026-11-02_Stand_Buero_im_Kern_2_Treppenhaus_zu_warm.eml   ganze Dateien                                             4 KB
+
+  Briefing          01_Briefings (Firmenbriefing), Abschnitt 1 und 8                                                                                                                                                                                                             Leistungsangebot und Leistungen aus laufenden Verträgen   96 KB
+
+  Vorarbeit         Prüfauftrag von Raumlot, Kursteam-Ordner Uebergaben/K05                                                                                                                                                                                                      ganze Datei, ab 30.11.                                    50 KB
+
+  Datenraum         04_Datenraum/04, Nr. 04.03.01.018 (Dateiname beginnt mit der Nummer)                                                                                                                                                                                         Wartungsvertrag VTR-1005, Scan, drei Seiten               0,6 MB
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tabellen
+
+Laden Sie Tabellen als Datei hoch und lassen Sie die KI mit ihrer Rechenfunktion (je nach Anbieter Datenanalyse oder Code-Ausführung) rechnen, nicht als eingefügten Text. Läuft sie nicht, geben Sie Ausschnitte als CSV-Text. Prüfen Sie drei Werte selbst in der Tabelle nach und vermerken Sie das im Lernprotokoll.
+
+Was die liefernde Gruppe dazu tut
+
+Raumlot Objektmanagement GmbH (A012), Aufgabe A012 Beschwerden zur Raumtemperatur bündeln: Farid Mertens ordnet die Meldungen der Mieter nach Geschoss, Zone, Anlage und Zeitraum, vergleicht sie mit dem Ticketjournal und stellt Luftpfad höchstens fünf Fragen als Prüfauftrag.
+
+Übergabe
+
+Der Prüfauftrag liegt bis 30.11. in Uebergaben/K05. Fehlt er am Morgen danach, legt die Spielleitung einen Prüfauftrag in denselben Ordner. Ihre Antwort legen Sie bis 2.12. in denselben Ordner und schreiben Raumlot eine kurze Nachricht im Kurschat Objektwelt.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Bilanz: Einsätze, Stunden und Nettobetrag stehen für jedes Jahr und gesamt. Die Einsatzliste wurde als Datei gerechnet, und die Zählregel (welche Tickets zählen) steht im Vermerk.
+
+7. Antwort: Zu jeder Frage von Raumlot steht, welche der drei Arten sie ist. Für jede Messung nennt die Antwort Stunden, Termin außerhalb der Wartungsspitzen aus A162 und die Person.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

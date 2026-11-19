@@ -1,0 +1,38 @@
+# Startfrage Luftpfad: Was ist am Mittwoch wirklich fällig?
+
+## Anlass
+
+Der Wartungsvertrag VTR-1005 mit Kantbogen ist unser größter Vertrag im Haus, und mehrere Rechnungen an Kantbogen sind offen. Bevor Kai Landmann und Henrike Baum mit Kantbogen sprechen, brauchen wir eine Zahl, auf die sich alle verlassen können.
+
+## Die Frage
+
+Wie viel Euro brutto schuldet die Kantbogen Bestand GmbH uns am Mittwoch, 18.11.2026, fällig und unbezahlt? Welche offenen Rechnungen sind an diesem Tag noch nicht fällig, und ab wann sind sie es? Wie hoch ist der Gesamtstand aller offenen Posten? Fällig ist, was am 18.11.2026 oder früher fällig geworden ist. Maßgeblich ist der Vertrag, nicht eine Liste.
+
+## Diese Unterlagen helfen
+
+* 04_Datenraum/04: 04.03.01.018 Wartungsvertrag VTR-1005 (Scan, im Index unter Torwinkel)
+* 03_Material/Laufwerk: OP_Kantbogen_Stand_2026-11-18.xlsx (Ordner Person_2)
+* 03_Material/Postfach: Mails Nr. 9, 10, 13, 14 und 15, als Text auch in 00_Postfach_als_Text.txt
+* 03_Material/Abgang: 03_Notizen_MBa.txt (0_Allgemein), 04_Meine_Fristen_MBa.xlsx und 05_Kalender_MBa.ics (Ordner Person_5)
+
+Nummern im Index 04_Datenraum/00_Auszug_Datenraumindex.xlsx. Je Chat nur die Dateien zum eigenen Beitrag. Den Scan laden Sie als Bild hoch oder lesen ihn selbst.
+
+## Das gehört auf die Analysefolie
+
+* Ergebnis: die drei Beträge brutto und das Datum, ab dem die übrigen Rechnungen fällig sind
+* Rechenweg: Tabelle mit Beleg, Betrag, Fälligkeitstag und Stand am 18.11., dazu die Summen
+* Quellen: Vertrag mit Seite und Paragraph, Datei oder Mail zu jeder Zahl, eine davon selbst im Original geprüft
+* Erste und geprüfte Antwort: was die KI zuerst sagte, was nach Ihrer Prüfung gilt und wie Sie geprüft haben
+* Eine Grenze: was die Unterlagen nicht zeigen
+
+## Wer was beiträgt
+
+| Figur | Beitrag |
+|---|---|
+| Henrike Baum | liest im Vertragsscan die Zahlungsfrist und prüft ihre eigenen Mails Nr. 9, 10, 13 und 14 |
+| Kai Landmann | liest OP-Liste und Mail Nr. 15, bildet die Summen und verantwortet das Ergebnis |
+| Selim Ahrens | vergleicht Fristenliste und Kalender von Maximilian Backhaus mit der OP-Liste |
+| Elena Voss | rechnet Fälligkeitstage und Summen mit einer Formel unabhängig nach |
+| Kevin Schuster | ordnet die Notizen von Backhaus zu, rechnet seine Beträge in brutto um, baut die Folie |
+
+Ein Ergebnis gilt, wenn Sie es geprüft haben und sagen können, wie.

@@ -1,0 +1,69 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 1 Stunde. Federführend: Kai Landmann (Person 2).
+
+Diese Aufgabe gehört zu den ersten Aufgaben nach der Sitzung am 19.11.
+
+Auftrag
+
+Beschreiben Sie Ihre Firma auf einer Seite: was sie im Haus tut, für wen, seit wann, mit welchen Verträgen. Jeder Satz bekommt die Stelle im Briefing oder in der Akte, aus der er stammt, und den Vermerk, ob eine zweite Stelle dasselbe sagt. Die Seite hat einen Leser, nämlich Kantbogen. Es bekommt sie mit Ihrem Schreiben aus A161 und will wissen, mit wem es zu tun hat. Schreiben Sie nur, was Sie belegen können. Wo die Akte schweigt, setzen Sie "nicht belegt" ein.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Eine Seite (höchstens 300 Wörter) mit mindestens zehn Sätzen, darunter Gründung, Beginn der Verträge und Eintragung im Register mit Tag, Monat und Jahr
+
+-   Zu jedem Satz Dokument, Abschnitt oder Nummer und Seite
+
+-   Eine Liste der Stellen, an denen zwei Quellen Verschiedenes sagen, jeweils mit beiden Fundstellen (gibt es keine, steht das dort)
+
+-   Jede Angabe ohne Beleg trägt den Vermerk "nicht belegt"
+
+-   Bildschirmfotos der drei wichtigsten Belegstellen im Original
+
+Einsatz von KI
+
+-   Abgeben: Rechtschreibung und Form
+
+-   Teilen: Erster Entwurf aus dem Briefing
+
+-   Behalten: Abgleich jedes Satzes mit der Quelle
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                                                          Fundstelle                                                                      Größe
+  ----------------- ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------- -----------------
+  Briefing          01_Briefings (Firmenbriefing)                                                        ganzes Briefing                                                                 96 KB
+
+  Datenraum         04_Datenraum/07, Nr. 07.04.02.006 (Dateiname beginnt mit der Nummer)                 Firmensteckbrief der eigenen Firma                                              52 KB
+
+  Datenraum         04_Datenraum/07, Nr. 07.01.01.142, 07.01.01.021 (Dateiname beginnt mit der Nummer)   Handelsregisterauszug der eigenen Firma                                         0,2 MB
+
+  Datenraum         04_Datenraum/07, Nr. 07.04.02.055 (Dateiname beginnt mit der Nummer)                 Firmenchronik der eigenen Firma                                                 44 KB
+
+  Datenraum         04_Datenraum/04, Nr. 04.03.01.018 (Dateiname beginnt mit der Nummer)                 Wartungsvertrag VTR-1005, Scan, drei Seiten, für die Frage nach den Verträgen   0,6 MB
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Eingang aus Ihrer Gruppe
+
+Bestehende Kette K61: Ihre Seite liegt dem Schreiben an Kantbogen aus A161 bei. Die Antwort von Kantbogen in Uebergaben/K61 (bis 30.11.) lesen Sie am 1.12. und prüfen, ob sie etwas zu Ihrer Seite sagt. Wenn ja, vermerken Sie es und ändern die Seite nur, wenn Sie die Änderung belegen können.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Daten: Gründung, Beginn der Verträge und Eintragung im Register stehen mit Tag, Monat und Jahr auf der Seite. Ein etwaiger Unterschied zwischen den Stellen steht mit allen Tagen und Stellen.
+
+7. Leser: Jeder Satz der Seite ist durch ein Dokument belegt, und die Seite ist für Kantbogen ohne Vorwissen verständlich.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

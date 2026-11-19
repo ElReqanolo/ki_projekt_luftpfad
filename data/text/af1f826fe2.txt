@@ -1,0 +1,120 @@
+--- Seite 1 ---
+                                 Luftpfad Anlagentechnik GmbH
+                                          Luftbogen 9, 70372 Stuttgart Telefon 05990 1004-0
+
+
+
+
+  Wartungsprotokoll 08988
+Bearbeiter: Maximilian Backhaus, Servicetechniker Lüftung und Kälte
+ Datum                                         Auftraggeber
+ 29.04.2026                                    Torwinkel Gebäudeservice GmbH
+ Vertrag
+ VTR-1005
+
+Anlage Volumenstromregler Etage 3.OG, AST-100166, Hersteller Heddinger Kältesysteme GmbH, Typ HK-442,
+Baujahr 2017
+Standort 3.OG, UG
+ Leistung
+ Wartung Klappen, Regler und Stellantriebe
+ Monteur
+ Maximilian Backhaus
+
+
+Ausgeführte Arbeiten
+      Regelventile und Stellantriebe geprüft
+      Keilriemen und Lager kontrolliert
+
+Messwerte
+      Volumenstrom Zuluft gesamt: 18.697 m3/h
+      Filterdifferenzdruck: 130 Pa
+      Zulufttemperatur: 18,3 °C
+
+Feststellungen
+      Volumenstrom an einem Auslass unter Sollwert (mittel)
+      Kondensat in der Wanne des Zentralgeräts (mittel)
+Arbeitszeit 4,0 Stunden. Ersatzteile: keine.
+Nächster Wartungstermin laut Plan: 02.05.2026.
+Protokoll auf dem Tablet erstellt, Fotos der Anlage im CAFM abgelegt.
+Monteur:
+
+
+
+ Maximilian Backhaus
+Maximilian Backhaus
+Servicetechniker Lüftung und Kälte
+Gegenzeichnung Auftraggeber:
+
+
+
+ Dennis Prange
+Dennis Prange
+Haustechniker
+
+
+
+
+Luftpfad Anlagentechnik GmbH         Telefon 05990 1004-0     HRB 724559, Amtsgericht Stuttgart     Nordsteg Kreditbank AG, IBAN DE00 9122
+Luftbogen 9, 70372 Stuttgart         Telefax 05990 1004-99    Geschäftsführung: Henrike Baum, Kai   1241 5798 8731 13, BIC NKKBDEK0
+                                                              Landmann
+
+--- Seite 2 ---
+                                 Luftpfad Anlagentechnik GmbH
+                                          Luftbogen 9, 70372 Stuttgart Telefon 05990 1004-0
+
+
+
+
+  Wartungsprotokoll 08988
+Bearbeiter: Maximilian Backhaus, Servicetechniker Lüftung und Kälte
+ Datum                                         Auftraggeber
+ 29.04.2026                                    Torwinkel Gebäudeservice GmbH
+ Vertrag
+ VTR-1005
+
+Anlage Volumenstromregler Etage 3.OG, AST-100166, Hersteller Heddinger Kältesysteme GmbH, Typ HK-442,
+Baujahr 2017
+Standort 3.OG, UG
+ Leistung
+ Wartung Klappen, Regler und Stellantriebe
+ Monteur
+ Maximilian Backhaus
+
+
+Ausgeführte Arbeiten
+      Regelventile und Stellantriebe geprüft
+      Keilriemen und Lager kontrolliert
+
+Messwerte
+      Volumenstrom Zuluft gesamt: 18.697 m3/h
+      Filterdifferenzdruck: 130 Pa
+      Zulufttemperatur: 18,3 °C
+
+Feststellungen
+      Volumenstrom an einem Auslass unter Sollwert (mittel)
+      Kondensat in der Wanne des Zentralgeräts (mittel)
+Arbeitszeit 4,0 Stunden. Ersatzteile: keine.
+Nächster Wartungstermin laut Plan: 02.05.2026.
+Protokoll auf dem Tablet erstellt, Fotos der Anlage im CAFM abgelegt.
+Monteur:
+
+
+
+ Maximilian Backhaus
+Maximilian Backhaus
+Servicetechniker Lüftung und Kälte
+Gegenzeichnung Auftraggeber:
+
+
+
+ Dennis Prange
+Dennis Prange
+Haustechniker
+
+
+
+
+Luftpfad Anlagentechnik GmbH         Telefon 05990 1004-0     HRB 724559, Amtsgericht Stuttgart     Nordsteg Kreditbank AG, IBAN DE00 9122
+Luftbogen 9, 70372 Stuttgart         Telefax 05990 1004-99    Geschäftsführung: Henrike Baum, Kai   1241 5798 8731 13, BIC NKKBDEK0
+                                                              Landmann
+

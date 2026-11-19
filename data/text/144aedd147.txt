@@ -1,0 +1,85 @@
+--- Blatt Einsaetze ---
+Disposition Luftpfad, Einsätze Bogenfeld 12 mit Meldung zu warm, 01.01.2025 bis 18.11.2026 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+Export Dispo 18.11.2026 SAh, Stunden und Beträge aus der Fakturierung |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+Ticket | gemeldet | Raum | Meldung | Bestellung | bestellt von | Bestellgrenze EUR | Einsatz am | Std Monteur | Satz EUR | Anfahrt EUR | Material EUR | Netto EUR | Rechnung | Status
+TKT-112088 | 2025-01-10 17:24:00 | OG4 Ost | Temperatur OG4 Ost über 27 Grad | AUF-2406 | Torwinkel, Haustechniker | 500 | 2025-01-12 00:00:00 | 1.75 | 63.91 | 50.55 |  | 162.39 | 2025/1312 | bezahlt
+TKT-112105 | 2025-01-18 09:37:00 | EG Bistro | Raum EG Bistro heizt sich auf | AUF-2412 | Torwinkel, Haustechniker | 500 | 2025-01-21 00:00:00 | 3 | 63.91 | 50.55 | 94.4 | 336.68 | 2025/1313 | bezahlt
+TKT-112107 | 2025-01-20 22:10:00 | EG Westfoyer | Büro im EG Westfoyer zu warm | AUF-2413 | Torwinkel, Haustechniker | 500 | 2025-01-22 00:00:00 | 3.5 | 63.91 | 50.55 | 56.29 | 330.53 | 2025/1314 | bezahlt
+TKT-112282 | 2025-04-01 11:44:00 | OG2 West | Raum OG2 West heizt sich auf | AUF-2452 | Torwinkel, Haustechniker | 500 | 2025-04-04 00:00:00 | 2.5 | 63.91 | 50.55 |  | 210.33 | 2025/1329 | bezahlt
+TKT-112395 | 2025-05-14 14:12:00 | Kern 2 Treppenhaus | Büro im Kern 2 Treppenhaus zu warm | AUF-2462 | Torwinkel, Haustechniker | 500 | 2025-05-15 00:00:00 | 3.75 | 63.91 | 50.55 |  | 290.21 | 2025/1333 | bezahlt
+TKT-112424 | 2025-05-29 17:48:00 | Teeküche OG2 | Büro im Teeküche OG2 zu warm | AUF-2474 | Torwinkel, Haustechniker | 500 | 2025-06-05 00:00:00 | 2.75 | 63.91 | 50.55 | 43.33 | 269.63 | 2025/1340 | bezahlt
+TKT-112426 | 2025-05-30 12:05:00 | OG4 Ost | Büro im OG4 Ost zu warm | AUF-2472 | Torwinkel, Haustechniker | 500 | 2025-06-07 00:00:00 | 3 | 63.91 | 50.55 |  | 242.28 | 2025/1339 | bezahlt
+TKT-112434 | 2025-06-02 12:44:00 | OG3 Büro Nord | Büro im OG3 Büro Nord zu warm | AUF-2471 | Torwinkel, Haustechniker | 500 | 2025-06-02 00:00:00 | 2.25 | 63.91 | 50.55 |  | 194.35 | 2025/1338 | bezahlt
+TKT-112437 | 2025-06-03 10:31:00 | Technikzentrale | Raum Technikzentrale heizt sich auf | AUF-2468 | Torwinkel, Haustechniker | 500 | 2025-06-05 00:00:00 | 3.75 | 63.91 | 50.55 |  | 290.21 | 2025/1336 | bezahlt
+TKT-112465 | 2025-06-17 14:02:00 | OG5 | Temperatur OG5 über 27 Grad | AUF-2482 | Torwinkel, Haustechniker | 500 | 2025-06-19 00:00:00 | 3 | 63.91 | 50.55 |  | 242.28 | 2025/1342 | bezahlt
+TKT-112474 | 2025-06-20 07:33:00 | Teeküche OG1 | Temperatur Teeküche OG1 über 27 Grad | AUF-2490 | Torwinkel, Haustechniker | 500 | 2025-06-28 00:00:00 | 3.75 | 63.91 | 50.55 |  | 290.21 | 2025/1352 | bezahlt
+TKT-112476 | 2025-06-20 15:56:00 | Kern 1 Treppenhaus | Temperatur Kern 1 Treppenhaus über 27 Grad | AUF-2484 | Torwinkel, Haustechniker | 500 | 2025-06-27 00:00:00 | 3.5 | 63.91 | 50.55 | 30.64 | 304.88 | 2025/1343 | bezahlt
+TKT-112477 | 2025-06-20 16:56:00 | OG2 West | Raum OG2 West heizt sich auf | AUF-2485 | Torwinkel, Haustechniker | 500 | 2025-06-23 00:00:00 | 3 | 63.91 | 50.55 |  | 242.28 | 2025/1344 | bezahlt
+TKT-112481 | 2025-06-24 08:18:00 | OG3 Büro Süd | Büro im OG3 Büro Süd zu warm | AUF-2481 | Torwinkel, Haustechniker | 500 | 2025-06-27 00:00:00 | 3.75 | 63.91 | 50.55 |  | 290.21 | 2025/1341 | bezahlt
+TKT-112491 | 2025-06-26 12:39:00 | Teeküche OG2 | Temperatur Teeküche OG2 über 27 Grad | AUF-2486 | Torwinkel, Haustechniker | 500 | 2025-06-27 00:00:00 | 3.75 | 63.91 | 50.55 | 91.26 | 381.47 | 2025/1346 | bezahlt
+TKT-112509 | 2025-07-02 12:58:00 | OG5 | Büro im OG5 zu warm | AUF-2492 | Torwinkel, Haustechniker | 500 | 2025-07-06 00:00:00 | 1.25 | 63.91 | 50.55 | 38.54 | 168.98 | 2025/1354 | bezahlt
+TKT-112514 | 2025-07-03 11:50:00 | EG Bistro | Temperatur EG Bistro über 27 Grad | AUF-2493 | Torwinkel, Haustechniker | 500 | 2025-07-10 00:00:00 | 3 | 63.91 | 50.55 |  | 242.28 | 2025/1355 | bezahlt
+TKT-112516 | 2025-07-03 13:27:00 | Kern 2 Treppenhaus | Temperatur Kern 2 Treppenhaus über 27 Grad | AUF-2491 | Torwinkel, Haustechniker | 500 | 2025-07-10 00:00:00 | 3.5 | 63.91 | 50.55 |  | 274.24 | 2025/1353 | bezahlt
+TKT-112519 | 2025-07-04 07:11:00 | OG2 West | Raum OG2 West heizt sich auf | AUF-2487 | Torwinkel, Haustechniker | 500 | 2025-07-05 00:00:00 | 1.25 | 63.91 | 50.55 |  | 130.44 | 2025/1349 | bezahlt
+TKT-112520 | 2025-07-04 08:22:00 | OG5 | Büro im OG5 zu warm | AUF-2488 | Torwinkel, Haustechniker | 500 | 2025-07-04 00:00:00 | 4 | 63.91 | 50.55 |  | 306.19 | 2025/1350 | bezahlt
+TKT-112521 | 2025-07-04 08:49:00 | Kern 1 Treppenhaus | Temperatur Kern 1 Treppenhaus über 27 Grad | AUF-2494 | Torwinkel, Haustechniker | 500 | 2025-07-12 00:00:00 | 2.75 | 63.91 | 50.55 | 9.04 | 235.34 | 2025/1356 | bezahlt
+TKT-112524 | 2025-07-04 14:33:00 | Besprechungsraum OG3 | Temperatur Besprechungsraum OG3 über 27 Grad | AUF-2489 | Torwinkel, Haustechniker | 500 | 2025-07-04 00:00:00 | 1.75 | 63.91 | 50.55 |  | 162.39 | 2025/1351 | bezahlt
+TKT-112539 | 2025-07-15 09:50:00 | Teeküche OG2 | Büro im Teeküche OG2 zu warm | AUF-2499 | Torwinkel, Haustechniker | 500 | 2025-07-16 00:00:00 | 4 | 63.91 | 50.55 | 36.06 | 342.25 | 2025/1360 | bezahlt
+TKT-112541 | 2025-07-16 08:25:00 | OG4 West | Raum OG4 West heizt sich auf | AUF-2495 | Torwinkel, Haustechniker | 500 | 2025-07-23 00:00:00 | 1.25 | 63.91 | 50.55 |  | 130.44 | 2025/1357 | bezahlt
+TKT-112551 | 2025-07-19 15:15:00 | EG Forum | Büro im EG Forum zu warm | AUF-2497 | Torwinkel, Haustechniker | 500 | 2025-07-19 00:00:00 | 3.75 | 63.91 | 50.55 | 62.71 | 352.92 | 2025/1358 | bezahlt
+TKT-112573 | 2025-07-30 12:54:00 | Besprechungsraum OG3 | Büro im Besprechungsraum OG3 zu warm | AUF-2498 | Torwinkel, Haustechniker | 500 | 2025-07-30 00:00:00 | 2 | 63.91 | 50.55 | 80.39 | 258.76 | 2025/1359 | bezahlt
+TKT-112575 | 2025-07-30 16:56:00 | OG2 Ost | Büro im OG2 Ost zu warm | AUF-2502 | Torwinkel, Haustechniker | 500 | 2025-07-31 00:00:00 | 1.5 | 63.91 | 50.55 |  | 146.42 | 2025/1361 | bezahlt
+TKT-112578 | 2025-08-01 14:27:00 | OG4 West | Raum OG4 West heizt sich auf | AUF-2504 | Torwinkel, Haustechniker | 500 | 2025-08-04 00:00:00 | 2.75 | 63.91 | 50.55 |  | 226.3 | 2025/1365 | bezahlt
+TKT-112585 | 2025-08-03 13:47:00 | OG2 West | Temperatur OG2 West über 27 Grad | AUF-2503 | Torwinkel, Haustechniker | 500 | 2025-08-08 00:00:00 | 1 | 63.91 | 50.55 | 10.18 | 124.64 | 2025/1362 | bezahlt
+TKT-112600 | 2025-08-08 09:54:00 | EG Bistro | Raum EG Bistro heizt sich auf | AUF-2505 | Torwinkel, Haustechniker | 500 | 2025-08-09 00:00:00 | 2.25 | 63.91 | 50.55 |  | 194.35 | 2025/1366 | bezahlt
+TKT-112610 | 2025-08-14 07:52:00 | OG1 Ost | Raum OG1 Ost heizt sich auf | AUF-2507 | Torwinkel, Haustechniker | 500 | 2025-08-16 00:00:00 | 1.25 | 63.91 | 50.55 | 33.85 | 164.29 | 2025/1367 | bezahlt
+TKT-112618 | 2025-08-18 11:35:00 | OG3 Büro Süd | Temperatur OG3 Büro Süd über 27 Grad | AUF-2508 | Torwinkel, Haustechniker | 500 | 2025-08-21 00:00:00 | 2.75 | 63.91 | 50.55 | 35.38 | 261.68 | 2025/1368 | bezahlt
+TKT-112622 | 2025-08-19 14:16:00 | EG Bistro | Büro im EG Bistro zu warm | AUF-2509 | Torwinkel, Haustechniker | 500 | 2025-08-19 00:00:00 | 2 | 63.91 | 50.55 | 28.39 | 206.76 | 2025/1369 | bezahlt
+TKT-112630 | 2025-08-24 13:31:00 | UG Lager | Büro im UG Lager zu warm | AUF-2515 | Torwinkel, Haustechniker | 500 | 2025-08-29 00:00:00 | 3.25 | 63.91 | 50.55 | 79.38 | 337.64 | 2025/1374 | bezahlt
+TKT-112633 | 2025-08-25 12:00:00 | OG1 West | Raum OG1 West heizt sich auf | AUF-2516 | Torwinkel, Haustechniker | 500 | 2025-08-28 00:00:00 | 1.5 | 63.91 | 50.55 | 86.25 | 232.67 | 2025/1375 | bezahlt
+TKT-112636 | 2025-08-26 09:51:00 | OG2 West | Temperatur OG2 West über 27 Grad | AUF-2517 | Torwinkel, Haustechniker | 500 | 2025-08-30 00:00:00 | 2 | 63.91 | 50.55 |  | 178.37 | 2025/1376 | bezahlt
+TKT-112666 | 2025-09-05 08:14:00 | OG1 West | Büro im OG1 West zu warm | AUF-2518 | Torwinkel, Haustechniker | 500 | 2025-09-10 00:00:00 | 1.75 | 63.91 | 50.55 | 89.64 | 252.03 | 2025/1378 | bezahlt
+TKT-112678 | 2025-09-10 14:03:00 | OG2 Ost | Büro im OG2 Ost zu warm | AUF-2525 | Torwinkel, Haustechniker | 500 | 2025-09-12 00:00:00 | 1.75 | 63.91 | 50.55 |  | 162.39 | 2025/1379 | bezahlt
+TKT-112709 | 2025-09-23 17:25:00 | OG5 | Raum OG5 heizt sich auf | AUF-2530 | Torwinkel, Haustechniker | 500 | 2025-09-24 00:00:00 | 3.75 | 63.91 | 50.55 |  | 290.21 | 2025/1383 | bezahlt
+TKT-112832 | 2025-11-13 10:06:00 | OG5 | Raum OG5 heizt sich auf | AUF-2548 | Torwinkel, Haustechniker | 500 | 2025-11-22 00:00:00 | 3.5 | 63.91 | 50.55 |  | 274.24 | 2025/1393 | bezahlt
+TKT-113067 | 2026-02-14 09:25:00 | Kern 1 Treppenhaus | Büro im Kern 1 Treppenhaus zu warm | AUF-2584 | Torwinkel, Haustechniker | 500 | 2026-02-17 00:00:00 | 3 | 65.24 | 51.6 |  | 247.32 | 2026/3260 | bezahlt
+TKT-113151 | 2026-04-10 08:10:00 | OG4 West | Raum OG4 West heizt sich auf | AUF-2593 | Torwinkel, Haustechniker | 500 | 2026-04-19 00:00:00 | 3.5 | 65.24 | 51.6 |  | 279.94 | 2026/3270 | bezahlt
+TKT-113163 | 2026-04-21 08:55:00 | Technikzentrale | Temperatur Technikzentrale über 27 Grad | AUF-2596 | Torwinkel, Haustechniker | 500 | 2026-04-22 00:00:00 | 2.5 | 65.24 | 51.6 |  | 214.7 | 2026/3272 | bezahlt
+TKT-113195 | 2026-05-14 16:26:00 | Teeküche OG1 | Temperatur Teeküche OG1 über 27 Grad | AUF-2601 | Torwinkel, Haustechniker | 500 | 2026-05-15 00:00:00 | 3.75 | 65.24 | 51.6 |  | 296.25 | 2026/3276 | bezahlt
+TKT-113204 | 2026-05-25 08:01:00 | Teeküche OG1 | Raum Teeküche OG1 heizt sich auf | AUF-2603 | Torwinkel, Haustechniker | 500 | 2026-05-29 00:00:00 | 3.5 | 65.24 | 51.6 | 22.04 | 301.98 | 2026/3277 | bezahlt
+TKT-113214 | 2026-06-01 07:08:00 | Besprechungsraum OG3 | Büro im Besprechungsraum OG3 zu warm | AUF-2614 | Torwinkel, FM-Objektleitung | 200 | 2026-06-09 00:00:00 | 1.25 | 65.24 | 51.6 |  | 133.15 | 2026/3284 | bezahlt
+TKT-113222 | 2026-06-04 09:52:00 | Technikzentrale | Temperatur Technikzentrale über 27 Grad | AUF-2610 | Torwinkel, Haustechniker | 500 | 2026-06-06 00:00:00 | 3.75 | 65.24 | 51.6 |  | 296.25 | 2026/3282 | bezahlt
+TKT-113228 | 2026-06-06 16:35:00 | OG1 Ost | Raum OG1 Ost heizt sich auf | AUF-2608 | Torwinkel, Haustechniker | 500 | 2026-06-15 00:00:00 | 2.75 | 65.24 | 51.6 | 80.01 | 311.02 | 2026/3281 | bezahlt
+TKT-113230 | 2026-06-08 10:20:00 | OG2 West | Büro im OG2 West zu warm | AUF-2606 | Torwinkel, FM-Objektleitung | 200 | 2026-06-09 00:00:00 | 1.75 | 65.24 | 51.6 | 11.81 | 177.58 | 2026/3280 | bezahlt
+TKT-113236 | 2026-06-12 10:49:00 | OG2 West | Raum OG2 West heizt sich auf | AUF-2612 | Torwinkel, Haustechniker | 500 | 2026-06-20 00:00:00 | 2.75 | 65.24 | 51.6 |  | 231.01 | 2026/3283 | bezahlt
+TKT-113248 | 2026-06-24 11:25:00 | Technikzentrale | Raum Technikzentrale heizt sich auf | AUF-2615 | Torwinkel, Haustechniker | 500 | 2026-06-28 00:00:00 | 1.5 | 65.24 | 51.6 | 75.21 | 224.67 | 2026/3285 | bezahlt
+TKT-113267 | 2026-07-07 16:26:00 | EG Forum | Raum EG Forum heizt sich auf | AUF-2624 | Torwinkel, Haustechniker | 500 | 2026-07-16 00:00:00 | 3.75 | 65.24 | 51.6 |  | 296.25 | 2026/3291 | bezahlt
+TKT-113272 | 2026-07-09 15:51:00 | Kern 1 Treppenhaus | Büro im Kern 1 Treppenhaus zu warm | AUF-2625 | Torwinkel, FM-Objektleitung | 200 | 2026-07-10 00:00:00 | 2 | 65.24 | 51.6 |  | 182.08 | 2026/3292 | bezahlt
+TKT-113286 | 2026-07-17 16:07:00 | OG1 Ost | Temperatur OG1 Ost über 27 Grad | AUF-2634 | Torwinkel, Haustechniker | 500 | 2026-07-26 00:00:00 | 3 | 65.24 | 51.6 |  | 247.32 | 2026/3302 | bezahlt
+TKT-113290 | 2026-07-20 10:52:00 | OG3 Büro Süd | Büro im OG3 Büro Süd zu warm | AUF-2630 | Torwinkel, FM-Objektleitung | 200 | 2026-07-20 00:00:00 | 1.25 | 65.24 | 51.6 | 29.06 | 162.21 | 2026/3297 | bezahlt
+TKT-113291 | 2026-07-20 12:44:00 | Teeküche OG1 | Raum Teeküche OG1 heizt sich auf | AUF-2627 | Torwinkel, Haustechniker | 500 | 2026-07-21 00:00:00 | 3.75 | 65.24 | 51.6 | 41.52 | 337.77 | 2026/3294 | bezahlt
+TKT-113292 | 2026-07-20 13:22:00 | EG Westfoyer | Büro im EG Westfoyer zu warm | AUF-2635 | Torwinkel, Haustechniker | 500 | 2026-07-23 00:00:00 | 3.5 | 65.24 | 51.6 | 36.81 | 316.75 | 2026/3303 | bezahlt
+TKT-113293 | 2026-07-20 13:35:00 | OG3 Büro Süd | Büro im OG3 Büro Süd zu warm | AUF-2628 | Torwinkel, Haustechniker | 500 | 2026-07-22 00:00:00 | 2.25 | 65.24 | 51.6 | 70.71 | 269.1 | 2026/3295 | bezahlt
+TKT-113294 | 2026-07-20 15:22:00 | OG2 West | Raum OG2 West heizt sich auf | AUF-2622 | Torwinkel, Haustechniker | 500 | 2026-07-23 00:00:00 | 1.25 | 65.24 | 51.6 | 68.07 | 201.22 | 2026/3290 | bezahlt
+TKT-113297 | 2026-07-21 13:01:00 | UG Lager | Raum UG Lager heizt sich auf | AUF-2631 | Torwinkel, Haustechniker | 500 | 2026-07-24 00:00:00 | 2.75 | 65.24 | 51.6 | 18.57 | 249.58 | 2026/3298 | bezahlt
+TKT-113299 | 2026-07-22 10:17:00 | EG Forum | Temperatur EG Forum über 27 Grad | AUF-2629 | Torwinkel, FM-Objektleitung | 200 | 2026-07-28 00:00:00 | 1.25 | 65.24 | 51.6 |  | 133.15 | 2026/3296 | bezahlt
+TKT-113303 | 2026-07-22 16:04:00 | OG3 Büro Süd | Büro im OG3 Büro Süd zu warm | AUF-2639 | Torwinkel, Haustechniker | 500 | 2026-07-29 00:00:00 | 2.5 | 65.24 | 51.6 |  | 214.7 | 2026/3307 | bezahlt
+TKT-113304 | 2026-07-22 16:49:00 | EG Westfoyer | Temperatur EG Westfoyer über 27 Grad | AUF-2632 | Torwinkel, Haustechniker | 500 | 2026-07-24 00:00:00 | 3 | 65.24 | 51.6 |  | 247.32 | 2026/3299 | bezahlt
+TKT-113306 | 2026-07-23 10:35:00 | Technikzentrale | Büro im Technikzentrale zu warm | AUF-2626 | Torwinkel, FM-Objektleitung | 200 | 2026-07-24 00:00:00 | 1.25 | 65.24 | 51.6 | 39.94 | 173.09 | 2026/3293 | bezahlt
+TKT-113310 | 2026-07-24 09:07:00 | Teeküche OG1 | Büro im Teeküche OG1 zu warm | AUF-2636 | Torwinkel, FM-Objektleitung | 200 | 2026-08-01 00:00:00 | 2 | 65.24 | 51.6 |  | 182.08 | 2026/3304 | bezahlt
+TKT-113312 | 2026-07-24 15:36:00 | Kern 2 Treppenhaus | Büro im Kern 2 Treppenhaus zu warm | AUF-2643 | Torwinkel, Haustechniker | 500 | 2026-08-01 00:00:00 | 3.5 | 65.24 | 51.6 |  | 279.94 | 2026/3310 | bezahlt
+TKT-113314 | 2026-07-26 07:54:00 | EG Westfoyer | Büro im EG Westfoyer zu warm | AUF-2645 | Torwinkel, Haustechniker | 500 | 2026-08-04 00:00:00 | 2.5 | 65.24 | 51.6 |  | 214.7 | 2026/3312 | bezahlt
+TKT-113316 | 2026-07-27 09:53:00 | OG2 Ost | Raum OG2 Ost heizt sich auf | AUF-2637 | Torwinkel, Haustechniker | 500 | 2026-07-27 00:00:00 | 2.5 | 65.24 | 51.6 |  | 214.7 | 2026/3305 | bezahlt
+TKT-113317 | 2026-07-27 11:38:00 | OG3 Büro Nord | Raum OG3 Büro Nord heizt sich auf | AUF-2644 | Torwinkel, FM-Objektleitung | 200 | 2026-07-30 00:00:00 | 1.5 | 65.24 | 51.6 |  | 149.46 | 2026/3311 | bezahlt
+TKT-113319 | 2026-07-27 15:16:00 | OG5 | Büro im OG5 zu warm | AUF-2633 | Torwinkel, FM-Objektleitung | 200 | 2026-08-01 00:00:00 | 2 | 65.24 | 51.6 |  | 182.08 | 2026/3300 | bezahlt
+TKT-113330 | 2026-07-29 16:03:00 | OG4 West | Raum OG4 West heizt sich auf | AUF-2646 | Torwinkel, Haustechniker | 500 | 2026-08-05 00:00:00 | 3 | 65.24 | 51.6 |  | 247.32 | 2026/3313 | bezahlt
+TKT-113331 | 2026-07-29 16:48:00 | OG5 | Büro im OG5 zu warm | AUF-2640 | Torwinkel, Haustechniker | 500 | 2026-07-30 00:00:00 | 3.5 | 65.24 | 51.6 | 11.01 | 290.95 | 2026/3308 | bezahlt
+TKT-113335 | 2026-07-31 12:55:00 | OG3 Büro Süd | Büro im OG3 Büro Süd zu warm | AUF-2641 | Torwinkel, Haustechniker | 500 | 2026-08-04 00:00:00 | 2.25 | 65.24 | 51.6 | 70.63 | 269.02 | 2026/3309 | bezahlt
+TKT-113339 | 2026-08-03 17:40:00 | OG3 Büro Nord | Raum OG3 Büro Nord heizt sich auf | AUF-2647 | Torwinkel, Haustechniker | 500 | 2026-08-09 00:00:00 | 2.75 | 65.24 | 51.6 |  | 231.01 | 2026/3314 | bezahlt
+TKT-113351 | 2026-08-12 10:26:00 | EG Bistro | Temperatur EG Bistro über 27 Grad | AUF-2648 | Torwinkel, Haustechniker | 500 | 2026-08-18 00:00:00 | 3.5 | 65.24 | 51.6 | 55.49 | 335.43 | 2026/3315 | bezahlt
+TKT-113357 | 2026-08-17 11:14:00 | OG4 West | Raum OG4 West heizt sich auf | AUF-2650 | Torwinkel, Haustechniker | 500 | 2026-08-18 00:00:00 | 4 | 65.24 | 51.6 |  | 312.56 | 2026/3316 | bezahlt
+TKT-113358 | 2026-08-17 17:19:00 | UG Lager | Temperatur UG Lager über 27 Grad | AUF-2655 | Torwinkel, FM-Objektleitung | 200 | 2026-08-22 00:00:00 | 2 | 65.24 | 51.6 |  | 182.08 | 2026/3318 | bezahlt
+TKT-113367 | 2026-08-23 11:18:00 | EG Forum | Raum EG Forum heizt sich auf | AUF-2651 | Torwinkel, FM-Objektleitung | 200 | 2026-08-24 00:00:00 | 1.25 | 65.24 | 51.6 |  | 133.15 | 2026/3317 | bezahlt
+TKT-113393 | 2026-09-07 14:49:00 | Kern 2 Treppenhaus | Raum Kern 2 Treppenhaus heizt sich auf | AUF-2656 | Torwinkel, FM-Objektleitung | 200 | 2026-09-07 00:00:00 | 2.25 | 65.24 | 51.6 |  | 198.39 | 2026/3321 | bezahlt
+TKT-113397 | 2026-09-08 11:48:00 | OG4 West | Raum OG4 West heizt sich auf | AUF-2662 | Torwinkel, Haustechniker | 500 | 2026-09-15 00:00:00 | 3.75 | 65.24 | 51.6 |  | 296.25 | 2026/3324 | bezahlt
+Summe |  |  |  |  |  |  |  |  |  |  |  |  |  | 

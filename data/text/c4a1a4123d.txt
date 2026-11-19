@@ -1,0 +1,85 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 1,5 Stunden. Federführend: Kai Landmann (Person 2).
+
+Diese Aufgabe gehört zu zwei Ketten. Teil 1 hängt an der Kette Vertrag VTR-1005 (Kantbogen), Teil 2 an der Kette Forum zu warm (Signalsteg und Thermenfeld). Teil 3 betrifft den Vertrag und bleibt zunächst in der Gruppe.
+
+Auftrag
+
+Drei Geldfragen, und bei jeder kann sich eine andere Gruppe wehren.
+
+Teil 1, Regierechnung 2026-1182 (bis 25.11.): Die Rechnung über 833 EUR netto, 991,27 EUR brutto, steht seit 02.11. in der Offene-Posten-Liste. Prüfen Sie sie gegen den Vertrag VTR-1005 (§ 3, § 5, § 6, § 16) und gegen die Einsatzliste der Disposition. Was an der Rechnung ist nach dem Vertrag berechenbar, was nicht, und genügt sie formal dem Vertrag? Vergleichen Sie sie mit den Forum-Einsätzen in der Einsatzliste: Summe, Auftragsnummern, Besteller. Wer hat die Arbeit bestellt, und können Sie das belegen? Entscheiden Sie: Rechnung stehen lassen und den Nachweis nachliefern, korrigiert neu ausstellen oder bis zur Klärung zurückziehen. Ihre Entscheidung steht als eigener Absatz in Ihrem Schreiben aus A161. Jede Wahl hat Folgen: für den Ton gegenüber Kantbogen, dem Sie offene Rechnungen vorhalten, und für die Frage, wer am Ende zahlt. Fragen an Raumlot und Torwinkel stellen Sie im Kurschat Objektwelt.
+
+Teil 2, Angebot von Signalsteg (ab 27.11.): Konrad Elster bietet eine Messung im Forum an. Prüfen Sie das Angebot auf Vollständigkeit und Rechenfehler und stellen Sie dar, was Luftpfad in jeder Variante zahlen würde. Sie tragen die Kosten und zeichnen den Auftrag gemeinsam mit Henrike Baum. Entscheiden Sie: Unterschreiben Sie, und wenn ja, wie viel zahlt Luftpfad, die Hälfte, einen Anteil nach der Ursache oder nichts? Unter welchen Bedingungen: Bezahlung unabhängig vom Ergebnis, Messplan und Bericht für beide Seiten, kalibrierte oder unkalibrierte Geräte? Elena Voss entscheidet über Zugang und Rohdaten und legt Ihnen eine Empfehlung zu den Kosten vor. Ihre beiden Antworten dürfen sich nicht widersprechen. Konrad Elster will einen zahlenden Kunden und einen Bericht, den beide Seiten annehmen. Nennen Sie, was Sie ihm geben und was nicht. Detlef Brede von Thermenfeld soll nach dem Angebot die andere Hälfte tragen. Schreiben Sie ihm, was Sie vorschlagen und womit Sie rechnen, wenn er ablehnt.
+
+Teil 3, Nachweise zum Vertrag (bis 2.12.): Der Vertrag VTR-1005 verlangt in § 10 eine Haftpflichtdeckung mit Nachweis auf Anforderung, in § 8 qualifiziertes und namentlich benanntes Personal und in § 7 ein geführtes Prüfbuch. Wenn am 10.12. Berater der Eigentümerseite durchs Haus gehen und nach Wartungsverträgen fragen (Postfach Nr. 16, bisher ein Gerücht), welche Nachweise können Sie heute sofort vorlegen und welche nicht? Prüfen Sie mit dem, was Sie als Kaufmännischer Geschäftsführer wissen, ob Luftpfad den Vertrag an diesen Stellen erfüllt. Entscheiden Sie, wen Sie vor dem 10.12. informieren (Henrike Baum, Kantbogen, niemanden) und was Sie bis dahin in Ordnung bringen. Halten Sie die Entscheidung in einem Vermerk fest, den Sie Henrike Baum geben können.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Der Absatz zur Rechnung 2026-1182 für Ihr Schreiben in K61 mit Betrag netto und brutto, Rechnungsdatum, der Prüfung gegen Vertrag (mit Stelle) und Einsatzliste und der Entscheidung (stehen lassen, korrigieren oder zurückziehen), dazu eine Tabelle der Forum-Einsätze mit Auftragsnummer, Besteller, Betrag und Rechnungsnummer
+
+-   Die Prüfung des Angebots als Tabelle mit den Varianten, netto, brutto und Anteil von Luftpfad
+
+-   Die kaufmännische Antwort an Signalsteg bis 30.11. in K64, mit den Bedingungen, die Sie nennen
+
+-   Die Nachricht an Detlef Brede im Kurschat Objektwelt
+
+-   Der Vermerk zu den Nachweisen: zu jeder Vertragsstelle, was Luftpfad heute vorlegen kann und was nicht, jeweils mit Dokument und Datum, und die Liste der Personen, die Sie vor dem 10.12. informieren
+
+Einsatz von KI
+
+-   Abgeben: Summen und Abgleich der Einsatzliste, direkt aus der Datei gerechnet
+
+-   Teilen: Prüfung des Angebots, Entwurf der Antwort an Signalsteg
+
+-   Behalten: Entscheidung über die Rechnung, Zahlungsbereitschaft und Bedingungen, wen Sie informieren, Unterschrift
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                                              Fundstelle                                                       Größe
+  ----------------- ------------------------------------------------------------------------ ---------------------------------------------------------------- -----------------
+  Firmenablage      03_Material/Laufwerk/OP_Kantbogen_Stand_2026-11-18.xlsx                  Zeile 2026-1182                                                  6 KB
+
+  Firmenablage      03_Material/Postfach/10_2026-11-10_Zahlungseingang_fehlt_2026_1182.eml   ganze Datei                                                      1 KB
+
+  Firmenablage      03_Material/Laufwerk/Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx        Zeilen mit Raum EG Forum, Spalten Bestellung und Bestellgrenze   13 KB
+
+  Firmenablage      03_Material/Postfach/16_2026-11-18_Forum_und_EZ_EG.eml                   ganze Datei                                                      1 KB
+
+  Datenraum         04_Datenraum/04, Nr. 04.03.01.018                                        Wartungsvertrag VTR-1005, § 3, § 5, § 6, § 7, § 8, § 10, § 16    0,6 MB
+
+  Vorarbeit         Angebot von Signalsteg, Kursteam-Ordner Uebergaben/K64                   ab 27.11.                                                        50 KB
+
+  Firmenablage      03_Material/Laufwerk/Laufwerk_Export_Luftpfad_Anlagentechnik.xlsx        Zeilen zu Versicherung und Verträgen (Teil 3)                    25 KB
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Der Vertrag ist ein Scan. Liest ein Chat ihn nicht, laden Sie die Seite als Bild hoch.
+
+Tabellen
+
+Laden Sie Tabellen als Datei hoch und lassen Sie die KI mit ihrer Rechenfunktion (je nach Anbieter Datenanalyse oder Code-Ausführung) rechnen, nicht als eingefügten Text. Läuft sie nicht, geben Sie Ausschnitte als CSV-Text. Prüfen Sie drei Werte selbst in der Tabelle nach und vermerken Sie das im Lernprotokoll.
+
+Übergabe
+
+Der Absatz zur Rechnung 2026-1182 gehört in Ihr Schreiben an Kantbogen, das bis 25.11. in Uebergaben/K61 liegt. Ihre kaufmännische Antwort an Signalsteg legen Sie bis 30.11. in Uebergaben/K64 neben die Antwort von Elena Voss. Signalsteg legt sein Angebot bis 27.11. dort ab. Fehlt es am Morgen danach, legt die Spielleitung eines in denselben Ordner. Die Nachricht an Detlef Brede schreiben Sie im Kurschat Objektwelt.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Rechnung: Der Absatz nennt Betrag netto und brutto, Rechnungsdatum und die Stelle im Vertrag, die die Leistung deckt oder nicht. Zu jedem Forum-Einsatz der Einsatzliste steht Auftragsnummer, Besteller, Betrag und Rechnungsnummer. Es steht dort, ob die Rechnung 1182 einem davon zuzuordnen ist.
+
+7. Nachweise: Zu jeder der drei Vertragsstellen (§ 7, § 8, § 10) steht, was der Vertrag verlangt (mit Zahl), was Luftpfad heute vorlegen kann (Dokument mit Datum) und was nicht.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

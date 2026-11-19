@@ -1,0 +1,99 @@
+{
+  "personen": [
+    {
+      "nr": 1, "ordner": "Person_1", "id": "person-1",
+      "name": "Henrike Baum", "funktion": "Technische Geschäftsführung", "kuerzel": "HBa",
+      "seit": "04.02.2008", "jahrgang": "1972",
+      "mail": "henrike.baum@luftpfad-anlagentechnik.de", "telefon": "05990 5061-19",
+      "briefing": "Personenbriefing_Henrike_Baum",
+      "quelle": "[[Personenbriefing_Henrike_Baum|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
+      "profil": [
+        "Führt den technischen Betrieb; fragt vor jedem Zusatzauftrag nach Kompetenz, Dauer und Anfahrt. [[Personenbriefing_Henrike_Baum|Abschnitt 1, S. 1]]",
+        "Gesamtvertretung laut Register, nur gemeinsam mit einem weiteren Geschäftsführer oder Prokuristen. [[Personenbriefing_Henrike_Baum|Abschnitt 4, S. 2]] [[07.01.01.142|Nr. 4]]",
+        "Ihr berichten u. a. Selim Ahrens, Tobias Kernfeld, Elena Voss, Felix Thom, Jasmin Ebert und Kevin Schuster; Vertretung: Selim Ahrens. [[Personenbriefing_Henrike_Baum|Abschnitt 3, S. 2]]",
+        "Schreibt sachlich und genau, mit Aktenzeichen, Bezug und Anlagenverzeichnis. [[Personenbriefing_Henrike_Baum|Abschnitt 5, S. 2]]"
+      ],
+      "beginnt": "Wartungsbericht Lüftung (A018)",
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
+      "stunden": "6,5"
+    },
+    {
+      "nr": 2, "ordner": "Person_2", "id": "person-2",
+      "name": "Kai Landmann", "funktion": "Kaufmännischer Geschäftsführer", "kuerzel": "KLa",
+      "seit": "01.11.2020", "jahrgang": "1976",
+      "mail": "kai.landmann@luftpfad-anlagentechnik.de", "telefon": "05990 1004-23 / 05998 215386",
+      "briefing": "Personenbriefing_Kai_Landmann",
+      "quelle": "[[Personenbriefing_Kai_Landmann|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
+      "profil": [
+        "Zuständig für Bank, Versicherung und Personal; Ansprechperson für Vertrag, Angebot, Beschwerde. [[Personenbriefing_Kai_Landmann|Abschnitt 1 und 3, S. 1–2]]",
+        "Entscheidet schnell und korrigiert lieber später; legt Vorschriften notfalls großzügig aus. [[Personenbriefing_Kai_Landmann|Abschnitt 1, S. 1]] [[00_Start_Gruppe|Wer ist wer]]",
+        "Gesamtvertretung laut Register; prüft Rechnungen. [[Personenbriefing_Kai_Landmann|Abschnitt 4, S. 2]]",
+        "Hat die Firma von Gerhard Rehm übernommen. [[Personenbriefing_Kai_Landmann|Abschnitt 1, S. 1]]"
+      ],
+      "beginnt": "Posteingang sortieren (A003)",
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
+      "stunden": "6,5"
+    },
+    {
+      "nr": 3, "ordner": "Person_3", "id": "person-3",
+      "name": "Selim Ahrens", "funktion": "Disposition Fachfirma", "kuerzel": "SAh",
+      "seit": "01.08.2014", "jahrgang": "1985",
+      "mail": "selim.ahrens@luftpfad-anlagentechnik.de", "telefon": "05990 5061-37",
+      "briefing": "Personenbriefing_Selim_Ahrens",
+      "quelle": "[[Personenbriefing_Selim_Ahrens|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
+      "profil": [
+        "Disponiert RLT- und Automationsarbeiten mit Material- und Kompetenzabgleich. [[Personenbriefing_Selim_Ahrens|Abschnitt 1, S. 1]]",
+        "Bestätigt einen Termin erst, wenn Personal, Material und Zugang stimmen; reservierte Zeit ist für ihn noch kein wirksamer Auftrag. [[Personenbriefing_Selim_Ahrens|Abschnitt 1, S. 1]] [[00_Start_Gruppe|Wer ist wer]]",
+        "Darf Ausführungstermine vorschlagen und den Lieferantenumfang erläutern; Bestellung und Freigabe liegen beim Eigentümer. [[Personenbriefing_Selim_Ahrens|Abschnitt 1, S. 1]]"
+      ],
+      "beginnt": "Projektmappe für die eigene Firma anlegen (A001)",
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
+      "stunden": "6,5"
+    },
+    {
+      "nr": 4, "ordner": "Person_4", "id": "person-4",
+      "name": "Elena Voss", "funktion": "Automationsfachkraft", "kuerzel": "EVo",
+      "seit": "01.01.2021", "jahrgang": "1991",
+      "mail": "elena.voss@luftpfad-anlagentechnik.de", "telefon": "05990 5061-66 / 05998 268213",
+      "briefing": "Personenbriefing_Elena_Voss",
+      "quelle": "[[Personenbriefing_Elena_Voss|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
+      "profil": [
+        "Gebäudeautomation, Signalzuordnung und nachvollziehbare Funktionsprüfungen. [[Personenbriefing_Elena_Voss|Abschnitt 1, S. 1]]",
+        "Fragt nach Sollwertquelle, Einheit und Messzeitpunkt und hält Unsicherheiten schriftlich fest, bevor sie etwas ändert. [[Personenbriefing_Elena_Voss|Abschnitt 1, S. 1]]",
+        "War im Oktober 2026 mit Tobias Kernfeld beim Austausch des Stellantriebs am Forum-Regler dabei (danach 1.110 m³/h). [[Personenbriefing_Elena_Voss|Abschnitt 1, S. 1]]",
+        "Ändert an Kundenanlagen nichts ohne Rücksprache mit der Technischen Geschäftsführung; jede Änderung mit altem und neuem Wert ins Protokoll. [[Personenbriefing_Elena_Voss|Abschnitt 13]]"
+      ],
+      "beginnt": "Trendaufzeichnung Forum (A163)",
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
+      "stunden": "6,0"
+    },
+    {
+      "nr": 5, "ordner": "Person_5", "id": "person-5",
+      "name": "Kevin Schuster", "funktion": "Servicetechniker Lüftung und Kälte (Nachfolge für Maximilian Backhaus)", "kuerzel": "KSc",
+      "seit": "16.11.2026", "jahrgang": "1994",
+      "mail": "kevin.schuster@luftpfad-anlagentechnik.de", "telefon": "05990 1004-21 / 05998 403017",
+      "briefing": "Personenbriefing_Kevin_Schuster",
+      "quelle": "[[Personenbriefing_Kevin_Schuster|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
+      "profil": [
+        "Mechatroniker für Kältetechnik (Gesellenbrief 2015), vorher elf Jahre bei einem Kälte- und Klimabetrieb in Sindelfingen. [[Firmenbriefing|Abschnitt 10]]",
+        "Seit 16.11.2026 in der Stelle von Maximilian Backhaus, ohne Übergabe; sechs Monate Probezeit. [[Firmenbriefing|Abschnitt 18]] [[01_Mitteilung_Austritt.txt]]",
+        "Zupackend und schnell, will vor Ort fertig werden und unterschätzt dabei manchmal den Papierkram. [[00_Start_Gruppe|Wer ist wer]]"
+      ],
+      "beginnt": "Was ohne Übergabe liegen geblieben ist (A007)",
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
+      "stunden": "6,5"
+    }
+  ],
+  "ketten": {
+    "Vertrag VTR-1005": "Kantbogen · K61",
+    "Nachtrag Kondensat": "Raumlot · K62",
+    "Jahresterminplan 2027": "Torwinkel · K63",
+    "Forum zu warm": "Thermenfeld/Signalsteg · K64",
+    "Abgang ohne Übergabe": "Torwinkel · K65",
+    "Abnahme der Wartungen": "Torwinkel · Abnahme_Wartung",
+    "Raumtemperatur": "Raumlot · K05",
+    "Hauschronik": "alle Gruppen · K12",
+    "Einstieg": "Gruppe intern",
+    "Kurs": "alle Gruppen"
+  }
+}

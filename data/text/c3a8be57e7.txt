@@ -1,0 +1,104 @@
+--- Blatt Kopfdaten ---
+Jahres-, Prüf- und Wartungsterminplan 2026
+Vertrag VTR-1005, Wartungsvertrag RLT, Gebäudeautomation und Gasanlagen
+Auftragnehmer: Luftpfad Anlagentechnik GmbH
+Aufgestellt von Torwinkel Gebäudeservice, Technische Objektbetreuung, für das Jahr 2026. Termine werden mit der Haustechnik und den Mietern abgestimmt.
+--- Blatt Jahres-, Prüf ---
+OZ | Leistung | Anlage | Intervall | Fällig im Monat
+19002 | Hygieneinspektion RLT-Anlage | Zentrale RLT-Anlage | alle 3 Jahre | Mär
+19003 | Wartung Zentralgerät | Zentrale RLT-Anlage | jährlich | Jul
+19005 | Hygieneinspektion RLT-Anlage | RLT-Gerät B Bürobereiche und Etagenzentralen | alle 3 Jahre | Jul
+19006 | Wartung Zentralgerät | RLT-Gerät B Bürobereiche und Etagenzentralen | jährlich | Okt
+19008 | Hygieneinspektion RLT-Anlage | Zusatz-RLT Gastronomie | alle 3 Jahre | Sep
+19009 | Wartung Zentralgerät | Zusatz-RLT Gastronomie | jährlich | Sep
+19012 | Wartung Zentralgerät | RLT UG, Abscheider- und Entwässerungsräume | jährlich | Jul
+19013 | Wartung Ventilator und Antrieb | Sanitärfortluft Ost und West | jährlich | Dez
+21014 | Reinigung Abluftkanal und Fettfilter | Küchenabluft Gastronomie | jährlich | Jan
+19015 | Funktionsprüfung Brandschutzklappen | Brandschutzklappen Lüftung (Sammelposten) | jährlich | Feb
+34016 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | CO-Warnanlage Tiefgarage | jährlich | Feb
+34017 | Wartung und Datensicherung Automationsstationen | Gebäudeautomation mit Automationsstation | jährlich | Feb
+19018 | Wartung Klappen | Volumenstromregler Forum | jährlich | Dez
+34019 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Alter Stellantrieb | jährlich | Jan
+19021 | Wartung Klappen | Außenluft Absperrklappe | jährlich | Jan
+19022 | Differenzdruckkontrolle und Filterwechsel nach Zustand | Außenluft Filteraufnahme | vierteljährlich | Jan, Apr, Jul, Okt
+19023 | Prüfung Wärmeübertrager | Wärmerückgewinnung mit getrennten Luftwegen | jährlich | Mär
+19024 | Reinigung und Dichtheitskontrolle Register | Heizregister der Zuluft | jährlich | Okt
+19025 | Wartung Ventilator und Antrieb | Zuluftventilator mit zugehörigem Motor | jährlich | Dez
+19026 | Differenzdruckkontrolle und Filterwechsel nach Zustand | Abluft Filteraufnahme | vierteljährlich | Jan, Apr, Jul, Okt
+19027 | Wartung Ventilator und Antrieb | Abluftventilator mit zugehörigem Motor | jährlich | Apr
+19028 | Wartung Klappen | Fortluft Absperrklappe | jährlich | Jul
+19029 | Wartung Klappen | Luftklappen, RLT A | jährlich | Jan
+19030 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Fühler, RLT A | jährlich | Jan
+19031 | Wartung und Datensicherung Automationsstationen | Gebäudeautomation Schaltschrank und Automationsstation, RLT A | jährlich | Sep
+19032 | Reinigung und Dichtheitskontrolle Register | Lufterhitzer, RLT A | jährlich | Jun
+19033 | Wartung Ventilator und Antrieb | Ventilator mit Antriebsmotor, RLT A | jährlich | Apr
+19034 | Differenzdruckkontrolle und Filterwechsel nach Zustand | Luftfilter und Filteraufnahme, RLT A | vierteljährlich | Feb, Mai, Aug, Nov
+19035 | Funktionsprüfung Brandschutzklappen | Brandschutzklappe in Lüftungsleitungen, RLT A | jährlich | Feb
+19036 | Prüfung Wärmeübertrager | Wärmerückgewinnung, RLT A | jährlich | Mär
+19037 | Wartung Klappen | Außenluftklappe und Jalousie Zentralgerät | jährlich | Mai
+19038 | Wartung Kondensathebeanlage | Kondensatwanne und Kondensatablauf Zentralgerät | halbjährlich | Apr, Okt
+19039 | Wartung Ventilator und Antrieb | Antriebsmotoren Ventilatoren Zentralgerät | jährlich | Okt
+19040 | Wartung und Datensicherung Automationsstationen | Schaltschrank Zentralgerät mit Frequenzumrichtern | jährlich | Nov
+19041 | Wartung Klappen | Volumenstromregler Zuluft EG | jährlich | Dez
+19042 | Wartung Klappen | Volumenstromregler Zuluft 1.OG | jährlich | Jan
+19043 | Wartung Klappen | Volumenstromregler Zuluft 2.OG | jährlich | Okt
+19044 | Wartung Klappen | Volumenstromregler Zuluft 3.OG | jährlich | Jan
+19045 | Wartung Klappen | Volumenstromregler Zuluft 4.OG | jährlich | Apr
+19046 | Wartung Klappen | Volumenstromregler Zuluft 5.OG | jährlich | Dez
+19047 | Wartung und Datensicherung Automationsstationen | Gebäudeautomation Schaltschrank und Automationsstation, RLT B | jährlich | Jun
+19048 | Wartung Ventilator und Antrieb | Ventilator mit Antriebsmotor, RLT B | jährlich | Sep
+19049 | Differenzdruckkontrolle und Filterwechsel nach Zustand | Luftfilter und Filteraufnahme, RLT B | vierteljährlich | Feb, Mai, Aug, Nov
+19050 | Prüfung Wärmeübertrager | Wärmerückgewinnung, RLT B | jährlich | Feb
+19051 | Reinigung und Dichtheitskontrolle Register | Lufterhitzer, RLT B | jährlich | Jan
+19052 | Wartung Kondensathebeanlage | Kondensathebeanlage und Kondensatableitung, Etagenzentralen EG und 1.OG | halbjährlich | Mär, Sep
+19053 | Wartung und Datensicherung Automationsstationen | Gebäudeautomation Schaltschrank und Automationsstation, Etagenzentralen EG und 1.OG | jährlich | Jan
+19054 | Reinigung und Dichtheitskontrolle Register | Lufterhitzer, Etagenzentralen EG und 1.OG | jährlich | Sep
+19055 | Wartung Ventilator und Antrieb | Ventilator mit Antriebsmotor, Etagenzentralen EG und 1.OG | jährlich | Nov
+19056 | Prüfung Wärmeübertrager | Wärmerückgewinnung, Etagenzentralen EG und 1.OG | jährlich | Feb
+19058 | Wartung Mischer | Heizkreisverteiler, Etagenzentralen EG und 1.OG | jährlich | Nov
+19059 | Wartung Klappen | Volumenstromregler Etage EG | jährlich | Jun
+19060 | Wartung Klappen | Volumenstromregler Etage 1.OG | jährlich | Nov
+19061 | Wartung Klappen | Volumenstromregler Etage 2.OG | jährlich | Jul
+19062 | Wartung Klappen | Volumenstromregler Etage 3.OG | jährlich | Jul
+19063 | Wartung Klappen | Volumenstromregler Etage 4.OG | jährlich | Jul
+19064 | Wartung Klappen | Volumenstromregler Etage 5.OG | jährlich | Dez
+19065 | Wartung und Datensicherung Automationsstationen | Gebäudeautomation Schaltschrank und Automationsstation, Gastro-RLT | jährlich | Apr
+19066 | Wartung Ventilator und Antrieb | Ventilator mit Antriebsmotor, Gastro-RLT | jährlich | Sep
+19067 | Prüfung Wärmeübertrager | Wärmerückgewinnung, Gastro-RLT | jährlich | Aug
+19068 | Reinigung und Dichtheitskontrolle Register | Lufterhitzer, Gastro-RLT | jährlich | Feb
+19069 | Reinigung Abluftkanal und Fettfilter | Fettfilter und Abluftwände Küche | jährlich | Jul
+19070 | Differenzdruckkontrolle und Filterwechsel nach Zustand | Luftfilter und Filteraufnahme, RLT UG | vierteljährlich | Feb, Mai, Aug, Nov
+19071 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Fühler, RLT UG | jährlich | Mai
+19072 | Wartung und Datensicherung Automationsstationen | Gebäudeautomation Schaltschrank und Automationsstation, RLT UG | jährlich | Jun
+19073 | Wartung Ventilator und Antrieb | Ventilator mit Antriebsmotor, RLT UG | jährlich | Feb
+19074 | Funktionsprüfung Brandschutzklappen | Brandschutzklappe in Lüftungsleitungen, RLT UG | jährlich | Dez
+19075 | Prüfung Wärmeübertrager | Wärmerückgewinnung, RLT UG | jährlich | Mär
+19076 | Reinigung und Dichtheitskontrolle Register | Lufterhitzer, RLT UG | jährlich | Jan
+19077 | Wartung Klappen | Luftklappen, Sanitärfortluft West | jährlich | Aug
+19079 | Hygieneinspektion RLT-Anlage | RLT-Zentralgerät, Sanitärfortluft West | alle 3 Jahre | Nov
+19080 | Wartung Zentralgerät | RLT-Zentralgerät, Sanitärfortluft West | jährlich | Mai
+19081 | Funktionsprüfung Brandschutzklappen | Brandschutzklappe in Lüftungsleitungen, Sanitärfortluft West | jährlich | Okt
+21082 | Wartung Ventilator und Antrieb | Küchenabluftventilator mit Motor | jährlich | Jul
+21083 | Funktionsprüfung Brandschutzklappen | Brandschutzklappen Küchenabluft | jährlich | Sep
+34085 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Fühler, Gebäudeautomation | jährlich | Mär
+34086 | Sichtprüfung Racks und Verkabelung | Informationstechnik, Gebäudeautomation | jährlich | Jul
+34088 | Hygieneinspektion RLT-Anlage | RLT-Zentralgerät, Gebäudeautomation | alle 3 Jahre | Mai
+34089 | Wartung Zentralgerät | RLT-Zentralgerät, Gebäudeautomation | jährlich | Mai
+34090 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Temperaturfühler und Raumbediengeräte UG (Sammelposten), UG und EG | jährlich | Feb
+34091 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Temperaturfühler und Raumbediengeräte 1.OG (Sammelposten), UG und EG | jährlich | Feb
+34092 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Temperaturfühler und Raumbediengeräte 3.OG (Sammelposten), UG und EG | jährlich | Sep
+34093 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen UG (Sammelposten), UG und EG | jährlich | Sep
+34094 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen 1.OG (Sammelposten), UG und EG | jährlich | Okt
+34095 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen 4.OG (Sammelposten), UG und EG | jährlich | Mai
+34096 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen 5.OG (Sammelposten), UG und EG | jährlich | Feb
+19097 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Fühler Zu- und Abluft 4.OG (Sammelposten), 3.OG bis 5.OG | jährlich | Jun
+19098 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Fühler Zu- und Abluft 5.OG (Sammelposten), 1.OG und 2.OG | jährlich | Sep
+34099 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Temperaturfühler und Raumbediengeräte UG (Sammelposten), 3.OG bis 5.OG | jährlich | Jan
+34100 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Temperaturfühler und Raumbediengeräte EG (Sammelposten), 3.OG bis 5.OG | jährlich | Apr
+34101 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Temperaturfühler und Raumbediengeräte 4.OG (Sammelposten), 1.OG und 2.OG | jährlich | Jul
+34102 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen UG (Sammelposten), 3.OG bis 5.OG | jährlich | Okt
+34103 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen EG (Sammelposten), 3.OG bis 5.OG | jährlich | Mai
+34104 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen 2.OG (Sammelposten), 1.OG und 2.OG | jährlich | Dez
+34105 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen 3.OG (Sammelposten), 3.OG bis 5.OG | jährlich | Mär
+34106 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen 4.OG (Sammelposten), 1.OG und 2.OG | jährlich | Feb
+34107 | Kalibrierkontrolle Fühler und Funktionstest Stellantriebe | Stellantriebe Ventile und Klappen 5.OG (Sammelposten), 3.OG bis 5.OG | jährlich | Dez

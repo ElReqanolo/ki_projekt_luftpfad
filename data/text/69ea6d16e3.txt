@@ -1,0 +1,62 @@
+--- Seite 1 ---
+                                 Luftpfad Anlagentechnik GmbH
+                                          Luftbogen 9, 70372 Stuttgart Telefon 05990 1004-0
+
+
+
+
+  Wartungsprotokoll 08901
+Bearbeiter: Maximilian Backhaus, Servicetechniker Lüftung und Kälte
+ Datum                                         Auftraggeber
+ 30.03.2026                                    Torwinkel Gebäudeservice GmbH
+ Vertrag
+ VTR-1005
+
+Anlage Wärmerückgewinnung, Gastro-RLT, AST-100188, Hersteller Quenzel Lufttechnik AG, Typ QL-660/E, Baujahr
+2017
+Standort UG, RLT-Technikraum Süd, Gastro-Strang
+ Leistung
+ Prüfung Wärmeübertrager, Kondensatablauf, Frostschutz (Wartung)
+ Monteur
+ Maximilian Backhaus
+
+
+Ausgeführte Arbeiten
+      Differenzdruckschalter kontrolliert
+      Kondensatwanne gereinigt
+      Filter geprüft und bei Bedarf gewechselt
+      Klappenantriebe auf Gängigkeit geprüft
+      Keilriemen und Lager kontrolliert
+
+Messwerte
+      Volumenstrom Zuluft gesamt: 22.578 m3/h
+      Filterdifferenzdruck: 129 Pa
+      Zulufttemperatur: 19,1 °C
+
+Feststellungen
+      Volumenstrom an einem Auslass unter Sollwert (mittel)
+Arbeitszeit 1,0 Stunden. Ersatzteile: keine.
+Nächster Wartungstermin laut Plan: 02.04.2026.
+Protokoll auf dem Tablet erstellt, Fotos der Anlage im CAFM abgelegt.
+Monteur:
+
+
+
+ Maximilian Backhaus
+Maximilian Backhaus
+Servicetechniker Lüftung und Kälte
+Gegenzeichnung Auftraggeber:
+
+
+
+ Dennis Prange
+Dennis Prange
+Haustechniker
+
+
+
+
+Luftpfad Anlagentechnik GmbH         Telefon 05990 1004-0     HRB 724559, Amtsgericht Stuttgart     Nordsteg Kreditbank AG, IBAN DE00 9122
+Luftbogen 9, 70372 Stuttgart         Telefax 05990 1004-99    Geschäftsführung: Henrike Baum, Kai   1241 5798 8731 13, BIC NKKBDEK0
+                                                              Landmann
+

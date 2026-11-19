@@ -1,0 +1,95 @@
+--- Seite 1 ---
+ Startblatt Person 5, Luftpfad Anlagentechnik GmbH
+ Sie spielen Kevin Schuster, Servicetechniker Lüftung und Kälte.
+ Sie sind seit 16.11.2026 im Unternehmen und folgen ohne Übergabe auf Maximilian Backhaus. Was dort
+ liegen geblieben ist, finden Sie im Abgangsmaterial (03_Material/Abgang). Es liegt teils hier, teils in
+ 0_Allgemein, weil auch andere Aufgaben der Gruppe darauf verweisen.
+ Ihre Gruppe verteilt die fünf Figuren selbst. Getauscht werden kann zu jedem Semesterbeginn. Der
+ Ordner Person_5 entspricht dem Rang der Figur in der Firma.
+
+ So fangen Sie an
+  • Öffnen Sie im Kursteam den Ordner 0_Allgemein Ihrer Firma und diesen Ordner Person_5. Mehr
+    brauchen Sie nicht. Nur für die Startfrage darf Ihre Gruppe alle Ordner Ihrer Firma nutzen.
+  • Lesen Sie zuerst das Startblatt der Gruppe in 0_Allgemein (00_Start_Gruppe.pdf). Dann folgt Ihr
+    Personenbriefing hier in 01_Briefings, darin zuerst der Abschnitt Ihre Lage bis zum 2.12.2026. Danach
+    lesen Sie das Firmenbriefing in 0_Allgemein/01_Briefings. Ablauf und Inhaltsverzeichnis in 0_Allgemein
+    (00_Ablauf.pdf, 00_Inhaltsverzeichnis.pdf) schlagen Sie bei Bedarf nach.
+  • In der Sitzung am 19.11. arbeitet Ihre Gruppe an der Antrittsvorstellung (Auftrag in
+    00_Kurs/Antrittsvorstellung, Startfrage in 0_Allgemein/00_Startfrage.pdf). Danach folgt für alle die
+    gemeinsame Übung "Akte Abfluss OG2 West" bis 25.11. Ihre eigene Arbeit beginnen Sie mit: Was
+    ohne Übergabe liegen geblieben ist.
+  • Die Personenbriefings der anderen vier liegen in deren Ordnern. Wer etwas über eine Kollegin oder
+    einen Kollegen wissen will, fragt sie oder ihn, wie im Büro.
+  • Laden Sie je Chat nur die Dateien hoch, die das Aufgabenblatt nennt. Ihre Ergebnisse legen Sie in Ihre
+    Projektmappe.
+
+ Ihre Aufgaben
+ Federführend heißt: Sie sorgen dafür, dass die Aufgabe fertig wird. Gearbeitet wird gemeinsam. Aufwand,
+ Beginn und Frist stehen im Inhaltsverzeichnis in 0_Allgemein.
+ Aufgabe                                                            Beginn   fertig bis       Aufwand
+ Rundgang als Sprachnotiz                                           19.11.   2.12.2026        1h
+ Was ohne Übergabe liegen geblieben ist                             19.11.   2.12.2026        1,5 h
+ Übergabeliste prüfen und Nachfolge regeln                          19.11.   2.12.2026        2,5 h
+ Protokoll 09384                                                    19.11.   30.11.2026       1,5 h
+
+ Gemeinsame Aufgaben der Gruppe liegen in 0_Allgemein: Projektmappe für die eigene Firma anlegen
+ (federführend Selim Ahrens), Unsere Firma auf einer Seite (federführend Kai Landmann), Vortrag
+ (federführend Henrike Baum).
+
+ Was in diesem Ordner liegt
+  • 01_Briefings/Personenbriefing_Kevin_Schuster.docx
+  • 01_Briefings/Personenbriefing_Kevin_Schuster.pdf
+  • 02_Aufgaben/A006_Rundgang_als_Sprachnotiz.docx
+  • 02_Aufgaben/A006_Rundgang_als_Sprachnotiz.pdf
+  • 02_Aufgaben/A007_Was_ohne_Uebergabe_liegen_geblieben_ist.docx
+  • 02_Aufgaben/A007_Was_ohne_Uebergabe_liegen_geblieben_ist.pdf
+  • 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.docx
+  • 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.pdf
+  • 02_Aufgaben/A164_Protokoll_09384_Rueckfrage_zur_Abnahme.docx
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                          Seite 1
+
+--- Seite 2 ---
+  • 02_Aufgaben/A164_Protokoll_09384_Rueckfrage_zur_Abnahme.pdf
+  • 03_Material/Abgang/01_Mitteilung_Austritt.eml
+  • 03_Material/Abgang/01_Mitteilung_Austritt.txt
+  • 03_Material/Abgang/02_Abwesenheitsnotiz.txt
+  • 03_Material/Abgang/04_Meine_Fristen_MBa.xlsx
+  • 03_Material/Abgang/05_Kalender_MBa.csv
+  • 03_Material/Abgang/05_Kalender_MBa.ics
+  • 03_Material/Abgang/06_Entwuerfe/Entwurf_1_Telefonnotiz_Buero_im_Kern_2_T.docx
+  • 03_Material/Abgang/06_Entwuerfe/Entwurf_2_Raum_EG_Forum_heizt_sich_auf.docx
+  • 03_Material/Geschossplan/Grundriss_EG.png
+  • 03_Material/Geschossplan/Grundriss_UG.png
+
+ Aus 0_Allgemein brauchen Ihre Aufgaben außerdem
+ Die Aufgabenblätter nennen die Dateien einzeln. Diese Liste gibt nur die Übersicht, ohne Briefings der
+ Firma und ohne Vorlagen, die Sie ohnehin öffnen.
+  • 03_Material/Abgang/03_Notizen_MBa.txt
+  • 03_Material/Postfach/00_Postfach_als_Text.txt
+  • 03_Material/Postfach/17_2026-11-18_Klappenpruefung_Bogenfeld.eml
+  • 03_Material/Postfach/18_2026-11-18_Abrechnung_Wartungen_November.eml
+  • 04_Datenraum/03/03.10.02.017_2026-11-03_Flaechenspiegel_Raumlot_Objektmanagement.pdf
+  • 04_Datenraum/04/04.21.04.145_2024-10-07_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
+  • 04_Datenraum/04/04.21.04.168_2025-10-07_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
+  • 04_Datenraum/04/04.21.04.182_2026-04-29_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
+  • 04_Datenraum/04/04.21.04.189_2026-09-30_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
+  • 04_Datenraum/04/04.21.04.190_2026-09-30_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
+  • 04_Datenraum/04/04.21.04.193_2026-11-03_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
+
+ Abgabe und Austausch
+  • Was Sie an andere Firmen liefern, legen Sie im Ordner 90_Uebergaben in den Unterordner der Kette
+    (zum Beispiel Uebergaben/K05 im Aufgabenblatt heißt 90_Uebergaben/K05_Raumtemperatur).
+  • Was ein Aufgabenblatt oder ein Auftrag zur Abgabe nennt, legen Sie am genannten Tag in 91_Abgabe
+    im Unterordner Ihrer Firma ab. Den Anfang machen am 19.11. die Folien der Antrittsvorstellung als
+    PDF. Arbeitsstände und Lernprotokolle bleiben in Ihrem Gruppenspeicher (00_Kurs/Arbeitsweise,
+    Abschnitt 4), die Lernprotokolle kommen am 2.12. nach den Vorträgen in 91_Abgabe.
+  • Ihr Lernprotokoll führen Sie als protokoll_Person5 in Ihrer Projektmappe im Gruppenspeicher, die
+    Vorlage liegt in 0_Allgemein/05_Vorlagen.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                         Seite 2
+

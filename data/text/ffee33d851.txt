@@ -1,0 +1,54 @@
+--- Seite 1 ---
+                                 Luftpfad Anlagentechnik GmbH
+                                          Luftbogen 9, 70372 Stuttgart Telefon 05990 1004-0
+
+
+
+
+  Wartungsprotokoll 08991
+Bearbeiter: Maximilian Backhaus, Servicetechniker Lüftung und Kälte
+ Datum                                         Auftraggeber
+ 30.04.2026                                    Torwinkel Gebäudeservice GmbH
+ Vertrag
+ VTR-1005
+
+Anlage Sanitärfortluft Ost und West, AST-100004, Hersteller Rohrmann Klimageräte GmbH, Typ RK-282, Baujahr
+2017
+Standort Dach und Steigeschächte Ost und West
+ Leistung                                                               Monteur
+ Wartung Ventilator und Antrieb                                         Maximilian Backhaus
+
+
+Ausgeführte Arbeiten
+      Regelventile und Stellantriebe geprüft
+      Filter geprüft und bei Bedarf gewechselt
+      Klappenantriebe auf Gängigkeit geprüft
+      Keilriemen und Lager kontrolliert
+
+Feststellungen
+      Kondensat in der Wanne des Zentralgeräts (mittel)
+Arbeitszeit 1,5 Stunden. Ersatzteile: 1 Keilriemen.
+Nächster Wartungstermin laut Plan: 02.05.2026.
+Protokoll auf dem Tablet erstellt, Fotos der Anlage im CAFM abgelegt.
+Monteur:
+
+
+
+ Maximilian Backhaus
+Maximilian Backhaus
+Servicetechniker Lüftung und Kälte
+Gegenzeichnung Auftraggeber:
+
+
+
+ Dennis Prange
+Dennis Prange
+Haustechniker
+
+
+
+
+Luftpfad Anlagentechnik GmbH         Telefon 05990 1004-0     HRB 724559, Amtsgericht Stuttgart     Nordsteg Kreditbank AG, IBAN DE00 9122
+Luftbogen 9, 70372 Stuttgart         Telefax 05990 1004-99    Geschäftsführung: Henrike Baum, Kai   1241 5798 8731 13, BIC NKKBDEK0
+                                                              Landmann
+

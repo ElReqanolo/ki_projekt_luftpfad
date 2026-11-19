@@ -1,0 +1,61 @@
+[OCR] Grundriss EG
+
+Haus am Bogenfeld, Bogenfeld 12, 70565 Stuttgart-Vaihingen. Bürohaus am Bogenfeld, Neubau 2017. Planstand 04.11.2026.
+
+yinm (Nord)
+
+1003 Aufzug
+
+1035
+
+1000 Treppe Südwest
+
+1036 Podest || 1037 Podest
+
+1002 Treppe Nord
+
+1004 Lastenaufzug
+
+Raumnummern wie im Raumbuch. Achsen in Metern, x nach Osten, y nach Norden. Norden oben.
+
+Legende
+Räume 65
+Möbel 130
+
+Büro, Besprechung, Empfang: 8 Räume
+Schulung und Vorführung: 3 Räume
+Gastronomie: 5 Räume
+
+Lager und Logistik: 8 Räume
+
+Verkehr, Treppen, Aufzüge: 20 Räume
+Technik und Schächte: 11 Räume
+Sanitär und Personal: 8 Räume
+Reserve: 2 Räume
+
+Einrichtung: 130 Teile
+
+Mieteinheiten in diesem Geschoss
+
+[EI] N-EG-BISTRO Bistro mit Küche und Nebenräumen, rund 319 m?
+Lage im Geschoss: Nordseite
+Räume 1007, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1018
+Mieter: Hofmaß Betriebsgastronomie GmbH
+
+N-EG-PROJ Projektbereich Ost, rund 250 m?
+Lage im Geschoss: Nordseite, Südseite, Ostflügel
+
+Räume 0102, 0103, 0104, 0105
+Mieter: Achsenraum Ingenieurgesellschaft mbH
+
+1001 Treppe Südost
+
+N-EG-SCHUL Schulungszone Südflügel, rund 360 m?
+Lage im Geschoss: Nordseite, Südseite
+
+Räume 0001, 0100, 0101, 1019, 1020, 1024, 1025, 1026
+Mieter: Lernhafen Akademie GmbH
+
+Treppen und Aufzüge, allgemein
+übrige Räume ohne Mieter dieses Geschosses
+

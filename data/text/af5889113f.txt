@@ -1,0 +1,14 @@
+--- Blatt Fristen ---
+Art | Was | Fällig | Mit wem | Nr. | Stand
+Nachricht ohne Antwort | Telefonnotiz, Büro im Kern 2 Treppenhaus zu warm |  | Raumlot Objektmanagement GmbH |  | 
+Prüfbefund | Zugang zur Revisionsöffnung durch Lagergut verstellt |  | Anlage Volumenstromregler Etage 4.OG |  | läuft
+Prüfbefund | Kondensat in der Wanne des Zentralgeräts |  | Anlage Luftfilter und Filteraufnahme, RLT A |  | WV
+Rechnung | Rechnung 2026/3329 über 249,22 EUR netto (geprüft) | 16.12.2026 | Kantbogen Bestand GmbH | 2026/3329 | offen
+Rechnung | Rechnung 2026/3326 über 536,66 EUR netto (freigegeben) | 06.11.2026 | Kantbogen Bestand GmbH | 2026/3326 | läuft
+Rechnung | Rechnung 2026/3325 über 244,74 EUR netto (freigegeben) | 04.11.2026 | Kantbogen Bestand GmbH | 2026/3325 | 
+Rechnung | Rechnung 2026/3327 über 117,44 EUR netto (freigegeben) | 15.11.2026 | Kantbogen Bestand GmbH | 2026/3327 | läuft
+Rechnung | Rechnung 2026/3322 über 231,64 EUR netto (freigegeben) | 15.10.2026 | Kantbogen Bestand GmbH | 2026/3322 | offen
+Vorgang | Raum EG Forum heizt sich auf |  | Werkraum Projektbüros GmbH, Raumlot Objektmanagement GmbH, Torwinkel Gebäudeservice GmbH |  | 
+Vorgang | Büro im OG3 Büro Nord zu warm |  | Feldkreis Service GmbH, Raumlot Objektmanagement GmbH, Torwinkel Gebäudeservice GmbH |  | WV
+Vorgang | Büro im Kern 2 Treppenhaus zu warm |  | Feldkreis Service GmbH, Raumlot Objektmanagement GmbH, Torwinkel Gebäudeservice GmbH |  | offen
+Frist | Wiedervorlage aus Telefonnotiz | 07.08.2026 | Luftpfad Anlagentechnik GmbH |  | offen

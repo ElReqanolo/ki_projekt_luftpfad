@@ -1,0 +1,735 @@
+--- Seite 1 ---
+ Einarbeitungsmappe Luftpfad Anlagentechnik GmbH
+ Stand 18.11.2026. Für neue Mitarbeitende mit Bezug zum Haus am Bogenfeld, Bogenfeld 12, 70565
+ Stuttgart-Vaihingen.
+
+ 1 Die Firma
+  • Rechtsform GmbH, eingetragen im Handelsregister Amtsgericht Stuttgart unter HRB 724559 seit 2002
+  • Stammkapital 50.000 EUR
+  • Sitz Luftbogen 9, 70372 Stuttgart
+  • gegründet 2002
+  • 24 Beschäftigte
+ Aus unserem Firmensteckbrief (Stand 15.03.2018): Luftpfad wartet und repariert gewerbliche
+ Lüftungsanlagen im regionalen Umkreis. Schwerpunkte sind Ventilatoren, Klappenantriebe,
+ Volumenstromregelung und die Einbindung solcher Komponenten in die Anlagenautomation. Die Firma
+ führt Fehlerdiagnosen, kleine Umbauten und dokumentierte Funktionsproben aus. Zum eigenen
+ Leistungsangebot gehören keine großen Kälteanlagen, keine Aufzugsarbeiten und keine allgemeine
+ Elektroinstallation. Braucht ein Auftrag solche Gewerke, müssen sie gesondert beteiligt werden.
+ Die Firma arbeitet regelmäßig mit Torwinkel und Raumlot, aber auch für andere Eigentümer. Am
+ Bogenfeld bringt sie Anlagenpraxis und Automationskenntnis zusammen. Tobias Kernfeld kennt das Haus
+ noch aus seiner früheren FM-Tätigkeit. Elena Voss bringt die Regelungsseite ein. Deshalb war der
+ Reparaturtermin am 30. Oktober doppelt besetzt. Selim Ahrens koordiniert Termine und Material. Für
+ Bogenfeld steht die Firma nicht jeden Tag zur Verfügung.
+ 24 Beschäftigte mit 22,00 Vollzeitäquivalenten: zwei Leitungskräfte, drei Personen in Disposition und
+ kaufmännischer Abwicklung, zwei in Lager und Materialvorbereitung, 14 im technischen Außendienst und
+ drei in Planung und Automation. Alle gehören zum einzigen Betriebssitz. Die übrigen Beschäftigten und
+ ihre Projektarbeit zählen nicht als zusätzliche freie Außendienstkapazität. Am Bogenfeld hat Luftpfad
+ keinen Raum, den es allein nutzt.
+ Leistungsumfang: Diagnose, Wartung und Reparatur von Lüftung und zugehöriger Automation.
+ Nicht bei uns: Keine Aufzüge, keine allgemeine Elektroinstallation, keine pauschale unabhängige
+ Sicherheitsprüfung.
+ Einsatzgebiet: Größere Entfernungen nur als eigener geplanter Einsatz.
+ Erreichbarkeit: Werktags 07:00 bis 17:00. Termine außerhalb dieser Zeit werden gesondert vereinbart.
+ Personal: Disposition und weitere Projektteams werden nicht doppelt gezählt.
+ Ausstattung: Servicefahrzeuge, Handmessgeräte und kleine Ersatzteile.
+
+ 2 Wie wir arbeiten
+ Arbeitsmittel: Fax 2002 bis 2020, regelmäßig, Word seit 2002, überwiegend, Mail seit 2002, überwiegend,
+ PDF seit 2005, regelmäßig, CAFM seit 2009, überwiegend, Portal seit 2013, überwiegend, Messenger seit
+ 2021, regelmäßig.
+ Schriftstücke, die bei uns entstehen (Anzahl in der Objektakte, erstes und letztes Jahr):
+  • Wartungsprotokoll: 185, 2018 bis 2026
+  • Arbeitsschein: 42, 2018 bis 2026
+  • Eingangsrechnung: 35, 2002 bis 2026
+  • Prüfbericht Trinkwasser und Raumlufttechnik: 27, 2018 bis 2026
+  • Bereitschaftsdienst Einsatzprotokoll: 11, 2018 bis 2025
+  • Qualifikationsnachweis: 9, 2002 bis 2023
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                   Seite 1
+
+--- Seite 2 ---
+  • Wartungsprotokoll Garagenlüftung: 8, 2019 bis 2026
+  • Prüfbericht Küchenabluft und Fettbrandschutz Gastronomie: 8, 2018 bis 2025
+  • Wartungsprotokoll Absauganlage Druckerei: 7, 2002 bis 2008
+  • Gutschrift: 6, 2018 bis 2026
+  • Stellenbeschreibung: 5, 2003 bis 2026
+  • Personalstammblatt: 4, 2002 bis 2026
+  • Vertretungsplan: 3, 2017 bis 2021
+  • Unterschriftenverzeichnis: 3, 2017 bis 2026
+
+ 3 Was andere über uns in der Objektakte abgelegt haben
+ Unterlagen anderer Firmen, die uns betreffen (Anzahl, erstes und letztes Jahr):
+  • E-Mail-Verlauf: 22, 2017 bis 2026
+  • Unterweisungsnachweis: 6, 2017 bis 2025
+  • Zertifikat Fachbetrieb: 5, 2010 bis 2023
+  • Objekteinweisung Fremdfirma: 5, 2017 bis 2024
+  • Beschwerde: 4, 2018 bis 2021
+  • Eskalationsschreiben: 4, 2018 bis 2021
+  • Telefonnotiz: 4, 2017 bis 2026
+  • Versicherungsbestätigung Haftpflicht: 4, 2004 bis 2024
+  • Registeranmeldung: 3, 2002 bis 2020
+  • Dienstleisterbewertung: 2, 2017 bis 2018
+  • Aktenvermerk: 1, 2017 bis 2017
+  • Angebotsanforderung: 1, 2019 bis 2019
+  • Antwort oder Abmahnung: 1, 2018 bis 2018
+  • Auftragsschreiben: 1, 2019 bis 2019
+  • Ausschreibung: 1, 2022 bis 2022
+
+ 4 Geschichte
+  • 2002: Gründung eines Lüftungsservicebetriebs mit eigener kleiner Werkstatt.
+  • 2018: Erste fachliche Serviceeinsätze am Bogenfeld nach Übergabe des laufenden Gebäudebetriebs.
+  • 2024: Tobias Kernfeld wechselt von Torwinkel zu Luftpfad.
+  • 30.10.2026: Forum-Regler wird im bereits vorhandenen Auftrag mit einem neuen Antrieb wieder
+    funktionsfähig gemacht.
+ Aus der Firmenchronik der Akte (Stand 26.12.2024):
+  • 2002 Gründung eines Lüftungsservicebetriebs mit eigener kleiner Werkstatt
+  • 13.06.2002 Eintragung im Register
+  • 04.11.2002 Bestellung Gerhard Rehm
+  • 02.09.2008 Insolvenzantrag der Brenner Druck GmbH
+  • 06.10.2008 Bestellung Henrike Baum
+  • 08.10.2019 Stellantrieb am Forum-Regler klemmt, Gewährleistung abgelehnt
+  • 31.10.2020 Ausscheiden Gerhard Rehm
+  • 02.11.2020 Bestellung Kai Landmann
+  • 2023 Tobias Kernfeld beendet seine Tätigkeit bei Torwinkel mit dem letzten aktiven Jahr 2023
+  • 31.12.2023 Tobias Kernfeld verlässt Torwinkel
+  • 2024 Tobias Kernfeld wechselt von Torwinkel zu Luftpfad
+  • 23.06.2025 Jahreswartung der Lüftungsanlage durch Luftpfad
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                  Seite 2
+
+--- Seite 3 ---
+  • 24.06.2026 Jahreswartung der Lüftungsanlage durch Luftpfad
+  • 26.10.2026 Auftrag an Luftpfad Anlagentechnik GmbH
+  • 26.10.2026 Luftmangel im Forum
+  • Ältere Einträge und Routinetermine (12) stehen in der vollständigen Firmenchronik der Akte, sie kommt
+    mit dem Datenraumauszug.
+ Geschäftsführung und Gesellschafter laut Register:
+  • Henrike Baum, Geschäftsführerin technisch, 2008 bis heute
+  • Gerhard Rehm, Geschäftsführer kaufmännisch, 03.11.2002 bis 31.10.2020
+  • Kai Landmann, Kaufmännischer Geschäftsführer, 01.11.2020 bis heute
+ Gesellschafter heute: Regina Rothe 60 Prozent, Susanne Stolle 40 Prozent.
+
+ 5 Unsere Rolle im Haus Bogenfeld 12
+  • Wartung der Absauganlage der Druckerei, 2002 bis 31.12.2008, gegenüber Brenner Druck GmbH
+  • Wartung der Lüftungsanlagen, 03.04.2018 bis heute, gegenüber Kantbogen Bestand GmbH
+  • Austausch Stellantrieb Forum-Regler im vorhandenen Auftrag, 30.10.2026 bis 30.10.2026, gegenüber
+    Kantbogen Bestand GmbH
+ Standorte und Räume:
+  • Werkstatt und Servicezentrale, 24 Personen. Ein Standort. Regionaler Außendienst startet nicht
+    zwingend für jeden Folgeauftrag erneut hier.
+
+ 6 Das Haus und wer wofür zuständig ist
+ Bürohaus am Bogenfeld mit Gastronomie im Erdgeschoss, Bogenfeld 12, 70565 Stuttgart-Vaihingen.
+ Fertig 2017, 8 Geschosse, Nutzung Büro, Gastronomie, Technikzentrale im 1. UG, Tiefgarage im 2. UG.
+ Vorher standen hier Kontorhaus Bogenfeld 12, Vorderhaus (Baujahr 1971) und Hinterhofhalle Bogenfeld
+ 12 (Baujahr 1974). Abbruch 18.12.2015.
+ Wer heute im Haus und für das Grundstück welche Rolle hat:
+
+ Firma oder Stelle                                                  Rolle
+ Thermenfeld Wärme und Wasser GmbH                                  Abgegrenzte Sanitärarbeiten
+ Talwerk Energie GmbH                                               Anschlusszusage Neubau, Altteile bleiben
+ Branddirektion Stuttgart                                           Aufschaltung der Brandmeldeanlage auf die Leitstelle,
+                                                                    Feuerwehrschlüsseldepot, Einsatz bei Auslösung
+ Höhenlauf Aufzugservice GmbH                                       Aufzugswartung nach Insolvenz Meyerholz
+ Hofmaß Betriebsgastronomie GmbH                                    Betreiberin des Bistros
+ Kantbogen Bestand GmbH                                             Eigentümerin und Vermieterin des Hauses
+ Grünsaum Außenpflege GmbH                                          Einzelne Außenpflegearbeiten
+ Kreisbogen Elektrotechnik GmbH                                     Elektroinstandhaltung und kleine Änderungen
+ Raumpuls Software GmbH                                             Erweiterung 420 m2 im OG4
+ Torwinkel Gebäudeservice GmbH                                      FM-Dienstleisterin im laufenden Betrieb
+ Maßblatt Architektur GmbH                                          Fachliche Fragen zur freien Zone OG5
+ Tageskorb Frischelogistik GmbH                                     Gebündelte Frischebelieferung Hofmaß
+ Kreislaufhof Wertstoffdienste GmbH                                 Gewerbliche Sammelstellen im Haus
+ Klarfenster Glas und Fassadenpflege GmbH                           Glas und Fassadenpflege
+ Mattern Immobilienbewertung Sachverständige GmbH                   Gutachter Verkehrswert und Ertragswert
+ Berndt Kältetechnik GmbH                                           Kälteservice und Kältesatztausch
+ Werkraum Projektbüros GmbH                                         Mieterin 840 m2 im OG4
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                           Seite 3
+
+--- Seite 4 ---
+ Firma oder Stelle                                                  Rolle
+ Hofmaß Betriebsgastronomie GmbH                                    Mieterin Bistrofläche Erdgeschoss
+ Raumpuls Software GmbH                                             Mieterin Bürozone
+ Signalsteg Messtechnik GmbH                                        Mieterin Demonstrations- und Anwendungsteam OG1
+ Werkraum Projektbüros GmbH                                         Mieterin Erweiterung 660 m2 im OG5
+ Achsenraum Ingenieurgesellschaft mbH                               Mieterin Projektbereich Erdgeschoss
+ Lernhafen Akademie GmbH                                            Mieterin Schulungszone
+ Feldkreis Service GmbH                                             Mieterin Servicebasis östliche Zone OG1
+ Bauteilbogen Vertrieb GmbH                                         Mieterin Vertrieb und Bemusterung
+ Achsenraum Ingenieurgesellschaft mbH                               Mieterin obere Bürozone Neubau
+ Pfadklar Projektberatung GmbH                                      Mieterin östliche Bürozone OG2
+ Branddirektion Stuttgart                                           Mitwirkung bei der Brandverhütungsschau des
+                                                                    Baurechtsamts, Prüfung von Feuerwehrplan und Laufkarten
+ Datensteg Netzdienste GmbH                                         Netztechnik bei Mieterausbau und Anfragen
+ Raumlot Objektmanagement GmbH                                      Property Manager im Betrieb
+ Technische Prüfstelle Kastner GmbH (TPK)                           Prüforganisation Aufzüge, Druck, Elektro
+ Wehrstein Allgemeine Versicherung AG                               Rechtsnachfolgerin Bogenland, Gebäude- und
+                                                                    Haftpflichtversicherer
+ Reinfeld Flächenpflege GmbH                                        Sonderreinigung im Einzelauftrag
+ Dörr und Kollegen Versicherungsmakler GmbH                         Versicherungsmakler Kantbogen
+ Seidlitz Alarmbau GmbH                                             Wartung Brandmeldeanlage
+ Luftpfad Anlagentechnik GmbH (wir)                                 Wartung der Lüftungsanlagen
+ Bezirksschornsteinfeger Karl Beuermann, Kehrbezirk                 Zuständiger Kehrbezirk Neubau
+ Vaihingen
+ Meldepfad Sicherheitstechnik GmbH                                  Zutritt und Türschnittstellen
+ Branddirektion Stuttgart                                           Abwehrender Brandschutz und technische Hilfe, Einsatz bei
+                                                                    Bränden
+ Amt für Umweltschutz der Landeshauptstadt Stuttgart                Altlastenkataster, Sanierungsanordnung, Nachsorge
+ Baurechtsamt der Landeshauptstadt Stuttgart                        Baugenehmigung, Abbruch, Nutzungsfreigabe, Brandschutz
+ Notariat Hoffmeister (vormals Notariat Eisner)                     Beurkundungen Hoffmeister und Aktenverwahrung Eisner
+ Kantbogen Bestand GmbH                                             Eigentümerin des Grundstücks Bogenfeld 12
+ Nordsteg Kreditbank AG                                             Finanzierungsbank Kantbogen
+ Amtsgericht Stuttgart (Register- und Insolvenzgericht)             Grundbuchamt, Nachlassgericht, Insolvenzgericht
+ Landeshauptstadt Stuttgart                                         Standortgemeinde, Dialog zum Gewerbequartier
+
+
+
+ 7 Verträge, an denen wir beteiligt sind
+ Vertrag                                                     Partner                        Beginn             Stand
+ Wartung Absauganlage Lösemittel Hinterhofhalle              Brenner Druck GmbH             06.05.2002         beendet
+ Wartungsvertrag RLT, Gebäudeautomation und                  Kantbogen Bestand              03.04.2018         läuft
+ Gasanlagen                                                  GmbH
+
+
+
+ 8 Leistungen aus laufenden Verträgen
+ Wartungsvertrag RLT, Gebäudeautomation und Gasanlagen:
+  • Hygieneinspektion RLT-Anlage, Zentrale RLT-Anlage, 36
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                        Seite 4
+
+--- Seite 5 ---
+  • Wartung Zentralgerät, Zentrale RLT-Anlage, 12
+  • Hygieneinspektion RLT-Anlage, RLT-Gerät B Bürobereiche und Etagenzentralen, 36
+  • Wartung Zentralgerät, RLT-Gerät B Bürobereiche und Etagenzentralen, 12
+  • Hygieneinspektion RLT-Anlage, Zusatz-RLT Gastronomie, 36
+  • Wartung Zentralgerät, Zusatz-RLT Gastronomie, 12
+  • Hygieneinspektion RLT-Anlage, RLT UG, Abscheider- und Entwässerungsräume, 36
+  • Wartung Zentralgerät, RLT UG, Abscheider- und Entwässerungsräume, 12
+  • Wartung Ventilator und Antrieb, Sanitärfortluft Ost und West, 12
+  • Funktionsprüfung Brandschutzklappen, Brandschutzklappen Lüftung (Sammelposten), 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Forum, 12
+  • Wartung Klappen, Regler und Stellantriebe, Außenluft Absperrklappe, 12
+  • Differenzdruckkontrolle und Filterwechsel nach Zustand, Außenluft Filteraufnahme, 3
+  • Prüfung Wärmeübertrager, Kondensatablauf, Frostschutz, Wärmerückgewinnung mit getrennten
+    Luftwegen, 12
+  • Reinigung und Dichtheitskontrolle Register, Heizregister der Zuluft, 12
+  • Wartung Ventilator und Antrieb, Zuluftventilator mit zugehörigem Motor, 12
+  • Differenzdruckkontrolle und Filterwechsel nach Zustand, Abluft Filteraufnahme, 3
+  • Wartung Ventilator und Antrieb, Abluftventilator mit zugehörigem Motor, 12
+  • Wartung Klappen, Regler und Stellantriebe, Fortluft Absperrklappe, 12
+  • Wartung Klappen, Regler und Stellantriebe, Luftklappen, RLT A, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Fühler, RLT A, 12
+  • Wartung und Datensicherung Automationsstationen, Gebäudeautomation Schaltschrank und
+    Automationsstation, RLT A, 12
+  • Reinigung und Dichtheitskontrolle Register, Lufterhitzer, RLT A, 12
+  • Wartung Ventilator und Antrieb, Ventilator mit Antriebsmotor, RLT A, 12
+  • Differenzdruckkontrolle und Filterwechsel nach Zustand, Luftfilter und Filteraufnahme, RLT A, 3
+  • Funktionsprüfung Brandschutzklappen, Brandschutzklappe in Lüftungsleitungen, RLT A, 12
+  • Prüfung Wärmeübertrager, Kondensatablauf, Frostschutz, Wärmerückgewinnung, RLT A, 12
+  • Wartung Klappen, Regler und Stellantriebe, Außenluftklappe und Jalousie Zentralgerät, 12
+  • Wartung Kondensathebeanlage, Kondensatwanne und Kondensatablauf Zentralgerät, 6
+  • Wartung Ventilator und Antrieb, Antriebsmotoren Ventilatoren Zentralgerät, 12
+  • Wartung und Datensicherung Automationsstationen, Schaltschrank Zentralgerät mit
+    Frequenzumrichtern, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Zuluft EG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Zuluft 1.OG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Zuluft 2.OG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Zuluft 3.OG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Zuluft 4.OG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Zuluft 5.OG, 12
+  • Wartung und Datensicherung Automationsstationen, Gebäudeautomation Schaltschrank und
+    Automationsstation, RLT B, 12
+  • Wartung Ventilator und Antrieb, Ventilator mit Antriebsmotor, RLT B, 12
+  • Differenzdruckkontrolle und Filterwechsel nach Zustand, Luftfilter und Filteraufnahme, RLT B, 3
+  • Prüfung Wärmeübertrager, Kondensatablauf, Frostschutz, Wärmerückgewinnung, RLT B, 12
+  • Reinigung und Dichtheitskontrolle Register, Lufterhitzer, RLT B, 12
+  • Wartung Kondensathebeanlage, Kondensathebeanlage und Kondensatableitung, Etagenzentralen EG
+    und 1.OG, 6
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                     Seite 5
+
+--- Seite 6 ---
+  • Wartung und Datensicherung Automationsstationen, Gebäudeautomation Schaltschrank und
+    Automationsstation, Etagenzentralen EG und 1.OG, 12
+  • Reinigung und Dichtheitskontrolle Register, Lufterhitzer, Etagenzentralen EG und 1.OG, 12
+  • Wartung Ventilator und Antrieb, Ventilator mit Antriebsmotor, Etagenzentralen EG und 1.OG, 12
+  • Prüfung Wärmeübertrager, Kondensatablauf, Frostschutz, Wärmerückgewinnung, Etagenzentralen EG
+    und 1.OG, 12
+  • Wartung Mischer, Stellantriebe und Strangventile, Heizkreisverteiler, Etagenzentralen EG und 1.OG,
+    12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Etage EG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Etage 1.OG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Etage 2.OG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Etage 3.OG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Etage 4.OG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Volumenstromregler Etage 5.OG, 12
+  • Wartung und Datensicherung Automationsstationen, Gebäudeautomation Schaltschrank und
+    Automationsstation, Gastro-RLT, 12
+  • Wartung Ventilator und Antrieb, Ventilator mit Antriebsmotor, Gastro-RLT, 12
+  • Prüfung Wärmeübertrager, Kondensatablauf, Frostschutz, Wärmerückgewinnung, Gastro-RLT, 12
+  • Reinigung und Dichtheitskontrolle Register, Lufterhitzer, Gastro-RLT, 12
+  • Reinigung Abluftkanal und Fettfilter, Fettfilter und Abluftwände Küche, 12
+  • Differenzdruckkontrolle und Filterwechsel nach Zustand, Luftfilter und Filteraufnahme, RLT UG, 3
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Fühler, RLT UG, 12
+  • Wartung und Datensicherung Automationsstationen, Gebäudeautomation Schaltschrank und
+    Automationsstation, RLT UG, 12
+  • Wartung Ventilator und Antrieb, Ventilator mit Antriebsmotor, RLT UG, 12
+  • Funktionsprüfung Brandschutzklappen, Brandschutzklappe in Lüftungsleitungen, RLT UG, 12
+  • Prüfung Wärmeübertrager, Kondensatablauf, Frostschutz, Wärmerückgewinnung, RLT UG, 12
+  • Reinigung und Dichtheitskontrolle Register, Lufterhitzer, RLT UG, 12
+  • Wartung Klappen, Regler und Stellantriebe, Luftklappen, Sanitärfortluft West, 12
+  • Hygieneinspektion RLT-Anlage, RLT-Zentralgerät, Sanitärfortluft West, 36
+  • Wartung Zentralgerät, RLT-Zentralgerät, Sanitärfortluft West, 12
+  • Funktionsprüfung Brandschutzklappen, Brandschutzklappe in Lüftungsleitungen, Sanitärfortluft West,
+    12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Fühler Zu- und Abluft 4.OG (Sammelposten),
+    3.OG bis 5.OG, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Fühler Zu- und Abluft 5.OG (Sammelposten),
+    1.OG und 2.OG, 12
+  • Reinigung Abluftkanal und Fettfilter, Küchenabluft Gastronomie, 12
+  • Wartung Ventilator und Antrieb, Küchenabluftventilator mit Motor, 12
+  • Funktionsprüfung Brandschutzklappen, Brandschutzklappen Küchenabluft, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, CO-Warnanlage Tiefgarage, 12
+  • Wartung und Datensicherung Automationsstationen, Gebäudeautomation mit Automationsstation, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Ersatz-Stellantrieb, 12
+  • Wiederkehrende Prüfung Unterverteilungen, Unterverteilungen, Gebäudeautomation, 48
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Fühler, Gebäudeautomation, 12
+  • Sichtprüfung Racks und Verkabelung, Informationstechnik, Gebäudeautomation, 12
+  • Hygieneinspektion RLT-Anlage, RLT-Zentralgerät, Gebäudeautomation, 36
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                      Seite 6
+
+--- Seite 7 ---
+  • Wartung Zentralgerät, RLT-Zentralgerät, Gebäudeautomation, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Temperaturfühler und Raumbediengeräte UG
+    (Sammelposten), UG und EG, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Temperaturfühler und Raumbediengeräte
+    1.OG (Sammelposten), UG und EG, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Temperaturfühler und Raumbediengeräte
+    3.OG (Sammelposten), UG und EG, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Stellantriebe Ventile und Klappen UG
+    (Sammelposten), UG und EG, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Stellantriebe Ventile und Klappen 1.OG
+    (Sammelposten), UG und EG, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Stellantriebe Ventile und Klappen 4.OG
+    (Sammelposten), UG und EG, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Stellantriebe Ventile und Klappen 5.OG
+    (Sammelposten), UG und EG, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Temperaturfühler und Raumbediengeräte UG
+    (Sammelposten), 3.OG bis 5.OG, 12
+  • Kalibrierkontrolle Fühler und Funktionstest Stellantriebe, Temperaturfühler und Raumbediengeräte EG
+    (Sammelposten), 3.OG bis 5.OG, 12
+
+ 9 Aufgaben und Zuständigkeiten
+ Disposition RLT
+ Disposition von RLT- und Automationsarbeiten mit Material- und Kompetenzabgleich. Er will Termine
+ anbieten, die Personal, Material und Zugang berücksichtigen. Offene Voraussetzungen fasst er in wenigen
+ Punkten zusammen und bestätigt erst danach ein konkretes Fenster. Reservierte Zeit trennt er von einem
+ wirksamen Auftrag. Lieferantenseitige Einsatzplanung und Angebotsabstimmung. Keine
+ Auftraggeberfreigabe oder Annahme der eigenen Leistung. Technische Einsatzdisposition und
+ kaufmännische Serviceorganisation.
+
+ Servicetechnik RLT
+ RLT-Service mit langjähriger Kenntnis des Hauses und Lieferantenrolle seit 2024. Er will sein
+ Erfahrungswissen so weitergeben, dass nicht jede Rückfrage einen persönlichen Anruf braucht. Er beginnt
+ mit Ort und Anlage, prüft die aktuelle Situation und hält abweichende Altbezeichnungen fest. Erinnerung
+ kennzeichnet er als solche. Auftragsgemäße Diagnose und Montage als Lieferantenmitarbeiter. Keine
+ fortgeltende Eigentümer- oder FM-Bestellbefugnis aus früherer Beschäftigung. Berufserfahrung im
+ technischen FM und RLT-Service.
+
+ Gebäudeautomation
+ Gebäudeautomation, Signalzuordnung und nachvollziehbare Funktionsprüfungen innerhalb beauftragter
+ Servicearbeiten. Sie will Änderungen am Funktionszusammenhang später rekonstruieren können und
+ nicht nur einen Zustand hinterlassen, der gerade funktioniert. Sie fragt nach Sollwertquelle, Einheiten und
+ Messzeitpunkt. Ist ein Punkt unklar, dokumentiert sie die Unsicherheit, bevor sie etwas verändert.
+ Beauftragte Automationsarbeit und lieferantenseitige Dokumentation. Keine Auftraggeberannahme oder
+ allgemeine Auslegungsfreigabe. Erfahrung in Gebäudeautomation und Inbetriebnahme. Kein pauschaler
+ Nachweis für alle elektrotechnischen oder sicherheitsrelevanten Arbeiten.
+
+ Technische Geschäftsführung
+ Technische Geschäftsführung und Kapazitätsabgrenzung bei Luftpfad. Sie will verlässliche
+ Servicezusagen und fachliche Aufgaben, die sich nachvollziehbar trennen lassen. Bevor sie einen
+ zusätzlichen Auftrag in die Woche nimmt, fragt sie nach der nötigen Kompetenz, der Dauer und der
+ Anfahrt. Eigene Lieferantenkapazität und technische Organisation festlegen. Keine Auftraggeberfreigabe
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                       Seite 7
+
+--- Seite 8 ---
+ oder Abnahme der eigenen Arbeiten. Langjährige RLT-Service- und Projektpraxis. Formale
+ Einzelqualifikationen bleiben gesondert zu führen.
+
+ RLT-Servicetechnik und Vertretung
+ RLT-Service und schrittweiser Aufbau eigener Objektkenntnis. Er möchte auch bei einer Vertretung einen
+ abgegrenzten Arbeitsumfang und aktuelle Unterlagen erhalten. Beauftragte RLT-Arbeiten innerhalb der
+ Kompetenz, die er tatsächlich hat. Vertretung von Tobias erweitert keine Auftraggeberbefugnisse.
+ Berufserfahrung im RLT-Service. Automationsspezialaufgaben bleiben bei passender Fachbesetzung.
+
+ Serviceabrechnung
+ Lieferantenseitige Abrechnung und Zuordnung von Arbeits- und Materialnachweisen. Sie will vollständige
+ Rechnungsunterlagen, damit sie den Ausführungsort nicht nachträglich erraten muss. Sie verknüpft jede
+ Position mit der internen Auftragsgrundlage und markiert fehlende Nachweise. Lieferantenbelege
+ vorbereiten und Rückfragen klären. Keine Rechnungsfreigabe für Kantbogen. Kaufmännische
+ Serviceabrechnung und Belegzuordnung.
+
+ 10 Team
+ Henrike Baum, Technische Geschäftsführung
+ seit 04.02.2008, Kürzel HBa, Mail henrike.baum@luftpfad-anlagentechnik.de, Telefon 05990 5061-19.
+ Technische Geschäftsführung und Kapazitätsabgrenzung bei Luftpfad. Bevor sie einen zusätzlichen
+ Auftrag in die Woche nimmt, fragt sie nach der nötigen Kompetenz, der Dauer und der Anfahrt.
+
+ Kai Landmann, Kaufmännischer Geschäftsführer
+ seit 01.11.2020, Kürzel KLa, Mail kai.landmann@luftpfad-anlagentechnik.de, Telefon 05990 1004-23,
+ Telefon 05998 215386.
+ Kai Landmann, Jahrgang 1976, ist Kaufmännischer Geschäftsführer bei Luftpfad Anlagentechnik GmbH
+ und dort seit 2020 im Betrieb. Berufliche Grundlage: Kaufmännische Berufsausbildung, Abschluss,
+ erworben 1997. Er kümmert sich um Bank, Versicherung und Personal und mischt sich in die Ausführung
+ nur bei Streit ein. Er entscheidet schnell und korrigiert lieber später, als lange zu planen.
+ Ansprechperson für: Vertrag, Angebot, Beschwerde.
+
+ Elena Voss, Automationsfachkraft
+ seit 01.01.2021, Kürzel EVo, Mail elena.voss@luftpfad-anlagentechnik.de, Telefon 05990 5061-66,
+ Telefon 05998 268213.
+ Gebäudeautomation, Signalzuordnung und nachvollziehbare Funktionsprüfungen innerhalb beauftragter
+ Servicearbeiten. Sie fragt nach Sollwertquelle, Einheiten und Messzeitpunkt. Ist ein Punkt unklar,
+ dokumentiert sie die Unsicherheit, bevor sie etwas verändert.
+
+ Felix Thom, RLT-Servicetechnik und Vertretung
+ seit 01.04.2019, Kürzel FTh, Mail felix.thom@luftpfad-anlagentechnik.de, Telefon 05990 5061-33, Telefon
+ 05998 255967.
+ RLT-Service und schrittweiser Aufbau eigener Objektkenntnis.
+
+ Jasmin Ebert, Serviceabrechnung
+ seit 01.10.2020, Kürzel JEb, Mail jasmin.ebert@luftpfad-anlagentechnik.de, Telefon 05990 5061-31.
+ Lieferantenseitige Abrechnung und Zuordnung von Arbeits- und Materialnachweisen. Sie verknüpft jede
+ Position mit der internen Auftragsgrundlage und markiert fehlende Nachweise.
+
+ Kevin Schuster, Servicetechniker Lüftung und Kälte
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                    Seite 8
+
+--- Seite 9 ---
+ seit 16.11.2026, Kürzel KSc, Mail kevin.schuster@luftpfad-anlagentechnik.de, Telefon 05990 1004-21,
+ Telefon 05998 403017.
+ Übernimmt die Stelle von Maximilian Backhaus, ohne Übergabe.
+ Kevin Schuster, Jahrgang 1994, ist seit 16.11.2026 bei Luftpfad Anlagentechnik GmbH, Stelle
+ Servicetechniker Lüftung und Kälte. Den Arbeitsvertrag hat er am 16.10.2026 unterschrieben. Berufliche
+ Grundlage: Mechatroniker für Kältetechnik, Gesellenbrief, erworben 2015. Vorher war er elf Jahre bei
+ einem Kälte- und Klimabetrieb in Sindelfingen, erst in der Ausbildung, dann im Kundendienst.
+ Ansprechperson für: Wartung und Störungen Lüftung und Kälte.
+ Stellenbeschreibung Servicetechniker Lüftung und Kälte vom 16.10.2026 liegt in der Akte.
+
+ Maximilian Backhaus, Servicetechniker Lüftung und Kälte
+ seit 01.04.2003, Kürzel MBa, Mail maximilian.backhaus@luftpfad-anlagentechnik.de, Telefon 05990
+ 1004-14, Telefon 05998 826302.
+ Verlässt das Unternehmen auf eigenen Wunsch zum 30.11.2026, der letzte Arbeitstag war der
+ 05.11.2026. Die Stelle hat seit 16.11.2026 Kevin Schuster.
+ Maximilian Backhaus, Jahrgang 1977, ist Servicetechniker Lüftung und Kälte bei Luftpfad Anlagentechnik
+ GmbH und dort seit 2003 im Betrieb. Berufliche Grundlage: Geselle Heizungs-, Lüftungs- und
+ Sanitärtechnik, erworben 1996. Er macht Filterwechsel, Kältemittelkontrolle und Störungssuche auf
+ Dächern und in Technikzentralen. Er arbeitet im Austausch und braucht Zuhörer, um Gedanken zu
+ ordnen.
+ Ansprechperson für: Lüftung und Kälte.
+
+ Philipp Wiese, Servicetechniker Lüftung
+ seit 01.04.2018, Kürzel PWi, Mail philipp.wiese@luftpfad-anlagentechnik.de, Telefon 05990 1004-22,
+ Telefon 05998 900880.
+ Philipp Wiese, Jahrgang 1987, ist Servicetechniker Lüftung bei Luftpfad Anlagentechnik GmbH, davor seit
+ 2014 bei Ostrau Klimatechnik GmbH. Berufliche Grundlage: Geselle Heizungs-, Lüftungs- und
+ Sanitärtechnik, erworben 2007. Er wechselte 2018 zu Luftpfad Anlagentechnik GmbH. Er arbeitet an
+ Zentralgeräten, Kaltwassersätzen und Regelkreisen und misst Volumenströme nach.
+ Ansprechperson für: Lüftung und Kälte.
+
+ Selim Ahrens, Disposition Fachfirma
+ seit 01.08.2014, Kürzel SAh, Mail selim.ahrens@luftpfad-anlagentechnik.de, Telefon 05990 5061-37.
+ Disposition von RLT- und Automationsarbeiten mit Material- und Kompetenzabgleich. Offene
+ Voraussetzungen fasst er in wenigen Punkten zusammen und bestätigt erst danach ein konkretes
+ Fenster. Reservierte Zeit trennt er von einem wirksamen Auftrag.
+
+ Tobias Kernfeld, Servicetechniker
+ seit 15.01.2024, Kürzel TKe, Mail tobias.kernfeld@luftpfad-anlagentechnik.de, Telefon 05990 5061-60,
+ Telefon 05998 817496.
+ RLT-Service mit langjähriger Kenntnis des Hauses und Lieferantenrolle seit 2024. Er beginnt mit Ort und
+ Anlage, prüft die aktuelle Situation und hält abweichende Altbezeichnungen fest. Erinnerung kennzeichnet
+ er als solche.
+
+ 11 Frühere Kolleginnen und Kollegen, deren Namen in alten Unterlagen
+ stehen
+  • Gerhard Rehm, Kaufmännischer Geschäftsführer, bis 31.10.2020
+  • Valentina Greco, Disponentin, bis 31.01.2019
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                     Seite 9
+
+--- Seite 10 ---
+ 12 Mit wem wir am meisten zu tun haben
+  • Torwinkel Gebäudeservice GmbH. Torwinkel begleitet Luftpfad bei vereinbarten Lüftungsarbeiten. Alter
+    Reparaturauftrag bleibt unverändert. Ansprechpersonen: Rainer Jungmann (Geschäftsführer), Ben
+    Hecht (Servicekoordination)
+  • Kantbogen Bestand GmbH. Ansprechpersonen: Eva Brandt (Geschäftsführung), Clara Rhein
+    (Rechnungsprüfung Eigentümer)
+  • Raumlot Objektmanagement GmbH. Raumlot stimmt Angebote und Auftragsgrenzen mit Luftpfad ab.
+    Die Firma bleibt ein selbstständiger Lieferant. Ansprechpersonen: Uwe Pohl (Geschäftsführer), Farid
+    Mertens (Technisches Property Management)
+  • Technische Prüfstelle Kastner GmbH (TPK). Ansprechpersonen: Dr. Franco Esposito
+    (Geschäftsstellenleiter), Olaf Marquardt (Geschäftsführer)
+ Wie andere uns sehen:
+  • Nora Wendel: Sie schätzt Tobias wegen seiner Objektkenntnis, erwartet von Luftpfad aber denselben
+    dokumentierten Auftrag wie von jeder anderen Fachfirma. Beim Ausbau wünscht sie früh Angaben zu
+    Servicezugängen und Betriebszeiten.
+ Persönliche Verbindungen unserer Leute zu anderen Firmen:
+  • Henrike Baum und Werner Berndt (Rivalität)
+  • Maximilian Backhaus und Florian Bender (Ehemalige Kollegen)
+  • Philipp Wiese und Jessica Mehlhorn (Ehemalige Kollegen)
+  • Philipp Wiese und Svenja Vogel (Ehemalige Kollegen)
+  • Maximilian Backhaus und Valentina Greco (Kollegial)
+  • Tobias Kernfeld und Tom Sievers (Ehemalige Kollegen)
+  • Tobias Kernfeld und Benedikt Bremer (Ehemalige Kollegen)
+  • Jasmin Ebert und Axel Voigt (Ehemalige Kollegen)
+  • Jasmin Ebert und Hasan Korkmaz (Ehemalige Kollegen)
+  • Kai Landmann und Gerhard Rehm (Vorgänger und Nachfolger)
+  • Tobias Kernfeld und Nora Wendel: Zusammenarbeit bei Torwinkel bis Ende 2023. Wegen der
+    Übergabe vor Tobias Wechsel sind beide heute vertraut miteinander, und Nora wünscht sich weniger
+    personenbezogenes Anlagenwissen.
+  • Selim Ahrens und Jonas Heller: Sie stimmen Serviceanfragen regelmäßig ab. Zusätzliche Kosten und
+    Termin laufen im Oktoberfall über benannte Freigaben und nicht über einen persönlichen Zuruf.
+  • Jasmin Ebert und Leonard Beck: Frühere Zusammenarbeit bei Feldkreis bis 2019. Beide kennen die
+    Schwierigkeiten unvollständiger Stunden- und Auftragszuordnungen.
+  • Elena Voss und Jette Carlsen: Jette kennt den allgemeinen Gebäudebetrieb.
+  • Tobias Kernfeld und Bastian Marx: Beide sind mit dem Haus verbunden.
+ Mit wem wir bis zum 4.11.2026 am meisten Schriftwechsel hatten (Zahl der Nachrichten):
+  • Torwinkel Gebäudeservice GmbH: 48
+  • Raumlot Objektmanagement GmbH: 5
+
+ 13 Geräte und Werkzeuge im Einsatz
+  • Signalgeber analog, Steigmeister Leiterbau SIG-836
+  • Signalgeber analog, Steigmeister Leiterbau SIG-420, bei Selim Ahrens
+  • Servicenotebook mit Schnittstelle, Brandtec Geräte SER-873
+  • Servicenotebook mit Schnittstelle, Rauchsinn Analysetechnik SER-293
+
+ 14 Frühere Schriftwechsel bis Ende 2025
+ 24 Fäden bis Ende 2025, hier die jüngsten:
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                   Seite 10
+
+--- Seite 11 ---
+  • 2025, Mail: Raum OG5 heizt sich auf (8 Nachrichten)
+  • 2023, Mail: Büro im Kern 2 Treppenhaus zu warm (9 Nachrichten)
+  • 2021, Mail: Raum EG Forum heizt sich auf (7 Nachrichten)
+  • 2021, Mail: Büro im OG3 Büro Süd zu warm (12 Nachrichten)
+  • 2020, Mail: Zuluft Teeküche OG2 zu stark (10 Nachrichten)
+  • 2020, Mail: Temperatur OG5 über 27 Grad (11 Nachrichten)
+  • 2020, Mail: Temperatur Technikzentrale über 27 Grad (11 Nachrichten)
+  • 2020, Mail: Büro im OG3 Büro Nord zu warm (6 Nachrichten)
+  • 2019, Brief: Angebot und Auftrag, die Brandmeldeanlage (3 Nachrichten)
+  • 2018, Mail: Büro im Teeküche OG2 zu warm (9 Nachrichten)
+  • 2018, Mail: Raum EG Westfoyer heizt sich auf (9 Nachrichten)
+  • 2018, Mail: Raum EG Bistro heizt sich auf (8 Nachrichten)
+  • 2018, Mail: Raum UG Lager heizt sich auf (10 Nachrichten)
+  • 2018, Mail: Pfeifen am Auslass Besprechungsraum OG3 (9 Nachrichten)
+  • 2018, Mail: Pfeifen am Auslass EG Westfoyer (7 Nachrichten)
+  • 2018, Mail: Büro im OG2 Ost zu warm (10 Nachrichten)
+  • 2017, Mail: Zuluft EG Bistro zu stark (9 Nachrichten)
+  • 2017, Notiz: Notizen und Protokolle zu Büro im EG Bistro zu warm (4 Nachrichten)
+  • 2017, Mail: Büro im EG Bistro zu warm (10 Nachrichten)
+  • 2017, Mail: Temperatur UG Lager über 27 Grad (8 Nachrichten)
+  • 2017, Notiz: Notizen und Protokolle zu Lüftungsgeräusch (4 Nachrichten)
+  • 2017, Mail: Lüftungsgeräusch EG Bistro (12 Nachrichten)
+  • 2017, Mail: Zuluft OG1 Ost zu stark (8 Nachrichten)
+  • 2017, Notiz: Notizen und Protokolle zu Zuluft OG1 Ost zu stark (4 Nachrichten)
+
+ 15 Erledigte Vorgänge bis Ende 2025
+ Abgeschlossene Vorgänge 2017 bis 2025, nach Art:
+  • Störungsmeldung Neubau: 17
+  • Korrespondenz Neubauzeit: 1
+ Darunter, ohne die Störungsmeldungen:
+  • 08.04.2019 bis 29.04. 2019, Korrespondenz Neubauzeit: Angebot und Auftrag, die Brandmeldeanlage
+
+ 16 Abkürzungen, die bei uns üblich sind
+  • AR-Zahlung: Abschlagszahlung
+  • AVA: Ausschreibung, Vergabe und Abrechnung
+  • Anf.: Anfahrt
+  • Anm.: Anmerkung
+  • App: mobile Anwendung
+  • B. Eng.: Bachelor of Engineering
+  • Bd.: Band
+  • Bil.: Bilanz
+  • Cent: Cent
+  • DMS: Dokumentenmanagementsystem
+  • E-Rechng.: elektronische Rechnung
+  • FA: Fahrtreppe
+  • Fibu: Finanzbuchhaltung
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                              Seite 11
+
+--- Seite 12 ---
+  • GA: Gebäudeautomation
+  • GuV: Gewinn- und Verlustrechnung
+  • Gutschr.: Gutschrift
+  • HAV: Hausanschlussverteiler
+  • HLS: Heizung, Lüftung, Sanitär
+  • Hdz.: Handzeichen
+  • KW: Kalenderwoche
+  • Kap.: Kapitel
+  • Kto.: Konto
+  • Mo.: Montag
+  • PCB: polychlorierte Biphenyle
+  • PDF: Portable Document Format
+  • Prof.: Professor
+  • QES: qualifizierte elektronische Signatur
+  • Rg.-Nr.: Rechnungsnummer
+  • SiFa: Fachkraft für Arbeitssicherheit
+  • Sich.-Einb.: Sicherheitseinbehalt
+  • Skt.: Skonto
+  • TOP: Tagesordnungspunkt
+  • Tel.: Telefon
+  • VÜA: Videoüberwachungsanlage
+  • XRechnung: Standard für elektronische Rechnungen
+  • Ziff.: Ziffer
+  • bT: bis Termin
+  • ggf.: gegebenenfalls
+  • i. A.: im Auftrag
+  • i. V.: in Vertretung
+  • n. v.: nicht vorhanden
+  • s. o.: siehe oben
+  • usw.: und so weiter
+  • vierteljährl.: vierteljährlich
+
+ 17 Wo unsere Unterlagen im Datenraum liegen
+  • 04 Betrieb und Wartung: 286 Dokumente
+  • 07 Dienstleister und Firmen: 168 Dokumente
+  • 08 Kommunikation: 31 Dokumente
+  • 09 Altakten: 11 Dokumente
+  • 06 Behörden und Genehmigungen: 8 Dokumente
+  • 11 Register und Auswertungen: 4 Dokumente
+
+ 18 Chronik am Standort
+ Neueste Einträge zuerst. Wartungen, Prüfungen und andere Routinetermine vor dem 18.11.2024 stehen
+ im Betriebstagebuch und in den Prüfberichten der Akte.
+  • 03.11.2026 Rechnung von Luftpfad Anlagentechnik GmbH. Rechnung eingegangen, brutto 991.27
+    EUR.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                              Seite 12
+
+--- Seite 13 ---
+  • 03.11.2026 Mitteilung Personalwechsel bei Luftpfad Anlagentechnik GmbH: Nachfolge für Maximilian
+    Backhaus. Mitteilung an Raumlot Objektmanagement GmbH über das Ausscheiden von Maximilian
+    Backhaus zum 30.11.2026 und den Eintritt von Kevin Schuster (Servicetechniker Lüftung und Kälte)
+    zum 16.11.2026.
+  • 30.10.2026 Forum-Regler wird im bereits vorhandenen Auftrag mit einem neuen Antrieb wieder
+    funktionsfähig gemacht
+  • 30.10.2026 Ersatz-Stellantrieb am Forum-Regler eingebaut. Alter Stellantrieb ausgebaut, Ersatz
+    eingebaut, Zuluftvolumenstrom danach 1110 m3/h (vorher 520 m3/h).
+  • 26.10.2026 Luftmangel im Forum. Beobachtung, Befund, Messung und Tausch des Stellantriebs am
+    30. Oktober.
+  • 26.10.2026 Auftrag an Luftpfad Anlagentechnik GmbH. Ein Auftrag mit dokumentierter Erweiterung.
+    Diagnose und Reparatur sind getrennte Arbeitsgänge.
+  • 16.10.2026 Arbeitsvertrag mit Kevin Schuster unterschrieben. Luftpfad Anlagentechnik GmbH und
+    Kevin Schuster unterschreiben den Arbeitsvertrag als Servicetechniker Lüftung und Kälte mit Beginn
+    am 16.11.2026 und sechs Monaten Probezeit. Die Stellenbeschreibung ist Anlage zum Vertrag, eine
+    Vollmacht ist nicht vorgesehen.
+  • 12.10.2026 Probearbeitstag von Kevin Schuster bei Luftpfad Anlagentechnik GmbH. Kevin Schuster
+    arbeitet am 12.10.2026 einen Tag zur Probe mit. Am Abend sprechen Henrike Baum und Kevin
+    Schuster kurz über den Tag, danach erhält er die Zusage.
+  • 05.10.2026 Vorstellungsgespräch mit Kevin Schuster bei Luftpfad Anlagentechnik GmbH. Kevin
+    Schuster bewirbt sich am 02.10.2026 auf die Stelle Servicetechniker Lüftung und Kälte. Die Bewerbung
+    kommt über die Stellenanzeige im Onlineportal der Arbeitsagentur. Im Gespräch am 05.10.2026 geht
+    Henrike Baum mit ihm den Lebenslauf durch, zuletzt Kundendiensttechniker Klima und Kälte, Kälte-
+    und Klimabetrieb in Sindelfingen. Besprochen werden die Aufgaben der Stelle, Vollzeit, 40 Stunden in
+    der Woche, Eintritt zum 16.11.2026 und sechs Monate Probezeit. Vereinbart wird ein Probearbeitstag
+    am 12.10.2026.
+  • 29.09.2026 Kündigung von Maximilian Backhaus bei Luftpfad Anlagentechnik GmbH. Maximilian
+    Backhaus (Servicetechniker Lüftung und Kälte) kündigt zum 30.11.2026. Grund: Wechsel zu einem
+    anderen Arbeitgeber. Letzter Arbeitstag ist der 05.11.2026, danach Resturlaub. Eine Übergabe an die
+    Nachfolge ist nicht vorgesehen.
+  • 16.09.2026 Heizkreis im OG3 fällt aus. Der Heizkreis des Lüftungsgeräts für das OG3 fällt aus, Mieter
+    melden kühle Zuluft und Zugluft. Torwinkel Gebäudeservice lässt Luftpfad Anlagentechnik die Anlage
+    prüfen. Die Ursache liegt in der Regelung, ein Fühlerwert war falsch eingestellt.
+  • 24.06.2026 Jahreswartung der Lüftungsanlage durch Luftpfad
+  • 29.01.2026 Pumpenstörung in der Technikzentrale. Die Pumpe am Heizregister des Lüftungsgeräts
+    läuft nicht an, in mehreren Büros kommt die Zuluft kalt an. Torwinkel Gebäudeservice lässt Luftpfad
+    Anlagentechnik die Anlage prüfen. Die Ursache liegt in der Regelung, nach einem Neustart der
+    Steuerung läuft die Pumpe wieder.
+  • 23.06.2025 Jahreswartung der Lüftungsanlage durch Luftpfad
+  • 2025 Bauteilbogen stellt Luftpfad alternative Antriebstypen zur fachlichen Prüfung vor
+  • 2024 Tobias Kernfeld wechselt von Torwinkel zu Luftpfad
+  • 31.12.2023 Tobias Kernfeld verlässt Torwinkel. Tobias Kernfeld geht zum 1. Januar 2024 zu Luftpfad.
+    Die Übergabe älterer Anlagenbezeichnungen an Nora Wendel ist unvollständig.
+  • 08.08.2023 Kondensat an der RLT, Meldung 2023. Kondensat tropft auf den Boden,
+    Tropfenabscheider aufgequollen.
+  • 2023 Tobias Kernfeld beendet seine Tätigkeit bei Torwinkel mit dem letzten aktiven Jahr 2023
+  • 24.10.2022 Heizkreis in der Technikzentrale fällt aus. Lennart Mees nimmt die Meldung im System auf
+    und beauftragt Luftpfad Anlagentechnik. Der Techniker tauscht ein Bauteil und quittiert die Behebung.
+  • 14.02.2022 Volumenstromregler meldet Fehler im OG1. Mieter melden Zugluft und zu hohe
+    Temperatur, Torwinkel Gebäudeservice lässt Luftpfad Anlagentechnik die Anlage prüfen. Die Ursache
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                    Seite 13
+
+--- Seite 14 ---
+     liegt in der Regelung.
+  • 24.08.2021 Kondensat an der RLT, Meldung 2021. Erneut Kondensat, Ablaufleitung verstopft,
+    Filterstand ungeprüft.
+  • 10.03.2020 Pumpenstörung in der Technikzentrale. Tobias Kernfeld nimmt die Meldung im System auf
+    und beauftragt Luftpfad Anlagentechnik. Der Techniker tauscht ein Bauteil und quittiert die Behebung.
+  • 18.07.2019 Kondensat an der RLT, Meldung 2019. Kondensat am Wärmeübertrager im Technikraum,
+    Wanne gereinigt, Ablauf geprüft.
+  • 22.03.2018 Pumpenstörung in der Technikzentrale. Die Umwälzpumpe am Heizregister der
+    Lüftungszentrale meldet Störung. Rainer Lehmann sieht die Sammelstörung am Störmeldetableau im
+    Treppenhaus Kern 1, Mieter melden kalte Zuluft. Torwinkel Gebäudeservice lässt Luftpfad
+    Anlagentechnik die Anlage prüfen. Die Ursache liegt in der Regelung, die Pumpe bekam keine
+    Freigabe.
+  • 2018 Erste fachliche Serviceeinsätze am Bogenfeld nach Übergabe des laufenden Gebäudebetriebs
+  • 2002 Gründung eines Lüftungsservicebetriebs mit eigener kleiner Werkstatt
+
+ 19 Die Lage im November 2026
+ Stand 18.11.2026. Diese Punkte liegen auf dem Tisch der Geschäftsführung. Jeder davon hat eine
+ Gegenseite außerhalb von Luftpfad.
+  • Vertrag VTR-1005: Der Wartungsvertrag mit Kantbogen läuft seit 03.04.2018 und verlängert sich jedes
+    Jahr um ein Jahr, wenn niemand mit drei Monaten Frist kündigt. Im Scan des Vertrags stehen eine
+    Jahrespauschale und eine Preisgleitklausel, die weder zu unserem Angebot von 2018 noch zu unserer
+    Preisanpassung von 2023 passen. Kantbogen hat mehrere Rechnungen seit Wochen nicht bezahlt.
+  • Kondensat: Derselbe Befund steht seit Jahren in unseren Berichten. Die monatliche Filterkontrolle ist
+    laut Randvermerk im Vertrag nicht beauftragt.
+  • Forum: Der Volumenstrom stimmt seit 30.10., das Forum wird nachmittags trotzdem warm. Torwinkel
+    fragt, wer das übernimmt. Die Regierechnung 2026-1182 für den Forum-Regler über 833 EUR netto
+    steht seit 02.11. ohne Fälligkeit offen.
+  • Brandschutzklappen: Maximilian Backhaus hat die Prüfung jedes Jahr allein gemacht,
+    gegengezeichnet hat Dennis Prange von Torwinkel. Beide sind ohne Übergabe gegangen.
+  • Terminplan 2027: Torwinkel will bis 30.11. unsere Termine mit Abschaltungen.
+  • Abnahme: Torwinkel prüft die Wartungsprotokolle vom 03.11. bis 25.11. noch einmal, gegengezeichnet
+    hatte Dennis Prange zwei Tage vor seinem Ausscheiden. Ohne Abnahme rechnen wir die Leistung
+    nicht sauber ab.
+  • Zu warme Büros: Seit Januar 2025 hatten wir am Bogenfeld 80 bezahlte Einsätze wegen zu warmer
+    Räume. Raumlot bündelt die Beschwerden der Mieter und stellt uns bis 30.11. einen Prüfauftrag.
+    Kälteanlagen gehören nicht zu unserem Leistungsangebot (Abschnitt 1).
+  • Gerücht: Nach dem, was Tobias gehört hat, gehen am 10.12. Berater der Eigentümerseite durchs
+    Haus und fragen nach Wartungsverträgen.
+ Wer was entscheidet, steht in den Personenbriefings. Entscheidungen, die Luftpfad nach außen binden,
+ treffen Henrike Baum und Kai Landmann gemeinsam.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                     Seite 14
+

@@ -1,0 +1,181 @@
+--- Seite 1 ---
+[OCR] TORWINKEL GEBÄUDESERVICE GMBH ©
+
+Werkbogen 6, 70186 Stuttgart
+
+Wartungsvertrag Nr. VTR-1005
+
+Torwinkel Gebäudeservice GmbH | Werkbogen 6, 70186 Stuttgart | HRB 724314, Amtsgericht Stuttgart
+Ansprechpartner: Rainer Lehmann, Objektleiter Bogenfeld
+Datum 06.03.2018
+
+WARTUNGSVERTRAG RLT, GEBÄUDEAUTOMATION UND GASANLAGEN
+zwischen
+
+der Kantbogen Bestand GmbH, Archivufer 8, 70173 Stuttgart, HRB 728584, Amtsgericht Stuttgart,
+vertreten durch die Torwinkel Gebäudeservice GmbH, Werkbogen 6, 70186 Stuttgart, HRB 724314,
+Amtsgericht Stuttgart, nachfolgend Auftraggeber genannt,
+
+und
+
+der Luftpfad Anlagentechnik GmbH, Luftbogen 9, 70372 Stuttgart, HRB 724559, Amtsgericht Stuttgart,
+nachfolgend Auftragnehmer genannt.
+
+Vorbemerkung: Dieser Vertrag tritt für die RLT-Anlagen an die Stelle des Vertrags VTR-1003 mit der
+Ostrau Klimatechnik GmbH, der am 02.04.2018 endet. Er umfasst zusätzlich die Gebäudeautomation
+und die Gasanlagen. Vertragsbestandteile sind dieses Formular sowie Anlage 1 (Anlagenliste), Anlage 2
+(Leistungsverzeichnis mit 107 Positionen) und Anlage 3 (Stundensätze und Preisliste). Bei
+Widersprüchen gilt die Reihenfolge Vertragsformular, Anlage 2, Anlage 3, Anlage 1.
+
+$ 1 Leistungsgegenstand und Anlagenliste
+
+Der Auftragnehmer übernimmt die Wartung der in der Anlagenliste, Anlage 1, aufgeführten technischen
+Anlagen des Objekts, Gewerke RLT, Gebäudeautomation und Gas. Die Anlagenliste enthält Standort,
+Hersteller, Baujahr und Seriennummer. Anlagen, die dort nicht stehen, sind von diesem Vertrag nicht
+erfasst. Die Liste liegt als Tabelle vor und wird beim Jahresgespräch abgeglichen.
+
+$ 2 Leistungsumfang und Intervalle
+
+Die Wartung umfasst Inspektion, Wartung im engeren Sinne und Funktionsprüfung nach den
+Herstellervorgaben und den anerkannten Regeln der Technik. Die Intervalle ergeben sich aus dem
+Leistungsverzeichnis, Anlage 2. Mindestens einzuhalten sind die gesetzlichen Prüfintervalle des
+Betreibers. Der Begriff Wartung folgt der Norm zu den Grundlagen der Instandhaltung, die Inspektion
+und Wartung trennt.
+
+handschriftlicher Randvermerk: Filterkontrolle monatlich nicht Vertragsinhalt, siehe Sprechzettel Torwinkel vom 20.2.2018.
+
+$ 3 Pauschalvergütung
+
+Der Auftraggeber zahlt für die Leistungen nach Anlage 2 eine Jahrespauschale von 81.500 EUR, zahlbar
+in vier gleichen Raten zum Quartalsbeginn. Die Pauschale gilt für Arbeitszeit und Anfahrt in der
+Regelarbeitszeit. Material und Ersatzteile sind nicht enthalten. Die Rechnungen werden als PDF
+gestellt, die Zahlungsfrist beträgt dreißig Tage.
+
+$ 4 Preisanpassung
+
+Die Pauschale wird zum 1. Januar eines Jahres angepasst. Maßgeblich sind zu 60 Prozent die
+Entwicklung der Tariflöhne im Gewerbe und zu 40 Prozent die Entwicklung der Erzeugerpreise für die
+verwendeten Materialien, jeweils ausgehend von den Werten bei Vertragsbeginn. Es gelten die
+veröffentlichten Tariflöhne und Erzeugerpreise. Entfallen diese Werte, tritt der Verbraucherpreisindex
+für Deutschland (Basis 2010 gleich 100) an ihre Stelle.
+
+5 5 Störungsbeseitigung und Reaktionszeit
+
+Meldet der Auftraggeber eine Störung per E-Mail oder Einschreiben, beginnt der Auftragnehmer
+innerhalb von acht Stunden mit der Beseitigung. Bei Gefahr für Personen oder Sachen gilt eine
+Reaktionszeit von zwei Stunden. Als Zielwert für Störungen RLT Prio 1 gelten 95 Prozent innerhalb der
+Frist von 120 Minuten. Die Störungsbeseitigung wird nach Zeitaufwand zu den Stundensätzen der Anlage
+
+Torwinkel Gebäudeservice Telefon 05990 9424-0 HRB 724314, Amtsgericht Nordsteg Kreditbank AG, IBAN DE0O
+GmbH Telefax 05990 5120-99 Stuttgart 9122 1241 4560 3260 34, BIC
+
+Werkbogen 6, 70186 Stuttgart kontakt@torwinkel-gebaeudeservice.de Geschäftsführung: Petra Ulrich NKKBDEKO Seite 1 3
+eite 1 von
+
+--- Seite 2 ---
+[OCR] Torwinkel Gebäudeservice GmbH Seite 2 von 3
+
+3 vergütet, soweit die Pauschale sie nicht deckt. Die Stundensätze betragen bei Vertragsbeginn für
+Fachhelfer 42,65 EUR, für Monteur 54,70 EUR, für Meister 68,60 EUR und für Ingenieur 89,00 EUR.
+Störungen können telefonisch oder per E-Mail gemeldet werden, die Stördienststelle bestätigt den
+Eingang mit einer Meldenummer.
+
+$ 6 Ersatzteile und Verschleiß
+
+Ersatz- und Verschleißteile werden nach Aufwand zu den Preisen der Anlage 3 abgerechnet. Bei Teilen
+mit einem Einzelwert über 650 EUR legt der Auftragnehmer vor dem Einbau ein Angebot vor.
+Ausgetauschte Teile bleiben auf Verlangen beim Auftraggeber. Die Teilepreise ergeben sich aus der
+Preisliste des Herstellers abzüglich eines Nachlasses oder aus dem nachgewiesenen Einkaufspreis.
+
+$ 7 Dokumentation und Prüfbuch
+
+Jede Wartung wird in einem Prüfbericht als PDF dokumentiert. Der Eintrag enthält Datum, Name des
+Technikers, die ausgeführten Arbeiten, festgestellte Mängel und Empfehlungen. Die Unterlagen gehen
+dem Auftraggeber binnen zwei Wochen nach der Wartung zu, als Zielwert gelten 10 Werktage nach dem
+Termin. Das Prüfbuch im Technikraum wird vom Techniker nachgeführt. Die Termintreue der Wartung
+soll bei 98 Prozent der fälligen Termine liegen.
+
+$ 8 Qualifikation des Personals
+
+Der Auftragnehmer setzt nur Personal ein, das für die Anlage ausgebildet und unterwiesen ist und die
+nach den Vorschriften erforderliche Befähigung hat. Auf Verlangen werden Qualifikation und
+Unterweisung durch Kopien der Bescheinigungen nachgewiesen. Die befähigte Person ist namentlich zu
+benennen.
+
+$ 9 Zutritt und Mitwirkung
+
+Der Auftraggeber gewährt dem Auftragnehmer und dessen Beauftragten zu den vereinbarten Zeiten
+Zutritt zu den Anlagen und stellt Strom, Wasser und erforderliche Hilfsmittel unentgeltlich bereit.
+Terminverschiebungen teilt er mindestens zwei Werktage vorher mit. Der Zutritt erfolgt mit
+Transponder, die Vergabe wird vom Auftraggeber protokolliert.
+
+$ 10 Haftung und Versicherung
+
+Der Auftragnehmer haftet für Schäden, die er oder seine Erfüllungsgehilfen schuldhaft verursachen. Bei
+leicht fahrlässiger Verletzung nicht wesentlicher Pflichten ist die Haftung auf den vorhersehbaren
+Schaden begrenzt. Er unterhält eine Betriebshaftpflichtversicherung mit einer Deckungssumme von
+mindestens 1.769.000 EUR je Schadenfall, bemessen in Euro. Ein Nachweis wird auf Anforderung
+geführt.
+
+$ 11 Laufzeit und Kündigung
+
+Der Vertrag beginnt am 03.04.2018 und läuft drei Jahre. Er verlängert sich jeweils um ein Jahr, wenn er
+nicht mit einer Frist von drei Monaten zum Ende der Laufzeit gekündigt wird. Das Recht zur Kündigung
+aus wichtigem Grund bleibt unberührt. Die Kündigung erfolgt durch Einschreiben oder in Textform.
+
+$ 12 Nachunternehmer
+
+Der Auftragnehmer darf Teile der Leistung nur mit Zustimmung des Auftraggebers durch
+Nachunternehmer ausführen lassen. Er bleibt dafür verantwortlich wie für eigene Leistungen und
+benennt die eingesetzten Nachunternehmer auf Verlangen. Die Zustimmung kann in Textform erteilt
+werden.
+
+$ 13 Abnahme und Mängel
+
+Der Auftraggeber bestätigt die ordnungsgemäße Ausführung jeder Wartung im Protokoll. Mängel der
+Wartungsleistung beseitigt der Auftragnehmer kostenfrei. Ansprüche wegen Mängeln verjähren in zwei
+Jahren ab Abnahme der jeweiligen Wartung.
+
+$ 14 Verfügbarkeit und Notdienst
+Der Auftragnehmer hat einen Notdienst. Die Notdienstnummer ist ein Mobilanschluss, die Erreichbarkeit
+wird im Monatsbericht bestätigt.
+
+Torwinkel Gebäudeservice Telefon 05990 9424-0 HRB 724314, Amtsgericht Nordsteg Kreditbank AG, IBAN DEOO
+GmbH Telefax 05990 5120-99 Stuttgart 9122 1241 4560 3260 34, BIC
+Werkbogen 6, 70186 Stuttgart kontakt@torwinkel-gebaeudeservice.de Geschäftsführung: Petra Ulrich NKKBDEKO
+
+--- Seite 3 ---
+[OCR] Torwinkel Gebäudeservice GmbH Seite 3 von 3
+
+$ 15 Herstellervorgaben und Gewährleistung
+
+Wartung und Instandsetzung erfolgen so, dass Gewährleistungs- und Garantieansprüche des
+Auftraggebers gegen Hersteller oder Errichter nicht beeinträchtigt werden. Der Auftragnehmer prüft
+vor Beginn die Garantiebedingungen und teilt abweichende Anforderungen mit. Die Garantieunterlagen
+liegen im Dokumentenarchiv des Auftraggebers.
+
+$ 16 Abrechnung und Zahlung
+
+Rechnungen sind prüfbar zu erstellen und enthalten Anlagen, Leistungen und den Nachweis der
+Wartung. Die Zahlung erfolgt binnen dreißig Tagen nach Zugang. Bei Zahlungsverzug schuldet der
+Auftraggeber Zinsen nach dem Gesetz, das sind neun Prozentpunkte über dem Basiszinssatz nach 5 247
+BGB, soweit er kein Verbraucher ist.
+
+Stuttgart, den 06.03.2018
+Für den Auftraggeber, Kantbogen Bestand GmbH, vertreten durch Torwinkel Gebäudeservice GmbH:
+
+Rainer Lehmann
+Petra Ulrich
+Rainer Lehmann, Objektleiter Bogenfeld
+Für den Auftragnehmer, Luftpfad Anlagentechnik GmbH:
+Henrike Baum
+
+Anlagen: 1 Anlagenliste, 2 Leistungsverzeichnis, 3 Stundensätze und Preisliste (jeweils It. beiliegender
+Aufstellung).
+
+Verteiler (per Mail als PDF): An Kantbogen Bestand GmbH. Cc Luftpfad Anlagentechnik GmbH,
+Technischer Dienst Bogenfeld, Vertragsakte.
+
+Torwinkel Gebäudeservice Telefon 05990 9424-0 HRB 724314, Amtsgericht Nordsteg Kreditbank AG, IBAN DEOO
+GmbH Telefax 05990 5120-99 Stuttgart 9122 1241 4560 3260 34, BIC
+Werkbogen 6, 70186 Stuttgart kontakt@torwinkel-gebaeudeservice.de Geschäftsführung: Petra Ulrich NKKBDEKO

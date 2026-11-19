@@ -1,0 +1,64 @@
+--- Seite 1 ---
+[OCR] Luftpfad Anlagentechnik GmbH
+
+Luftbogen 9, 70372 Stuttgart Telefon 05990 1004-0
+
+| Wartungsprotokoll 09384
+
+Bearbeiter: Maximilian Backhaus, Servicetechniker Lüftung und Kälte
+
+Datum Auftraggeber
+
+03.11.2026 ; Torwinkel Gebäudeservice GmbH
+Vertrag |
+
+VTR-1005
+
+Anlage Volumenstromregler Etage 4.0G, AST-100167, Hersteller Wiltrup Absperrklappen GmbH, Typ WA-886 S
+Standort 4.0G, UG
+
+Leistung
+
+Wartung Klappen, Regler und Stellantriebe
+
+Monteur
+
+Maximilian Backhaus
+
+Ausgeführte Arbeiten
+
+I Kondensatwanne gereinigt
+
+] Klappenantriebe auf Gängigkeit geprüft
+NV] Keilriemen und Lager kontrolliert
+
+Messwerte
+
+= Volumenstrom Zuluft gesamt: 20:115 m3/h
+=" Filterdifferenzdruck: 101 Pa
+=. Zulufttemperatur: 19,0 °C
+
+Feststellungen
+
+= Zugang zur Revisionsöffnung durch Lagergut verstellt (gering)
+Arbeitszeit 2,0 Stunden. Ersatzteile: keine.
+
+Protokoll auf dem Tablet erstellt, Fotos der Anlage im CAFM abgelegt.
+
+Monteur:
+
+Maximilian Backhaus
+
+Maximilian Backhaus
+Servicetechniker Lüftung und Kälte
+
+Gegenzeichnung Auftraggeber:
+
+Dennis Prange
+
+Dennis Prange
+Haustechniker
+
+Luftpfad Anlagentechnik.GmbH Telefon 05990 1004-0 HRB 724559, Amtsgericht Stuitgart. Nordsteg Kreditbank AG, IBAN DE00 9122
+Luftbogen 9, 70372 Stuttgart Telefax 05990 1004-99 Geschäftsführüng: Henrike Baum, Kai’ 1241 5798 8731 13, BIC NKKBDEKO
+Landmann

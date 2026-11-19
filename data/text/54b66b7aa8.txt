@@ -1,0 +1,76 @@
+--- Seite 1 ---
+ Aufgabe A003: Posteingang sortieren
+ Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa
+ 1,5 Stunden. Federführend: Kai Landmann (Person 2).
+ Beginnen Sie diese Aufgabe nach der Sitzung am 19.11. und schließen Sie sie bis 2.12.2026 ab.
+ Diese Aufgabe ist Schritt 1 von 3 der Kette Postfach und Vorgänge zwischen den Firmen. Danach: A039
+ (Raumlot Objektmanagement GmbH), erst nach dem 2. Dezember.
+
+ Auftrag
+ In Ihrem Postfach liegen Nachrichten, die noch niemand bearbeitet hat, manche schon seit dem Sommer.
+ Sortieren Sie jede Nachricht: sofort, diese Woche, später, nur ablegen oder an jemand anderen. Nennen
+ Sie, wer bei Ihnen zuständig ist. Halten Sie fest, ob und bei welchen Nachrichten Sie anders vorgehen als
+ bei den übrigen, und warum. Begründen Sie Ihre Wahl. Vermerken Sie bei jeder Nachricht, die in A161
+ oder A166 weiterläuft, in welcher.
+
+ Was Sie abgeben
+ Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG).
+ Pflichtangaben:
+  • Tabelle mit 18 Zeilen, eine je Nachricht, mit den Spalten Nr, Einstufung (eine der fünf Stufen),
+    zuständig bei Luftpfad, Begründung in einem Satz, Weiterlauf (A161, A166 oder keiner, bei Weiterlauf
+    mit der Nummer der Aufgabe), bei Nachrichten, die älter als 30 Tage sind, zusätzlich Alter in Tagen
+    zum Stichtag 18.11.2026
+  • Eine Notiz zu den Nachrichten, bei denen Sie anders vorgegangen sind, höchstens eine halbe Seite,
+    mit Dateiname, Stelle im Text, Bildschirmfoto der Stelle und Ihrer Begründung (sind Sie bei keiner
+    anders vorgegangen, steht das dort)
+  • Im Lernprotokoll drei Werte aus der Tabelle, die Sie selbst nachgeprüft haben
+
+ Einsatz von KI
+  • Abgeben: Tabelle aus dem Textexport bauen
+  • Teilen: Einstufung der Dringlichkeit
+  • Behalten: Entscheidung über Weiterleitung, Umgang mit einzelnen Nachrichten
+ Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+ Material
+ Quelle              Wo im Paket                                             Fundstelle      Größe
+ Firmenablage        03_Material/Postfach/00_Postfach_als_Text.txt           ganze Datei     12 KB
+ Firmenablage        03_Material/Postfach/00_Posteingang_Uebersicht.xlsx     ganze Datei     7 KB
+
+
+
+ Tabellen
+ Laden Sie Tabellen als Datei hoch, nicht als eingefügten Text, und lassen Sie die KI mit ihrer
+ Rechenfunktion (je nach Anbieter Datenanalyse oder Code-Ausführung) rechnen. Läuft die Funktion nicht,
+ geben Sie Ausschnitte als CSV-Text ein. Prüfen Sie drei Werte selbst in der Tabelle nach und vermerken
+ Sie das im Lernprotokoll.
+
+ Eingang aus Ihrer Gruppe
+ Zu Nachrichten, die zu A162, A163, A165 oder A008 gehören, fragen Sie die federführende Person (Selim
+ Ahrens, Elena Voss, Kevin Schuster), ob Einstufung und Zuständigkeit für sie stimmen. Halten Sie die
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                     Seite 1
+
+--- Seite 2 ---
+ Antwort in der Tabelle fest.
+
+ Woran es gemessen wird
+ 1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+ 2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der
+ Originalstelle bei.
+ 3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+ 4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+ 5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie
+ die Stelle mit Beleg.
+ 6. Einstufung: Jede der 18 Nachrichten hat genau eine Einstufung. Bei Nachrichten, die älter als 30 Tage
+ sind, steht das Alter in Tagen zum Stichtag 18.11.2026.
+ 7. Abweichendes Vorgehen: Zu jeder Nachricht, bei der Sie anders vorgehen, steht die Datei, die Stelle im
+ Text und Ihre Begründung. Gab es keine, steht das dort.
+ Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                        Seite 2
+

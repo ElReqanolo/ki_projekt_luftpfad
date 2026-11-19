@@ -1,0 +1,89 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., Vorarbeit von Torwinkel ab 25.11., fertig bis 30.11.2026, Aufwand etwa 1,5 Stunden. Federführend: Kevin Schuster (Person 5).
+
+Diese Aufgabe ist Schritt 2 von 2 der Kette Abnahme der Wartungen. Vorher: A172 (Torwinkel Gebäudeservice GmbH).
+
+Auftrag
+
+Am 03.11.2026, zwei Tage vor seinem letzten Arbeitstag, hat Maximilian Backhaus den Volumenstromregler Etage 4.OG gewartet und das Protokoll 09384 geschrieben. Gegengezeichnet hat Dennis Prange von Torwinkel, der inzwischen ebenfalls weg ist. Torwinkel prüft die Protokolle vom 03.11. bis 25.11. noch einmal, bevor sie abgenommen werden. Ohne Abnahme gilt die Leistung nicht als erbracht.
+
+Teil 1, ab 19.11.: Prüfen Sie das Protokoll selbst, bevor Torwinkel es tut.
+
+-   Gehört jede Zeile des Protokolls zu der Anlage, die oben steht? Belegen Sie Zeile für Zeile.
+
+-   Vergleichen Sie mit dem Protokoll 08988 (Volumenstromregler 3.OG, April 2026) und dem Protokoll 09272 (Abluft Filteraufnahme, September 2026). Was unterscheidet die drei, und was haben sie gemeinsam?
+
+-   Lesen Sie die Feststellung im Protokoll neben den Notizen von Backhaus. Passen die ausgeführten Arbeiten zu den Feststellungen?
+
+Teil 2, ab 25.11.: Lesen Sie den Abnahmevermerk und die Rückfrage von Torwinkel in Uebergaben/Abnahme_Wartung und antworten Sie.
+
+Ihre Entscheidung
+
+Sie entscheiden, was Luftpfad Torwinkel antwortet: das Protokoll verteidigen, es berichtigen (aber Sie waren am 03.11. nicht dabei), die Wartung auf eigene Kosten wiederholen, sobald die Revisionsöffnung frei ist, oder offen sagen, was Sie zur Entstehung des Protokolls wissen und was nicht. Jede Antwort hat Folgen für Ihre Aufgabe A008. Stimmen Sie die Antwort mit Henrike Baum (Person 1) ab und sagen Sie Kai Landmann (Person 2), ob die Rechnung für den 03.11. hinausgehen kann.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Ein Prüfvermerk zu 09384 mit einer Tabelle: je Zeile des Protokolls (Anlage, Standort, Arbeiten, Messwerte, Feststellung) ein Urteil, ob die Zeile zur Anlage gehört, mit Beleg
+
+-   Eine Gegenüberstellung von 09384, 08988 und 09272 als Tabelle mit Anlage, Standort, Arbeiten, Messwerten, Feststellungen, Arbeitszeit
+
+-   Die Antwort an Torwinkel bis 30.11. in Abnahme_Wartung, höchstens eine Seite
+
+-   Eine kurze Nachricht an Kai Landmann zur Rechnung für den 03.11. (hinausgehen, zurückhalten, mit Grund)
+
+-   Im Lernprotokoll ein Absatz, warum Sie so entschieden haben
+
+Einsatz von KI
+
+-   Abgeben: Gegenüberstellung der drei Protokolle als Tabelle
+
+-   Teilen: Lesen des Scans, Entwurf der Antwort
+
+-   Behalten: Urteil über das Protokoll, Angebot an Torwinkel, Ton gegenüber dem Kunden
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                                                              Fundstelle                                     Größe
+  ----------------- ---------------------------------------------------------------------------------------- ---------------------------------------------- -----------------
+  Datenraum         04_Datenraum/04, Nr. 04.21.04.193 (Dateiname beginnt mit der Nummer)                     Wartungsprotokoll 09384 vom 03.11.2026, Scan   0,4 MB
+
+  Datenraum         04_Datenraum/04, Nr. 04.21.04.182, 04.21.04.189                                          Protokolle 08988 und 09272 zum Vergleich       0,2 MB
+
+  Firmenablage      03_Material/Abgang/03_Notizen_MBa.txt                                                    ganze Datei                                    1 KB
+
+  Firmenablage      03_Material/Postfach/18_2026-11-18_Abrechnung_Wartungen_November.eml                     ganze Datei                                    1 KB
+
+  Vorarbeit         Abnahmevermerk und Rückfrage von Torwinkel, Kursteam-Ordner Uebergaben/Abnahme_Wartung   Ihre Zeile im Vermerk, ab 25.11.               50 KB
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Das Protokoll 09384 ist ein Scan. Liest ein Chat ihn nicht, laden Sie die Seite als Bild hoch.
+
+Was die liefernde Gruppe dazu tut
+
+Torwinkel Gebäudeservice GmbH (A172), Aufgabe A172 Abnahme der Wartungen vom 03.11.2026: Florian Kunze prüft die drei Protokolle vom 03.11.2026 und entscheidet je Protokoll, ob er abnimmt. Wo er nicht oder nur mit Vorbehalt abnimmt, schreibt er der Firma eine Rückfrage.
+
+Übergabe
+
+Vermerk und Rückfrage liegen bis 25.11. in Uebergaben/Abnahme_Wartung. Fehlt der Vermerk am Morgen danach, legt die Spielleitung eine Rückfrage in denselben Ordner. Ihre Antwort legen Sie bis 30.11. in denselben Ordner und schreiben Torwinkel eine kurze Nachricht im Kurschat Objektwelt.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Zeilen: Jede Zeile des Protokolls 09384 hat in Ihrer Tabelle ein Urteil mit Beleg (Anlagenschlüssel, Datenraumnummer oder Herstellerangabe). Ordnen Sie eine Zeile nicht der Anlage zu, steht dort, zu welcher Anlagenart sie gehört.
+
+7. Antwort: Die Antwort an Torwinkel bescheinigt keine Leistung, bei der Sie nicht dabei waren, nennt ein Datum oder eine Zahl für das, was Luftpfad anbietet, und widerspricht weder Ihrer Nachricht aus A008 noch dem Prüfvermerk.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

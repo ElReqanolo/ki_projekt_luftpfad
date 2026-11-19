@@ -1,0 +1,83 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 2,5 Stunden. Federführend: Kevin Schuster (Person 5).
+
+Diese Aufgabe ist Schritt 2 von 2 der Kette Abgang ohne Übergabe. Vorher: A007 (Signalsteg Messtechnik GmbH, Raumlot Objektmanagement GmbH, Torwinkel Gebäudeservice GmbH, Thermenfeld Wärme und Wasser GmbH, Richtgrund Beratung GmbH, Werkraum Projektbüros GmbH, Kantbogen Bestand GmbH, Luftpfad Anlagentechnik GmbH).
+
+Auftrag
+
+Teil 1, ab 19.11.: Prüfen Sie Ihre Liste aus der Sichtung gegen Postfach, Laufwerk und, wo Ihr Auszug einen enthält, den Prüf- und Fristenkalender im Datenraum. Vermerken Sie zu jedem Punkt, was Sie belegen konnten und was offen bleibt. Legen Sie fest, wer bei Ihnen was übernimmt, und schreiben Sie dem wichtigsten Gegenüber eine kurze Nachricht.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Die geprüfte Übergabeliste als Tabelle mit Punkt, "belegt" oder "offen", Beleg, wer übernimmt, bis wann
+
+-   Eine Gegenüberstellung der drei Klappenprotokolle: je Protokoll Nummer, Datum, Zahl der Klappen, Arbeitszeit, Gegenzeichner und Seite im Protokoll, wobei eine Angabe, die das Protokoll nicht nennt, den Vermerk "keine Angabe" trägt
+
+-   Eine Nachricht an Torwinkel, höchstens eine Seite, mit den Dateinamen der Unterlagen, auf die sie sich stützt, und dem Angebot von Luftpfad als Datum oder Zahl
+
+-   Ein Bericht im Gruppengespräch (Datum und Stichworte)
+
+-   Ein Vermerk zur Antwort von Torwinkel: Ihre Entscheidung (einverstanden, einverstanden mit Bedingung, Ablehnung mit eigener Meldung), die Frist, und die Liste der Informierten mit Datum
+
+-   Eine Entscheidung zum Anruf bei Backhaus mit Begründung
+
+Einsatz von KI
+
+-   Teilen: Abgleich Liste gegen Register, Entwurf der Nachricht
+
+-   Behalten: Zuteilung der Aufgaben, Ton gegenüber dem Kunden
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                                                   Fundstelle                                                             Größe
+  ----------------- ----------------------------------------------------------------------------- ---------------------------------------------------------------------- -----------------------
+  Vorarbeit         Ihr eigenes Ergebnis aus A007 (Projektmappe)                                  Ergebnisdatei                                                          50 KB
+
+  Firmenablage      03_Material/Abgang/04_Meine_Fristen_MBa.xlsx                                  ganze Datei                                                            6 KB
+
+  Firmenablage      03_Material/Abgang/05_Kalender_MBa.ics                                        ganze Datei                                                            1 KB
+
+  Firmenablage      03_Material/Laufwerk/Laufwerk_Export_Luftpfad_Anlagentechnik.xlsx             ganze Datei                                                            25 KB
+
+  Datenraum         für Ihre Firma nicht im Auszug                                                Prüf- und Fristenkalender, nur wo im Auszug                            keine Datei im Auszug
+
+  Datenraum         04_Datenraum/04, Nr. 04.21.04.145, 04.21.04.168, 04.21.04.190, 04.21.04.189   Protokolle 04.21.04.145, 04.21.04.168, 04.21.04.190 und 04.21.04.189   0,3 MB
+
+  Firmenablage      03_Material/Postfach/17_2026-11-18_Klappenpruefung_Bogenfeld.eml              ganze Datei                                                            1 KB
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tabellen
+
+Laden Sie Tabellen als Datei hoch, nicht als eingefügten Text, und lassen Sie die KI mit ihrer Rechenfunktion (je nach Anbieter Datenanalyse oder Code-Ausführung) rechnen. Läuft die Funktion nicht, geben Sie Ausschnitte als CSV-Text ein. Prüfen Sie drei Werte selbst in der Tabelle nach und vermerken Sie das im Lernprotokoll.
+
+Ihr wichtigstes Gegenüber
+
+Teil 2, bis 25.11.: Bei Luftpfad ist das wichtigste Gegenüber die Torwinkel Gebäudeservice GmbH. Deren Haustechniker Dennis Prange hat die Prüfungen der Brandschutzklappen gegengezeichnet und ist ebenfalls ohne Übergabe ausgeschieden. Prüfen Sie die Protokolle der Klappenprüfung 2024 bis 2026 gegen die übrigen Protokolle von Backhaus im Auszug und gegen Mail Nr. 17. Entscheiden Sie mit Henrike Baum (Person 1), ob und wie Sie Torwinkel darauf ansprechen, und was Luftpfad anbietet. Ihre Nachricht muss zu Ihrer Antwort auf die Rückfrage zum Protokoll 09384 passen (A164): Was Sie dort zur Herkunft des Protokolls 09384 sagen, liest Torwinkel auch hier mit.
+
+Teil 3, ab 30.11.: Lesen Sie die Antwort von Torwinkel in Uebergaben/K65 und entscheiden Sie, wie Sie darauf reagieren: einverstanden, einverstanden mit einer Bedingung oder Ablehnung mit eigener Meldung. Entscheiden Sie außerdem, ob Sie Maximilian Backhaus im Resturlaub anrufen und nach den Nachweisen zu den Prüfungen fragen. Notieren Sie, wen Sie wann informieren, was Sie jedem sagen und welche Folgen Ihre Wahl haben kann.
+
+Übergabe
+
+Ihre Nachricht an Torwinkel liegt bis 25.11. in Uebergaben/K65. Torwinkel antwortet bis 30.11. in denselben Ordner. Fehlt die Antwort am Morgen danach, legt die Spielleitung eine Antwort in denselben Ordner.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Vergleich: Die Gegenüberstellung nennt für jedes der drei Klappenprotokolle Datum, Zahl der geprüften Klappen, Arbeitszeit (oder "keine Angabe") und Gegenzeichner mit Seite im Protokoll. Die Nachricht stützt sich nur auf Unterlagen, die Sie als Datei vorliegen haben, mit Dateiname.
+
+7. Ton: Die Nachricht enthält keine Behauptung über Absicht oder Verschulden. Jede Aussage über Backhaus hat eine Zeile in einem Dokument, und die Nachricht nennt, was Luftpfad anbietet, als Datum oder Zahl.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

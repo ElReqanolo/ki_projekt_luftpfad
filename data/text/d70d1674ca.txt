@@ -1,0 +1,18 @@
+Jede Person führt ihr eigenes Lernprotokoll. Dateiname protokoll_Person<Nr>, zum Beispiel protokoll_Person2.docx, abgelegt in der Projektmappe der Gruppe. Für jeden Arbeitsschritt ein neuer Eintrag mit dieser Gliederung.
+
+## <Datum>, Aufgabe <Nummer>, Person <Nr>
+
+Werkzeug und Stufe: (zum Beispiel Chat, Websuche, Denkmodus, Agent)
+Was ich der KI gegeben habe: (Dateien, Auszüge, Fragen)
+Mein Auftrag an die KI: (wörtlich oder in Stichworten)
+
+Abgegeben: (was die KI allein gemacht hat, warum das vertretbar war)
+Geteilt: (was die KI und ich gemeinsam gemacht haben)
+Behalten: (was ich selbst entschieden oder geprüft habe, warum)
+
+Geprüft: (welche Aussage, an welcher Quelle, Seite oder Zeile)
+Fehler der KI, falls es einen gab: (Aussage der KI, richtige Angabe, Fundstelle)
+
+Was lief gut:
+Was lief schlecht:
+Nächstes Mal anders:

@@ -1,0 +1,90 @@
+--- Seite 1 ---
+ Aufgabe A014: Hauschronik 1990 bis 2026 mit
+ Zusammenführung
+ Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa
+ 2,5 Stunden. Federführend: Elena Voss (Person 4).
+ Diese Aufgabe ist Schritt 1 von 1 der Kette Hauschronik.
+
+ Auftrag
+ Das Haus hat eine Geschichte: Altbau, Rückbau, Neubau, Mieter, Eigentümer. Unten in diesem Blatt
+ stehen Ihr Zeitabschnitt und die Gruppe, die zusammenführt. Liefern Sie mindestens acht belegte
+ Ereignisse aus Ihrem Abschnitt. Jedes Ereignis bekommt die Akte, aus der es stammt, und den Vermerk,
+ ob eine zweite Akte dasselbe sagt.
+
+ Was Sie abgeben
+ Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG).
+ Pflichtangaben:
+  • Tabelle mit mindestens acht Ereignissen aus 2008 bis 2012 mit Datum (TT.MM.JJJJ), Ereignis in
+    einem Satz, Quelle mit Nummer und Seite, "sicher" oder "strittig". Die Ereignisse stammen aus
+    mindestens sechs verschiedenen Akten.
+  • Bis 25.11.: Vorlage in Uebergaben/K12 (XLSX oder DOCX) mit den Spalten Datum, Ereignis, Quelle
+    mit Nummer und Seite, Gruppe, sicher oder strittig
+  • Bis 25.11.: Nachricht im Kurschat Objektwelt (Datum und Wortlaut)
+  • Bis 2.12.: gemeinsame Chronik in Uebergaben/K12, jede Zeile einer Gruppe zugeordnet, Lücken mit
+    dem Namen der Gruppe
+  • Wo sich Gruppen widersprechen, eine Liste mit beiden Quellen und Ihrer Entscheidung mit
+    Begründung
+  • Ein Vermerk, was die KI umgebaut hat, mit der Zahl der Gruppen, die in der Chronik vertreten sind (von
+    acht)
+
+ Einsatz von KI
+  • Abgeben: Umbau gelieferter Abschnitte in Ihre Vorlage
+  • Teilen: Vorauswahl der Ereignisse
+  • Behalten: Belegprüfung jedes Ereignisses, Entscheidung bei Widersprüchen zwischen Gruppen
+ Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+ Material
+ Quelle           Wo im Paket                                       Fundstelle                                Größe
+ Datenraum        04_Datenraum/03, 07, 09, Nr.                      Akten Ihres Zeitabschnitts, Auswahl im    1,5 MB
+                  09.02.08.020, 09.02.08.024, 03.13.01.012,         Auszug
+                  07.01.01.041, 07.17.02.061, 09.02.09.024,
+                  07.17.02.065, 09.02.10.004 (Dateiname
+                  beginnt mit der Nummer)
+ Datenraum        04_Datenraum/07, Nr. 07.04.02.055,                Firmenchronik und Firmensteckbrief der    0,1 MB
+                  07.04.02.006 (Dateiname beginnt mit der           eigenen Firma, Ereignisse 2008 bis 2012
+                  Nummer)                                           darin
+
+
+
+ Ihr Abschnitt der Hauschronik
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                      Seite 1
+
+--- Seite 2 ---
+ Ihr Zeitabschnitt: 2008 bis 2012. Legen Sie Ihre Ereignisse (mindestens acht) als Tabelle (Datum,
+ Ereignis, Quelle mit Nummer und Seite) bis 30.11. in den Kursteam-Ordner Uebergaben/K12.
+ Ihre Gruppe führt die Chronik aller acht Gruppen zusammen. Damit das am Ende schnell geht, bestimmen
+ Sie die Form:
+  • Bis 25.11.: Legen Sie in Uebergaben/K12 eine Vorlage (XLSX oder DOCX) mit den Spalten Datum,
+    Ereignis, Quelle mit Nummer und Seite, Gruppe, sicher oder strittig. Schreiben Sie allen Gruppen im
+    Kurschat Objektwelt, dass sie diese Vorlage nutzen sollen.
+  • Am 1.12.: Nehmen Sie alles, was am Morgen in Uebergaben/K12 liegt. Was in anderer Form kommt,
+    lassen Sie von der KI in Ihre Vorlage umbauen und vermerken das. Ein fehlender Abschnitt bleibt als
+    Lücke mit dem Namen der Gruppe stehen.
+  • Widersprüche: Wo zwei Gruppen dasselbe Ereignis verschieden darstellen, entscheiden Sie, welche
+    Fassung in die Chronik kommt, und nennen beide Quellen. Diese Entscheidung trifft keine andere
+    Gruppe.
+  • Zusammenfügen und markieren, nicht neu schreiben. Rechnen Sie dafür mit höchstens einer Stunde.
+    Die Chronik liegt bis 2.12. in Uebergaben/K12.
+
+ Woran es gemessen wird
+ 1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+ 2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der
+ Originalstelle bei.
+ 3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+ 4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+ 5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie
+ die Stelle mit Beleg.
+ 6. Ereignisse: Jedes Ihrer Ereignisse hat Datum, Aktennummer und Seite. Zwei Ereignisse derselben
+ Urkunde zählen nur dann zweimal, wenn sie verschiedene Tage tragen und verschiedene Vorgänge sind.
+ 7. Zusammenführung: Jede Lücke und jede Entscheidung bei Widerspruch steht mit Namen der Gruppe
+ und beiden Quellen in einer Liste. Die Zahl der Gruppen in der Chronik (von acht) steht im Vermerk.
+ Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                        Seite 2
+

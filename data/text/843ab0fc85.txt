@@ -1,0 +1,87 @@
+--- Seite 1 ---
+ Aufgabe A018: Wartungsbericht Lüftung gegen Auswertung
+ Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa
+ 2,5 Stunden. Federführend: Henrike Baum (Person 1).
+ Diese Aufgabe ist Schritt 1 von 2 der Kette Nachtrag Kondensat. Danach: Antwort der Raumlot
+ Objektmanagement GmbH bis 30.11.
+
+ Auftrag
+ Teil 1: Lassen Sie den Wartungsbericht 04.21.04.182 von der KI zusammenfassen. Prüfen Sie jeden Satz
+ der Zusammenfassung gegen den Bericht. Legen Sie das Protokoll 09384 vom 03.11.2026 daneben. Was
+ sagt es zu Ihrer Aussage, der Befund sei nie behoben worden? Belegen Sie jede Antwort mit einer Zeile.
+ Teil 2: Derselbe Befund "Kondensat in der Wanne des Zentralgeräts" steht im April 2026 in zwei Berichten
+ und als offener Punkt in den Notizen von Maximilian Backhaus. Lesen Sie den Wartungsvertrag VTR-1005
+ ganz, Seite für Seite, und stellen Sie zusammen, was Luftpfad schuldet und was nicht. Entscheiden Sie
+ als Technische Geschäftsführung: Beheben Sie den Befund im Rahmen der Pauschale, oder bieten Sie
+ der Verwaltung einen Nachtrag an, zum Beispiel eine monatliche Filter- und Kondensatkontrolle? Wenn
+ Sie einen Nachtrag anbieten, rechnen Sie den Preis aus den Unterlagen und nennen Sie, welcher
+ Stundensatz gilt und woher er stammt.
+ Teil 3: Legen Sie Ihr Angebot oder Ihre Mitteilung bis 25.11. in Uebergaben/K62 für Raumlot (Technisches
+ Property Management, Farid Mertens). Derselbe Farid Mertens schickt Luftpfad bis 30.11. einen
+ Prüfauftrag zu warmen Büros (Uebergaben/K05, Aufgabe A165 bei Selim Ahrens). Lesen Sie am 1.12.
+ beides. Vermerken Sie, ob Sie beim Kondensat nachgeben, nachverhandeln oder bei Ihrem Angebot
+ bleiben und ob Sie die beiden Themen gegenüber Raumlot verknüpfen.
+
+ Was Sie abgeben
+ Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG).
+ Pflichtangaben:
+  • Die KI-Zusammenfassung von 04.21.04.182 unverändert, daneben ein Urteil je Satz ("belegt", "nicht
+    belegt" oder "falsch") mit der Zeile im Bericht
+  • Ein Abgleich mit Protokoll 09384 in einer Tabelle (Zeile, Wortlaut, Ihr Urteil mit Beleg)
+  • Eine Aufstellung des Vertrags: was Luftpfad schuldet und was nicht, mit Seite und Paragraph
+  • Ihr Angebot oder Ihre Mitteilung an Raumlot, höchstens eine Seite, bis 25.11. in K62, mit
+    Preisrechnung (Stundensatz, Stunden, Anfahrt, Summe netto, Quelle jedes Satzes, ein Satz ohne
+    Quelle mit dem Vermerk "Annahme")
+  • Ein Vermerk zur Antwort von Raumlot: nachgeben, nachverhandeln oder bleiben, und ob Sie die
+    Themen K62 und K05 verknüpfen
+
+ Einsatz von KI
+  • Teilen: Zusammenfassung, Entwurf des Angebots
+  • Behalten: Satz für Satz Prüfung, Preis und Entscheidung Pauschale oder Nachtrag, Unterschrift
+ Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+ Material
+ Quelle             Wo im Paket                                     Fundstelle                                Größe
+ Datenraum          04_Datenraum/04, Nr. 04.21.04.182,              Wartungsprotokolle Luftpfad,              0,3 MB
+                    04.21.04.184, 04.21.04.180 (Dateiname           Lüftungsanlagen
+                    beginnt mit der Nummer)
+ Datenraum          04_Datenraum/04, Nr. 04.21.04.193               Wartungsprotokoll 09384 vom 03.11.2026,   0,4 MB
+                                                                    Scan
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                 Seite 1
+
+--- Seite 2 ---
+ Quelle             Wo im Paket                                     Fundstelle                             Größe
+ Datenraum          04_Datenraum/04, Nr. 04.03.01.018               Wartungsvertrag VTR-1005, Scan, drei   0,6 MB
+                                                                    Seiten
+ Datenraum          04_Datenraum/07, Nr. 07.24.03.011               Preisanpassung vom 04.12.2023          0,1 MB
+ Firmenablage       03_Material/Abgang/03_Notizen_MBa.txt           ganze Datei                            1 KB
+
+ Vertrag und Protokoll 09384 sind Scans. Liest ein Chat sie nicht, laden Sie die Seite als Bild hoch.
+
+ Übergabe
+ Ihr Angebot oder Ihre Mitteilung liegt bis 25.11. in Uebergaben/K62. Raumlot antwortet bis 30.11. in
+ denselben Ordner. Fehlt die Antwort am Morgen danach, legt die Spielleitung eine Antwort der Verwaltung
+ in denselben Ordner.
+
+ Woran es gemessen wird
+ 1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+ 2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der
+ Originalstelle bei.
+ 3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+ 4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+ 5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie
+ die Stelle mit Beleg.
+ 6. Zusammenfassung: Jeder Satz der KI-Zusammenfassung trägt ein Urteil mit Zeile im Bericht. Bei jedem
+ Urteil, das nicht "belegt" lautet, steht der Wortlaut der KI neben dem Wortlaut des Berichts.
+ 7. Preis: Jeder Betrag im Angebot hat Stundensatz, Stundenzahl und die Quelle des Satzes (Vertrag mit
+ Seite und Paragraph, Brief mit Datum oder Rechnung mit Nummer). Ein Satz ohne Quelle trägt den
+ Vermerk "Annahme".
+ Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                                 Seite 2
+

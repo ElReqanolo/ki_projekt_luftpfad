@@ -1,0 +1,61 @@
+Luftpfad Anlagentechnik GmbH. Beginn nach der Sitzung am 19.11., fertig bis 2.12.2026, Aufwand etwa 1 Stunde. Federführend: Kevin Schuster (Person 5).
+
+Auftrag
+
+Nehmen Sie einen Geschossplan des Hauses und sprechen Sie auf, wie man vom Eingang zu Ihren Räumen oder Anlagen kommt. Die KI soll daraus eine Wegbeschreibung für Besucher schreiben. Prüfen Sie diese am Plan.
+
+Was Sie abgeben
+
+Format: Dateien in Ihrer Projektmappe (DOCX, XLSX, MD oder PDF, Bildschirmfotos als PNG oder JPG). Pflichtangaben:
+
+-   Ihre Sprachnotiz als Audiodatei oder Aufnahme-Link
+
+-   Die Abschrift der KI, unverändert
+
+-   Die Wegbeschreibung mit nummerierten Schritten, jeder Schritt mit einer Raum- oder Treppennummer aus dem Plan
+
+-   Den Plan mit eingezeichnetem Weg als Bild
+
+-   Eine Liste der Abweichungen zwischen Sprachnotiz, Abschrift, Beschreibung und Plan, jede mit Stelle, dazu eine Notiz zur Abschrift: was die KI richtig und, falls es etwas gab, was sie falsch verstanden hat, mit der Stelle in Ihrer Sprachnotiz
+
+Einsatz von KI
+
+-   Abgeben: Abschrift der Sprachnotiz
+
+-   Teilen: Wegbeschreibung
+
+-   Behalten: Abgleich mit dem Plan
+
+Was Sie abgeben, teilen oder behalten, entscheiden Sie selbst. Halten Sie im Lernprotokoll fest, warum.
+
+Material
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Quelle            Wo im Paket                                                            Fundstelle                                                                                Größe
+  ----------------- ---------------------------------------------------------------------- ----------------------------------------------------------------------------------------- -----------------
+  Firmenablage      03_Material/Geschossplan (2 Dateien)                                   Grundriss EG mit Eingang und Grundriss UG (Planstand 04.11.2026)                          0,1 MB
+
+  Datenraum         04_Datenraum/03, Nr. 03.10.02.017 (Dateiname beginnt mit der Nummer)   Flächenspiegel, zum Abgleich der Mieteinheiten im EG, wenn der Datenraumauszug vorliegt   53 KB
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Eingang aus Ihrer Gruppe
+
+Welche Räume und Anlagen Ihr Weg erreichen soll, klären Sie mit Elena Voss (Etagenzentrale EG, A163) und Selim Ahrens (Abschaltbereiche, A162). Nennen Sie in der Beschreibung, von wem welches Ziel stammt.
+
+Woran es gemessen wird
+
+1. Vollständig: Alle Pflichtangaben aus "Was Sie abgeben" sind da.
+
+2. Belegt: Jede Zahl hat Dokument, Seite und Stelle. Für die drei wichtigsten liegt ein Bildschirmfoto der Originalstelle bei.
+
+3. Geprüft: Sie können zu jeder wichtigen Zahl sagen, wie Sie sie geprüft haben.
+
+4. Lücke benannt: Was fehlt, bei wem Sie es angefragt haben und wann.
+
+5. KI-Einsatz offen: Was die KI geliefert hat und was Sie daran geändert haben. Lag sie falsch, zeigen Sie die Stelle mit Beleg.
+
+6. Nummern: Jeder genannte Raum, Gang oder Aufzug trägt die vierstellige Nummer aus dem Plan. Eine Nummer, die im Plan nicht steht, ist als solche markiert.
+
+7. Weg: Der Weg lässt sich allein nach Ihrer Beschreibung auf dem Plan nachgehen, Schritt für Schritt von Nummer zu Nummer.
+
+Am 2.12. fragt die Spielleitung nach. Sie antworten ohne KI, mit dem Original vor sich.

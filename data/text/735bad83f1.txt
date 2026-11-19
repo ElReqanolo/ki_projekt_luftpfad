@@ -1,0 +1,209 @@
+--- Seite 1 ---
+ Persönliches Briefing Elena Voss
+ Automationsfachkraft bei Luftpfad Anlagentechnik GmbH. Stand 18.11.2026.
+ Im Unternehmen seit 01.01.2021, Jahrgang 1991, Kürzel EVo, Mail
+ elena.voss@luftpfad-anlagentechnik.de, Telefon 05990 5061-66, Telefon 05998 268213.
+
+ 1 Wer Sie sind
+ Schwerpunkt
+ Gebäudeautomation, Signalzuordnung und nachvollziehbare Funktionsprüfungen innerhalb beauftragter
+ Servicearbeiten.
+
+ Erfahrung
+ Sie kennt Inbetriebnahme und späteren Service aus beiden Richtungen. 2024 hat sie mit Tobias ein
+ internes Verfahren entwickelt, mit dem Planbezeichnung und tatsächliches Signal abgeglichen werden.
+
+ Was Sie erreichen wollen
+ Sie will Änderungen am Funktionszusammenhang später rekonstruieren können. Ein Zustand, der gerade
+ funktioniert, genügt ihr nicht.
+
+ Wie Sie arbeiten
+ Sie fragt nach Sollwertquelle, Einheiten und Messzeitpunkt. Ist ein Punkt unklar, hält sie die Unsicherheit
+ schriftlich fest, bevor sie etwas ändert.
+
+ Ihre Sicht auf die Lage
+ Sie vertraut Tobias, wenn es um die Orientierung im Objekt geht. Bei aktuellen Regelparametern ist ihr ein
+ nachvollziehbarer Nachweis lieber als persönliche Erinnerung.
+
+ Ihr Weg
+ Elena arbeitete vor Luftpfad in der Inbetriebnahme von Gebäudeautomation. 2021 wechselte sie in den
+ Service, weil sie Anlagen nicht nur bis zur Übergabe begleiten wollte. Bei Luftpfad übernimmt sie
+ Aufgaben an Regelung und Stellfunktionen. Tobias kennt oft die ältere örtliche Geschichte, Elena fragt
+ eher nach dem aktuellen Signalweg und der dokumentierten Funktion. So ergänzen die beiden sich, und
+ keiner bestätigt die Arbeit des anderen ungeprüft. Bei einer gemeinsamen Schulung 2024 zeigte ein auf
+ dem Plan richtig bezeichneter Punkt am Gerät ein anderes Signal. Seitdem verlangt Elena vor einer
+ Änderung eine nachvollziehbare Zuordnung. Im Oktober 2026 war sie mit Tobias beim Austausch des
+ Stellantriebs am Forum-Regler und beim Funktionsnachweis dabei. Der spätere Wert von 1.110 m³/h
+ gehört zu diesem begrenzten Fallnachweis, die Aussage reicht nicht weiter als dieser Funktionsnachweis.
+
+ 2 Ihre Firma in Kürze
+  • Rechtsform GmbH, eingetragen im Handelsregister Amtsgericht Stuttgart unter HRB 724559 seit 2002
+  • Stammkapital 50.000 EUR
+  • Sitz Luftbogen 9, 70372 Stuttgart
+  • gegründet 2002
+  • 24 Beschäftigte
+ Luftpfad wartet und repariert gewerbliche Lüftungsanlagen im regionalen Umkreis. Schwerpunkte sind
+ Ventilatoren, Klappenantriebe, Volumenstromregelung und die Einbindung solcher Komponenten in die
+ Anlagenautomation. Die Firma führt Fehlerdiagnosen, kleine Umbauten und dokumentierte
+ Funktionsproben aus.
+ Rolle im Haus Bogenfeld 12: Wartung der Lüftungsanlagen.
+ Mehr dazu steht in der Einarbeitungsmappe Ihrer Firma.
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                        Seite 1
+
+--- Seite 2 ---
+ 3 Ihre Stelle
+  • Bereich: RLT und Automation
+  • Vorgesetzt: Henrike Baum
+  • Vertretung: Henrike Baum
+  • Beschäftigung: angestellt, Vollzeit
+
+ 4 Rollen und Befugnisse
+  • Automationsfachkraft, keine eigene Freigabegrenze
+
+ 5 Wie Sie schreiben und sich verständigen
+  • Schreibt vermittelnd und höflich.
+  • Bevorzugter Weg: Mail und Messenger
+  • Anrede in Briefen: Sehr geehrte Damen und Herren
+  • Gruß: Mit freundlichen Grüßen
+  • Unterschrift: unterschreibt mit vollem Namenszug
+  • Sätze im Schnitt etwa 15 Wörter
+  • im Umgang ausgleichend
+
+ 6 Werdegang
+  • 01.01.2021 bis heute: Automationsfachkraft, Luftpfad Anlagentechnik GmbH
+  • 2024: Erarbeitete mit Tobias nach einer abweichenden Signalbeschriftung eine interne Prüfreihenfolge
+    für Plan, Punkt und tatsächliche Funktion.
+ Abschlüsse und Schulungen: Zertifikat Programmierung Gebäudeautomation (Herstellerschulung, 2020),
+ Arbeitsmedizinische Vorsorge G 37 Bildschirmarbeitsplatz (Betriebsärztlicher Dienst Kronbach, 2021),
+ Elektrofachkraft für festgelegte Tätigkeiten, Unterweisung (2023), Arbeitsmedizinische Vorsorge G 37
+ Bildschirmarbeitsplatz (Betriebsärztlicher Dienst Kronbach, 2024).
+
+ 7 Menschen um Sie
+  • Tobias Kernfeld: Gemeinsame Servicearbeit seit Tobias Wechsel. Der 2024 erarbeitete Abgleich von
+    Plan und Signal erklärt Elenas Vorsicht gegenüber bloßen Altbezeichnungen.
+  • Jette Carlsen: Jette kennt den allgemeinen Gebäudebetrieb.
+  • Maximilian Backhaus hat die Firma verlassen, letzter Arbeitstag 5.11.2026. Eine Übergabe gab es
+    nicht. Die Stelle hat seit 16.11.2026 Kevin Schuster.
+ Ihre Sicht auf Firmen und Personen:
+  • Zu Tobias Kernfeld: Sie vertraut Tobias, wenn es um die Orientierung im Objekt geht. Bei aktuellen
+    Regelparametern ist ihr ein nachvollziehbarer Nachweis lieber als persönliche Erinnerung.
+
+ 8 Was Sie geschrieben oder unterschrieben haben
+ Zuletzt:
+  • 18.02.2025 Arbeitsschein Messkopftausch Gaswarnanlage Tiefgarage
+  • 09.02.2021 Arbeitsschein Messkopftausch Gaswarnanlage Tiefgarage
+
+ 9 Wo Ihr Name in der Objektakte vorkommt
+  • Qualifikationsnachweis: 2
+  • Stellenbeschreibung: 1
+  • Personensteckbrief: 1
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                        Seite 2
+
+--- Seite 3 ---
+  • Objekteinweisung Fremdfirma: 1
+  • Arbeitsmedizinische Vorsorge: 1
+
+ 10 Ihre Abkürzungen
+  • DMS: Dokumentenmanagementsystem
+  • FA: Fahrtreppe
+  • HAV: Hausanschlussverteiler
+  • HLS: Heizung, Lüftung, Sanitär
+  • PCB: polychlorierte Biphenyle
+  • PDF: Portable Document Format
+
+ 11 Ihre Geschichte am Standort
+ 30.10.2026 Ersatz-Stellantrieb am Forum-Regler eingebaut. Zuluftvolumenstrom danach 1.110 m³/h,
+ vorher 520 m³/h. Sie haben die Zuordnung von Stellsignal und Rückmeldung geprüft, bevor der Wert
+ gemessen wurde. Ihre Aussage im Bericht beschränkt sich auf den Volumenstrom.
+ 16.09.2026 Heizkreis des Lüftungsgeräts für das OG3 fällt aus. Die Ursache liegt in der Regelung, ein
+ Fühlerwert war falsch eingestellt. Seitdem fragen Sie bei jeder Meldung zur Temperatur zuerst, ob der
+ Fühler stimmt.
+ 29.01.2026 Pumpe am Heizregister des Lüftungsgeräts läuft nicht an. Nach einem Neustart der Steuerung
+ läuft sie wieder. Festgehalten ist nur, dass die Ursache in der Regelung liegt. Welcher Teil, steht nirgends.
+ Das ärgert Sie bis heute.
+ 2024 Bei einer gemeinsamen Schulung mit Tobias zeigte ein auf dem Plan richtig bezeichneter Punkt am
+ Gerät ein anderes Signal. Seitdem verlangen Sie vor jeder Änderung eine nachvollziehbare Zuordnung.
+
+ 12 Ihr Fall bis 2.12.
+ Worum es geht
+ Das Forum wird nachmittags warm, obwohl der Volumenstrom seit 30.10. stimmt. Die Mieterin, die das
+ Forum für Workshops nutzt, beschwert sich über die Verwaltung, Torwinkel fragt seit 2021, wer das
+ übernimmt. Sie haben die Trendaufzeichnung der Automationsstation gezogen, 26.10. bis 17.11. Daraus
+ soll eine fachliche Stellungnahme an Thermenfeld werden (A163).
+
+ Was nur Sie wissen
+ Wenn die Ursache am Ventil des Lufterhitzers in der Etagenzentrale EG liegt, gehört das nach dem
+ Leistungsverzeichnis wahrscheinlich zu den Leistungen von Luftpfad: "Wartung Mischer, Stellantriebe und
+ Strangventile" und "Reinigung und Dichtheitskontrolle Register, Lufterhitzer" für die Etagenzentralen EG
+ und 1.OG. Dann hätte Luftpfad den Fehler in der eigenen Wartung übersehen, und die Behebung wäre
+ nicht extra abzurechnen. Für Thermenfeld spricht nur, dass das Heizwasser von deren Verteilung kommt.
+ Dazu kommt das Protokoll 09354 vom 02.11.2026. Maximilian Backhaus hat dort an der
+ Wärmerückgewinnung der Etagenzentralen "Regelventile und Stellantriebe geprüft" und "Ohne Befund"
+ geschrieben, vier Stunden, gegengezeichnet von Torwinkel. Ihre Datenreihe deckt auch diesen Tag ab.
+ Wenn das Protokoll nicht stimmt, ist es nicht das einzige: Kevin Schuster prüft gerade ein Protokoll vom
+ Tag danach.
+ Eines wissen Sie noch, und es steht in keinem Papier: Die Rohdaten der Station und den Zugang zur
+ Etagenzentrale EG haben nur Sie, Tobias Kernfeld und die Technische Geschäftsführung. Wenn
+ Signalsteg im Forum misst, kann ein Dritter Ihre Trendkurve gegen eine unabhängige Raumkurve legen.
+ Passen beide zusammen, ist Ihre Auswertung belegt. Passen sie nicht zusammen, haben Sie ein
+ Problem, das sonst niemand bemerkt hätte. Sie wollen wissen, welcher Fall eintritt, und sind nicht sicher,
+ ob Sie es wissen wollen, bevor die Berater am 10.12. kommen, falls das Gerücht stimmt.
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                        Seite 3
+
+--- Seite 4 ---
+ Ihr Gegenüber
+ Die Thermenfeld Wärme und Wasser GmbH betreut die Wärmeverteilung. Ihre Stellungnahme geht bis
+ 25.11. in Uebergaben/K64. Thermenfeld kann Ihre Auswertung bestreiten. Ab 27.11. kommt Konrad Elster
+ von Signalsteg dazu, der die beiden Seiten mit einer Messung im Raum auseinanderhalten will und selbst
+ Hitzebeschwerden im Haus hat. Er braucht für seinen Messplan Ihr Wort, und Sie brauchen für Ihre
+ Auswertung seine Zahlen.
+
+ Ihre Entscheidungen
+  • welche Ursache Sie aus den Daten belegen können und was Vermutung bleibt
+  • ob Sie Thermenfeld um eine Prüfung bitten oder die Ursache bei Luftpfad sehen
+  • ob und wie Sie bis zur Antwort von Thermenfeld eingreifen
+  • was Sie Henrike Baum und Kevin Schuster zum Protokoll 09354 sagen, bevor die Stellungnahme
+    hinausgeht
+  • ob Signalsteg in die Etagenzentrale EG darf und ob Sie Ihre Rohdaten herausgeben (A163 Teil 4,
+    Angebot von Konrad Elster ab 27.11.). Die Kosten der Messung entscheidet Kai Landmann, Sie legen
+    ihm eine Empfehlung vor (A166)
+
+ 13 Ihre Zugänge und Ihre Grenze
+ Mit dem Servicenotebook sehen und ändern Sie an den Automationsstationen am Bogenfeld Sollwerte,
+ Zeitprogramme und Handeingriffe. Nach der Arbeitsanweisung von Luftpfad ändern Sie an einer
+ Kundenanlage nichts ohne Rücksprache mit der Technischen Geschäftsführung, und jede Änderung
+ gehört mit altem und neuem Wert ins Protokoll. Sie halten sich daran, auch wenn es manchmal schneller
+ ginge. Ein Handeingriff, den niemand dokumentiert, ist für Sie der Anfang des nächsten Fehlers, den
+ später niemand mehr erklären kann.
+ Das Leitsystem zeigt, was die Station meldet, nicht unbedingt, was im Gerät geschieht. Eine Rückmeldung
+ von 0 Prozent heißt, dass der Antrieb zu sein soll. Ob das Ventil dahinter dicht ist, zeigt erst die
+ Temperatur hinter dem Register.
+
+ 14 Ihre Rolle in der Hauschronik
+ Ihre Gruppe führt die Hauschronik aller acht Gruppen zusammen (A014). Sie bestimmen bis 25.11. die
+ Form, in der alle liefern, und Sie entscheiden am 1.12., welche Fassung in die Chronik kommt, wenn zwei
+ Gruppen sich widersprechen. Sie sind damit die einzige Person im Haus, die alle Abschnitte sieht. Das
+ gibt Ihnen Einfluss und eine Pflicht: Was Sie weglassen, fehlt in der Chronik aller.
+
+ 15 Was Sie am 2.12. zeigen
+ Im Vortrag Ihrer Gruppe zeigen Sie Ihren eigenen Fall. Zeigen Sie ein Diagramm aus der
+ Trendaufzeichnung, an dem man ohne Vorwissen sieht, was am Lufterhitzer geschieht, und sagen Sie in
+ einem Satz, was Sie daraus schließen und was nicht. Wenn Thermenfeld bis dahin geantwortet hat,
+ nennen Sie, ob die Antwort Ihre Auswertung stützt oder bestreitet. Zeigen Sie außerdem einen Fehler der
+ KI, falls es einen gab, und wie Sie ihn bemerkt haben. Gab es keinen, sagen Sie, wie Sie Ihre Auswertung
+ geprüft haben. Ein Satz gehört Signalsteg: was Sie auf das Angebot geantwortet haben und was Sie
+ davon abhängig gemacht haben.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                    Seite 4
+

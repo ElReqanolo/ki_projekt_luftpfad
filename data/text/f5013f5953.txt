@@ -1,0 +1,489 @@
+--- Blatt Export ---
+Ordner | Datei | Typ | Größe KB | Geändert am | Geändert von
+Ablage EVo/alt | Angebot zum Vertragsgegenstand 2018.pdf | PDF | 72 | 15.03.2019 | EVo
+Ablage EVo/alt | Prüfbericht_Trinkwasser_und_Ra_neu.pdf | PDF | 81 | 23.01.2020 | EVo
+Ablage FBe | Wartungsprotokoll 2023.pdf | PDF | 82 | 29.08.2023 | FBe
+Ablage FTh/alt | 07.06.04.052_2019-06-06_Zertifikat_Fachbetrieb_TPK.pdf | PDF | 136 | 19.01.2020 | HBa
+Ablage HBa | 04.21.04.076_2021-09-06_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 85 | 08.11.2021 | HBa
+Ablage JEb | 04.21.04.151_2025-01-06_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 83 | 26.01.2025 | JEb
+Ablage JEb | Kopie von Bestellung_v3.pdf | PDF | 83 | 19.07.2023 | JEb
+Ablage KLa/alt | Eingangsrechnung 2021.pdf | PDF | 92 | 02.06.2022 | KLa
+Ablage MBa | 04.21.04.140_2024-09-02_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 18.05.2025 | MBa
+Ablage MBa | 07.21.05.016_2021-11-29_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 95 | 06.10.2022 | MBa
+Ablage MBa | Wartungsprotokoll_neu.pdf | PDF | 130 | 12.01.2020 | MBa
+Ablage MBa/alt | 04.21.04.100_2022-07-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 22.04.2023 | MBa
+Ablage MBa/alt | 07.06.04.056_2023-05-01_Zertifikat_Fachbetrieb_TPK.pdf | PDF | 159 | 05.07.2023 | MBa
+Ablage MBa/alt | 07.21.05.017_2021-12-20_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 178 | 25.05.2022 | MBa
+Ablage PWi | 07.12.10.031_2026-10-23_personalstammblatt_Luftpfad_Anlagentechnik.pdf | PDF | 203 | 05.11.2026 | PWi
+Ablage PWi/alt | 04.22.02.030_2022-07-27_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 348 | 15.08.2023 | PWi
+Ablage PWi/alt | Scan_20201008_6341.pdf | PDF | 70 | 15.06.2021 | PWi
+Ablage SAh/alt | 04.22.02.005_2018-08-07_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 71 | 27.08.2019 | SAh
+Ablage SAh/alt | Wartungsprotokoll 2020.pdf | PDF | 84 | 27.02.2021 | SAh
+Ablage SAh/alt | Wartungsprotokoll_Garagenlüftu_alt.pdf | PDF | 69 | 08.09.2026 | SAh
+Ablage TKe | 04.16.02.012_2022-12-06_Prüfbericht_Trinkwasser_und_Raumlufttechnik_Luftpfad_Anlagentechnik.pdf | PDF | 93 | 29.04.2023 | PWi
+Ablage TKe/alt | Kopie von Wartungsprotokoll 2025.pdf | PDF | 86 | 20.05.2026 | PWi
+Ablage VGr | mitarbeiterlisteobjektteam 2020.pdf | PDF | 63 | 30.09.2020 | VGr
+Allgemein | 04.21.04.036_2019-12-09_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 72 | 17.06.2020 | MBa
+Allgemein | 04.21.04.043_2020-03-14_Wartungsprotokoll_Garagenlüftung_Luftpfad_Anlagentechnik.pdf | PDF | 200 | 06.09.2020 | TKe
+Allgemein | 04.21.04.130_2024-01-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 83 | 17.03.2025 | FTh
+Allgemein | 07.10.02.022_2021-08-27_Beschwerde_Raumlot_Objektmanagement.pdf | PDF | 296 | 30.08.2022 | MBa
+Allgemein | 07.21.05.004_2018-08-22_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 82 | 12.06.2019 | GRe
+Allgemein | 07.21.05.023_2023-02-13_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 94 | 15.04.2023 | FTh
+Allgemein | 07.21.05.034_2026-08-12_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 95 | 05.11.2026 | FTh
+Allgemein | Eingangsrechnung_alt.pdf | PDF | 95 | 18.11.2021 | FTh
+Allgemein | Kopie von 08.02.02.030_2018-08-13_E-Mail-Verlauf_Büro_im_Teeküche_OG2_zu_warm_Lichtwerk.pdf | PDF | 96 | 24.06.2019 | HBa
+Allgemein | Prüfbericht_Trinkwasser_und_Ra_alt.pdf | PDF | 405 | 10.02.2023 | MBa
+Allgemein | Scan_20180521_4071.pdf | PDF | 73 | 24.08.2018 | MBa
+Allgemein | Scan_20210908_5281.pdf | PDF | 83 | 30.12.2021 | HBa
+Allgemein | Scan_20210910_6194.pdf | PDF | 83 | 27.02.2022 | MBa
+Allgemein | Wartungsprotokoll 2021.pdf | PDF | 85 | 09.01.2022 | EVo
+Allgemein | Wartungsprotokoll_v3.pdf | PDF | 74 | 07.02.2019 | SAh
+Archiv bis 2019 | 04.21.04.020_2019-03-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 73 | 27.12.2019 | SAh
+Archiv bis 2019 | 04.21.04.117_2023-04-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 201 | 18.05.2023 | JEb
+Archiv bis 2019 | 06.03.02.001_2020-03-08_Prüfbericht_Küchenabluft_und_Fettbrandschutz_Gastronomie_Luftpfad_Anlagentechnik.pdf | PDF | 67 | 16.08.2020 | JEb
+Archiv bis 2019 | Arbeitsschein_HBa.pdf | PDF | 88 | 04.05.2024 | HBa
+Archiv bis 2019 | Auszug Handwerksrolle 2020.pdf | PDF | 205 | 21.05.2020 | HBa
+Archiv bis 2019 | Dok1.pdf | PDF | 65 | 26.11.2021 | HBa
+Archiv bis 2019 | EMailVerlauf Büro im EG Bistro zu warm 2017.pdf | PDF | 821 | 03.01.2018 | SAh
+Archiv bis 2019 | EMailVerlauf_Zuluft_OG1_Ost_zu_alt.pdf | PDF | 51 | 20.01.2018 | MBa
+Archiv bis 2019 | Handelsregisterauszug_chronolo_korr.pdf | PDF | 42 | 01.10.2025 | GRe
+Archiv bis 2019 | Kopie.pdf | PDF | 53 | 24.02.2018 | EVo
+Archiv bis 2019 | Scan_20190718_0251.pdf | PDF | 70 | 24.04.2020 | HBa
+Archiv bis 2019 | Scan_20220718_1335.pdf | PDF | 159 | 02.11.2022 | MBa
+Archiv bis 2019 | Wartungsprotokoll_final.pdf | PDF | 84 | 03.03.2024 | EVo
+Auswertungen | Scan_20170601_0025.pdf | PDF | 42 | 30.12.2017 | TKe
+Bau | 04.05.016_2021-11-15_Jahresterminplan_Torwinkel_Gebäudeservice.pdf | PDF | 61 | 03.02.2022 | TKe
+Bau | 04.05.028_2025-11-15_Jahresterminplan_Torwinkel_Gebäudeservice.pdf | PDF | 62 | 05.11.2026 | FBe
+Bogenfeld | 04.16.02.034_2026-10-05_Prüfbericht_Trinkwasser_und_Raumlufttechnik_Luftpfad_Anlagentechnik.pdf | PDF | 93 | 05.11.2026 | SAh
+Bogenfeld | 04.21.04.028_2019-09-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 72 | 09.06.2020 | SAh
+Bogenfeld | 04.21.04.028_2019-09-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 72 | 12.08.2020 | EVo
+Bogenfeld | 04.21.04.081_2021-11-02_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 89 | 09.01.2022 | JEb
+Bogenfeld | 04.22.02.016_2020-05-13_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 160 | 25.02.2021 | KLa
+Bogenfeld | 07.15.02.035_2021-12-22_bereitschaftsplan_Luftpfad_Anlagentechnik.pdf | PDF | 69 | 06.08.2022 | HBa
+Bogenfeld | Angebot zum Vertragsgegenstand 2018.pdf | PDF | 71 | 08.04.2018 | FTh
+Bogenfeld | Arbeitsschein 2023.pdf | PDF | 182 | 18.07.2024 | KLa
+Bogenfeld | Dok1.pdf | PDF | 382 | 05.11.2026 | HBa
+Bogenfeld | Eskalationsschreiben 2019.pdf | PDF | 177 | 03.06.2020 | KLa
+Bogenfeld | Kopie von Scan_20220504_9362.pdf | PDF | 85 | 25.11.2022 | MBa
+Bogenfeld | Scan_20210420_4646.pdf | PDF | 95 | 06.05.2022 | JEb
+Bogenfeld | Scan_20230101_6190.pdf | PDF | 63 | 15.05.2023 | JEb
+Bogenfeld 12/Mieter | 07.10.02.013_2019-10-11_Beschwerde_Raumlot_Objektmanagement.pdf | PDF | 194 | 03.11.2019 | JEb
+Bogenfeld 12/Prüfungen | 04.16.01.014_2018-08-06_Prüfbericht_Trinkwasser_und_Raumlufttechnik_Luftpfad_Anlagentechnik.pdf | PDF | 80 | 03.08.2019 | JEb
+Bogenfeld 12/Prüfungen | 04.16.02.012_2022-12-06_Prüfbericht_Trinkwasser_und_Raumlufttechnik_Luftpfad_Anlagentechnik.pdf | PDF | 93 | 26.03.2023 | TKe
+Bogenfeld 12/Prüfungen | 04.16.02.022_2024-07-05_Prüfbericht_Trinkwasser_und_Raumlufttechnik_Luftpfad_Anlagentechnik.pdf | PDF | 550 | 13.08.2024 | EVo
+Bogenfeld 12/Prüfungen | 04.16.02.028_2025-07-07_Prüfbericht_Trinkwasser_und_Raumlufttechnik_Luftpfad_Anlagentechnik.pdf | PDF | 73 | 28.03.2026 | MBa
+Bogenfeld 12/Prüfungen | 07.16.07.002_2026-09-05_kalibrierschein_Luftpfad_Anlagentechnik.pdf | PDF | 61 | 05.11.2026 | PWi
+Bogenfeld 12/Prüfungen | Anlage.pdf | PDF | 72 | 20.04.2019 | MBa
+Bogenfeld 12/Prüfungen | Prüfbericht Trinkwasser und Raumlufttech 2019.pdf | PDF | 375 | 04.12.2019 | TKe
+Bogenfeld 12/Prüfungen | Prüfbericht Trinkwasser und Raumlufttech 2020.pdf | PDF | 92 | 24.11.2020 | HBa
+Bogenfeld 12/Prüfungen | Prüfbericht Trinkwasser und Raumlufttech 2024.pdf | PDF | 92 | 04.11.2024 | PWi
+Bogenfeld 12/Prüfungen | Prüfbericht_Trinkwasser_und_Ra_alt.pdf | PDF | 91 | 27.04.2021 | SAh
+Bogenfeld 12/Vertrag | 07.20.04.020_2019-07-25_Bestellung_Torwinkel_Gebäudeservice.pdf | PDF | 70 | 04.12.2019 | FTh
+Bogenfeld 12/Vertrag | 07.20.04.060_2024-08-15_Auftragsschreiben_Torwinkel_Gebäudeservice.pdf | PDF | 84 | 18.10.2024 | EVo
+Bogenfeld 12/Vertrag | 07.20.04.071_2025-08-26_Bestellung_Torwinkel_Gebäudeservice.pdf | PDF | 83 | 11.09.2026 | EVo
+Bogenfeld 12/Vertrag | 08.01.01.021_2019-04-29_Auftragsschreiben_Torwinkel_Gebäudeservice.pdf | PDF | 78 | 19.08.2019 | MBa
+Bogenfeld 12/Vertrag | Bestellung 2020.pdf | PDF | 63 | 29.03.2021 | MBa
+Bogenfeld 12/Vertrag | Bestellung 2020.pdf | PDF | 83 | 06.05.2021 | EVo
+Bogenfeld 12/Vertrag | Preisspiegel_korr.pdf | PDF | 49 | 29.06.2018 | KLa
+Bogenfeld 12/Vertrag | Scan_20190408_4512.pdf | PDF | 71 | 14.08.2019 | JEb
+Bogenfeld 12/Vertrag | Scan_20200815_1537.pdf | PDF | 379 | 25.12.2020 | HBa
+Bogenfeld 12/Vertrag | Scan_20250704_0045.pdf | PDF | 83 | 10.03.2026 | JEb
+Bogenfeld 12/Vertrag | Versicherungsbestätigung Haftpflicht 2018.pdf | PDF | 63 | 14.01.2019 | HBa
+Bogenfeld 12/Wartung 2017 | 07.14.01.014_2017-05-08_objekteinweisung_fremdfirma_Torwinkel_Gebäudeservice.pdf | PDF | 70 | 24.02.2018 | PWi
+Bogenfeld 12/Wartung 2018 | Arbeitsschein 2018.pdf | PDF | 71 | 17.12.2018 | JEb
+Bogenfeld 12/Wartung 2018 | Arbeitsschein_v3.pdf | PDF | 71 | 26.09.2018 | PWi
+Bogenfeld 12/Wartung 2018 | Scan_20181005_2962.pdf | PDF | 74 | 02.12.2018 | KLa
+Bogenfeld 12/Wartung 2019 | 04.21.04.017_2019-02-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 443 | 15.07.2019 | MBa
+Bogenfeld 12/Wartung 2019 | 04.21.04.026_2019-05-06_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 364 | 11.10.2019 | TKe
+Bogenfeld 12/Wartung 2019 | 04.21.04.032_2019-11-05_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 73 | 16.04.2020 | JEb
+Bogenfeld 12/Wartung 2019 | 04.22.02.010_2019-07-11_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 71 | 29.06.2020 | EVo
+Bogenfeld 12/Wartung 2019 | 04.22.02.012_2019-08-05_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 380 | 18.05.2020 | HBa
+Bogenfeld 12/Wartung 2019 | Arbeitsschein_final.pdf | PDF | 187 | 08.10.2019 | SAh
+Bogenfeld 12/Wartung 2019 | Arbeitsschein_HBa.pdf | PDF | 71 | 24.06.2019 | HBa
+Bogenfeld 12/Wartung 2019 | Scan_20191007_1355.pdf | PDF | 74 | 28.09.2020 | KLa
+Bogenfeld 12/Wartung 2019 | Wartungsprotokoll 2019.pdf | PDF | 72 | 26.03.2020 | HBa
+Bogenfeld 12/Wartung 2019 | Wartungsprotokoll 2019.pdf | PDF | 73 | 30.03.2020 | TKe
+Bogenfeld 12/Wartung 2020 | 04.21.04.038_2020-01-06_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 83 | 09.04.2020 | PWi
+Bogenfeld 12/Wartung 2020 | 04.21.04.043_2020-03-14_Wartungsprotokoll_Garagenlüftung_Luftpfad_Anlagentechnik.pdf | PDF | 200 | 29.07.2020 | KLa
+Bogenfeld 12/Wartung 2020 | objekteinweisungfremdfirma 2020.pdf | PDF | 70 | 18.08.2021 | FTh
+Bogenfeld 12/Wartung 2020 | Wartungsprotokoll 2020.pdf | PDF | 84 | 26.02.2021 | MBa
+Bogenfeld 12/Wartung 2020 | Wartungsprotokoll_alt.pdf | PDF | 82 | 30.07.2021 | KLa
+Bogenfeld 12/Wartung 2020 | Wartungsprotokoll_final2.pdf | PDF | 85 | 24.05.2020 | HBa
+Bogenfeld 12/Wartung 2020 | Wartungsprotokoll_neu.pdf | PDF | 82 | 16.06.2021 | FTh
+Bogenfeld 12/Wartung 2021 | 04.21.04.069_2021-04-02_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 85 | 25.05.2021 | KLa
+Bogenfeld 12/Wartung 2021 | 04.21.04.070_2021-04-08_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 92 | 10.03.2022 | KLa
+Bogenfeld 12/Wartung 2021 | 04.21.04.077_2021-09-06_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 181 | 28.12.2021 | FTh
+Bogenfeld 12/Wartung 2021 | 04.21.04.080_2021-10-11_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 147 | 23.10.2022 | KLa
+Bogenfeld 12/Wartung 2021 | 04.22.02.024_2021-05-20_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 83 | 20.03.2022 | EVo
+Bogenfeld 12/Wartung 2021 | objekteinweisungfremdfirma 2021.pdf | PDF | 70 | 12.03.2021 | TKe
+Bogenfeld 12/Wartung 2022 | 04.21.04.087_2022-01-31_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 06.02.2023 | PWi
+Bogenfeld 12/Wartung 2022 | 04.21.04.097_2022-05-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 82 | 22.05.2022 | SAh
+Bogenfeld 12/Wartung 2022 | Scan_20220207_9267.pdf | PDF | 85 | 02.06.2022 | EVo
+Bogenfeld 12/Wartung 2022 | Scan_20221031_9781.pdf | PDF | 85 | 05.07.2023 | FTh
+Bogenfeld 12/Wartung 2022 | Wartungsprotokoll 2022.pdf | PDF | 92 | 10.06.2022 | TKe
+Bogenfeld 12/Wartung 2022 | Wartungsprotokoll 2022.pdf | PDF | 83 | 31.01.2023 | HBa
+Bogenfeld 12/Wartung 2023 | 04.21.04.116_2023-03-25_Wartungsprotokoll_Garagenlüftung_Luftpfad_Anlagentechnik.pdf | PDF | 156 | 10.03.2024 | KLa
+Bogenfeld 12/Wartung 2023 | neu.pdf | PDF | 155 | 03.03.2024 | SAh
+Bogenfeld 12/Wartung 2023 | Wartungsprotokoll 2023.pdf | PDF | 83 | 28.06.2023 | TKe
+Bogenfeld 12/Wartung 2023 | Wartungsprotokoll 2023.pdf | PDF | 132 | 01.07.2024 | EVo
+Bogenfeld 12/Wartung 2023 | Wartungsprotokoll_final2.pdf | PDF | 173 | 21.11.2024 | KLa
+Bogenfeld 12/Wartung 2024 | Scan_20240122_3606.pdf | PDF | 70 | 27.11.2024 | JEb
+Bogenfeld 12/Wartung 2024 | Scan_20240306_2282.pdf | PDF | 89 | 15.08.2024 | JEb
+Bogenfeld 12/Wartung 2024 | Scan_20240909_6795.pdf | PDF | 84 | 17.03.2025 | KLa
+Bogenfeld 12/Wartung 2024 | Wartungsprotokoll_FTh.pdf | PDF | 84 | 19.04.2025 | FTh
+Bogenfeld 12/Wartung 2025 | 04.21.04.153_2025-02-05_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 90 | 21.02.2026 | EVo
+Bogenfeld 12/Wartung 2025 | 04.21.04.161_2025-08-28_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 173 | 27.11.2025 | SAh
+Bogenfeld 12/Wartung 2025 | 04.21.04.166_2025-10-03_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 29.06.2026 | EVo
+Bogenfeld 12/Wartung 2025 | 04.21.04.171_2025-11-07_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 86 | 13.06.2026 | EVo
+Bogenfeld 12/Wartung 2025 | Arbeitsschein_Messkopftausch_G_final2.pdf | PDF | 103 | 16.08.2025 | MBa
+Bogenfeld 12/Wartung 2025 | Unbenannt.pdf | PDF | 381 | 20.04.2025 | SAh
+Bogenfeld 12/Wartung 2025 | Unbenannt.pdf | PDF | 86 | 31.03.2026 | KLa
+Bogenfeld 12/Wartung 2025 | Wartungsprotokoll 2025.pdf | PDF | 83 | 30.10.2025 | TKe
+Bogenfeld 12/Wartung 2025 | Wartungsprotokoll 2025.pdf | PDF | 70 | 08.10.2026 | KLa
+Bogenfeld 12/Wartung 2025 | Wartungsprotokoll 2025.pdf | PDF | 73 | 28.03.2026 | SAh
+Bogenfeld 12/Wartung 2026 | 04.21.04.187_2026-08-31_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 92 | 26.09.2026 | FTh
+Bogenfeld 12/Wartung 2026 | Kopie.pdf | PDF | 85 | 02.11.2026 | TKe
+Bogenfeld 12/Wartung 2026 | neu.pdf | PDF | 85 | 05.11.2026 | KLa
+Bogenfeld 12/Wartung 2026 | Scan_20260429_7310.pdf | PDF | 94 | 05.11.2026 | KLa
+Bogenfeld 12/Wartung 2026 | Wartungsprotokoll 2026.pdf | PDF | 85 | 20.05.2026 | GRe
+Bogenfeld 12/Wartung 2026 | Wartungsprotokoll 2026.pdf | PDF | 89 | 05.11.2026 | PWi
+Bogenfeld 12/Wartung 2026 | Wartungsprotokoll_final2.pdf | PDF | 84 | 05.11.2026 | JEb
+Bogenfeld 12/Wartung 2026 | Wartungsprotokoll_neu.pdf | PDF | 120 | 13.05.2026 | FTh
+Bogenfeld NEU | 04.16.02.028_2025-07-07_Prüfbericht_Trinkwasser_und_Raumlufttechnik_Luftpfad_Anlagentechnik.pdf | PDF | 73 | 17.05.2026 | TKe
+Bogenfeld NEU | 04.21.04.032_2019-11-05_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 73 | 02.06.2020 | EVo
+Bogenfeld NEU | 04.21.04.086_2022-01-03_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 83 | 23.03.2022 | VGr
+Bogenfeld NEU | 04.21.04.130_2024-01-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 83 | 31.12.2024 | EVo
+Bogenfeld NEU | 04.22.02.027_2021-08-11_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 117 | 04.09.2021 | EVo
+Bogenfeld NEU | 04.22.02.036_2023-09-15_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 160 | 18.07.2024 | SAh
+Bogenfeld NEU | 04.22.02.039_2025-01-21_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 90 | 17.08.2025 | JEb
+Bogenfeld NEU | 07.16.06.005_2021-03-03_kalibrierschein_Luftpfad_Anlagentechnik.pdf | PDF | 60 | 14.09.2021 | KLa
+Bogenfeld NEU | 08.02.09.017_2025-08-28_E-Mail-Verlauf_Raum_OG5_heizt_sich_auf_Achsenraum_Ingenieurgesellschaft.pdf | PDF | 61 | 15.05.2026 | TKe
+Bogenfeld NEU | Anlage.pdf | PDF | 83 | 13.03.2021 | FTh
+Bogenfeld NEU | Kopie von Scan_20200907_9679.pdf | PDF | 396 | 17.02.2021 | KLa
+Bogenfeld NEU | Kopie.pdf | PDF | 82 | 30.07.2019 | PWi
+Bogenfeld NEU | Wartungsprotokoll_final2.pdf | PDF | 90 | 22.11.2022 | TKe
+Bogenfeld NEU | Wartungsprotokoll_neu.pdf | PDF | 85 | 10.11.2023 | MBa
+Bogenfeld NEU | Wartungsprotokoll_v3.pdf | PDF | 79 | 17.03.2019 | MBa
+Buchhaltung/Rechnungen 2018 | Eingangsrechnung 2018.pdf | PDF | 85 | 12.06.2019 | JEb
+Buchhaltung/Rechnungen 2019 | 07.21.05.007_2019-08-26_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 76 | 16.03.2020 | FBe
+Buchhaltung/Rechnungen 2020 | 07.22.03.016_2020-06-09_Gutschrift_Luftpfad_Anlagentechnik.pdf | PDF | 71 | 31.12.2020 | GRe
+Buchhaltung/Rechnungen 2022 | 07.21.05.020_2022-09-23_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 95 | 05.04.2023 | TKe
+Buchhaltung/Rechnungen 2022 | Eingangsrechnung 2022.pdf | PDF | 151 | 19.09.2023 | FTh
+Buchhaltung/Rechnungen 2023 | Eingangsrechnung 2023.pdf | PDF | 95 | 22.04.2024 | JEb
+Buchhaltung/Rechnungen 2026 | Eingangsrechnung 2026.pdf | PDF | 95 | 05.11.2026 | TKe
+Desktop alt | 04.03.01.019_2018-09-17_Nachtrag_Torwinkel_Gebäudeservice.pdf | PDF | 420 | 28.02.2019 | PWi
+Desktop alt | Anlage.pdf | PDF | 72 | 16.05.2019 | EVo
+Desktop alt | Kopie von Wartungsprotokoll 2020.pdf | PDF | 83 | 18.04.2020 | PWi
+Desktop alt | neu.pdf | PDF | 90 | 29.04.2026 | FTh
+Desktop alt | Prüfbericht Trinkwasser und Raumlufttech 2021.pdf | PDF | 92 | 18.10.2021 | SAh
+Desktop alt | Scan_20210106_5792.pdf | PDF | 84 | 09.01.2021 | JEb
+Desktop alt | Scan_20231204_8861.pdf | PDF | 91 | 14.11.2024 | JEb
+Desktop alt | Scan_20250307_6648.pdf | PDF | 84 | 12.06.2025 | MBa
+Desktop alt | Scan_20260414_2832.pdf | PDF | 118 | 05.11.2026 | SAh
+Desktop alt | Wartungsprotokoll 2026.pdf | PDF | 186 | 05.11.2026 | FTh
+Desktop alt | Wartungsprotokoll_final2.pdf | PDF | 373 | 05.11.2026 | GRe
+Firma/Unterlagen | 07.14.05.022_2025-04-16_unterweisungsnachweis_Torwinkel_Gebäudeservice.pdf | PDF | 71 | 15.12.2025 | FTh
+Firma/Unterlagen | 07.15.04.005_2024-09-09_einsatzplan_Luftpfad_Anlagentechnik.pdf | PDF | 66 | 10.08.2025 | JEb
+Firma/Unterlagen | 07.15.04.022_2026-11-03_personalwechselmitteilung_Luftpfad_Anlagentechnik.pdf | PDF | 51 | 05.11.2026 | MBa
+Firma/Unterlagen | 11.13.02.031_2026-11-04_unterschriftenverzeichnis_Luftpfad_Anlagentechnik.pdf | PDF | 68 | 05.11.2026 | MBa
+Firma/Unterlagen | Scan_20201017_7855.pdf | PDF | 50 | 02.07.2021 | MBa
+Firma/Unterlagen | Scan_20231124_3696.pdf | PDF | 158 | 31.08.2024 | KLa
+Firma/Unterlagen | Scan_20240307_7771.pdf | PDF | 71 | 28.07.2024 | VGr
+HR | 07.12.08.038_2020-10-01_stellenbeschreibung_Luftpfad_Anlagentechnik.pdf | PDF | 73 | 11.12.2020 | SAh
+HR | 07.12.09.001_2021-01-01_stellenbeschreibung_Luftpfad_Anlagentechnik.pdf | PDF | 213 | 04.02.2022 | JEb
+HR | Dok1.pdf | PDF | 83 | 20.06.2018 | FTh
+HR | neu.pdf | PDF | 68 | 19.09.2021 | MBa
+HR | Scan_20170610_3432.pdf | PDF | 68 | 20.09.2017 | MBa
+HR | unterschriftenverzeichnis_final2.pdf | PDF | 68 | 03.05.2017 | EVo
+HR | unterschriftenverzeichnis_final2.pdf | PDF | 62 | 26.10.2023 | MBa
+HR | vertretungsplan_alt.pdf | PDF | 68 | 04.06.2021 | EVo
+Kopie von Bogenfeld | 04.21.04.192_2026-11-02_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 05.11.2026 | PWi
+Kopie von Bogenfeld | 04.22.02.004_2018-08-06_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 161 | 26.06.2019 | EVo
+Kopie von Bogenfeld | 07.20.04.012_2018-06-06_Bestellung_Torwinkel_Gebäudeservice.pdf | PDF | 70 | 08.06.2019 | HBa
+Kopie von Bogenfeld | Kopie von 07.14.05.022_2025-04-16_unterweisungsnachweis_Torwinkel_Gebäudeservice.pdf | PDF | 71 | 27.01.2026 | EVo
+Kopie von Bogenfeld | Kopie von Wartungsprotokoll 2026.pdf | PDF | 186 | 16.12.2026 | MBa
+Kopie von Bogenfeld | Kopie.pdf | PDF | 162 | 11.03.2020 | FTh
+Kopie von Bogenfeld | Scan_20221103_4773.pdf | PDF | 84 | 11.01.2023 | HBa
+Kopie von Bogenfeld | Wartungsprotokoll 2020.pdf | PDF | 84 | 31.03.2021 | TKe
+Kopie von Bogenfeld | Wartungsprotokoll 2020.pdf | PDF | 83 | 01.04.2020 | PWi
+Kopie von Bogenfeld | Wartungsprotokoll_final.pdf | PDF | 72 | 17.05.2019 | HBa
+Kopie von Bogenfeld | Zertifikat_Fachbetrieb_TKe.pdf | PDF | 127 | 01.11.2015 | TKe
+Korrespondenz | 08.02.05.004_2021-01-26_E-Mail-Verlauf_Raum_EG_Forum_heizt_sich_auf_Werkraum_Projektbüros.pdf | PDF | 43 | 25.02.2021 | KLa
+Korrespondenz | 08.05.10.031_2026-07-30_Telefonnotiz_Büro_im_Kern_2_Treppenhaus_zu_warm_Raumlot_Objektmanagement.pdf | PDF | 100 | 06.09.2026 | KLa
+Korrespondenz | EMailVerlauf Pfeifen am Auslass 2018.pdf | PDF | 44 | 10.02.2019 | TKe
+Korrespondenz | Kopie.pdf | PDF | 61 | 21.12.2017 | FTh
+Korrespondenz | Scan_20200722_5570.pdf | PDF | 41 | 11.06.2021 | HBa
+Korrespondenz | Scan_20200730_2589.pdf | PDF | 64 | 01.06.2021 | FBe
+Korrespondenz/Mieter | Beschwerde 2018.pdf | PDF | 167 | 09.03.2019 | KLa
+Korrespondenz/Mieter | Scan_20190722_2658.pdf | PDF | 282 | 12.03.2020 | KLa
+Mails gespeichert | 08.02.02.026_2018-08-03_E-Mail-Verlauf_Raum_EG_Bistro_heizt_sich_auf_Brückner_und_Falk.pdf | PDF | 43 | 18.02.2019 | HBa
+Mails gespeichert | Anfrage 2018.pdf | PDF | 61 | 09.10.2018 | PWi
+Mails gespeichert | EMailVerlauf Büro im OG2 Ost zu warm 2018.pdf | PDF | 623 | 19.03.2019 | PWi
+Mails gespeichert | EMailVerlauf Lüftungsgeräusch 2026.pdf | PDF | 44 | 21.10.2026 | SAh
+Mails gespeichert | Scan_20180801_7539.pdf | PDF | 70 | 18.12.2018 | MBa
+Neuer Ordner | 04.06.02.012_2018-04-03_Pflichtenübertragung_Torwinkel_Gebäudeservice.pdf | PDF | 274 | 07.11.2018 | KLa
+Neuer Ordner | 04.21.04.050_2020-09-28_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 92 | 06.08.2021 | FTh
+Neuer Ordner | 04.21.04.066_2021-03-02_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 102 | 05.03.2021 | PWi
+Neuer Ordner | 04.21.04.092_2022-03-17_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 82 | 20.11.2022 | VGr
+Neuer Ordner | 04.22.02.035_2023-09-09_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 83 | 17.03.2024 | KLa
+Neuer Ordner | EMailVerlauf Büro im Kern 2 Treppenhaus 2023.pdf | PDF | 43 | 11.12.2023 | FTh
+Neuer Ordner | Kopie von Preisspiegel_korr.pdf | PDF | 49 | 17.07.2018 | EVo
+Neuer Ordner | Kopie von Scan_20240408_6942.pdf | PDF | 320 | 15.05.2025 | EVo
+Neuer Ordner | Kreditorenkonto 2019.pdf | PDF | 51 | 26.05.2019 | VGr
+Neuer Ordner | neu.pdf | PDF | 83 | 23.04.2023 | JEb
+Neuer Ordner | organigramm 2017.pdf | PDF | 55 | 13.10.2017 | SAh
+Neuer Ordner | Scan_20260630_1783.pdf | PDF | 93 | 15.10.2026 | FTh
+Neuer Ordner (2) | 04.22.02.031_2023-05-13_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 332 | 12.09.2023 | HBa
+Neuer Ordner (2) | 07.20.04.078_2026-06-06_Abrufschein_Torwinkel_Gebäudeservice.pdf | PDF | 83 | 05.11.2026 | HBa
+Neuer Ordner (2) | 08.02.01.052_2017-12-22_E-Mail-Verlauf_Zuluft_EG_Bistro_zu_stark_Brückner_und_Falk.pdf | PDF | 44 | 25.05.2018 | PWi
+Neuer Ordner (2) | 08.02.04.024_2020-07-24_E-Mail-Verlauf_Temperatur_Technikzentrale_über_27_Grad_Werkraum_Projektbüros.pdf | PDF | 47 | 29.07.2021 | SAh
+Neuer Ordner (2) | Antwort_oder_Abmahnung_neu.pdf | PDF | 191 | 21.02.2020 | TKe
+Neuer Ordner (2) | Kopie von Scan_20201109_5094.pdf | PDF | 95 | 02.06.2021 | JEb
+Neuer Ordner (2) | Scan_20220605_9305.pdf | PDF | 82 | 24.01.2023 | HBa
+Neuer Ordner (2) | Scan_20220605_9305.pdf | PDF | 82 | 23.02.2023 | SAh
+Neuer Ordner (2) | Wartungsprotokoll_EVo.pdf | PDF | 155 | 18.09.2018 | EVo
+Neuer Ordner (2) | Wartungsprotokoll_korr.pdf | PDF | 94 | 29.09.2023 | GRe
+Personal | 07.06.04.052_2019-06-06_Zertifikat_Fachbetrieb_TPK.pdf | PDF | 136 | 03.12.2019 | FTh
+Personal | 07.13.07.016_2021-09-03_arbeitsmedizinische_vorsorge_Luftpfad_Anlagentechnik.pdf | PDF | 69 | 05.02.2022 | MBa
+Personal | 07.14.04.034_2023-09-20_unterweisungsnachweis_Torwinkel_Gebäudeservice.pdf | PDF | 64 | 20.10.2023 | HBa
+Personal | 07.15.02.020_2020-12-22_bereitschaftsplan_Luftpfad_Anlagentechnik.pdf | PDF | 69 | 30.11.2021 | EVo
+Personal | 07.15.02.027_2021-06-10_vertretungsplan_Luftpfad_Anlagentechnik.pdf | PDF | 68 | 24.11.2021 | EVo
+Personal | arbeitsvertragsauszug 2026.pdf | PDF | 80 | 05.11.2026 | FTh
+Personal | arbeitsvertragsauszug_korr.pdf | PDF | 80 | 14.03.2021 | PWi
+Personal | Firmenchronik 2024.pdf | PDF | 43 | 26.05.2025 | MBa
+Personal | Kopie.pdf | PDF | 51 | 17.04.2018 | FTh
+Personal | personalstammblatt 2020.pdf | PDF | 60 | 17.12.2021 | HBa
+Personal | personalwechselmitteilung 2020.pdf | PDF | 49 | 30.03.2021 | JEb
+Personal | personensteckbrief 2026.pdf | PDF | 73 | 05.11.2026 | PWi
+Personal | stellenbeschreibung 2026.pdf | PDF | 73 | 05.11.2026 | EVo
+Personal | unterweisungsnachweis 2021.pdf | PDF | 71 | 20.10.2021 | JEb
+Personal | unterweisungsnachweis 2022.pdf | PDF | 71 | 06.05.2022 | FTh
+Protokolle | 04.21.04.039_2020-01-07_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 82 | 09.06.2020 | FBe
+Protokolle | 04.21.04.044_2020-03-16_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 86 | 29.11.2020 | JEb
+Protokolle | 04.21.04.047_2020-05-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 158 | 03.02.2021 | EVo
+Protokolle | 04.21.04.052_2020-10-02_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 85 | 21.01.2021 | JEb
+Protokolle | 04.21.04.101_2022-09-01_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 29.07.2023 | FTh
+Protokolle | 04.21.04.133_2024-01-31_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 89 | 24.01.2025 | SAh
+Protokolle | 04.21.04.135_2024-03-09_Wartungsprotokoll_Garagenlüftung_Luftpfad_Anlagentechnik.pdf | PDF | 77 | 20.03.2024 | MBa
+Protokolle | 04.21.04.145_2024-10-07_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 77 | 05.02.2025 | MBa
+Protokolle | 04.21.04.150_2024-12-30_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 29.04.2025 | FTh
+Protokolle | 04.21.04.159_2025-04-08_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 82 | 19.05.2025 | MBa
+Protokolle | 04.21.04.178_2026-03-06_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 92 | 05.11.2026 | TKe
+Protokolle | 04.22.02.017_2020-07-23_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 140 | 04.06.2021 | JEb
+Protokolle | 04.22.02.021_2020-09-01_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 24.06.2021 | HBa
+Protokolle | 04.22.02.025_2021-06-06_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 83 | 09.04.2022 | MBa
+Protokolle | 04.22.02.042_2025-08-30_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 22.09.2026 | MBa
+Protokolle | 07.16.04.005_2015-01-05_geraeteverzeichnis_Luftpfad_Anlagentechnik.pdf | PDF | 67 | 13.01.2016 | HBa
+Protokolle | Anlage.pdf | PDF | 71 | 05.09.2019 | TKe
+Protokolle | Anlage.pdf | PDF | 198 | 22.02.2023 | FTh
+Protokolle | Arbeitsschein 2020.pdf | PDF | 84 | 01.03.2021 | MBa
+Protokolle | Arbeitsschein Messkopftausch Gaswarnanla 2021.pdf | PDF | 75 | 22.01.2022 | EVo
+Protokolle | Arbeitsschein_v3.pdf | PDF | 157 | 06.11.2020 | FTh
+Protokolle | Dok1.pdf | PDF | 85 | 16.07.2021 | EVo
+Protokolle | Scan_20180810_9458.pdf | PDF | 78 | 30.09.2018 | EVo
+Protokolle | Scan_20180830_0242.pdf | PDF | 74 | 29.08.2019 | PWi
+Protokolle | Scan_20181001_9327.pdf | PDF | 105 | 27.11.2018 | EVo
+Protokolle | Scan_20190403_7573.pdf | PDF | 73 | 06.11.2019 | TKe
+Protokolle | Scan_20191202_6424.pdf | PDF | 73 | 08.07.2020 | HBa
+Protokolle | Scan_20201106_3427.pdf | PDF | 84 | 12.07.2021 | JEb
+Protokolle | Scan_20201202_0514.pdf | PDF | 84 | 04.12.2021 | SAh
+Protokolle | Scan_20210210_2914.pdf | PDF | 85 | 15.07.2021 | KLa
+Protokolle | Scan_20210902_2281.pdf | PDF | 84 | 29.09.2021 | TKe
+Protokolle | Scan_20250303_7536.pdf | PDF | 84 | 04.04.2026 | TKe
+Protokolle | Scan_20260506_4163.pdf | PDF | 82 | 05.11.2026 | EVo
+Protokolle | Wartungsprotokoll 2018.pdf | PDF | 126 | 04.03.2019 | MBa
+Protokolle | Wartungsprotokoll 2019.pdf | PDF | 73 | 25.04.2019 | GRe
+Protokolle | Wartungsprotokoll 2020.pdf | PDF | 85 | 25.08.2021 | FTh
+Protokolle | Wartungsprotokoll 2021.pdf | PDF | 85 | 10.11.2022 | HBa
+Protokolle | Wartungsprotokoll 2022.pdf | PDF | 84 | 05.06.2022 | MBa
+Protokolle | Wartungsprotokoll 2022.pdf | PDF | 84 | 02.09.2023 | EVo
+Protokolle | Wartungsprotokoll 2022.pdf | PDF | 74 | 01.04.2023 | SAh
+Protokolle | Wartungsprotokoll 2024.pdf | PDF | 86 | 07.02.2024 | FTh
+Protokolle | Wartungsprotokoll 2024.pdf | PDF | 85 | 02.11.2025 | PWi
+Protokolle | Wartungsprotokoll 2025.pdf | PDF | 84 | 18.03.2026 | HBa
+Protokolle | Wartungsprotokoll 2025.pdf | PDF | 85 | 07.05.2026 | FBe
+Protokolle | Wartungsprotokoll 2025.pdf | PDF | 215 | 03.09.2026 | JEb
+Protokolle | Wartungsprotokoll 2026.pdf | PDF | 83 | 07.09.2026 | GRe
+Protokolle | Wartungsprotokoll 2026.pdf | PDF | 68 | 28.08.2026 | VGr
+Protokolle | Wartungsprotokoll 2026.pdf | PDF | 77 | 22.10.2026 | MBa
+Protokolle | Wartungsprotokoll Garagenlüftung 2021.pdf | PDF | 68 | 06.11.2021 | EVo
+Protokolle | Wartungsprotokoll Garagenlüftung 2025.pdf | PDF | 165 | 06.10.2025 | SAh
+Protokolle | Wartungsprotokoll_alt.pdf | PDF | 85 | 10.08.2023 | SAh
+Protokolle | Wartungsprotokoll_alt.pdf | PDF | 85 | 23.02.2025 | KLa
+Protokolle | Wartungsprotokoll_alt.pdf | PDF | 88 | 03.07.2025 | TKe
+Protokolle | Wartungsprotokoll_final2.pdf | PDF | 90 | 05.09.2022 | PWi
+Protokolle | Wartungsprotokoll_final2.pdf | PDF | 86 | 13.01.2024 | EVo
+Protokolle | Wartungsprotokoll_korr.pdf | PDF | 84 | 19.10.2025 | HBa
+Protokolle | Wartungsprotokoll_v3.pdf | PDF | 211 | 09.09.2024 | EVo
+Prüfberichte | 06.03.03.004_2023-06-11_Prüfbericht_Küchenabluft_und_Fettbrandschutz_Gastronomie_Luftpfad_Anlagentechnik.pdf | PDF | 75 | 13.11.2023 | KLa
+Prüfberichte | 06.03.03.011_2024-03-16_Prüfbericht_Küchenabluft_und_Fettbrandschutz_Gastronomie_Luftpfad_Anlagentechnik.pdf | PDF | 75 | 16.10.2024 | PWi
+Prüfberichte | Prüfbericht Trinkwasser und Raumlufttech 2024.pdf | PDF | 93 | 01.02.2025 | SAh
+Prüfberichte | Prüfbericht Türen Tore und Absturzsicher 2019.pdf | PDF | 69 | 24.01.2020 | KLa
+Prüfberichte | Scan_20210316_8130.pdf | PDF | 75 | 08.03.2022 | PWi
+Prüfberichte | Scan_20210629_2827.pdf | PDF | 93 | 12.03.2022 | FTh
+Prüfberichte | Scan_20260303_5155.pdf | PDF | 91 | 06.07.2026 | PWi
+Prüfungen 2019 | Unbenannt.pdf | PDF | 73 | 17.12.2019 | KLa
+Prüfungen 2020 | Prüfbericht_Trinkwasser_und_Ra_alt.pdf | PDF | 92 | 09.04.2021 | MBa
+Prüfungen 2022 | Prüfbericht Trinkwasser und Raumlufttech 2022.pdf | PDF | 91 | 16.12.2022 | EVo
+Prüfungen 2022 | Scan_20220615_6124.pdf | PDF | 396 | 09.11.2022 | FTh
+Prüfungen 2023 | Scan_20230306_7765.pdf | PDF | 92 | 30.06.2023 | FTh
+Prüfungen 2023 | Scan_20231002_7574.pdf | PDF | 73 | 19.01.2024 | EVo
+Prüfungen 2024 | Scan_20240408_6942.pdf | PDF | 320 | 07.04.2025 | SAh
+Prüfungen 2025 | Scan_20250522_7799.pdf | PDF | 74 | 30.06.2025 | KLa
+RE 2018 | 07.10.04.003_2018-04-20_Antwort_oder_Abmahnung_Ostrau_Klimatechnik.pdf | PDF | 135 | 12.11.2018 | TKe
+RE 2018 | 07.22.03.006_2018-11-20_Gutschrift_Luftpfad_Anlagentechnik.pdf | PDF | 77 | 01.08.2019 | KLa
+RE 2018 | Mahnung_final2.pdf | PDF | 167 | 07.07.2019 | PWi
+RE 2022 | 07.21.05.022_2022-11-07_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 94 | 29.11.2022 | KLa
+RE 2022 | Eingangsrechnung 2022.pdf | PDF | 46 | 02.12.2022 | JEb
+RE 2023 | 07.21.05.025_2023-09-08_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 95 | 09.01.2024 | KLa
+RE 2023 | Anlage.pdf | PDF | 90 | 01.07.2024 | GRe
+RE 2023 | Eingangsrechnung 2023.pdf | PDF | 104 | 13.10.2023 | SAh
+RE 2025 | 07.21.05.030_2025-05-19_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 94 | 26.05.2025 | TKe
+RE 2025 | 07.22.04.007_2025-02-17_Gutschrift_Luftpfad_Anlagentechnik.pdf | PDF | 90 | 23.05.2025 | PWi
+RE 2026 | Eingangsrechnung 2026.pdf | PDF | 94 | 05.11.2026 | JEb
+Rechnungen | 07.21.05.027_2024-06-10_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 94 | 11.07.2024 | TKe
+Rechnungen | Antwort oder Abmahnung 2019.pdf | PDF | 139 | 23.11.2019 | KLa
+Rechnungen | Antwort oder Abmahnung 2021.pdf | PDF | 190 | 09.11.2021 | JEb
+Rechnungen | Eingangsrechnung 2020.pdf | PDF | 95 | 10.05.2021 | FTh
+Rechnungen | Eingangsrechnung 2020.pdf | PDF | 95 | 16.03.2021 | MBa
+Rechnungen | Eingangsrechnung_final.pdf | PDF | 95 | 21.05.2025 | EVo
+Rechnungen | Eingangsrechnung_neu.pdf | PDF | 95 | 07.10.2025 | GRe
+Rechnungen | Scan_20201109_5094.pdf | PDF | 95 | 23.04.2021 | SAh
+Rechnungen bezahlt | Eingangsrechnung 2025.pdf | PDF | 76 | 24.08.2026 | FTh
+Rechnungen bezahlt | Eingangsrechnung 2026.pdf | PDF | 95 | 05.11.2026 | SAh
+Rechnungen bezahlt | Eingangsrechnung_alt.pdf | PDF | 128 | 13.09.2020 | SAh
+Rechnungen bezahlt | Eingangsrechnung_final.pdf | PDF | 230 | 13.09.2021 | TKe
+Rechnungen bezahlt | Gutschrift 2022.pdf | PDF | 90 | 02.09.2022 | JEb
+Rechnungen bezahlt | Kopie.pdf | PDF | 95 | 21.02.2023 | FTh
+Scans | 04.21.04.045_2020-04-07_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 86 | 21.01.2021 | KLa
+Scans | Abrufschein_final2.pdf | PDF | 70 | 19.05.2019 | MBa
+Scans | Arbeitsschein 2019.pdf | PDF | 80 | 08.07.2020 | SAh
+Scans | Dok1.pdf | PDF | 82 | 11.01.2021 | FTh
+Scans | Prüfbericht Trinkwasser und Raumlufttech 2023.pdf | PDF | 300 | 25.09.2024 | MBa
+Scans | Prüfbericht_Trinkwasser_und_Ra_alt.pdf | PDF | 102 | 07.09.2023 | MBa
+Scans | Scan_20180314_9112.pdf | PDF | 234 | 09.12.2018 | KLa
+Scans | Scan_20220504_9362.pdf | PDF | 85 | 09.10.2022 | EVo
+Scans | unterweisungsnachweis_v3.pdf | PDF | 72 | 23.03.2018 | JEb
+Scans | Wartungsprotokoll 2021.pdf | PDF | 84 | 30.05.2021 | EVo
+Scans/2017 | 07.18.01.036_2017-04-06_Preisspiegel_Kantbogen_Bestand.pdf | PDF | 59 | 16.04.2017 | TKe
+Scans/2017 | Handnotiz_Büro_im_EG_Bistro_zu_korr.pdf | PDF | 178 | 11.06.2018 | FTh
+Scans/2019 | 08.01.01.020_2019-04-19_Bericht_Luftpfad_Anlagentechnik.pdf | PDF | 77 | 11.05.2020 | TKe
+Scans/2021 | Scan_20210629_6112.pdf | PDF | 63 | 18.02.2022 | JEb
+Scans/2024 | Kopie.pdf | PDF | 84 | 21.12.2024 | PWi
+Scans/2024 | Scan_20241004_6319.pdf | PDF | 93 | 25.04.2025 | FTh
+Scans/2026 | Scan_20260803_8700.pdf | PDF | 173 | 05.11.2026 | MBa
+Schriftverkehr 2017 | Aktenvermerk Zuluft OG1 Ost zu stark 2017.pdf | PDF | 55 | 23.06.2017 | TKe
+Schriftverkehr 2017 | Kopie.pdf | PDF | 53 | 24.12.2017 | HBa
+Schriftverkehr 2018 | EMailVerlauf Pfeifen am Auslass 2018.pdf | PDF | 43 | 30.09.2018 | JEb
+Schriftverkehr 2018 | EMailVerlauf_Raum_EG_Westfoyer_MBa.pdf | PDF | 41 | 24.08.2018 | MBa
+Schriftverkehr 2020 | Scan_20200907_9679.pdf | PDF | 396 | 26.11.2020 | FTh
+Schriftverkehr 2021 | 07.10.01.016_2021-10-04_Eskalationsschreiben_Kantbogen_Bestand.pdf | PDF | 226 | 20.08.2022 | JEb
+Schriftverkehr 2021 | EMailVerlauf_Büro_im_OG3_Büro_v3.pdf | PDF | 45 | 24.01.2022 | MBa
+Schriftverkehr 2025 | 08.02.09.017_2025-08-28_E-Mail-Verlauf_Raum_OG5_heizt_sich_auf_Achsenraum_Ingenieurgesellschaft.pdf | PDF | 61 | 01.04.2026 | JEb
+Schäden | Bereitschaftsdienst Einsatzprotokoll 2018.pdf | PDF | 62 | 30.01.2019 | MBa
+Schäden | Bereitschaftsdienst Einsatzprotokoll 2019.pdf | PDF | 70 | 22.01.2020 | HBa
+Schäden | Bereitschaftsdienst Einsatzprotokoll 2020.pdf | PDF | 81 | 26.07.2021 | PWi
+Schäden | Bereitschaftsdienst_Einsatzpro_korr.pdf | PDF | 81 | 06.09.2024 | KLa
+Temp | 04.21.04.007_2018-09-28_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 76 | 16.01.2019 | JEb
+Temp | 04.21.04.012_2018-10-31_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 82 | 09.07.2019 | KLa
+Temp | 04.21.04.131_2024-01-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 109 | 07.06.2024 | HBa
+Temp | 04.21.04.148_2024-11-04_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 12.11.2024 | KLa
+Temp | 07.21.05.007_2019-08-26_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 76 | 21.05.2020 | FTh
+Temp | Bestellung_v3.pdf | PDF | 83 | 24.04.2023 | JEb
+Temp | geraeteverzeichnis 2020.pdf | PDF | 60 | 11.02.2020 | TKe
+Temp | Kopie von 04.21.04.170_2025-11-05_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 94 | 15.04.2026 | TKe
+Temp | Kopie von 07.21.05.025_2023-09-08_Eingangsrechnung_Luftpfad_Anlagentechnik.pdf | PDF | 95 | 21.02.2024 | EVo
+Temp | Kopie.pdf | PDF | 82 | 14.07.2019 | FTh
+Temp | Scan_20210717_8734.pdf | PDF | 111 | 23.10.2021 | TKe
+Temp | Scan_20250605_0081.pdf | PDF | 186 | 13.02.2026 | HBa
+Temp | Wartungsprotokoll 2026.pdf | PDF | 68 | 29.09.2026 | PWi
+Tickets Export | 04.24.02.024_2023-07-11_Bereitschaftsdienst_Einsatzprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 164 | 02.05.2024 | KLa
+Tickets Export | 04.24.02.026_2023-09-20_Bereitschaftsdienst_Einsatzprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 82 | 05.09.2024 | KLa
+Tickets Export | Scan_20250120_2900.pdf | PDF | 82 | 07.11.2025 | PWi
+Umbau | Jahresterminplan_alt.pdf | PDF | 777 | 08.08.2019 | MBa
+Verträge | 04.03.01.025_2019-11-25_Nachtrag_Torwinkel_Gebäudeservice.pdf | PDF | 236 | 09.10.2020 | SAh
+Verträge | 07.18.01.041_2017-04-18_Vergabevorschlag_Kantbogen_Bestand.pdf | PDF | 68 | 14.03.2018 | FTh
+Verträge | 07.18.02.008_2022-01-11_Ausschreibung_Kantbogen_Bestand.pdf | PDF | 75 | 19.04.2022 | MBa
+Verträge | 07.20.04.015_2018-09-13_Abrufschein_Torwinkel_Gebäudeservice.pdf | PDF | 70 | 09.08.2019 | KLa
+Verträge | Abrufschein 2024.pdf | PDF | 91 | 03.11.2024 | SAh
+Verträge | Bestellung 2026.pdf | PDF | 141 | 05.11.2026 | SAh
+Verträge | Bestellung_PWi.pdf | PDF | 83 | 07.07.2025 | PWi
+Verträge | Kopie.pdf | PDF | 72 | 26.03.2022 | SAh
+Verträge | Leistungsverzeichnis 2018.pdf | PDF | 1174 | 10.07.2018 | PWi
+Verträge | Versicherungsbestätigung_Haftp_final.pdf | PDF | 59 | 17.02.2025 | MBa
+Verträge/Bogenfeld | 04.03.02.021_2024-07-08_Nachtrag_Torwinkel_Gebäudeservice.pdf | PDF | 73 | 20.09.2024 | SAh
+Verträge/Bogenfeld | 07.20.04.050_2023-08-28_Auftragsschreiben_Torwinkel_Gebäudeservice.pdf | PDF | 83 | 02.09.2023 | PWi
+Verträge/Bogenfeld | 07.20.04.065_2025-01-10_Auftragsschreiben_Torwinkel_Gebäudeservice.pdf | PDF | 142 | 20.07.2025 | MBa
+Verträge/Bogenfeld | Anlage.pdf | PDF | 83 | 10.01.2021 | HBa
+Verträge/Bogenfeld | Bestellung_v3.pdf | PDF | 69 | 29.10.2023 | PWi
+Verträge/Bogenfeld | Scan_20230918_6591.pdf | PDF | 83 | 10.03.2024 | SAh
+Wartung | 04.21.04.006_2018-09-05_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 72 | 10.03.2019 | EVo
+Wartung | 04.21.04.024_2019-04-08_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 163 | 13.08.2019 | JEb
+Wartung | 04.21.04.029_2019-10-02_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 151 | 10.02.2020 | FTh
+Wartung | 04.21.04.041_2020-02-05_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 146 | 12.04.2020 | KLa
+Wartung | 04.21.04.049_2020-08-31_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 181 | 11.05.2021 | TKe
+Wartung | 04.21.04.082_2021-11-08_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 86 | 04.08.2022 | PWi
+Wartung | 04.21.04.083_2021-12-02_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 84 | 18.10.2022 | KLa
+Wartung | 04.21.04.112_2023-01-06_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 155 | 10.07.2023 | EVo
+Wartung | 04.21.04.125_2023-10-09_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 234 | 30.10.2023 | KLa
+Wartung | 04.21.04.132_2024-01-08_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 117 | 29.09.2024 | TKe
+Wartung | 04.21.04.137_2024-04-05_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 82 | 25.12.2024 | EVo
+Wartung | 04.21.04.170_2025-11-05_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 94 | 03.02.2026 | SAh
+Wartung | 04.21.04.180_2026-03-30_Wartungsprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 86 | 05.11.2026 | FTh
+Wartung | 04.22.02.013_2019-08-05_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 71 | 05.02.2020 | HBa
+Wartung | 04.22.02.016_2020-05-13_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 160 | 27.11.2020 | MBa
+Wartung | 04.22.02.041_2025-06-27_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 91 | 28.03.2026 | KLa
+Wartung | 07.16.07.008_2026-11-04_geraeteverzeichnis_Luftpfad_Anlagentechnik.pdf | PDF | 67 | 05.11.2026 | HBa
+Wartung | Arbeitsschein 2020.pdf | PDF | 154 | 09.10.2020 | MBa
+Wartung | Arbeitsschein 2022.pdf | PDF | 194 | 09.04.2023 | KLa
+Wartung | Arbeitsschein 2023.pdf | PDF | 83 | 03.05.2024 | PWi
+Wartung | Arbeitsschein 2024.pdf | PDF | 129 | 05.03.2025 | TKe
+Wartung | Arbeitsschein_KLa.pdf | PDF | 71 | 10.01.2019 | KLa
+Wartung | Dok1.pdf | PDF | 79 | 17.07.2019 | SAh
+Wartung | Dok1.pdf | PDF | 90 | 09.05.2021 | EVo
+Wartung | Dok1.pdf | PDF | 84 | 17.11.2024 | FTh
+Wartung | Kopie.pdf | PDF | 71 | 07.04.2019 | KLa
+Wartung | neu.pdf | PDF | 83 | 04.02.2023 | EVo
+Wartung | Scan_20190320_7912.pdf | PDF | 215 | 18.01.2020 | TKe
+Wartung | Scan_20190403_2905.pdf | PDF | 70 | 27.04.2020 | HBa
+Wartung | Scan_20190803_1304.pdf | PDF | 71 | 05.03.2020 | HBa
+Wartung | Scan_20191017_8582.pdf | PDF | 72 | 28.07.2020 | PWi
+Wartung | Scan_20191104_8151.pdf | PDF | 132 | 04.04.2020 | MBa
+Wartung | Scan_20210305_4033.pdf | PDF | 217 | 26.05.2021 | PWi
+Wartung | Scan_20210503_7272.pdf | PDF | 152 | 25.02.2022 | MBa
+Wartung | Scan_20220208_4993.pdf | PDF | 83 | 03.03.2023 | SAh
+Wartung | Scan_20230105_9691.pdf | PDF | 219 | 23.03.2023 | SAh
+Wartung | Scan_20230302_3439.pdf | PDF | 82 | 25.04.2023 | HBa
+Wartung | Scan_20230904_7436.pdf | PDF | 90 | 13.10.2023 | FTh
+Wartung | Scan_20231002_6480.pdf | PDF | 84 | 13.09.2024 | EVo
+Wartung | Scan_20241003_9843.pdf | PDF | 84 | 16.03.2025 | FTh
+Wartung | Wartungsprotokoll 2018.pdf | PDF | 72 | 21.02.2019 | SAh
+Wartung | Wartungsprotokoll 2019.pdf | PDF | 69 | 04.08.2019 | MBa
+Wartung | Wartungsprotokoll 2020.pdf | PDF | 83 | 14.12.2020 | EVo
+Wartung | Wartungsprotokoll 2021.pdf | PDF | 76 | 09.06.2022 | SAh
+Wartung | Wartungsprotokoll 2022.pdf | PDF | 86 | 22.12.2022 | EVo
+Wartung | Wartungsprotokoll 2022.pdf | PDF | 92 | 08.05.2023 | SAh
+Wartung | Wartungsprotokoll 2024.pdf | PDF | 84 | 09.01.2025 | KLa
+Wartung | Wartungsprotokoll 2025.pdf | PDF | 84 | 29.08.2026 | HBa
+Wartung | Wartungsprotokoll 2025.pdf | PDF | 86 | 14.05.2026 | TKe
+Wartung | Wartungsprotokoll 2026.pdf | PDF | 90 | 13.03.2026 | HBa
+Wartung | Wartungsprotokoll 2026.pdf | PDF | 85 | 05.11.2026 | MBa
+Wartung | Wartungsprotokoll_alt.pdf | PDF | 110 | 29.08.2020 | TKe
+Wartung | Wartungsprotokoll_final.pdf | PDF | 158 | 06.03.2023 | PWi
+Wartung | Wartungsprotokoll_final2.pdf | PDF | 84 | 05.11.2026 | SAh
+Wartung | Wartungsprotokoll_JEb.pdf | PDF | 86 | 25.11.2020 | JEb
+Wartung | Wartungsprotokoll_PWi.pdf | PDF | 85 | 19.02.2023 | PWi
+Wartung | Wartungsprotokoll_SAh.pdf | PDF | 397 | 30.07.2025 | SAh
+zu erledigen | 04.22.02.043_2026-07-23_Arbeitsschein_Luftpfad_Anlagentechnik.pdf | PDF | 161 | 05.11.2026 | KLa
+zu erledigen | 04.24.02.024_2023-07-11_Bereitschaftsdienst_Einsatzprotokoll_Luftpfad_Anlagentechnik.pdf | PDF | 164 | 10.06.2024 | MBa
+zu erledigen | 08.02.02.030_2018-08-13_E-Mail-Verlauf_Büro_im_Teeküche_OG2_zu_warm_Lichtwerk.pdf | PDF | 96 | 12.04.2019 | PWi
+zu erledigen | Eskalationsschreiben 2018.pdf | PDF | 195 | 25.04.2019 | EVo
+zu erledigen | Indexberechnung_Preisgleitklau_korr.pdf | PDF | 349 | 23.05.2020 | HBa
+zu erledigen | Kopie von 07.20.04.050_2023-08-28_Auftragsschreiben_Torwinkel_Gebäudeservice.pdf | PDF | 83 | 07.10.2023 | KLa
+zu erledigen | neu.pdf | PDF | 84 | 17.12.2020 | EVo
+zu erledigen | Scan_20211206_1090.pdf | PDF | 84 | 11.04.2022 | SAh
+zu erledigen | Telefonnotiz Büro im EG Bistro zu warm 2017.pdf | PDF | 63 | 10.11.2017 | TKe
+zu erledigen | Wartungsprotokoll 2020.pdf | PDF | 74 | 19.04.2021 | PWi
+Bogenfeld 12/Vertrag | Indexreihen_VPI_Basiszins.xlsx | XLSX | 8 | 12.11.2026 | JEb
+Buchhaltung/OP | OP_Kantbogen_Stand_2026-11-18.xlsx | XLSX | 6 | 18.11.2026 | JEb
+Disposition/Bogenfeld 12 | Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx | XLSX | 13 | 18.11.2026 | SAh

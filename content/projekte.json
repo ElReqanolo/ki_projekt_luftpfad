@@ -1,0 +1,279 @@
+{
+  "projekte": [
+    {
+      "id": "START", "titel": "Startfrage: Was ist am Mittwoch wirklich fällig?", "person": 2, "persons": [1, 2, 3, 4, 5],
+      "kette": "Einstieg", "due": "19.11.2026", "aufwand": "Sitzung 19.11.",
+      "worum": "Vor dem Gespräch mit Kantbogen braucht die Gruppe eine belastbare Zahl: Wie viel Euro brutto schuldet Kantbogen am 18.11.2026 fällig und unbezahlt, was ist noch nicht fällig und wie hoch ist der Gesamtstand? Maßgeblich ist der Vertrag, nicht eine Liste. [[00_Startfrage|Die Frage]]",
+      "fakten": [
+        "VTR-1005 ist laut Startfrage der größte Vertrag im Haus; mehrere Rechnungen an Kantbogen sind offen. [[00_Startfrage|Anlass]]",
+        "Die OP-Liste der Buchhaltung (Stichtag 18.11.2026) führt sieben Belege: 2026/3322 bis 2026/3329 und die Regierechnung 2026-1182, alle Mahnstufe 0. [[OP_Kantbogen|Blatt OP Debitor 10014]]",
+        "Zahlungsfrist laut Vertrag: Zahlung binnen dreißig Tagen nach Zugang. [[04.03.01.018|S. 1, § 3 und S. 3, § 16]]",
+        "Henrike Baum hat vier Zahlungserinnerungen an kontakt@ geschickt (Mails 9, 10, 13, 14); laut Jasmin Ebert fehlt darin die 2026/3325, und bei 2026-1182 ist kein Fälligkeitsdatum eingetragen. [[Postfach_als_Text|Nr. 9, 10, 13, 14, 15]]",
+        "Die Notizen und die Fristenliste von Maximilian Backhaus nennen Rechnungsbeträge **netto**, die OP-Liste **brutto**. [[03_Notizen_MBa]] [[04_Meine_Fristen_MBa|Blatt Fristen]] [[OP_Kantbogen|Spalten Netto/Brutto]]"
+      ],
+      "abgabe": [
+        "Analysefolie mit den drei Beträgen brutto, Rechenweg als Tabelle, Quellen mit Seite und Paragraph, erste und geprüfte KI-Antwort und einer Grenze der Unterlagen. [[00_Startfrage|Das gehört auf die Analysefolie]]",
+        "Folien der Antrittsvorstellung als PDF nach dem Vortrag in 91_Abgabe/Luftpfad_Anlagentechnik (2026-11-19_Antrittsvorstellung_Luftpfad.pdf). [[00_Ablauf|Schritt 4]]"
+      ],
+      "beteiligte": [
+        "Henrike Baum: Zahlungsfrist im Vertragsscan, eigene Mails 9, 10, 13, 14. Kai Landmann: OP-Liste, Mail 15, Summen, Ergebnis. Selim Ahrens: Fristenliste und Kalender Backhaus gegen OP-Liste. Elena Voss: unabhängige Nachrechnung. Kevin Schuster: Notizen Backhaus, netto in brutto, Folie. [[00_Startfrage|Wer was beiträgt]]"
+      ],
+      "dateien": ["04.03.01.018", "OP_Kantbogen", "Postfach/09_", "Postfach/10_", "Postfach/13_", "Postfach/14_", "Postfach/15_", "Postfach_als_Text", "03_Notizen_MBa", "04_Meine_Fristen_MBa", "05_Kalender_MBa.ics", "05_Kalender_MBa.csv"]
+    },
+    {
+      "id": "A001", "titel": "Projektmappe für die eigene Firma anlegen", "person": 3, "persons": [1, 2, 3, 4, 5],
+      "kette": "Einstieg", "due": "02.12.2026", "aufwand": "1 h",
+      "worum": "Projektmappe der Firma mit START-Datei (Firma, Rolle im Haus, Ansprechpersonen), den Ordnern quellen, arbeit und ergebnisse und je Person einem Lernprotokoll protokoll_Person1 bis protokoll_Person5. [[A001_|Auftrag]]",
+      "fakten": [
+        "Vorlagen START und Protokoll liegen in 05_Vorlagen als DOCX und MD. [[A001_|Auftrag]] [[05_Vorlagen/START.md]] [[05_Vorlagen/protokoll.md]]",
+        "START braucht drei Zeilen zur Rolle im Haus, fünf Personen mit Funktion und Fundstelle und mindestens vier Gegenfirmen mit Ansprechperson. [[A001_|Was Sie abgeben]]",
+        "Bis 25.11. sagt jede der vier anderen Personen Selim Ahrens, welche Funktion in ihrem Personenbriefing steht. [[A001_|Eingang aus Ihrer Gruppe]] [[00_Bis_zum_2_12|25.11.]]",
+        "Mit wem Luftpfad am meisten zu tun hat: Torwinkel (48 Nachrichten bis 4.11.2026), Raumlot (5), dazu Kantbogen und TPK mit benannten Ansprechpersonen. [[Firmenbriefing|Abschnitt 12, S. 10]]"
+      ],
+      "abgabe": [
+        "Bildschirmfoto der Ordnerstruktur mit lesbarem Pfad, START, fünf Lernprotokolle, ein Satz zur KI-Gliederung im eigenen Protokoll. [[A001_|Was Sie abgeben]]"
+      ],
+      "beteiligte": ["Federführend Selim Ahrens; alle liefern ihre Funktion zu. [[A001_|Kopf]]"]
+    },
+    {
+      "id": "A002", "titel": "Unsere Firma auf einer Seite", "person": 2, "persons": [2],
+      "kette": "Vertrag VTR-1005", "due": "02.12.2026", "aufwand": "1 h",
+      "worum": "Eine Seite (höchstens 300 Wörter) für Kantbogen: was Luftpfad im Haus tut, für wen, seit wann, mit welchen Verträgen. Jeder Satz mit Fundstelle, Unbelegtes als „nicht belegt“. Die Seite liegt dem Schreiben aus A161 bei. [[A002_|Auftrag]]",
+      "fakten": [
+        "Registereintrag 13.06.2002, Bestellungen Rehm 04.11.2002, Baum 06.10.2008, Landmann 02.11.2020. [[07.01.01.142|Chronologie]]",
+        "Der Firmensteckbrief von 2018 (CAFM-Export von Raumlot) nennt als Rolle im Haus nur die Absauganlage der Druckerei 2002 bis 2008. [[07.04.02.006|Rolle im Haus]]",
+        "Mehrere Daten weichen zwischen Briefing, Steckbrief und Chronik ab (z. B. Gründung, Beginn Absauganlage) – siehe Seite „Unternehmen“, Abschnitt Abweichungen. [[Firmenbriefing|Abschnitt 1 und 7]] [[07.04.02.055|S. 1]]",
+        "Am 1.12. wird die Antwort von Kantbogen aus K61 gelesen und geprüft, ob sie etwas zur Seite sagt. [[A002_|Eingang aus Ihrer Gruppe]] [[00_Bis_zum_2_12|1.12.]]"
+      ],
+      "abgabe": ["Seite mit mind. zehn Sätzen inkl. Gründung, Vertragsbeginn und Registereintrag mit Tag, Monat, Jahr; Liste widersprüchlicher Stellen; drei Bildschirmfotos der Belegstellen. [[A002_|Was Sie abgeben]]"],
+      "beteiligte": ["Federführend Kai Landmann; Leser ist Kantbogen. [[A002_|Auftrag]]"]
+    },
+    {
+      "id": "A003", "titel": "Posteingang sortieren", "person": 2, "persons": [2, 3, 4, 5],
+      "kette": "Einstieg", "due": "02.12.2026", "aufwand": "1,5 h",
+      "worum": "18 unbearbeitete Nachrichten, manche seit dem Sommer, einstufen: sofort, diese Woche, später, nur ablegen oder an jemand anderen – mit Zuständigkeit, Begründung und Weiterlauf in A161 oder A166. [[A003_|Auftrag]]",
+      "fakten": [
+        "Älteste Nachricht: Telefonnotiz von Raumlot (Judith Ahlers) vom 03.08.2026 an Maximilian Backhaus, Wiedervorlage 17.08.2026. [[Postfach_als_Text|Nr. 1]]",
+        "Torwinkel fragt in vier Mails nach dem Stand alter Vorgänge, die teils seit 2018, 2020, 2021 und 2026 laufen. [[Postfach_als_Text|Nr. 3–6]]",
+        "Vier Zahlungserinnerungen (Nr. 9, 10, 13, 14), OP-Liste (Nr. 15) und Abrechnungsfrage November (Nr. 18) betreffen das Geld gegenüber Kantbogen. [[Postfach_als_Text|Nr. 9–18]]",
+        "Mail Nr. 11 enthält am Ende einen Zusatz, der sich an eine automatische Verarbeitung richtet, nicht an Menschen – laut Aufgabe sind Nachrichten zu vermerken, bei denen man anders vorgeht. [[Postfach/11_]] [[A003_|Auftrag]]",
+        "Für Nachrichten zu A162, A163, A165 oder A008 werden Einstufung und Zuständigkeit mit Selim Ahrens, Elena Voss bzw. Kevin Schuster abgestimmt. [[A003_|Eingang aus Ihrer Gruppe]]"
+      ],
+      "abgabe": ["Tabelle mit 18 Zeilen (Nr, Einstufung, zuständig, Begründung, Weiterlauf, Alter in Tagen bei >30 Tagen zum 18.11.2026), Notiz zu abweichendem Vorgehen, drei selbst geprüfte Werte im Lernprotokoll. [[A003_|Was Sie abgeben]]"],
+      "beteiligte": ["Danach geht die Kette an Raumlot (A039), erst nach dem 2.12. [[A003_|Kopf]]"]
+    },
+    {
+      "id": "A004", "titel": "Der erste Auftrag in fünf Teilen", "person": 1, "persons": [1, 2, 3],
+      "kette": "Einstieg", "due": "02.12.2026", "aufwand": "1 h",
+      "worum": "Dieselbe Frage zur Firma zweimal an die KI stellen: als ein Satz und als Auftrag mit Ziel, Kontext, Aufgabe, Bedingungen und Fertig-wenn – dann die Antworten an Zahlen und Aussagen vergleichen. [[A004_|Auftrag]]",
+      "fakten": [
+        "Die Frage muss eine Zahl, ein Datum oder eine Entscheidung als Antwort haben, die nicht schon als Tabelle im Briefing steht. [[A004_|So fangen Sie an]]",
+        "Selim Ahrens (A001) und Kai Landmann (A002) werden gefragt, welche Frage sie im Firmenbriefing offen gelassen haben. [[A004_|Eingang aus Ihrer Gruppe]]"
+      ],
+      "abgabe": ["Frage, beide Fassungen und beide Antworten im Wortlaut, fünf Sätze Vergleich, Fertig-wenn-Prüfung im Lernprotokoll, Abweichungsliste und Bildschirmfoto der Briefingstelle. [[A004_|Was Sie abgeben]]"],
+      "beteiligte": ["Federführend Henrike Baum. [[A004_|Kopf]]"]
+    },
+    {
+      "id": "A005", "titel": "Wer ist wer im Haus", "person": 3, "persons": [3, 5],
+      "kette": "Einstieg", "due": "02.12.2026", "aufwand": "1 h",
+      "worum": "Karte der Firmen im Haus nach Eigentümerin, Verwaltung, Dienstleister, Mieter, Prüfer und Behörden, mit Markierung „direkt“ oder „über“ eine Zwischenfirma. [[A005_|Auftrag]]",
+      "fakten": [
+        "Das Firmenbriefing listet alle Firmen und Stellen im Haus mit ihrer Rolle, darunter Kantbogen (Eigentümerin), Raumlot (Property Manager), Torwinkel (FM) und TPK (Prüforganisation). [[Firmenbriefing|Abschnitt 6, S. 3–4]]",
+        "Ansprechpersonen und Zeichnungsberechtigte stehen in den Unterschriftenverzeichnissen mit Stand 02.01.2023 und 04.11.2026. [[11.13.02.013|S. 1]] [[11.13.02.031|S. 1]]",
+        "Der Flächenspiegel (Stand 03.11.2026) zeigt, welche Mieter wo sitzen. [[03.10.02.017|S. 1]]",
+        "Bei Torwinkel hat Jannik Vogler am 16.11. die Stelle von Dennis Prange übernommen; Philipp Wiese bestätigt, dass der Haustechniker neu ist. [[Personenbriefing_Kevin_Schuster|Abschnitt 15]] [[Postfach_als_Text|Nr. 17]]"
+      ],
+      "abgabe": ["Karte als Bild oder Tabelle, je Firma Ansprechperson, Funktion, Quelle mit Stand, Markierung direkt/über mit Beleg, Liste widersprüchlicher Angaben und unbelegter Gruppen. [[A005_|Was Sie abgeben]]"],
+      "beteiligte": ["Abgleich mit Kevin Schuster (A007), ob der Stand der Verzeichnisse zu den Notizen passt. [[A005_|Eingang aus Ihrer Gruppe]]"]
+    },
+    {
+      "id": "A006", "titel": "Rundgang als Sprachnotiz", "person": 5, "persons": [5, 4, 3],
+      "kette": "Einstieg", "due": "02.12.2026", "aufwand": "1 h",
+      "worum": "Am Geschossplan den Weg vom Eingang zu den eigenen Räumen und Anlagen aufsprechen, von der KI eine Wegbeschreibung schreiben lassen und am Plan prüfen. [[A006_|Auftrag]]",
+      "fakten": [
+        "Grundrisse EG (mit Eingang) und UG, Planstand 04.11.2026. [[Grundriss_EG]] [[Grundriss_UG]] [[A006_|Material]]",
+        "Ziele des Wegs: Etagenzentrale EG (von Elena Voss, A163) und Abschaltbereiche (von Selim Ahrens, A162). [[A006_|Eingang aus Ihrer Gruppe]]"
+      ],
+      "abgabe": ["Sprachnotiz, unveränderte Abschrift, nummerierte Wegbeschreibung mit Raum- oder Treppennummern, Plan mit eingezeichnetem Weg, Abweichungsliste. [[A006_|Was Sie abgeben]]"],
+      "beteiligte": ["Federführend Kevin Schuster. [[A006_|Kopf]]"]
+    },
+    {
+      "id": "A007", "titel": "Was ohne Übergabe liegen geblieben ist", "person": 5, "persons": [5, 2, 3],
+      "kette": "Abgang ohne Übergabe", "due": "02.12.2026", "aufwand": "1,5 h",
+      "worum": "Maximilian Backhaus hatte am 05.11.2026 seinen letzten Arbeitstag, eine Übergabe gab es nicht. Notizen, Fristenliste, Kalender und Entwürfe sichten und alles auflisten, was jemand übernehmen muss – belegt oder vermutet. [[A007_|Auftrag]] [[01_Mitteilung_Austritt.txt]]",
+      "fakten": [
+        "Henrike Baum hat im Teamordner nur Notizen, Fristenliste, Kalenderexport und „zwei, drei angefangene Entwürfe“ gefunden. [[01_Mitteilung_Austritt.txt]]",
+        "Offen laut Notizen: Telefonnotiz Kern 2, verstellte Revisionsöffnung am Volumenstromregler 4.OG, Kondensat in der Wanne, fünf Rechnungen, Forum und zwei warme Büros, Wiedervorlage 07.08. [[03_Notizen_MBa]]",
+        "Die Fristenliste nennt dieselben Punkte mit Fälligkeiten und Stand; der Kalender enthält zusätzlich die Rechnung 2026/3328, die in den Notizen fehlt. [[04_Meine_Fristen_MBa|Blatt Fristen]] [[05_Kalender_MBa.csv]]",
+        "Für 2026/3329 nennen Notizen und Fristenliste den 16.12., der Kalender den 02.12.2026. [[03_Notizen_MBa]] [[04_Meine_Fristen_MBa|Blatt Fristen]] [[05_Kalender_MBa.csv]]",
+        "Zwei Briefentwürfe an Raumlot und Werkraum brechen mitten im Satz ab: „noch klären mit Henrike Baum, Unterlagen fehlen“. [[Entwurf_1]] [[Entwurf_2]]",
+        "Die Abwesenheitsnotiz leitet nicht weiter und verweist auf kontakt@. [[02_Abwesenheitsnotiz]]"
+      ],
+      "abgabe": ["Tabelle offener Punkte (Nr, Was, Frist, Gegenüber, Quelle mit Zeile, belegt/vermutet, „doppelt in“), Liste „Erwartet, aber nicht gefunden“, Widersprüche, die ersten drei Punkte mit Begründung. [[A007_|Was Sie abgeben]]"],
+      "beteiligte": ["Rechnungen mit Kai Landmann (A161), warme Räume mit Selim Ahrens (A162, A165) abgleichen. [[A007_|Eingang aus Ihrer Gruppe]]"]
+    },
+    {
+      "id": "A008", "titel": "Übergabeliste prüfen und Nachfolge regeln", "person": 5, "persons": [5, 1],
+      "kette": "Abgang ohne Übergabe", "due": "02.12.2026", "aufwand": "2,5 h",
+      "worum": "Die Liste aus A007 gegen Postfach und Laufwerk prüfen, Nachfolge festlegen und Torwinkel zu den Brandschutzklappen schreiben; ab 30.11. auf die Antwort reagieren und entscheiden, ob Backhaus im Resturlaub angerufen wird. [[A008_|Auftrag]]",
+      "fakten": [
+        "Die Klappenprotokolle 2024, 2025 und 2026 nennen jeweils 191 + 4 + 40 Klappen und verweisen auf eine „Prüfliste je Klappe als Anlage im Servicebericht“. [[04.21.04.145|S. 1]] [[04.21.04.168|S. 1]] [[04.21.04.190|S. 1]]",
+        "Geprüft wurde am 07.10.2024, 07.10.2025 und 30.09.2026; im Terminplan 2026 steht die Funktionsprüfung Brandschutzklappen im Februar. [[04.21.04.145|S. 1]] [[04.21.04.168|S. 1]] [[04.21.04.190|S. 1]] [[04.05.028|Zeile 19015]]",
+        "Am selben 30.09.2026 gibt es ein zweites Protokoll von Backhaus: Abluft Filteraufnahme, 2,5 Stunden. [[04.21.04.189|S. 1]]",
+        "Philipp Wiese: Backhaus hat die Klappen allein geprüft, die Prüflisten auf dem Tablet geführt und nicht ins Laufwerk gelegt; vor einer Nachricht an Torwinkel mit Henrike sprechen. [[Postfach_als_Text|Nr. 17]]",
+        "Die Nachricht an Torwinkel muss zur Antwort zum Protokoll 09384 passen (A164). [[A008_|Teil 2]]"
+      ],
+      "abgabe": ["Geprüfte Übergabeliste, Gegenüberstellung der drei Klappenprotokolle, Nachricht an Torwinkel bis 25.11. in K65, Bericht im Gruppengespräch, Vermerk zur Antwort, Entscheidung zum Anruf bei Backhaus. [[A008_|Was Sie abgeben]] [[00_Bis_zum_2_12|25.11.]]"],
+      "beteiligte": ["Entscheidung mit Henrike Baum; Gegenüber bei Torwinkel. Antwort von Torwinkel bis 30.11. in K65. [[A008_|Teil 2 und 3]]"]
+    },
+    {
+      "id": "A014", "titel": "Hauschronik 1990 bis 2026 mit Zusammenführung", "person": 4, "persons": [4],
+      "kette": "Hauschronik", "due": "02.12.2026", "aufwand": "2,5 h",
+      "worum": "Luftpfad liefert mindestens acht belegte Ereignisse aus 2008 bis 2012 und führt die Abschnitte aller acht Gruppen zu einer gemeinsamen Chronik zusammen – zusammenfügen und markieren, nicht neu schreiben. [[A014_|Auftrag und Ihr Abschnitt]]",
+      "fakten": [
+        "Material für den Abschnitt: acht Akten aus den Datenraumordnern 03, 07 und 09 von 2008 bis 2011 sowie Firmenchronik und Firmensteckbrief. [[A014_|Material]]",
+        "Beispiele aus der Akte: Mängelanzeige Sievers 21.04.2008, Mietanpassung Lemke 31.07.2008, Rückgabeprotokoll Brenner Druck 31.12.2008, Mietanpassung durch die Insolvenzverwaltung 25.03.2011. [[09.02.08.020|S. 1]] [[09.02.08.024|S. 1]] [[03.13.01.012|S. 1]] [[09.02.10.004|S. 1]]",
+        "Laut Firmenchronik: Insolvenzantrag Brenner Druck 02.09.2008, Bestellung Henrike Baum 06.10.2008. [[07.04.02.055|S. 1]]",
+        "Die Ereignisse müssen aus mindestens sechs verschiedenen Akten stammen. [[A014_|Was Sie abgeben]]"
+      ],
+      "abgabe": [
+        "25.11.: Vorlage (Datum, Ereignis, Quelle mit Nummer und Seite, Gruppe, sicher/strittig) in Uebergaben/K12 und Nachricht an alle im Kurschat. [[00_Bis_zum_2_12|25.11.]]",
+        "30.11.: eigener Abschnitt mit mind. acht Ereignissen in K12. 1.12./2.12.: gemeinsame Chronik mit markierten Widersprüchen (höchstens eine Stunde). [[00_Bis_zum_2_12|30.11. bis 2.12.]]"
+      ],
+      "beteiligte": ["Federführend Elena Voss; alle acht Gruppen liefern zu. [[A014_|Ihr Abschnitt]]"]
+    },
+    {
+      "id": "A018", "titel": "Wartungsbericht Lüftung gegen Auswertung (Kondensat)", "person": 1, "persons": [1, 3],
+      "kette": "Nachtrag Kondensat", "due": "02.12.2026", "aufwand": "2,5 h",
+      "worum": "Der Befund „Kondensat in der Wanne des Zentralgeräts“ steht seit Jahren in den Berichten. Henrike Baum prüft eine KI-Zusammenfassung des Berichts 04.21.04.182, liest den Vertrag ganz und entscheidet: in der Pauschale beheben oder Raumlot einen Nachtrag anbieten. [[A018_|Auftrag]] [[Firmenbriefing|Abschnitt 19]]",
+      "fakten": [
+        "Der Befund steht im April 2026 in zwei Berichten: Volumenstromregler 3.OG (29.04.2026, 4,0 Std.) und Sanitärfortluft Ost und West (30.04.2026, 1,5 Std.), jeweils „mittel“. [[04.21.04.182|S. 1]] [[04.21.04.184|S. 1]]",
+        "Auch in den Notizen von Backhaus: „nachhaken Kondensat in der Wanne des Zentralgeräts“. [[03_Notizen_MBa]]",
+        "Kondensat-Meldungen 2019, 2021 und 2023 stehen in der Chronik am Standort. [[Firmenbriefing|Abschnitt 18]]",
+        "Handschriftlicher Randvermerk im Vertrag: Filterkontrolle monatlich nicht Vertragsinhalt. [[04.03.01.018|S. 1]] [[Firmenbriefing|Abschnitt 19]]",
+        "Stundensatz Ingenieur laut Preisanpassung: 101,74 EUR ab 01.01.2024 (vorher 95,93 EUR). [[07.24.03.011|S. 1]]",
+        "Das Protokoll 09384 vom 03.11.2026 (Scan) wird daneben gelegt. [[04.21.04.193|S. 1]]"
+      ],
+      "abgabe": ["KI-Zusammenfassung mit Urteil je Satz, Abgleich mit 09384, Aufstellung was Luftpfad schuldet, Angebot/Mitteilung an Raumlot bis 25.11. in K62 mit Preisrechnung, Vermerk zur Antwort. [[A018_|Was Sie abgeben]] [[00_Bis_zum_2_12|25.11.]]"],
+      "beteiligte": ["Gegenüber: Farid Mertens, Raumlot (Technisches Property Management). Derselbe schickt bis 30.11. den Prüfauftrag zu warmen Büros (A165). [[A018_|Teil 3]]"]
+    },
+    {
+      "id": "A097", "titel": "Vortrag: unsere Firma, unsere Rollen, erste Ergebnisse", "person": 1, "persons": [1, 2, 3, 4, 5],
+      "kette": "Kurs", "due": "02.12.2026", "aufwand": "3 h",
+      "worum": "Am 2.12. stellt die Gruppe Firma, Rollen, Partner im Haus und Ergebnisse vor – höchstens acht Folien, alle fünf sprechen, jede Person zeigt ihre eigenen Stücke. [[A097_|Auftrag]]",
+      "fakten": [
+        "Henrike: Kondensat-Entscheidung (A018). Kai: eine Zahl aus dem Geldfall, Bedingung an Signalsteg, Antworten (A161, A166). Selim: Terminliste 2027 und Einsatzbilanz (A162, A165). Elena: Diagramm aus der Trendaufzeichnung und Antwort an Signalsteg (A163). Kevin: Klappenprotokolle und Antwort an Torwinkel (A008, A164). [[A097_|Wer was zeigt]]",
+        "Was unter „Was nur Sie wissen“ im Personenbriefing steht, legt nur die Person offen, der es gehört. [[A097_|Wer was zeigt]]",
+        "Pflicht: eine Folie zum Zählerfehler, eine Folie „KI geprüft“, Liste der acht Ordner K61–K65, Abnahme_Wartung, K05, K12 mit Antwortstand. [[A097_|Was Sie abgeben]]"
+      ],
+      "abgabe": ["2026-12-02_Vortrag_Luftpfad.pdf vor dem Vortrag in 91_Abgabe/Luftpfad_Anlagentechnik. [[00_Bis_zum_2_12|2.12.]]"],
+      "beteiligte": ["Federführend Henrike Baum; Verteilung der Fragen zu Geld, Technik und Zuständigkeit auf Namen. [[A097_|Was Sie abgeben]]"]
+    },
+    {
+      "id": "A161", "titel": "Offene Rechnungen, Preisanpassung und Laufzeit", "person": 2, "persons": [2, 1],
+      "kette": "Vertrag VTR-1005", "due": "02.12.2026", "aufwand": "2,5 h",
+      "worum": "Vier Fragen zum Vertrag VTR-1005 klären – offene Posten und Zinsen, Preis 2027, Laufzeit und Kündigung, Abrechnung November – und dann gemeinsam mit Henrike Baum an Kantbogen schreiben. [[A161_|Auftrag]]",
+      "fakten": [
+        "Laut Personenbriefing sind vier Rechnungen an Kantbogen überfällig, eine fünfte am 18.11. fällig; die Regierechnung 2026-1182 steht ohne Fälligkeit. [[Personenbriefing_Kai_Landmann|Abschnitt 12, S. 4]] [[OP_Kantbogen|Blatt OP Debitor 10014]]",
+        "Preisanpassung 04.12.2023: Satz Ingenieur 95,93 → 101,74 EUR je Stunde ab 01.01.2024, gerechnet mit dem Verbraucherpreisindex (110,7 → 117,4 Punkte). [[07.24.03.011|S. 1]]",
+        "Vertrag § 4: Die Pauschale wird zum 1. Januar angepasst, maßgeblich zu 60 % die Tariflöhne und zu 40 % die Erzeugerpreise; der Verbraucherpreisindex tritt nur an ihre Stelle, wenn diese Werte entfallen. [[04.03.01.018|S. 1, § 4]]",
+        "Vertrag § 3: Jahrespauschale 81.500 EUR in vier Raten zum Quartalsbeginn; laut Firmenbriefing passen Pauschale und Gleitklausel weder zum Angebot 2018 noch zur Anpassung 2023. [[04.03.01.018|S. 1, § 3]] [[07.19.02.040|S. 1]] [[Firmenbriefing|Abschnitt 19]]",
+        "Vertrag § 11: verlängert sich, wenn nicht mit drei Monaten Frist zum Ende der Laufzeit gekündigt wird; Kündigung per Einschreiben oder Textform. [[04.03.01.018|S. 2, § 11]] [[Firmenbriefing|Abschnitt 19]]",
+        "Jasmin Ebert: ohne neuen Satz bis 30.11. rechnet sie die Januarrechnung mit dem Satz von 2024; Mahnstufe überall 0. [[Postfach/15_]]",
+        "Abrechnung November: Protokolle 09354 (02.11., 4,0 Std.) und 09384 (03.11., 2,0 Std.) noch nicht abgerechnet, gegengezeichnet von Prange, der nicht mehr da ist. [[Postfach/18_]]",
+        "Basiszinssatz und Indexreihen in der Tabelle der Buchhaltung. [[Indexreihen_VPI]]"
+      ],
+      "abgabe": ["OP-Abgleich, Zinsrechnung, Preisanpassung, Laufzeit-Aufstellung, Antwort an Jasmin Ebert, Schreiben an Kantbogen bis 25.11. in K61 (mit Absatz zu 2026-1182 aus A166), Vermerk zur Antwort. [[A161_|Was Sie abgeben]] [[00_Bis_zum_2_12|25.11.]]"],
+      "beteiligte": ["Kantbogen: Clara Rhein (Rechnungsprüfung), Sophia Albrecht (Zahlungsvorschlag), Eva Brandt (Zahllauf 30.11.). [[Personenbriefing_Kai_Landmann|Abschnitt 12, S. 4]]"]
+    },
+    {
+      "id": "A162", "titel": "Wartungstermine 2027 und Abschaltungen festlegen", "person": 3, "persons": [3, 5, 1],
+      "kette": "Jahresterminplan 2027", "due": "02.12.2026", "aufwand": "2,5 h",
+      "worum": "Torwinkel bittet bis 30.11. um die Wartungs- und Prüftermine 2027 mit Anlage, Dauer und gesondert gekennzeichneten Abschaltungen. [[Postfach/12_]] [[A162_|Auftrag]]",
+      "fakten": [
+        "Der Terminplan 2026 wurde von Torwinkel aufgestellt; Hygieneinspektionen dort alle drei Jahre (März, Juli, September), Brandschutzklappen jährlich im Februar. [[04.05.028|Kopfdaten und Zeilen 19002–19015]]",
+        "Die tatsächlichen Klappenprüfungen lagen am 07.10.2025 und 30.09.2026 („Nächste Prüfung laut Plan: 02.10.2027“). [[04.21.04.168|S. 1]] [[04.21.04.190|S. 1]]",
+        "Einsatzliste der Disposition: 80 Einsätze wegen zu warmer Räume vom 01.01.2025 bis 18.11.2026. [[Einsaetze_Raumklima|Blatt Einsaetze]] [[Firmenbriefing|Abschnitt 19]]",
+        "Abschaltungen treffen Mieter, die Gastronomie im EG und Büros in den Obergeschossen; Betroffene nach Flächenspiegel. [[A162_|Auftrag und Was Sie abgeben]] [[03.10.02.017|S. 1]]",
+        "Kapazität: 14 Personen im technischen Außendienst, drei in Planung und Automation; Bogenfeld nicht jeden Tag. [[Firmenbriefing|Abschnitt 1]]"
+      ],
+      "abgabe": ["Terminliste 2027 bis 25.11. in K63, Monatsauswertung der Einsätze mit Zählbasis, Sommerreserve, Begründung der drei heikelsten Termine, Abweichungsliste Plan/Protokolle/Briefing, Vermerk zur Rückmeldung (höchstens zwei Änderungen). [[A162_|Was Sie abgeben]] [[00_Bis_zum_2_12|25.11.]]"],
+      "beteiligte": ["Torwinkel: Ben Hecht (Servicekoordination). Rückmeldung von Torwinkel und Abstimmungsnotiz von Thermenfeld bis 30.11. [[Postfach/12_]] [[A162_|Übergabe]]"]
+    },
+    {
+      "id": "A163", "titel": "Trendaufzeichnung Forum: Lüftung oder Heizung", "person": 4, "persons": [4, 1, 2, 5],
+      "kette": "Forum zu warm", "due": "02.12.2026", "aufwand": "3,5 h",
+      "worum": "Trotz neuem Stellantrieb (30.10.) wird das Forum nachmittags warm. Elena Voss wertet die Trendaufzeichnung der Automationsstation aus – Volumenstrom, Zulufttemperatur nach dem Lufterhitzer oder Heizwasserseite – und schreibt Thermenfeld eine Stellungnahme. [[A163_|Auftrag]]",
+      "fakten": [
+        "Trendexport AS-EZ-EG, Etagenzentrale EG mit Volumenstromregler Forum, 26.10. bis 17.11.2026, Stundenmittelwerte UTC, exportiert am 18.11. von EVo. [[Trend_EZ_EG|Kopfzeilen]]",
+        "Tobias Kernfeld: am 30.10. gemessen 1.110 m³/h bei Soll 1.080; Verdacht Ventil des Lufterhitzers der EZ EG – ausdrücklich eine Vermutung ohne Messung. [[Postfach/16_]]",
+        "Torwinkel führt den Vorgang „Raum EG Forum heizt sich auf“ seit 26.01.2021. [[Postfach/06_]]",
+        "Protokoll 09354 (02.11.2026): Wärmerückgewinnung Etagenzentralen EG und 1.OG, „Ohne Befund“, 4,0 Stunden. [[04.21.04.192|S. 1]]",
+        "Leistungsverzeichnis: für die Etagenzentralen EG und 1.OG u. a. Reinigung und Dichtheitskontrolle Lufterhitzer sowie Wartung Mischer, Stellantriebe und Strangventile. [[Firmenbriefing|Abschnitt 8, S. 6]]",
+        "Ab 27.11. bietet Signalsteg (Konrad Elster) eine unabhängige Raumklimamessung an; Elena entscheidet über Zugang und Rohdaten, Kai Landmann über die Kosten. [[A163_|Teil 4]]"
+      ],
+      "abgabe": ["Auswertung mit Diagramm und CSV-Zeilen, Auffälligkeiten der Datei, Abgleich mit 09354, Stellungnahme an Thermenfeld bis 25.11. in K64, Sofortmaßnahme mit Freigabevermerk, Antwort an Signalsteg bis 30.11. [[A163_|Was Sie abgeben]] [[00_Bis_zum_2_12|25.11. und 30.11.]]"],
+      "beteiligte": ["Abstimmung mit Henrike Baum; Antworten von Elena und Kai an Signalsteg dürfen sich nicht widersprechen. [[A163_|Teil 4 und Übergabe]]"]
+    },
+    {
+      "id": "A164", "titel": "Protokoll 09384, Rückfrage zur Abnahme", "person": 5, "persons": [5, 1, 2],
+      "kette": "Abnahme der Wartungen", "due": "30.11.2026", "aufwand": "1,5 h",
+      "worum": "Am 03.11.2026, zwei Tage vor seinem letzten Arbeitstag, hat Backhaus den Volumenstromregler Etage 4.OG gewartet (Protokoll 09384). Torwinkel prüft die Protokolle vor der Abnahme erneut; ohne Abnahme gilt die Leistung nicht als erbracht. [[A164_|Auftrag]]",
+      "fakten": [
+        "09384: Volumenstromregler Etage 4.OG, AST-100167, Arbeiten u. a. „Kondensatwanne gereinigt“, 2,0 Stunden. [[04.21.04.193|S. 1]]",
+        "Vergleich: 08988 (Volumenstromregler 3.OG, April 2026, Feststellung Kondensat in der Wanne des Zentralgeräts) und 09272 (Abluft Filteraufnahme, 30.09.2026). [[04.21.04.182|S. 1]] [[04.21.04.189|S. 1]]",
+        "Notizen Backhaus: „asap Zugang zur Revisionsöffnung durch Lagergut verstellt (Anlage Volumenstromregler Etage 4.OG)“. [[03_Notizen_MBa]]",
+        "Jasmin Ebert fragt, ob 09354 und 09384 jetzt abgerechnet werden sollen. [[Postfach/18_]]"
+      ],
+      "abgabe": ["Prüfvermerk zu 09384 Zeile für Zeile, Gegenüberstellung 09384/08988/09272, Antwort an Torwinkel bis 30.11. in Abnahme_Wartung, Nachricht an Kai zur Rechnung 03.11. [[A164_|Was Sie abgeben]] [[00_Bis_zum_2_12|30.11.]]"],
+      "beteiligte": ["Torwinkel: Florian Kunze prüft die Protokolle vom 03.11. (A172), Rückfrage bis 25.11. Abstimmung mit Henrike Baum. [[A164_|Was die liefernde Gruppe dazu tut]] [[Personenbriefing_Kevin_Schuster|Abschnitt 15]]"]
+    },
+    {
+      "id": "A165", "titel": "Prüfauftrag der Verwaltung: zu warme Büros", "person": 3, "persons": [3, 1],
+      "kette": "Raumtemperatur", "due": "02.12.2026", "aufwand": "2 h",
+      "worum": "Raumlot bündelt die Mieterbeschwerden über zu warme Büros und stellt bis 30.11. höchstens fünf Fragen: Liegt die Hitze an der Lüftung oder an der Kälteversorgung? Zuerst eigene Einsatzbilanz, dann Antwort je Frage. [[A165_|Auftrag]]",
+      "fakten": [
+        "Seit Januar 2025 hatte Luftpfad am Bogenfeld 80 bezahlte Einsätze wegen zu warmer Räume; Kälteanlagen gehören nicht zum Leistungsangebot. [[Firmenbriefing|Abschnitt 19 und 1]]",
+        "Die Einsatzliste enthält je Einsatz Raum, Besteller, Bestellgrenze, Stunden, Satz, Anfahrt und Nettobetrag. [[Einsaetze_Raumklima|Kopfzeile]]",
+        "Beispiel Bestellung: Torwinkel AUF-2656 vom 07.09.2026, Kern 2 Treppenhaus, Kostenrahmen 198,39 EUR netto, „innerhalb des Freigabelimits der Rolle FM-Objektleitung“. [[Postfach/02_]]",
+        "Torwinkel fragt nach dem Stand „Büro im Kern 2 Treppenhaus zu warm“ (seit 24.07.2026) und „OG3 Büro Nord“ (seit 22.07.2020). [[Postfach/05_]] [[Postfach/04_]]"
+      ],
+      "abgabe": ["Einsatzbilanz 2025/2026, Räume mit Wiederholungen, Besteller-Tabelle, Antwort an Raumlot je Frage (belegt / braucht Messung / gehört nicht zu Luftpfad), unterschrieben von Henrike Baum, bis 2.12. in K05. [[A165_|Was Sie abgeben]] [[00_Bis_zum_2_12|bis 2.12.]]"],
+      "beteiligte": ["Raumlot: Farid Mertens (A012). Preis einer Messung mit Henrike Baum. [[A165_|Was die liefernde Gruppe dazu tut]]"]
+    },
+    {
+      "id": "A166", "titel": "Regierechnung Forum, Messung und Nachweise zum Vertrag", "person": 2, "persons": [2, 1, 4],
+      "kette": "Forum zu warm", "due": "02.12.2026", "aufwand": "1,5 h",
+      "worum": "Drei Geldfragen: Regierechnung 2026-1182 prüfen (bis 25.11.), Messangebot von Signalsteg kaufmännisch beantworten (ab 27.11.) und klären, welche Vertragsnachweise vor dem 10.12. vorgelegt werden können. [[A166_|Auftrag]]",
+      "fakten": [
+        "2026-1182: 833 EUR netto, 991,27 EUR brutto, Belegdatum 02.11.2026, „Regie Forum“, ohne Fälligkeit. [[OP_Kantbogen|Zeile 2026-1182]] [[Postfach/10_]]",
+        "Jasmin Ebert: Fälligkeit ist bei der Erstellung leer geblieben; nach Vertrag 30 Tage nach Zugang. [[Postfach/15_]]",
+        "Raumlot: Jonas Heller gibt Regieaufträge bis 1.000 EUR netto frei und hält sich an das Schriftliche. [[Personenbriefing_Kai_Landmann|Abschnitt 12, S. 5]]",
+        "Vertrag: § 10 Haftung und Versicherung, § 8 Qualifikation des Personals, § 7 Dokumentation und Prüfbuch. [[04.03.01.018|S. 2]] [[A166_|Teil 3]]",
+        "Gerücht: Am 10.12. sollen Berater der Eigentümerseite nach den Wartungsverträgen fragen – ausdrücklich unbestätigt. [[Postfach/16_]]"
+      ],
+      "abgabe": ["Absatz zu 2026-1182 für das Schreiben in K61 mit Tabelle der Forum-Einsätze, Angebotsprüfung mit Varianten, kaufmännische Antwort an Signalsteg bis 30.11. in K64, Nachricht an Detlef Brede, Vermerk zu den Nachweisen. [[A166_|Was Sie abgeben]]"],
+      "beteiligte": ["Signalsteg: Konrad Elster. Thermenfeld: Detlef Brede soll die andere Hälfte tragen. Elena Voss legt eine Empfehlung zu den Kosten vor. [[A166_|Teil 2]]"]
+    },
+    {
+      "id": "UEB-AKTE", "titel": "Gemeinsame Übung: Akte Abfluss OG2 West", "person": 1, "persons": [1, 2, 3, 4, 5],
+      "kette": "Kurs", "due": "25.11.2026", "aufwand": "Übung",
+      "worum": "Gemeinsame Übung aller Gruppen, erste Aufgabe nach der Sitzung. Antworten, Suchrezepte und Beobachtung kommen am 25.11. (nicht früher) als ein PDF in 91_Abgabe. Der Auftrag liegt im Kursteam unter 00_Kurs/Uebung_akte_abfluss (nicht im Paket). [[00_Ablauf|Abgabetage]] [[00_Bis_zum_2_12|25.11.]]",
+      "fakten": [
+        "Rollen: Henrike beobachtet beide Paare und fügt das PDF zusammen; Paar 1 Selim (prüft Fundstellen, Suchrezept) und Kevin (führt den Chat); Paar 2 Elena (prüft Fundstellen, Suchrezept) und Kai (führt den Chat). [[00_Bis_zum_2_12|Wer in den beiden Übungen was macht]]"
+      ],
+      "abgabe": ["2026-11-25_Akte_Abfluss_Luftpfad.pdf in 91_Abgabe/Luftpfad_Anlagentechnik. [[00_Bis_zum_2_12|25.11.]]"],
+      "beteiligte": ["Alle fünf. [[00_Bis_zum_2_12|Übungen]]"]
+    },
+    {
+      "id": "UEB-ZAEHLER", "titel": "Gemeinsame Aufgabe: Zählerfehler 8,4 Mio kWh", "person": 3, "persons": [1, 2, 3, 4, 5],
+      "kette": "Kurs", "due": "02.12.2026", "aufwand": "ca. 2 h Gruppe",
+      "worum": "Gemeinsame Aufgabe aller Gruppen, Ergebnis gehört als eine Folie in den Vortrag am 2.12. Bis zum 2.12. wird nichts davon im Kursteam abgelegt. Auftrag unter 00_Kurs/Uebung_zaehlerfehler (nicht im Paket). [[00_Ablauf|Abgabetage]] [[00_Bis_zum_2_12|bis 2.12.]]",
+      "fakten": [
+        "Rollen: Henrike – Frage an die KI im Wortlaut, Bilanz, Folie; Kai – mind. zwei unabhängige Gegenproben; Selim – Korrekturmeldung, Prüfprotokoll; Elena – Ursache und richtiger Zählerstand; Kevin – Ausgangsfrage, Abgleich mit dem Energiebericht 2026. [[00_Bis_zum_2_12|Wer in den beiden Übungen was macht]]"
+      ],
+      "abgabe": ["Folie im Vortrag; nach den Vorträgen Zaehlerfehler_Protokoll_Luftpfad.pdf in 91_Abgabe (Selim). [[00_Bis_zum_2_12|2.12., nach den Vorträgen]]"],
+      "beteiligte": ["Alle fünf, Prüfprotokoll bei Selim Ahrens. [[00_Bis_zum_2_12|Übungen]]"]
+    }
+  ]
+}

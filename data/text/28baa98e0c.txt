@@ -1,0 +1,78 @@
+--- Seite 1 ---
+ Startblatt Person 4, Luftpfad Anlagentechnik GmbH
+ Sie spielen Elena Voss, Automationsfachkraft.
+ Ihre Gruppe verteilt die fünf Figuren selbst. Getauscht werden kann zu jedem Semesterbeginn. Der
+ Ordner Person_4 entspricht dem Rang der Figur in der Firma.
+
+ So fangen Sie an
+  • Öffnen Sie im Kursteam den Ordner 0_Allgemein Ihrer Firma und diesen Ordner Person_4. Mehr
+    brauchen Sie nicht. Nur für die Startfrage darf Ihre Gruppe alle Ordner Ihrer Firma nutzen.
+  • Lesen Sie zuerst das Startblatt der Gruppe in 0_Allgemein (00_Start_Gruppe.pdf). Dann folgt Ihr
+    Personenbriefing hier in 01_Briefings, darin zuerst der Abschnitt Ihre Lage bis zum 2.12.2026. Danach
+    lesen Sie das Firmenbriefing in 0_Allgemein/01_Briefings. Ablauf und Inhaltsverzeichnis in 0_Allgemein
+    (00_Ablauf.pdf, 00_Inhaltsverzeichnis.pdf) schlagen Sie bei Bedarf nach.
+  • In der Sitzung am 19.11. arbeitet Ihre Gruppe an der Antrittsvorstellung (Auftrag in
+    00_Kurs/Antrittsvorstellung, Startfrage in 0_Allgemein/00_Startfrage.pdf). Danach folgt für alle die
+    gemeinsame Übung "Akte Abfluss OG2 West" bis 25.11. Ihre eigene Arbeit beginnen Sie mit:
+    Trendaufzeichnung Forum.
+  • Die Personenbriefings der anderen vier liegen in deren Ordnern. Wer etwas über eine Kollegin oder
+    einen Kollegen wissen will, fragt sie oder ihn, wie im Büro.
+  • Laden Sie je Chat nur die Dateien hoch, die das Aufgabenblatt nennt. Ihre Ergebnisse legen Sie in Ihre
+    Projektmappe.
+
+ Ihre Aufgaben
+ Federführend heißt: Sie sorgen dafür, dass die Aufgabe fertig wird. Gearbeitet wird gemeinsam. Aufwand,
+ Beginn und Frist stehen im Inhaltsverzeichnis in 0_Allgemein.
+
+ Aufgabe                                               Beginn       fertig bis            Aufwand
+ Hauschronik 1990 bis 2026                             19.11.       2.12.2026             2,5 h
+ Trendaufzeichnung Forum                               19.11.       2.12.2026             3,5 h
+
+ Gemeinsame Aufgaben der Gruppe liegen in 0_Allgemein: Projektmappe für die eigene Firma anlegen
+ (federführend Selim Ahrens), Unsere Firma auf einer Seite (federführend Kai Landmann), Vortrag
+ (federführend Henrike Baum).
+
+ Was in diesem Ordner liegt
+  • 01_Briefings/Personenbriefing_Elena_Voss.docx
+  • 01_Briefings/Personenbriefing_Elena_Voss.pdf
+  • 02_Aufgaben/A014_Hauschronik_1990_bis_2026_mit_Zusammenfuehrung.docx
+  • 02_Aufgaben/A014_Hauschronik_1990_bis_2026_mit_Zusammenfuehrung.pdf
+  • 02_Aufgaben/A163_Trendaufzeichnung_Forum_Lueftung_oder_Heizung.docx
+  • 02_Aufgaben/A163_Trendaufzeichnung_Forum_Lueftung_oder_Heizung.pdf
+  • 03_Material/GA/Trend_EZ_EG_Forum_2026-10-26_bis_2026-11-17.csv
+
+ Aus 0_Allgemein brauchen Ihre Aufgaben außerdem
+ Die Aufgabenblätter nennen die Dateien einzeln. Diese Liste gibt nur die Übersicht, ohne Briefings der
+ Firma und ohne Vorlagen, die Sie ohnehin öffnen.
+  • 03_Material/Postfach/06_2026-11-03_Stand_Raum_EG_Forum_heizt_sich_auf.eml
+  • 03_Material/Postfach/16_2026-11-18_Forum_und_EZ_EG.eml
+  • 04_Datenraum/03/03.13.01.012_2008-12-31_Rueckgabeprotokoll_Mietflaeche_Brenner_D.pdf
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                          Seite 1
+
+--- Seite 2 ---
+  • 04_Datenraum/04/04.21.04.192_2026-11-02_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
+  • 04_Datenraum/07/07.01.01.041_2010-01-01_Partnerschaftsregisterauszug_aktuell_Ins.pdf
+  • 04_Datenraum/07/07.17.02.061_2010-07-18_Personen_steckbrief_Sievers_Haus-_und_An.pdf
+  • 04_Datenraum/07/07.17.02.065_2010-12-27_Personen_steckbrief_Landeshauptstadt_Stu.pdf
+  • 04_Datenraum/09/09.02.08.020_2008-04-21_Maengelanzeige_Mieter_Sievers_Haus-_und.pdf
+  • 04_Datenraum/09/09.02.08.024_2008-07-31_Brief_Mietanpassung_Lemke_Immobilien.pdf
+  • 04_Datenraum/09/09.02.09.024_2010-11-05_Mieterrundschreiben_Winterdienst_Sievers.pdf
+  • 04_Datenraum/09/09.02.10.004_2011-03-25_Brief_Mietanpassung_Insolvenzverwaltung.pdf
+
+ Abgabe und Austausch
+  • Was Sie an andere Firmen liefern, legen Sie im Ordner 90_Uebergaben in den Unterordner der Kette
+    (zum Beispiel Uebergaben/K05 im Aufgabenblatt heißt 90_Uebergaben/K05_Raumtemperatur).
+  • Was ein Aufgabenblatt oder ein Auftrag zur Abgabe nennt, legen Sie am genannten Tag in 91_Abgabe
+    im Unterordner Ihrer Firma ab. Den Anfang machen am 19.11. die Folien der Antrittsvorstellung als
+    PDF. Arbeitsstände und Lernprotokolle bleiben in Ihrem Gruppenspeicher (00_Kurs/Arbeitsweise,
+    Abschnitt 4), die Lernprotokolle kommen am 2.12. nach den Vorträgen in 91_Abgabe.
+  • Ihr Lernprotokoll führen Sie als protokoll_Person4 in Ihrer Projektmappe im Gruppenspeicher, die
+    Vorlage liegt in 0_Allgemein/05_Vorlagen.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                      Seite 2
+

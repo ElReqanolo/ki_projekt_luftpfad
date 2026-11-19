@@ -1,0 +1,82 @@
+--- Seite 1 ---
+ Startblatt Person 3, Luftpfad Anlagentechnik GmbH
+ Sie spielen Selim Ahrens, Disposition Fachfirma.
+ Ihre Gruppe verteilt die fünf Figuren selbst. Getauscht werden kann zu jedem Semesterbeginn. Der
+ Ordner Person_3 entspricht dem Rang der Figur in der Firma.
+
+ So fangen Sie an
+  • Öffnen Sie im Kursteam den Ordner 0_Allgemein Ihrer Firma und diesen Ordner Person_3. Mehr
+    brauchen Sie nicht. Nur für die Startfrage darf Ihre Gruppe alle Ordner Ihrer Firma nutzen.
+  • Lesen Sie zuerst das Startblatt der Gruppe in 0_Allgemein (00_Start_Gruppe.pdf). Dann folgt Ihr
+    Personenbriefing hier in 01_Briefings, darin zuerst der Abschnitt Ihre Lage bis zum 2.12.2026. Danach
+    lesen Sie das Firmenbriefing in 0_Allgemein/01_Briefings. Ablauf und Inhaltsverzeichnis in 0_Allgemein
+    (00_Ablauf.pdf, 00_Inhaltsverzeichnis.pdf) schlagen Sie bei Bedarf nach.
+  • In der Sitzung am 19.11. arbeitet Ihre Gruppe an der Antrittsvorstellung (Auftrag in
+    00_Kurs/Antrittsvorstellung, Startfrage in 0_Allgemein/00_Startfrage.pdf). Danach folgt für alle die
+    gemeinsame Übung "Akte Abfluss OG2 West" bis 25.11. Ihre eigene Arbeit beginnen Sie mit:
+    Projektmappe für die eigene Firma anlegen.
+  • Die Personenbriefings der anderen vier liegen in deren Ordnern. Wer etwas über eine Kollegin oder
+    einen Kollegen wissen will, fragt sie oder ihn, wie im Büro.
+  • Laden Sie je Chat nur die Dateien hoch, die das Aufgabenblatt nennt. Ihre Ergebnisse legen Sie in Ihre
+    Projektmappe.
+
+ Ihre Aufgaben
+ Federführend heißt: Sie sorgen dafür, dass die Aufgabe fertig wird. Gearbeitet wird gemeinsam. Aufwand,
+ Beginn und Frist stehen im Inhaltsverzeichnis in 0_Allgemein.
+ Aufgabe                                                            Beginn    fertig bis       Aufwand
+ Projektmappe für die eigene Firma anlegen                          19.11.    2.12.2026        1h
+ Wer ist wer im Haus                                                19.11.    2.12.2026        1h
+ Wartungstermine 2027                                               19.11.    2.12.2026        2,5 h
+ Prüfauftrag der Verwaltung                                         19.11.    2.12.2026        2h
+
+ Gemeinsame Aufgaben der Gruppe liegen in 0_Allgemein: Projektmappe für die eigene Firma anlegen
+ (federführend Selim Ahrens), Unsere Firma auf einer Seite (federführend Kai Landmann), Vortrag
+ (federführend Henrike Baum).
+
+ Was in diesem Ordner liegt
+  • 01_Briefings/Personenbriefing_Selim_Ahrens.docx
+  • 01_Briefings/Personenbriefing_Selim_Ahrens.pdf
+  • 02_Aufgaben/A005_Wer_ist_wer_im_Haus.docx
+  • 02_Aufgaben/A005_Wer_ist_wer_im_Haus.pdf
+  • 02_Aufgaben/A162_Wartungstermine_2027_und_Abschaltungen_festlegen.docx
+  • 02_Aufgaben/A162_Wartungstermine_2027_und_Abschaltungen_festlegen.pdf
+  • 02_Aufgaben/A165_Pruefauftrag_der_Verwaltung_zu_warme_Bueros.docx
+  • 02_Aufgaben/A165_Pruefauftrag_der_Verwaltung_zu_warme_Bueros.pdf
+
+ Aus 0_Allgemein brauchen Ihre Aufgaben außerdem
+ Die Aufgabenblätter nennen die Dateien einzeln. Diese Liste gibt nur die Übersicht, ohne Briefings der
+ Firma und ohne Vorlagen, die Sie ohnehin öffnen.
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                          Seite 1
+
+--- Seite 2 ---
+  • 02_Aufgaben/A001_Projektmappe_fuer_die_eigene_Firma_anlegen.docx
+  • 02_Aufgaben/A001_Projektmappe_fuer_die_eigene_Firma_anlegen.pdf
+  • 03_Material/Laufwerk/Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx
+  • 03_Material/Postfach/01_2026-08-03_Telefonnotiz_Buero_im_Kern_2_Treppenhaus_zu_warm.eml
+  • 03_Material/Postfach/02_2026-09-07_Bestellung_vom_07_09_2026.eml
+  • 03_Material/Postfach/05_2026-11-02_Stand_Buero_im_Kern_2_Treppenhaus_zu_warm.eml
+  • 03_Material/Postfach/12_2026-11-13_Jahresterminplan_2027_Ihre_Wartungstermine_bis_30.eml
+  • 04_Datenraum/03/03.10.02.017_2026-11-03_Flaechenspiegel_Raumlot_Objektmanagement.pdf
+  • 04_Datenraum/04/04.05.028_2025-11-15_Jahresterminplan_Torwinkel.xlsx
+  • 04_Datenraum/04/04.21.04.168_2025-10-07_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
+  • 04_Datenraum/04/04.21.04.190_2026-09-30_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
+  • 04_Datenraum/11/11.13.02.013_2023-01-02_Unterschriftenverzeichnis_Luftpfad_Anlag.pdf
+  • 04_Datenraum/11/11.13.02.031_2026-11-04_Unterschriftenverzeichnis_Luftpfad_Anlag.pdf
+
+ Abgabe und Austausch
+  • Was Sie an andere Firmen liefern, legen Sie im Ordner 90_Uebergaben in den Unterordner der Kette
+    (zum Beispiel Uebergaben/K05 im Aufgabenblatt heißt 90_Uebergaben/K05_Raumtemperatur).
+  • Was ein Aufgabenblatt oder ein Auftrag zur Abgabe nennt, legen Sie am genannten Tag in 91_Abgabe
+    im Unterordner Ihrer Firma ab. Den Anfang machen am 19.11. die Folien der Antrittsvorstellung als
+    PDF. Arbeitsstände und Lernprotokolle bleiben in Ihrem Gruppenspeicher (00_Kurs/Arbeitsweise,
+    Abschnitt 4), die Lernprotokolle kommen am 2.12. nach den Vorträgen in 91_Abgabe.
+  • Ihr Lernprotokoll führen Sie als protokoll_Person3 in Ihrer Projektmappe im Gruppenspeicher, die
+    Vorlage liegt in 0_Allgemein/05_Vorlagen.
+
+
+
+
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                      Seite 2
+
