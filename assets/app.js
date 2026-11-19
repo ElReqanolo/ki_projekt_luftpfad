@@ -783,8 +783,11 @@
   // ------------------------------------------------------------------ Anmeldung
   function renderAccount() {
     const el = $('#account'); if (!el) return;
-    if (!Ablage.auth.enabled()) { el.innerHTML = ''; return; }
+    const sb = $('#open-settings');
+    if (!Ablage.auth.enabled()) { el.innerHTML = ''; if (sb) sb.hidden = false; return; }
     const u = Ablage.auth.user();
+    // Mit Login braucht niemand die Ablage-Einstellungen; nur das Admin-Konto sieht sie noch
+    if (sb) { sb.hidden = !(u && u.role === 'admin'); sb.textContent = 'Technische Einstellungen'; }
     el.innerHTML = u ? `<span>Angemeldet als <b>${esc(u.name)}</b>${u.role === 'admin' ? ' (Admin)' : u.person ? ` (Person ${u.person})` : ''}</span>
         <span class="acc-links">${u.role === 'admin' ? '<a href="#/admin">Benutzer verwalten</a>' : '<button class="link" id="acc-pw">Passwort ändern</button>'}<button class="link" id="acc-out">Abmelden</button></span>`
       : `<button class="btn small acc-in" data-login>Anmelden</button>`;

@@ -328,7 +328,8 @@
     status: Status,
     readRepo,
     config: C, LS,
-    backend() { return LS.get('mode', 'github') === 'local' ? Local : GitHub; },
+    // Mit Login-Dienst gibt es nur die gemeinsame Ablage
+    backend() { return !workerUrl() && LS.get('mode', 'github') === 'local' ? Local : GitHub; },
     setMode(m) { LS.set('mode', m); treeCache = null; },
     setToken(t) { LS.set('token', t); treeCache = null; },
     token() { return LS.get('token', ''); },
