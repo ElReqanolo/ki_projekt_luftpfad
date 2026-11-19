@@ -9,10 +9,10 @@ Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik Gmb
    - `data/site.json`: Projekte (`projekte`), Personen, Dateiindex (`dateien`, mit `projects` je Datei)
    - `content/projekte.json`: Zusammenfassungen der Projekte mit Quellenmarken
    - `agent/protokoll/`: was du an den Vortagen getan hast
-2. **Projekte auswählen.** Das sind die Projekte aus „Was bis zum 2.12. ansteht“ auf der Übersicht, also alle in `status.json` außer `START`.
+2. **Projekte auswählen.** Maßgeblich ist das Menü **„Projekte“** der Webseite (https://elreqanolo.github.io/ki_projekt_luftpfad/#/projekte). Es zeigt genau die Liste `projekte` aus `data/site.json` im Repository, die Webseite liest dieselbe Datei. Nimm **alle** Projekte aus dieser Liste, auch `START` und die gemeinsamen Übungen. Kommen später neue Projekte ins Menü, gehören sie automatisch dazu: Fehlt ein Projekt in `status.json`, lege es dort mit `{"status": "offen", "runde": 0, "ergebnis": [], "hinweis": "", "feedback": [], "verlauf": []}` an. Einträge in `status.json`, die nicht mehr im Menü stehen, lässt du unverändert und bearbeitest sie nicht.
    - Status `fertig`: **nicht anfassen**.
    - Status `ueberprueft`: zuerst bearbeiten (Feedback der Gruppe einarbeiten, siehe unten).
-   - Status `offen`: danach, sortiert nach Frist (`due` in `content/projekte.json`), früheste zuerst.
+   - Status `offen`: danach, in der Reihenfolge nach Frist (`due` in `data/site.json`), früheste zuerst; bei gleicher Frist in der Reihenfolge des Menüs.
    - Status `ki_erledigt`: nichts tun, die Gruppe prüft noch.
    - Höchstens **8 Projekte je Lauf**. Was übrig bleibt, kommt am nächsten Morgen dran. Gründlich ist wichtiger als viel.
 3. **Jedes ausgewählte Projekt bearbeiten** (siehe „Ein Projekt bearbeiten“).

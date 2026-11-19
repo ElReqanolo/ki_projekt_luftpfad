@@ -33,7 +33,7 @@
     $$('[data-st]').forEach(el => { el.innerHTML = stBadge(Ablage.status.get(el.dataset.st)); });
     const sum = $('#st-summary');
     if (sum) {
-      const ids = S.projekte.map(p => p.id).filter(id => id !== 'START');
+      const ids = S.projekte.map(p => p.id);
       const n = k => ids.filter(id => Ablage.status.get(id).status === k).length;
       const last = Ablage.status.data.letzterLauf;
       sum.innerHTML = `${Object.keys(ST).map(k => `<span>${stBadge({ status: k, runde: 1 })} <b>${n(k)}</b></span>`).join('')}
