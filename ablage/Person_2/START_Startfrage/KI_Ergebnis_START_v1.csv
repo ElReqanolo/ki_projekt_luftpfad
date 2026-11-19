@@ -1,0 +1,12 @@
+Beleg;Belegdatum;Leistung;Netto EUR;USt EUR;Brutto EUR;Netto x 1,19;Brutto stimmt;Zugang;Fällig laut Vertrag (Zugang + 30 Tage);Fällig laut OP-Liste;Fällig laut MBa Notizen/Fristen;Fällig laut MBa Kalender;Tage überfällig am 18.11.2026;Stand 18.11.2026
+2026/3322;15.09.2026;Wartung;231.64;44.01;275.65;275.65;ja;15.09.2026 (Annahme);15.10.2026;15.10.2026;15.10.2026;fehlt;34;fällig, unbezahlt
+2026/3325;05.10.2026;Wartung;244.74;46.50;291.24;291.24;ja;05.10.2026 (Annahme);04.11.2026;04.11.2026;04.11.2026;fehlt;14;fällig, unbezahlt
+2026/3326;07.10.2026;Wartung;536.66;101.97;638.63;638.63;ja;07.10.2026 (Annahme);06.11.2026;06.11.2026;06.11.2026;06.11.2026;12;fällig, unbezahlt
+2026/3327;16.10.2026;Wartung;117.44;22.31;139.75;139.75;ja;16.10.2026 (Annahme);15.11.2026;15.11.2026;15.11.2026;15.11.2026;3;fällig, unbezahlt
+2026/3328;19.10.2026;Wartung;2035.43;386.73;2422.16;2422.16;ja;19.10.2026 (Annahme);18.11.2026;18.11.2026;fehlt;18.11.2026;0;fällig, unbezahlt
+2026/3329;02.11.2026;Wartung;249.22;47.35;296.57;296.57;ja;02.11.2026 (Annahme);02.12.2026;02.12.2026;16.12.2026;02.12.2026;-14;noch nicht fällig
+2026-1182;02.11.2026;Regie Forum;833.00;158.27;991.27;991.27;ja;02.11.2026 (Annahme);02.12.2026;leer;fehlt;fehlt;-14;noch nicht fällig
+
+Summe fällig und unbezahlt am 18.11.2026;;;;;3767.43
+Summe noch nicht fällig (fällig ab 02.12.2026);;;;;1287.84
+Gesamtstand offene Posten;;;;;5055.27

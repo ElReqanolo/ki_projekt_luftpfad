@@ -1,14 +1,24 @@
 {
  "version": 1,
- "letzterLauf": "2026-11-19T15:43:53+01:00",
+ "letzterLauf": "2026-11-19T19:26:23+01:00",
  "projekte": {
   "START": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "ki_erledigt",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_2/START_Startfrage/KI_Ergebnis_START_v1.md",
+    "ablage/Person_2/START_Startfrage/KI_Ergebnis_START_v1.csv"
+   ],
+   "hinweis": "Nach Vertrag § 16 (30 Tage nach Zugang) gerechnet: 3.767,43 EUR brutto fällig und unbezahlt am 18.11.2026, 1.287,84 EUR noch nicht fällig (2026/3329, 2026-1182, ab 02.12.), Gesamtstand 5.055,27 EUR. Offen: tatsächlicher Zugangstag der Rechnungen (v. a. 2026/3328), erste KI-Antwort aus dem eigenen Chat, eigene Prüfung und Folie.",
    "feedback": [],
-   "verlauf": []
+   "verlauf": [
+    {
+     "datum": "19.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt"
+    }
+   ]
   },
   "A001": {
    "status": "ki_erledigt",
@@ -115,60 +125,129 @@
    ]
   },
   "A007": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "ki_erledigt",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_5/A007_Was_ohne_Uebergabe_liegen_geblieben_ist/KI_Ergebnis_A007_v1.md",
+    "ablage/Person_5/A007_Was_ohne_Uebergabe_liegen_geblieben_ist/KI_Ergebnis_A007_v1.csv"
+   ],
+   "hinweis": "Tabelle mit 23 offenen Punkten, Liste „erwartet, aber nicht gefunden“ samt Suche nach Wartungsnachweisen (CSV), 10 Widersprüche und Vorschlag für die ersten drei Punkte. Offen: Bestätigung durch Kai (A161) und Selim (A162/A165), Bildschirmfotos, Reihenfolge (Behalten).",
    "feedback": [],
-   "verlauf": []
+   "verlauf": [
+    {
+     "datum": "19.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt"
+    }
+   ]
   },
   "A008": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "ki_erledigt",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_5/A008_Uebergabeliste_pruefen_und_Nachfolge_regel/KI_Ergebnis_A008_v1.md",
+    "ablage/Person_5/A008_Uebergabeliste_pruefen_und_Nachfolge_regel/KI_Ergebnis_A008_v1.csv"
+   ],
+   "hinweis": "Geprüfte Übergabeliste (25 Punkte, 10 offen, CSV), Gegenüberstellung der Klappenprotokolle 07666/08486/09267, Entwurf der Nachricht an Torwinkel, Stichworte fürs Gruppengespräch. Offen: Antwort Torwinkel in K65 (bis 30.11.) und Vermerk, Entscheidungen mit Henrike/Kai, Zuteilung, Bildschirmfotos.",
    "feedback": [],
-   "verlauf": []
+   "verlauf": [
+    {
+     "datum": "19.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt"
+    }
+   ]
   },
   "A014": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "ki_erledigt",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_4/A014_Hauschronik_1990_bis_2026_mit_Zusammenfueh/KI_Ergebnis_A014_v1.md",
+    "ablage/Person_4/A014_Hauschronik_1990_bis_2026_mit_Zusammenfueh/KI_Ergebnis_A014_v1.csv"
+   ],
+   "hinweis": "Eigener Abschnitt 2008–2012 mit 11 belegten Ereignissen aus 9 Akten (2 strittig, CSV), Entwürfe für Vorlage, Kurschat-Nachricht, Chronik-Gerüst, Widerspruchsliste und Vermerk. Offen: Belegprüfung und Widerspruchsentscheidungen durch Elena, Abschicken bis 25.11., Abschnitte der anderen sieben Gruppen in K12.",
    "feedback": [],
-   "verlauf": []
+   "verlauf": [
+    {
+     "datum": "19.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt"
+    }
+   ]
   },
   "A018": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "ki_erledigt",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_1/A018_Wartungsbericht_Lueftung_gegen_Auswertung/KI_Ergebnis_A018_v1.md",
+    "ablage/Person_1/A018_Wartungsbericht_Lueftung_gegen_Auswertung/KI_Ergebnis_A018_v1.csv"
+   ],
+   "hinweis": "Zusammenfassung von 04.21.04.182 mit vorgeschlagenem Urteil je Satz, Abgleich mit 09384 (andere Anlage AST-100167!), Vertragsaufstellung und Angebotsentwurf an Raumlot (8 × (1,0 h × 65,24 + 51,60) = 934,72 EUR netto/Jahr, Varianten in CSV). Offen: Henrikes Satzprüfung, Preisentscheidung, Unterschriften, Ablage in K62 bis 25.11., Antworten K62/K05.",
    "feedback": [],
-   "verlauf": []
+   "verlauf": [
+    {
+     "datum": "19.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt"
+    }
+   ]
   },
   "A097": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "ki_erledigt",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_1/A097_Vortrag/KI_Ergebnis_A097_v1.md"
+   ],
+   "hinweis": "Folienplan für 8 Folien mit Sprechern und Stand, Personenteile mit belegten Bausteinen, Gerüst Zählerfehler-Folie, Kandidaten „KI geprüft“, Ordnerliste, Zeitplan. Offen: Stücke aus A163/A165/A166, Antworten der acht Ordner, Zählerfehler-Ergebnis, Auswahl und Vortrag selbst; Folienplan mit den heute erstellten Ergebnissen abgleichen.",
    "feedback": [],
-   "verlauf": []
+   "verlauf": [
+    {
+     "datum": "19.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt"
+    }
+   ]
   },
   "A161": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "ki_erledigt",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_2/A161_Offene_Rechnungen_Preisanpassung_und_Laufz/KI_Ergebnis_A161_v1.md",
+    "ablage/Person_2/A161_Offene_Rechnungen_Preisanpassung_und_Laufz/KI_Ergebnis_A161_v1.csv"
+   ],
+   "hinweis": "OP-Abgleich (fällig 3.767,43 EUR, gesamt 5.055,27 EUR brutto), Verzugszins 2026/3322, Laufzeit (Kündigung bis 02.01.2027 zum 02.04.2027), Entwürfe an Jasmin Ebert und Kantbogen (CSV). Offen: Satz 2027 nach § 4 (Reihen Tariflohn/Erzeugerpreise fehlen), Basiszins amtlich prüfen, Antwort Kantbogen K61, Entscheidungen und Unterschriften.",
    "feedback": [],
-   "verlauf": []
+   "verlauf": [
+    {
+     "datum": "19.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt"
+    }
+   ]
   },
   "A162": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "ki_erledigt",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_3/A162_Wartungstermine_2027_und_Abschaltungen_fes/KI_Ergebnis_A162_v1.md",
+    "ablage/Person_3/A162_Wartungstermine_2027_und_Abschaltungen_fes/KI_Ergebnis_A162_v1.csv"
+   ],
+   "hinweis": "Terminplan 2027 als Vorschlag (99 Positionen, CSV), Einsätze je Monat nach zwei Zählbasen, Sommerreserve 100 h, drei heikle Septembertermine, 13 Abweichungen. Offen: Festlegung von Terminen, Reserve und Personal, fehlende Dauern, Rückmeldungen Torwinkel/Thermenfeld (K63, 30.11.), PDF bis 25.11.",
    "feedback": [],
-   "verlauf": []
+   "verlauf": [
+    {
+     "datum": "19.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt"
+    }
+   ]
   },
   "A163": {
    "status": "offen",
