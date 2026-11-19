@@ -9,7 +9,7 @@ Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik Gmb
    - `data/site.json`: Projekte (`projekte`), Personen, Dateiindex (`dateien`, mit `projects` je Datei)
    - `content/projekte.json`: Zusammenfassungen der Projekte mit Quellenmarken
    - `agent/protokoll/`: was du an den Vortagen getan hast
-2. **Projekte auswählen.** Maßgeblich ist das Menü **„Projekte“** der Webseite (https://elreqanolo.github.io/ki_projekt_luftpfad/#/projekte). Es zeigt genau die Liste `projekte` aus `data/site.json` im Repository, die Webseite liest dieselbe Datei. Nimm **alle** Projekte aus dieser Liste, auch `START` und die gemeinsamen Übungen. Kommen später neue Projekte ins Menü, gehören sie automatisch dazu: Fehlt ein Projekt in `status.json`, lege es dort mit `{"status": "offen", "runde": 0, "ergebnis": [], "hinweis": "", "feedback": [], "verlauf": []}` an. Einträge in `status.json`, die nicht mehr im Menü stehen, lässt du unverändert und bearbeitest sie nicht.
+2. **Projekte auswählen.** Maßgeblich ist das Menü **„Projekte“** der Webseite (https://elreqanolo.github.io/ki_projekt_luftpfad/#/projekte). Es zeigt genau die Liste `projekte` aus `data/site.json` im Repository, die Webseite liest dieselbe Datei. Nimm **alle** Projekte aus dieser Liste, auch `START` und die gemeinsamen Übungen. Kommen später neue Projekte ins Menü, gehören sie automatisch dazu: Fehlt ein Projekt in `status.json`, lege es dort mit `{"person": <federführende Person laut data/site.json>, "status": "offen", "runde": 0, "ergebnis": [], "hinweis": "", "feedback": [], "verlauf": []}` an. Das Feld `person` muss bei jedem Projekt stimmen, denn nur diese Person (und das Admin-Konto) darf auf der Webseite Verbesserungen eintragen und abhaken. Ändert sich die Federführung in data/site.json, passe `person` an. Einträge in `status.json`, die nicht mehr im Menü stehen, lässt du unverändert und bearbeitest sie nicht.
    - Status `fertig`: **nicht anfassen**.
    - Status `ueberprueft`: zuerst bearbeiten (Feedback der Gruppe einarbeiten, siehe unten).
    - Status `offen`: danach, in der Reihenfolge nach Frist (`due` in `data/site.json`), früheste zuerst; bei gleicher Frist in der Reihenfolge des Menüs.
@@ -55,7 +55,7 @@ Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik Gmb
 | `ueberprueft` | Gruppe hat Verbesserungen oder Fehler eingetragen | Webseite (Textfeld) |
 | `fertig` | Gruppe hat den Haken gesetzt | Webseite (Haken) |
 
-Felder je Projekt: `status`, `runde`, `ergebnis` (Liste von Repo-Pfaden), `hinweis`, `feedback` (Liste `{datum, von, text, runde, erledigt, antwort?}`), `verlauf` (Liste `{datum, von, art, text}`). Ändere nie `feedback[].text`, `von` oder `datum` und setze nie selbst `fertig` oder `ueberprueft`.
+Felder je Projekt: `person` (federführend), `status`, `runde`, `ergebnis` (Liste von Repo-Pfaden), `hinweis`, `feedback` (Liste `{datum, von, text, runde, erledigt, antwort?}`), `verlauf` (Liste `{datum, von, art, text}`). Ändere nie `feedback[].text`, `von` oder `datum` und setze nie selbst `fertig` oder `ueberprueft`.
 
 ## Grenzen
 

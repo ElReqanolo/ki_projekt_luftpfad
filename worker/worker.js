@@ -16,7 +16,8 @@
  *
  * Rechte:
  *   admin   darf alles: jede Ablage, status.json, Benutzer verwalten
- *   person  darf in ablage/Person_<N>/ (eigene Ablage) und in status.json schreiben
+ *   person  darf in ablage/Person_<N>/ (eigene Ablage) schreiben und in status.json nur die
+ *           Projekte ändern, bei denen sie federführend ist (Feld "person" je Projekt)
  *   Lesen geht für alle, auch ohne Anmeldung.
  */
 
@@ -202,6 +203,7 @@ async function github(request, env, path, search) {
     // Inhalt kommt bereits als Base64 vom Browser und wird ohne Umwandlung weitergereicht
     const content = await request.text();
     if (content.indexOf('"') !== -1 || content.indexOf('\\') !== -1) throw httpError(400, 'Inhalt muss Base64 sein.');
+    if (file === 'status.json' && user.role !== 'admin') await checkStatusChange(user, content, apiUrl, ghHeaders, branch);
     const body = '{"message":' + JSON.stringify(message) + ',"branch":' + JSON.stringify(branch) +
       (sha ? ',"sha":' + JSON.stringify(sha) : '') + ',"committer":' + JSON.stringify(committer) +
       ',"content":"' + content + '"}';
@@ -214,6 +216,26 @@ async function github(request, env, path, search) {
     return passJson(r);
   }
   throw httpError(405, 'Methode nicht erlaubt.');
+}
+
+// Nur Projekte ändern, bei denen die Person federführend ist; alles andere muss gleich bleiben
+async function checkStatusChange(user, content, apiUrl, ghHeaders, branch) {
+  const r = await fetch(apiUrl + '?ref=' + encodeURIComponent(branch), { headers: { ...ghHeaders, Accept: 'application/vnd.github+json' } });
+  if (!r.ok) throw httpError(502, 'Aktueller Projektstatus konnte nicht gelesen werden.');
+  const cur = await r.json();
+  const decode = b64 => JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(b64.replace(/\s/g, '')), c => c.charCodeAt(0))));
+  let oldS, newS;
+  try { oldS = decode(cur.content); newS = decode(content); } catch (e) { throw httpError(400, 'Projektstatus ist kein gültiges JSON.'); }
+  const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+  const { projekte: op = {}, ...oldRest } = oldS, { projekte: np = {}, ...newRest } = newS;
+  if (!same(oldRest, newRest)) throw httpError(403, 'Nur die Projekteinträge dürfen geändert werden.');
+  for (const id of new Set([...Object.keys(op), ...Object.keys(np)])) {
+    if (same(op[id], np[id])) continue;
+    const o = op[id], n = np[id];
+    if (!o || !n || o.person == null || o.person !== user.person || n.person !== o.person) {
+      throw httpError(403, `Verbesserungen und Abhaken bei ${id} sind nur der federführenden Person und dem Admin-Konto erlaubt.`);
+    }
+  }
 }
 
 function mayWrite(user, file) {

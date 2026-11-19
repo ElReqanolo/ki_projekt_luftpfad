@@ -312,7 +312,8 @@
     if (!el || !p) return;
     const o = Ablage.status.get(p.id);
     const me = Ablage.auth.user();
-    const canWrite = Ablage.auth.enabled() ? !!me : !!Ablage.token();
+    const isLead = me && (me.role === 'admin' || me.person === p.person);
+    const canWrite = Ablage.auth.enabled() ? !!isLead : !!Ablage.token();
     const open = o.feedback.filter(f => !f.erledigt);
     const steps = [['offen', 'Offen'], ['ki_erledigt', 'Von KI erledigt'], ['ueberprueft', 'Überprüft'], ['fertig', 'Abgenommen']];
     const idx = steps.findIndex(s => s[0] === o.status);
@@ -336,7 +337,7 @@
           <textarea id="fb-text" rows="5" placeholder="${o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 25.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
           <div class="fb-row">${me ? `<span class="muted small">Eingetragen als <b>${esc(me.name)}</b></span><input type="hidden" id="fb-von" value="${esc(me.name)}">` : `<label>Name <input id="fb-von" value="${esc(Ablage.LS.get('name', ''))}" placeholder="Ihr Name" ${canWrite ? '' : 'disabled'}></label>`}
             <button class="btn primary" ${canWrite ? '' : 'disabled'}>${o.status === 'offen' ? 'Hinweis speichern' : 'Als überprüft markieren und an KI geben'}</button></div>
-          ${canWrite ? '' : Ablage.auth.enabled() ? `<p class="hint">Zum Eintragen bitte <button type="button" class="link" data-login>anmelden</button>.</p>` : `<p class="hint">Zum Eintragen ein GitHub-Token in den <button type="button" class="link" data-settings-global>Ablage-Einstellungen</button> hinterlegen.</p>`}
+          ${canWrite ? '' : Ablage.auth.enabled() ? (me ? `<p class="hint">Verbesserungen eintragen und abhaken kann nur ${esc(PERS[p.person].name)} als federführende Person (oder das Admin-Konto). Sehen können alle.</p>` : `<p class="hint">Verbesserungen eintragen und abhaken kann ${esc(PERS[p.person].name)} als federführende Person. Bitte <button type="button" class="link" data-login>anmelden</button>.</p>`) : `<p class="hint">Zum Eintragen ein GitHub-Token in den <button type="button" class="link" data-settings-global>Ablage-Einstellungen</button> hinterlegen.</p>`}
         </form>` : ''}
       ${o.status === 'ki_erledigt' ? `<label class="perfect"><input type="checkbox" id="fb-ok" ${canWrite ? '' : 'disabled'}> <span><b>Passt so, perfekt.</b> Haken setzen, um das Projekt abzunehmen.</span></label>` : ''}
       ${o.status === 'fertig' ? `<label class="perfect is-done"><input type="checkbox" id="fb-reopen" checked ${canWrite ? '' : 'disabled'}> <span><b>Abgenommen.</b> Haken entfernen, um die Abnahme zurückzunehmen.</span></label>` : ''}
