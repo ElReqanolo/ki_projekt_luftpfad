@@ -353,3 +353,10 @@ dialog::backdrop { background: rgba(23, 36, 43, .45); }
   .nav, .topbar, .tabs, .btn, .drawer, .toolbar { display: none !important; }
   main { margin: 0; }
 }
+
+.tok-result { list-style: none; padding: 0; margin: 0; font-size: .9rem; }
+.tok-result li { padding: .2rem 0; }
+.tok-result .good { color: var(--p1); }
+.tok-result .bad { color: var(--danger); font-weight: 600; }
+.ablage-err { padding: .7rem 1rem; margin: 0; background: #f8e3e0; }
+.reason { background: var(--p3-bg); border-left: 4px solid var(--p3); padding: .6rem .8rem; margin: 0; }

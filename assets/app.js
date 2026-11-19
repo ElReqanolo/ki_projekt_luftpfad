@@ -579,15 +579,18 @@
         <button class="btn" id="b-projdirs">${missing.length} Projektordner anlegen</button> <span class="muted">${missing.map(x => esc(projFolder(x))).join(', ')}</span></div>` : '';
       const pb = $('#b-projdirs'); if (pb) pb.onclick = () => guard(async () => { for (const x of missing) await B().mkdir(p.ordner, projFolder(x)); toast('Projektordner angelegt.'); });
     }
+    const needWrite = () => { if (B().canWrite()) return false; settings('Zum Anlegen von Ordnern und Hochladen braucht die gemeinsame Ablage ein GitHub-Token. Tragen Sie es unten ein und klicken Sie auf „Token prüfen“. Alternativ „Nur dieser Browser“ wählen.'); return true; };
     async function guard(fn) {
-      if (!B().canWrite()) { settings(); toast('Zum Schreiben bitte zuerst ein GitHub-Token hinterlegen.'); return; }
+      if (needWrite()) return;
       el.classList.add('busy');
-      try { await fn(); } catch (e) { toast(e.message, 6000); }
+      let err = null;
+      try { await fn(); } catch (e) { err = e; toast(e.message, 6000); }
       el.classList.remove('busy');
       await refresh();
+      if (err) $('#listing').insertAdjacentHTML('afterbegin', `<p class="error ablage-err">Nicht gespeichert: ${esc(err.message)}</p>`);
     }
     async function uploadFiles(fileList) {
-      const list = [...fileList]; if (!list.length) return;
+      const list = [...fileList]; if (!list.length || needWrite()) return;
       list.forEach(f => { f.relPath = f.webkitRelativePath || f.name; });
       const info = await ask(`${list.length} ${list.length === 1 ? 'Datei' : 'Dateien'} nach „${p.ordner}${cwd ? '/' + cwd : ''}“ hochladen`, [
         { name: 'herkunft', label: 'Herkunft oder Quelle', hint: 'Woher stammt der Inhalt? Zum Beispiel „Antwort Kantbogen aus Uebergaben/K61 vom 30.11.“ oder „eigene Auswertung aus Trend_EZ_EG…csv“.' },
@@ -630,6 +633,7 @@
       }
     };
     $('#b-mkdir').onclick = async () => {
+      if (needWrite()) return;
       const r = await ask('Neuer Ordner' + (cwd ? ` in „${cwd}“` : ''), [{ name: 'name', label: 'Ordnername', hint: 'Tipp: mit Projektnummer beginnen, z. B. „A018_Angebot_Raumlot“, dann erscheint der Inhalt auf der Projektseite.' }], 'Ordner anlegen');
       if (r && r.name.trim()) guard(async () => { await B().mkdir(p.ordner, (cwd ? cwd + '/' : '') + r.name.trim().replace(/[\\/:*?"<>|]+/g, '_')); toast('Ordner angelegt.'); });
     };
@@ -685,15 +689,17 @@
     }
     return out;
   }
-  function settings() {
+  function settings(reason) {
     const d = $('#dlg'), mode = Ablage.LS.get('mode', 'github'), C = Ablage.config;
-    d.innerHTML = `<form method="dialog" class="dlg"><h2>Ablage-Einstellungen</h2>
+    d.innerHTML = `<form method="dialog" class="dlg"><h2>Ablage-Einstellungen</h2>${typeof reason === 'string' ? `<p class="reason">${esc(reason)}</p>` : ''}
       <fieldset><legend>Wo die Datenablage gespeichert wird</legend>
         <label class="radio"><input type="radio" name="mode" value="github" ${mode === 'github' ? 'checked' : ''}> <span><b>GitHub-Repository ${esc(C.owner)}/${esc(C.repo)}</b><small>Gemeinsam für die ganze Gruppe. Jede Änderung ist ein Commit mit Datum, nachvollziehbar in der Historie.</small></span></label>
         <label class="radio"><input type="radio" name="mode" value="local" ${mode === 'local' ? 'checked' : ''}> <span><b>Nur dieser Browser</b><small>Ohne Anmeldung, aber nur auf diesem Gerät sichtbar.</small></span></label>
       </fieldset>
       <label>GitHub-Token zum Hochladen<input name="token" type="password" value="${esc(Ablage.token())}" autocomplete="off" placeholder="github_pat_…">
         <small>Auf GitHub unter Settings › Developer settings › Fine-grained tokens anlegen, nur für dieses Repository, Berechtigung „Contents: Read and write“. Das Token bleibt nur in diesem Browser gespeichert.</small></label>
+      <div class="btnrow" style="margin-top:0"><button type="button" class="btn" id="tok-check">Token prüfen</button></div>
+      <ul class="tok-result" id="tok-result" aria-live="polite"></ul>
       <div class="btnrow"><button value="cancel" class="btn">Abbrechen</button><button value="ok" class="btn primary">Speichern</button></div></form>`;
     d.onclose = () => {
       if (d.returnValue !== 'ok') return;
@@ -703,6 +709,13 @@
       Ablage.status.data = null;
       route();
       Ablage.status.load(true).then(() => { paintStatus(); const sp = $('#st-panel'); if (sp) statusPanel(sp, PROJ[sp.dataset.id]); });
+    };
+    $('#tok-check', d).onclick = async () => {
+      const t = d.querySelector('[name=token]').value.trim(), out = $('#tok-result', d);
+      if (!t) { out.innerHTML = '<li class="bad">Bitte zuerst ein Token eintragen.</li>'; return; }
+      out.innerHTML = '<li>Prüfe …</li>';
+      const steps = await Ablage.checkToken(t);
+      out.innerHTML = steps.map(([ok, txt]) => `<li class="${ok ? 'good' : 'bad'}">${ok ? '✓' : '✗'} ${esc(txt)}</li>`).join('');
     };
     d.returnValue = ''; d.showModal();
   }

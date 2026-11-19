@@ -25,6 +25,7 @@
   async function gh(path, opts = {}) {
     const token = LS.get('token', '');
     const headers = Object.assign({ Accept: 'application/vnd.github+json' }, opts.headers || {});
+    if (opts.body) headers['Content-Type'] = 'application/json';
     if (token) headers.Authorization = 'Bearer ' + token;
     const res = await fetch(api(path), Object.assign({}, opts, { headers }));
     if (!res.ok) {
@@ -39,7 +40,7 @@
   function ghMessage(status, msg) {
     if (status === 401) return 'GitHub lehnt das Token ab. Prüfen Sie es in den Ablage-Einstellungen.';
     if (status === 403 && /rate limit/i.test(msg)) return 'GitHub-Abfragelimit erreicht. Mit hinterlegtem Token gilt ein höheres Limit.';
-    if (status === 403) return 'Das Token darf in diesem Repository nicht schreiben (Berechtigung „Contents: Read and write“ nötig).';
+    if (status === 403) return 'Das Token darf in diesem Repository nicht schreiben. Beim Token unter „Repository access“ dieses Repository wählen und bei „Contents“ „Read and write“ einstellen. (GitHub: ' + msg + ')';
     if (status === 404) return 'Repository oder Datei nicht gefunden. Bei einem privaten Repository braucht auch das Lesen ein Token.';
     if (status === 409 || status === 422) return 'Die Datei wurde gerade von jemand anderem geändert. Bitte erneut versuchen.';
     return 'GitHub: ' + msg;
@@ -231,7 +232,37 @@
     return r.blob();
   }
 
+  // Prüft das Token Schritt für Schritt, ohne etwas zu ändern
+  async function checkToken(token) {
+    const steps = [];
+    const call = async (path, opts = {}) => {
+      const headers = { Accept: 'application/vnd.github+json', Authorization: 'Bearer ' + token };
+      if (opts.body) headers['Content-Type'] = 'application/json';
+      const r = await fetch('https://api.github.com/' + path, Object.assign({}, opts, { headers }));
+      let j = {}; try { j = await r.json(); } catch (e) { /* leer */ }
+      return { status: r.status, j };
+    };
+    try {
+      const u = await call('user');
+      if (u.status !== 200) { steps.push([false, 'Token wird von GitHub nicht angenommen (abgelaufen, gelöscht oder falsch kopiert): ' + (u.j.message || u.status)]); return steps; }
+      steps.push([true, 'Token gültig, angemeldet als ' + u.j.login]);
+      const r = await call(`repos/${C.owner}/${C.repo}`);
+      if (r.status !== 200) { steps.push([false, `Das Token sieht das Repository ${C.owner}/${C.repo} nicht. Beim Token unter „Repository access“ dieses Repository auswählen.`]); return steps; }
+      steps.push([true, 'Repository erreichbar']);
+      const f = await call(`repos/${C.owner}/${C.repo}/contents/status.json?ref=${C.branch}`);
+      // Schreibprobe ohne Änderung: absichtlich falsche Prüfsumme. 409/422 = Schreiben erlaubt, 403/404 = nicht erlaubt.
+      const w = await call(`repos/${C.owner}/${C.repo}/contents/status.json`, { method: 'PUT', body: JSON.stringify({ message: 'Schreibprobe', content: btoa('{}'), sha: '0000000000000000000000000000000000000000', branch: C.branch }) });
+      if (w.status === 409 || w.status === 422) steps.push([true, 'Schreiben erlaubt']);
+      else steps.push([false, `Schreiben nicht erlaubt (${w.status}: ${w.j.message || ''}). Beim Token unter „Permissions › Repository permissions › Contents“ „Read and write“ einstellen.`]);
+      if (f.status !== 200) steps.push([false, 'status.json nicht lesbar: ' + (f.j.message || f.status)]);
+    } catch (e) {
+      steps.push([false, 'Keine Verbindung zu api.github.com (' + e.message + '). Ein Firmen-/Uni-Netz oder ein Werbeblocker kann das sperren.']);
+    }
+    return steps;
+  }
+
   window.Ablage = {
+    checkToken,
     status: Status,
     readRepo,
     config: C, LS,
