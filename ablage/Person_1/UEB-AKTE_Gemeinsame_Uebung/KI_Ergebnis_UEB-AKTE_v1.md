@@ -1,0 +1,60 @@
+# KI-Ergebnis UEB-AKTE: Gemeinsame Übung „Akte Abfluss OG2 West“
+
+- **Projekt:** UEB-AKTE (Kurs, gemeinsame Übung aller Gruppen)
+- **Runde:** 1
+- **Datum:** 19.11.2026
+- **Federführend:** Henrike Baum (Person 1), beteiligt alle fünf [content/projekte.json, UEB-AKTE; 00_Bis_zum_2_12.md, „Wer in den beiden Übungen was macht“]
+
+## Wichtig vorweg: Die Übung selbst kann der Agent nicht bearbeiten
+
+Der Auftrag liegt im Kursteam unter `00_Kurs/Uebung_akte_abfluss` und ist **nicht im Paket und nicht in diesem Repository** [00_Ablauf.md, „Abgabetage bis 2.12.“, Punkt 25.11.; content/projekte.json, UEB-AKTE „worum“]. Im Repository gibt es keine Datei zur „Akte Abfluss OG2 West“ [Suche über data/text/: „Abfluss“ nur in Ablauf- und Startblättern, kein Auftragstext]. Fragen, Antworten oder Fundstellen dazu schreibe ich deshalb nicht; alles andere wäre erfunden.
+
+Außerdem ist die Übung so angelegt, dass die Paare den Chat selbst führen und Fundstellen selbst prüfen [00_Bis_zum_2_12.md, Tabelle „Wer in den beiden Übungen was macht“]. Eine fertige KI-Lösung im Vorfeld würde die Beobachtung von Henrike entwerten [Annahme].
+
+Diese Datei ist daher nur ein **Organisationsblatt**.
+
+## Ergebnis: Organisationsblatt
+
+### Abgabe
+
+| Was | Wann | Wohin, Dateiname | Quelle |
+|---|---|---|---|
+| Antworten, Suchrezepte, Beobachtung und Vergleich als **ein PDF** | am 25.11.2026, **nicht früher** | 91_Abgabe/Luftpfad_Anlagentechnik, `2026-11-25_Akte_Abfluss_Luftpfad.pdf` | [00_Bis_zum_2_12.md, Zeile 25.11.; 00_Ablauf.md, Abgabetage] |
+
+### Rollen
+
+| Person | Rolle in der Übung | Quelle |
+|---|---|---|
+| Person_1 Henrike Baum | beobachtet beide Paare, schreibt eine halbe Seite Vergleich der Wege, fügt das PDF zusammen und legt es ab | [00_Bis_zum_2_12.md, Übungstabelle] |
+| Person_2 Kai Landmann | Paar 2, führt den Chat, schreibt vorher den Satz zum Einstieg | [ebd.] |
+| Person_3 Selim Ahrens | Paar 1, prüft jede Fundstelle in der Datei, schreibt das Suchrezept | [ebd.] |
+| Person_4 Elena Voss | Paar 2, prüft jede Fundstelle in der Datei, schreibt das Suchrezept | [ebd.] |
+| Person_5 Kevin Schuster | Paar 1, führt den Chat, schreibt vorher den Satz zum Einstieg | [ebd.] |
+
+### Vorschlag für die Gliederung des PDF (aus der Abgabezeile abgeleitet)
+
+1. Antworten Paar 1 (Kevin/Selim), je Antwort Fundstelle mit Datei und Seite
+2. Suchrezept Paar 1 (Selim)
+3. Antworten Paar 2 (Kai/Elena), je Antwort Fundstelle
+4. Suchrezept Paar 2 (Elena)
+5. Beobachtung und Vergleich der Wege, halbe Seite (Henrike)
+
+[Gliederung: Annahme, abgeleitet aus „Antworten, Suchrezepte, Beobachtung und Vergleich als ein PDF“, 00_Bis_zum_2_12.md, Zeile 25.11.; maßgeblich ist der Auftrag im Kursteam]
+
+### Was am selben Tag sonst fällig ist (Zeitplanung)
+
+Am 25.11. legen zusätzlich ab: Kai (K61), Henrike (K62), Selim (K63), Elena (K64 und K12), Kevin (K65) [00_Bis_zum_2_12.md, Zeilen 25.11.]. Am selben Tag erwartet Kevin die Rückfrage von Torwinkel zu 09384 [00_Ablauf.md, Abgabetage 25.11.]. Die Übung sollte deshalb vor dem 25.11. durchgeführt werden; nur die Ablage erfolgt am 25.11. [Annahme].
+
+## Was die Gruppe selbst entscheiden oder liefern muss
+
+1. Den **Auftrag** aus `00_Kurs/Uebung_akte_abfluss` im Kursteam holen. Wenn die KI später helfen soll, den Auftragstext in die Ablage von Person 1 legen (mit Herkunft); dann kann der Agent bei Feedback eine Prüfhilfe liefern, ohne die Übung vorwegzunehmen.
+2. **Termin** für die Paararbeit vor dem 25.11. vereinbaren.
+3. **Einstiegssätze** von Kevin und Kai, **Suchrezepte** von Selim und Elena, **Beobachtung** von Henrike: alles Eigenleistung der Personen.
+4. PDF zusammenfügen und **erst am 25.11.** ablegen.
+5. Lernprotokoll je Person: welches Modell wofür, was die KI falsch gefunden hat [00_Start_Gruppe.md, „Ladeplan“, Hinweise zum Lernprotokoll].
+
+## Geprüft
+
+1. Dateiname und Ablageort `91_Abgabe/Luftpfad_Anlagentechnik, 2026-11-25_Akte_Abfluss_Luftpfad.pdf`: in 00_Bis_zum_2_12.md (Tabelle, Zeile 25.11.) und 00_Ablauf.md (Abgabetage) wortgleich nachgelesen.
+2. Rollen der fünf Personen: Zeile für Zeile mit der Tabelle „Wer in den beiden Übungen was macht“ in 00_Bis_zum_2_12.md abgeglichen.
+3. „Nicht im Paket“: Volltextsuche in allen 130 Textfassungen unter data/text nach „Abfluss“ und „OG2 West“, Treffer nur in Ablauf, „Bis zum 2.12.“ und den Startblättern (Gruppe, Person 1–5), kein Auftragstext.
