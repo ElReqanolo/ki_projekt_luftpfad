@@ -22,6 +22,7 @@
   const ST = {
     offen: { cls: 'st-offen', label: () => 'Offen' },
     ki_erledigt: { cls: 'st-ki', label: o => o.runde > 1 ? `Von KI überarbeitet (Runde ${o.runde})` : 'Von KI erledigt' },
+    infos: { cls: 'st-info', label: () => 'Infos benötigt' },
     ueberprueft: { cls: 'st-check', label: () => 'Überprüft, KI bessert nach' },
     fertig: { cls: 'st-done', label: () => 'Abgenommen' }
   };
@@ -315,32 +316,36 @@
     const isLead = me && (me.role === 'admin' || me.person === p.person);
     const canWrite = Ablage.auth.enabled() ? !!isLead : !!Ablage.token();
     const open = o.feedback.filter(f => !f.erledigt);
-    const steps = [['offen', 'Offen'], ['ki_erledigt', 'Von KI erledigt'], ['ueberprueft', 'Überprüft'], ['fertig', 'Abgenommen']];
+    const steps = [['offen', 'Offen'], o.status === 'infos' ? ['infos', 'Infos benötigt'] : ['ki_erledigt', 'Von KI erledigt'], ['ueberprueft', 'Überprüft'], ['fertig', 'Abgenommen']];
     const idx = steps.findIndex(s => s[0] === o.status);
+    const need = (o.benoetigt || []);
     el.innerHTML = `
       <div class="row-between"><h2>Bearbeitung durch den KI-Agenten</h2>${stBadge(o)}</div>
       <ol class="steps">${steps.map((s, i) => `<li class="${i < idx ? 'done' : i === idx ? 'now' : ''}">${s[1]}</li>`).join('')}</ol>
       ${o.status === 'offen' ? `<p>Der Agent bearbeitet dieses Projekt ${AGENT_ZEIT} und legt sein Ergebnis in der Datenablage der federführenden Person ab. Hinweise, die Sie vorher eintragen, berücksichtigt er.</p>` : ''}
+      ${o.status === 'infos' ? `<div class="need-box"><h3>Diese Infos fehlen dem Agenten noch</h3>
+        ${need.length ? `<ul>${need.map(n => `<li><b>${esc(n.was || n)}</b>${n.von ? ` <span class="muted">von ${esc(n.von)}</span>` : ''}${n.wo ? ` <span class="muted">· ${esc(n.wo)}</span>` : ''}${n.bis ? ` <span class="muted">· erwartet bis ${esc(n.bis)}</span>` : ''}</li>`).join('')}</ul>` : '<p>Der Agent hat keine Einzelheiten angegeben, siehe Hinweis unten.</p>'}
+        <p>Tragen Sie die Infos unten ein oder hängen Sie die Dateien an (z. B. die Antwort aus Uebergaben/K61). Danach macht der Agent beim nächsten Lauf (${AGENT_ZEIT}) weiter.</p></div>` : ''}
       ${o.status === 'ueberprueft' ? `<p>Ihre Verbesserungen sind gespeichert. Der Agent arbeitet sie beim nächsten Lauf (${AGENT_ZEIT}) ein.</p>` : ''}
       ${o.status === 'fertig' ? `<p class="done-note">✓ Abgenommen${(o.verlauf.slice().reverse().find(v => v.art === 'abgenommen') || {}).von ? ' von ' + esc(o.verlauf.slice().reverse().find(v => v.art === 'abgenommen').von) : ''}. Der Agent fasst dieses Projekt nicht mehr an.</p>` : ''}
       ${o.ergebnis.length ? `<h3>Ergebnis der KI${o.runde ? ` <small>Runde ${o.runde}</small>` : ''}</h3>
         ${o.hinweis ? `<p class="ki-note">${esc(o.hinweis)}</p>` : ''}
         <ul class="results">${o.ergebnis.map(path => `<li><span>${esc(path.split('/').pop())}</span><span class="muted small">${esc(path.split('/').slice(0, -1).join('/'))}</span>
           <span class="act">${/\.(md|txt|csv)$/i.test(path) ? `<button class="btn small" data-view-repo="${esc(path)}">Ansehen</button>` : ''}<button class="btn small" data-get-repo="${esc(path)}">Herunterladen</button></span></li>`).join('')}</ul>` : ''}
-      ${o.feedback.length ? `<h3>Verbesserungen und Fehler</h3><ul class="feedback">${o.feedback.slice().reverse().map(f => `
+      ${o.feedback.length ? `<h3>Verbesserungen, Infos und Fehler</h3><ul class="feedback">${o.feedback.slice().reverse().map(f => `
         <li class="${f.erledigt ? 'fb-done' : 'fb-open'}"><div class="fb-head"><b>${esc(f.von || 'Gruppe')}</b> <span class="muted small">${fmtDT(f.datum)}${f.runde ? ' · zu Runde ' + f.runde : ''}</span>
-          <span class="badge ${f.erledigt ? 'st-done' : 'st-check'}">${f.erledigt ? 'eingearbeitet' : 'offen'}</span></div>
+          ${f.art === 'infos' ? '<span class="badge st-info">Infos</span>' : ''}<span class="badge ${f.erledigt ? 'st-done' : 'st-check'}">${f.erledigt ? 'eingearbeitet' : 'offen'}</span></div>
           <p>${esc(f.text).replace(/\n/g, '<br>')}</p>
           ${(f.dateien || []).length ? `<ul class="fb-files">${f.dateien.map(d => `<li><span>${esc(d.split('/').pop().replace(/^\d{4}-\d\d-\d\d_\d{4}_/, ''))}</span>${/\.(md|txt|csv)$/i.test(d) ? `<button type="button" class="btn small" data-view-repo="${esc(d)}">Ansehen</button>` : ''}<button type="button" class="btn small" data-get-repo="${esc(d)}">Herunterladen</button></li>`).join('')}</ul>` : ''}${f.antwort ? `<p class="fb-answer"><b>Antwort der KI:</b> ${esc(f.antwort)}</p>` : ''}</li>`).join('')}</ul>` : ''}
       ${o.status !== 'fertig' ? `
         <form class="fb-form" id="fb-form">
-          <label for="fb-text">${o.status === 'offen' ? 'Hinweis für die KI (optional)' : 'Verbesserungen oder Fehler'}</label>
-          <textarea id="fb-text" rows="5" placeholder="${o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 25.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
+          <label for="fb-text">${o.status === 'offen' ? 'Hinweis für die KI (optional)' : o.status === 'infos' ? 'Fehlende Infos eintragen' : 'Verbesserungen oder Fehler'}</label>
+          <textarea id="fb-text" rows="5" placeholder="${o.status === 'infos' ? 'Zum Beispiel: Antwort von Kantbogen aus K61 vom 30.11.: Rechnung 2026/3325 wird mit dem Zahllauf am 1.12. bezahlt …' : o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 25.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
           <label class="fb-attach">Dateien anhängen (optional)<input type="file" id="fb-files" multiple ${canWrite ? '' : 'disabled'}>
             <small>Zum Beispiel eine korrigierte Tabelle, ein Bildschirmfoto der richtigen Stelle oder eine Antwort aus dem Kursteam. Die Dateien landen in der Ablage von ${esc(PERS[p.person].name)} unter „${esc(projFolder(p))}/Verbesserungen“.</small></label>
           <ul class="fb-picked" id="fb-picked"></ul>
           <div class="fb-row">${me ? `<span class="muted small">Eingetragen als <b>${esc(me.name)}</b></span><input type="hidden" id="fb-von" value="${esc(me.name)}">` : `<label>Name <input id="fb-von" value="${esc(Ablage.LS.get('name', ''))}" placeholder="Ihr Name" ${canWrite ? '' : 'disabled'}></label>`}
-            <button class="btn primary" ${canWrite ? '' : 'disabled'}>${o.status === 'offen' ? 'Hinweis speichern' : 'Als überprüft markieren und an KI geben'}</button></div>
+            <button class="btn primary" ${canWrite ? '' : 'disabled'}>${o.status === 'infos' ? 'Infos an KI geben' : o.status === 'offen' ? 'Hinweis speichern' : 'Als überprüft markieren und an KI geben'}</button></div>
           ${canWrite ? '' : Ablage.auth.enabled() ? (me ? `<p class="hint">Verbesserungen eintragen und abhaken kann nur ${esc(PERS[p.person].name)} als federführende Person (oder das Admin-Konto). Sehen können alle.</p>` : `<p class="hint">Verbesserungen eintragen und abhaken kann ${esc(PERS[p.person].name)} als federführende Person. Bitte <button type="button" class="link" data-login>anmelden</button>.</p>`) : `<p class="hint">Zum Eintragen ein GitHub-Token in den <button type="button" class="link" data-settings-global>Ablage-Einstellungen</button> hinterlegen.</p>`}
         </form>` : ''}
       ${o.status === 'ki_erledigt' ? `<label class="perfect"><input type="checkbox" id="fb-ok" ${canWrite ? '' : 'disabled'}> <span><b>Passt so, perfekt.</b> Haken setzen, um das Projekt abzunehmen.</span></label>` : ''}
@@ -384,10 +389,12 @@
       }
       save(x => {
         x.feedback.push(Object.assign({ datum: now(), von, text, runde: x.runde, erledigt: false }, dateien.length ? { dateien } : {}));
-        const toCheck = x.status === 'ki_erledigt';
+        const wasInfo = x.status === 'infos';
+        const toCheck = x.status === 'ki_erledigt' || wasInfo;
+        if (wasInfo) x.feedback[x.feedback.length - 1].art = 'infos';
         if (toCheck) x.status = 'ueberprueft';
-        x.verlauf.push({ datum: now(), von, art: 'feedback', text: toCheck ? 'Verbesserungen eingetragen, Status „Überprüft“' : 'Hinweis für die KI eingetragen' });
-      }, `Status ${p.id}: Feedback von ${von}`, o.status === 'offen' ? 'Hinweis gespeichert.' : 'Gespeichert. Status: Überprüft.');
+        x.verlauf.push({ datum: now(), von, art: wasInfo ? 'infos' : 'feedback', text: wasInfo ? 'Fehlende Infos eingetragen, Status „Überprüft“' : toCheck ? 'Verbesserungen eingetragen, Status „Überprüft“' : 'Hinweis für die KI eingetragen' });
+      }, `Status ${p.id}: ${o.status === 'infos' ? 'Infos' : 'Feedback'} von ${von}`, o.status === 'offen' ? 'Hinweis gespeichert.' : 'Gespeichert. Status: Überprüft.');
     };
     const fi = $('#fb-files', el);
     if (fi) fi.onchange = () => { $('#fb-picked', el).innerHTML = [...fi.files].map(f => `<li>${esc(f.name)} <span class="muted small">${fmtSize(f.size)}</span></li>`).join(''); };
