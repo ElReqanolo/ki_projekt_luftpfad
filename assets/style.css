@@ -386,3 +386,8 @@ dialog::backdrop { background: rgba(23, 36, 43, .45); }
 .need-box ul { margin: .3rem 0 .6rem; padding-left: 1.2rem; }
 .fb-head .badge + .badge { margin-left: .3rem; }
 .fb-head .badge:first-of-type { margin-left: auto; }
+
+.proj-tools { display: flex; flex-wrap: wrap; gap: .8rem 1.2rem; align-items: flex-end; margin-top: 1.4rem; }
+.proj-tools .seg { margin-top: 0; }
+.proj-filter { display: flex; flex-direction: column; font-size: .82rem; color: var(--muted); gap: .2rem; }
+.proj-tools .count { color: var(--muted); font-size: .9rem; margin-left: auto; }

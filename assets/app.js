@@ -245,20 +245,40 @@
 
   // ------------------------------------------------------------------ Projekte
   function projekte() {
-    const by = (location.hash.includes('nach=person')) ? 'person' : 'kette';
+    const q = new URLSearchParams(location.hash.split('?')[1] || '');
+    const by = q.get('nach') === 'person' ? 'person' : 'kette';
+    const me = Ablage.auth.user();
+    // Filter: alle, eine Person (federführend) oder "meine"; Auswahl bleibt im Browser gespeichert
+    let wer = q.has('wer') ? q.get('wer') : Ablage.LS.get('projektFilter', '');
+    if (wer === 'meine' && !(me && me.person)) wer = '';
+    Ablage.LS.set('projektFilter', wer);
+    const nr = wer === 'meine' ? me.person : +wer || null;
+    const list = S.projekte.filter(p => !nr || p.person === nr);
     const groups = new Map();
-    S.projekte.forEach(p => {
+    list.forEach(p => {
       const k = by === 'person' ? p.person : p.kette;
       if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p);
     });
     const order = by === 'person' ? [...groups.keys()].sort() : [...groups.keys()];
+    const link = (nach, w) => '#/projekte/?' + new URLSearchParams({ nach, wer: w }).toString();
     main.innerHTML = `
       <header class="page-head"><h1>Projekte</h1>
         <p class="lead">Jede Aufgabe ist ein Projekt mit Zusammenfassung, Fristen und allen zugehörigen Dateien. Jede Aussage verweist auf die Stelle, aus der sie stammt.</p></header>
-      <div class="seg" role="group" aria-label="Gruppieren nach">
-        <a href="#/projekte" aria-pressed="${by === 'kette'}">nach Vorgang</a><a href="#/projekte/?nach=person" aria-pressed="${by === 'person'}">nach Person</a></div>
+      <div class="proj-tools">
+        <div class="seg" role="group" aria-label="Gruppieren nach">
+          <a href="${link('kette', wer)}" aria-pressed="${by === 'kette'}">nach Vorgang</a><a href="${link('person', wer)}" aria-pressed="${by === 'person'}">nach Person</a></div>
+        <div class="seg" role="group" aria-label="Projekte anzeigen">
+          <a href="${link(by, '')}" aria-pressed="${!nr}">Alle</a>
+          ${me && me.person ? `<a href="${link(by, 'meine')}" aria-pressed="${wer === 'meine'}">Nur meine</a>` : ''}
+        </div>
+        <label class="proj-filter">Federführend
+          <select id="pf">${['', 1, 2, 3, 4, 5].map(n => `<option value="${n}" ${String(nr || '') === String(n) ? 'selected' : ''}>${n ? esc(PERS[n].name) : 'alle Personen'}</option>`).join('')}</select></label>
+        <span class="count">${list.length} von ${S.projekte.length} Projekten</span>
+      </div>
+      ${!me && !nr && Ablage.auth.enabled() ? '<p class="hint">Angemeldet erscheint hier zusätzlich „Nur meine“.</p>' : ''}
       ${order.map(k => `<section class="block"><h2>${by === 'person' ? personDot(k) + esc(PERS[k].name) : esc(k)}
         ${by === 'kette' && S.ketten[k] ? `<small>${esc(S.ketten[k])}</small>` : ''}</h2>${projList(groups.get(k))}</section>`).join('')}`;
+    $('#pf').onchange = e => { location.hash = link(by, me && +e.target.value === me.person ? 'meine' : e.target.value); };
   }
 
   async function projekt(id) {
