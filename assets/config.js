@@ -7,5 +7,5 @@ window.LUFTPFAD_CONFIG = {
   ablagePfad: 'ablage',
   // Adresse des Login-Dienstes (Cloudflare Worker), z. B. 'https://luftpfad-login.<name>.workers.dev'.
   // Leer = ohne Login, Schreiben nur mit eigenem GitHub-Token.
-  workerUrl: ''
+  workerUrl: 'https://luftpfad-login.reqano.workers.dev'
 };
