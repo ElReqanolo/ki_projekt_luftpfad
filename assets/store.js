@@ -184,7 +184,56 @@
     }
   };
 
+  // ------------------------------------------------------------ Projektstatus (status.json im Repo)
+  // offen -> ki_erledigt (KI hat bearbeitet) -> ueberprueft (Gruppe hat Feedback geschrieben)
+  // -> ki_erledigt (KI hat überarbeitet, Runde +1) ... -> fertig (Haken gesetzt)
+  const Status = {
+    data: null,
+    async load(force) {
+      if (this.data && !force) return this.data;
+      const tries = [];
+      if (LS.get('token', '')) tries.push(async () => JSON.parse(await (await gh(`contents/status.json?ref=${encodeURIComponent(C.branch)}&t=${Date.now()}`, { headers: { Accept: 'application/vnd.github.raw' } })).text()));
+      tries.push(async () => { const r = await fetch(`https://raw.githubusercontent.com/${C.owner}/${C.repo}/${C.branch}/status.json?t=${Date.now()}`); if (!r.ok) throw new Error(r.status); return r.json(); });
+      tries.push(async () => { const r = await fetch('status.json?t=' + Date.now()); if (!r.ok) throw new Error(r.status); return r.json(); });
+      for (const t of tries) { try { this.data = await t(); return this.data; } catch (e) { /* nächste Quelle */ } }
+      this.data = { projekte: {} };
+      return this.data;
+    },
+    get(id) {
+      const p = (this.data && this.data.projekte[id]) || {};
+      return Object.assign({ status: 'offen', runde: 0, ergebnis: [], hinweis: '', feedback: [], verlauf: [] }, p);
+    },
+    // fn(projektObjekt) ändert das Projekt; wird bei Konflikt mit frischen Daten wiederholt
+    async update(id, fn, message) {
+      if (!LS.get('token', '')) throw new Error('Zum Speichern bitte in den Ablage-Einstellungen ein GitHub-Token hinterlegen.');
+      for (let attempt = 0; attempt < 3; attempt++) {
+        const r = await gh(`contents/status.json?ref=${encodeURIComponent(C.branch)}&t=${Date.now()}`);
+        const file = await r.json();
+        const data = JSON.parse(decodeURIComponent(escape(atob(file.content.replace(/\n/g, '')))));
+        data.projekte[id] = Object.assign({ status: 'offen', runde: 0, ergebnis: [], hinweis: '', feedback: [], verlauf: [] }, data.projekte[id]);
+        fn(data.projekte[id]);
+        try {
+          await gh('contents/status.json', { method: 'PUT', body: JSON.stringify({ message, content: textB64(JSON.stringify(data, null, 1) + '\n'), sha: file.sha, branch: C.branch }) });
+          this.data = data;
+          return data.projekte[id];
+        } catch (e) { if (attempt === 2 || ![409, 422].includes(e.status)) throw e; }
+      }
+    }
+  };
+
+  // Beliebige Datei aus dem Repository lesen (z. B. Ergebnisse des Agenten)
+  async function readRepo(path) {
+    if (LS.get('token', '')) {
+      return (await gh(`contents/${encPath(path)}?ref=${encodeURIComponent(C.branch)}&t=${Date.now()}`, { headers: { Accept: 'application/vnd.github.raw' } })).blob();
+    }
+    const r = await fetch(`https://raw.githubusercontent.com/${C.owner}/${C.repo}/${C.branch}/${encPath(path)}?t=${Date.now()}`);
+    if (!r.ok) throw new Error(`Datei ${path} nicht gefunden (${r.status}).`);
+    return r.blob();
+  }
+
   window.Ablage = {
+    status: Status,
+    readRepo,
     config: C, LS,
     backend() { return LS.get('mode', 'github') === 'local' ? Local : GitHub; },
     setMode(m) { LS.set('mode', m); treeCache = null; },

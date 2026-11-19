@@ -34,6 +34,17 @@ Zwei Speicherorte (umschaltbar unter *Ablage-Einstellungen*):
 
 Grenze: Einzelne Dateien bis 50 MB.
 
+## Status je Projekt und Tagesagent
+
+Jedes Projekt hat einen Status, sichtbar auf der Übersicht, in der Projektliste und auf der Projektseite:
+
+1. **Offen**: noch nicht bearbeitet. Hinweise für die KI können schon eingetragen werden.
+2. **Von KI erledigt**: Der Agent hat ein Ergebnis in die Datenablage der federführenden Person gelegt (`KI_Ergebnis_<ID>_v<Runde>.md`). Es ist auf der Projektseite verlinkt.
+3. **Überprüft**: Die Gruppe hat im Textfeld Verbesserungen oder Fehler eingetragen. Der Agent arbeitet sie am nächsten Morgen ein, danach steht das Projekt wieder auf „Von KI überarbeitet (Runde n)“.
+4. **Abgenommen**: Jemand hat den Haken „Passt so, perfekt“ gesetzt. Der Agent fasst das Projekt nicht mehr an. Haken entfernen nimmt die Abnahme zurück.
+
+Gespeichert wird alles in `status.json` im Repository (Schreiben braucht das GitHub-Token wie die Datenablage). Der Agent läuft jeden Morgen um 6:40 Uhr als geplanter Claude-Auftrag und folgt `agent/ANLEITUNG.md`. Seine Tagesprotokolle liegen in `agent/protokoll/`.
+
 ## Daten neu bauen
 
 Die Webseite liest `data/site.json`. Die wird aus dem Originalpaket und den handgeschriebenen Zusammenfassungen in `content/` erzeugt:

@@ -18,6 +18,29 @@
   const personLink = n => { const p = PERS[n]; return `<a class="plink ${COLORS[n]}" href="#/person/${n}">${personDot(n)}${esc(p.name)}</a>`; };
   const ext = f => `<span class="ext ext-${f.ext}">${esc(f.ext)}</span>`;
 
+  // ------------------------------------------------------------------ Projektstatus
+  const ST = {
+    offen: { cls: 'st-offen', label: () => 'Offen' },
+    ki_erledigt: { cls: 'st-ki', label: o => o.runde > 1 ? `Von KI überarbeitet (Runde ${o.runde})` : 'Von KI erledigt' },
+    ueberprueft: { cls: 'st-check', label: () => 'Überprüft, KI bessert nach' },
+    fertig: { cls: 'st-done', label: () => 'Abgenommen' }
+  };
+  const AGENT_ZEIT = 'jeden Morgen um 6:40 Uhr';
+  const fmtDT = iso => { if (!iso) return ''; const d = new Date(iso); return isNaN(d) ? esc(iso) : d.toLocaleDateString('de-DE') + ', ' + d.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' }) + ' Uhr'; };
+  const stBadge = o => { const d = ST[o.status] || ST.offen; return `<span class="badge ${d.cls}">${o.status === 'fertig' ? '<span aria-hidden="true">✓ </span>' : ''}${esc(d.label(o))}</span>`; };
+  function paintStatus() {
+    if (!Ablage.status.data) return;
+    $$('[data-st]').forEach(el => { el.innerHTML = stBadge(Ablage.status.get(el.dataset.st)); });
+    const sum = $('#st-summary');
+    if (sum) {
+      const ids = S.projekte.map(p => p.id).filter(id => id !== 'START');
+      const n = k => ids.filter(id => Ablage.status.get(id).status === k).length;
+      const last = Ablage.status.data.letzterLauf;
+      sum.innerHTML = `${Object.keys(ST).map(k => `<span>${stBadge({ status: k, runde: 1 })} <b>${n(k)}</b></span>`).join('')}
+        <span class="muted">Letzter Lauf des Agenten: ${last ? fmtDT(last) : 'noch keiner'} · läuft ${AGENT_ZEIT}</span>`;
+    }
+  }
+
   function toast(msg, ms = 3200) {
     const t = $('#toast'); t.textContent = msg; t.classList.add('on');
     clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('on'), ms);
@@ -48,6 +71,7 @@
       `<a href="#/person/${p.nr}" data-nav="person-${p.nr}" class="${COLORS[p.nr]}">${personDot(p.nr)}<span>${esc(p.name)}<small>${esc(p.funktion.split(' (')[0])}</small></span></a>`).join(''));
     window.addEventListener('hashchange', route);
     route();
+    Ablage.status.load().then(() => { paintStatus(); const sp = $('#st-panel'); if (sp) statusPanel(sp, PROJ[sp.dataset.id]); });
   }
   function indexCitations() {
     const add = (html, where) => (String(html).match(/data-file="([0-9a-f]+)"/g) || []).forEach(m => {
@@ -68,6 +92,7 @@
     $$('.nav a[data-nav]').forEach(x => x.toggleAttribute('aria-current', x.dataset.nav === nav));
     const views = { '': home, firma, projekte, projekt: () => projekt(a), dateien, datei: () => datei(a, b), person: () => person(a, b), suche: () => suche(decodeURIComponent(a || '')) };
     (views[view || ''] || home)();
+    paintStatus();
     window.scrollTo(0, 0);
     main.focus({ preventScroll: true });
   }
@@ -99,10 +124,11 @@
       </section>
       <section class="block">
         <h2>Was bis zum 2.12. ansteht</h2>
+        <p class="st-summary" id="st-summary"></p>
         <ol class="timeline">${due.map(p => `<li class="${COLORS[p.person]}">
           <time>${esc(p.due.slice(0, 6))}</time>
           <a href="#/projekt/${p.id}"><b>${esc(p.id)}</b> ${esc(p.titel)}</a>
-          <span class="who">${personDot(p.person)}${esc(PERS[p.person].name)}</span></li>`).join('')}</ol>
+          <span class="who"><span data-st="${p.id}"></span>${personDot(p.person)}${esc(PERS[p.person].name)}</span></li>`).join('')}</ol>
         <p class="src-note">Termine aus ${S.allgemein['00_Bis_zum_2_12'] ? qLink(S.allgemein['00_Bis_zum_2_12'].file, 'Termine nach Datum') : ''} und den Aufgabenblättern.</p>
       </section>
       ${lage ? `<section class="block">
@@ -213,7 +239,7 @@
     if (!list.length) return '<p class="hint">Keine Projekte.</p>';
     return `<ul class="projlist">${list.map(p => `<li class="${COLORS[p.person]}">
       <a href="#/projekt/${p.id}"><b>${esc(p.id)}</b><span>${esc(p.titel)}</span></a>
-      <span class="meta">bis ${esc(p.due)} · ${esc(p.aufwand)} · ${esc(p.kette)}</span></li>`).join('')}</ul>`;
+      <span class="meta"><span data-st="${p.id}"></span> bis ${esc(p.due)} · ${esc(p.aufwand)} · ${esc(p.kette)}</span></li>`).join('')}</ul>`;
   }
 
   // ------------------------------------------------------------------ Projekte
@@ -247,8 +273,10 @@
           <div><dt>Beteiligt</dt><dd>${(p.persons || []).filter(n => n !== p.person).map(personLink).join(' ') || '–'}</dd></div>
           <div><dt>Fertig bis</dt><dd>${esc(p.due)}</dd></div>
           <div><dt>Aufwand</dt><dd>${esc(p.aufwand)}</dd></div>
+          <div><dt>Status</dt><dd data-st="${p.id}"></dd></div>
         </dl>
       </header>
+      <section class="block status-panel" id="st-panel" data-id="${p.id}"><p class="hint">Status wird geladen …</p></section>
       <section class="block summary">
         <h2>Zusammenfassung</h2>
         <p class="hint">Aus den Unterlagen zusammengestellt. Die Markierung hinter jeder Aussage zeigt, aus welcher Datei und Stelle sie stammt.</p>
@@ -265,6 +293,7 @@
       <section class="block" id="proj-ablage"><h2>In der Datenablage abgelegt</h2><p class="hint">Wird geladen …</p></section>
       ${p.aufgabenblatt ? `<section class="block"><details class="acc"><summary>Aufgabenblatt im Wortlaut</summary>
         <div class="prose">${p.aufgabenblatt.html}</div><p class="src-note">Quelle: ${qLink(p.aufgabenblatt.file, '')}</p></details></section>` : ''}`;
+    if (Ablage.status.data) statusPanel($('#st-panel'), p);
     const zb = $('#zip-proj'); if (zb) zb.onclick = () => zipFiles(fs, `${p.id}_${slug(p.titel)}.zip`);
     // Dateien aus der Ablage, die in einem Ordner mit der Projektnummer liegen
     const box = $('#proj-ablage');
@@ -276,6 +305,74 @@
           <td class="act"><button class="btn small" data-dl-ablage="${esc(h.person)}|${esc(h.path)}">Herunterladen</button></td></tr>`; }).join('')}</tbody></table>`
         : `<p class="hint">Noch nichts abgelegt. Dateien, die eine Person in ihrer Datenablage im Ordner „${esc(projFolder(p))}“ ablegt, erscheinen hier.</p>`);
     } catch (e) { box.innerHTML = `<h2>In der Datenablage abgelegt</h2><p class="hint">${esc(e.message)}</p>`; }
+  }
+
+  // ------------------------------------------------------------------ Statuspanel je Projekt
+  function statusPanel(el, p) {
+    if (!el || !p) return;
+    const o = Ablage.status.get(p.id);
+    const canWrite = !!Ablage.token();
+    const open = o.feedback.filter(f => !f.erledigt);
+    const steps = [['offen', 'Offen'], ['ki_erledigt', 'Von KI erledigt'], ['ueberprueft', 'Überprüft'], ['fertig', 'Abgenommen']];
+    const idx = steps.findIndex(s => s[0] === o.status);
+    el.innerHTML = `
+      <div class="row-between"><h2>Bearbeitung durch den KI-Agenten</h2>${stBadge(o)}</div>
+      <ol class="steps">${steps.map((s, i) => `<li class="${i < idx ? 'done' : i === idx ? 'now' : ''}">${s[1]}</li>`).join('')}</ol>
+      ${o.status === 'offen' ? `<p>Der Agent bearbeitet dieses Projekt ${AGENT_ZEIT} und legt sein Ergebnis in der Datenablage der federführenden Person ab. Hinweise, die Sie vorher eintragen, berücksichtigt er.</p>` : ''}
+      ${o.status === 'ueberprueft' ? `<p>Ihre Verbesserungen sind gespeichert. Der Agent arbeitet sie beim nächsten Lauf (${AGENT_ZEIT}) ein.</p>` : ''}
+      ${o.status === 'fertig' ? `<p class="done-note">✓ Abgenommen${(o.verlauf.slice().reverse().find(v => v.art === 'abgenommen') || {}).von ? ' von ' + esc(o.verlauf.slice().reverse().find(v => v.art === 'abgenommen').von) : ''}. Der Agent fasst dieses Projekt nicht mehr an.</p>` : ''}
+      ${o.ergebnis.length ? `<h3>Ergebnis der KI${o.runde ? ` <small>Runde ${o.runde}</small>` : ''}</h3>
+        ${o.hinweis ? `<p class="ki-note">${esc(o.hinweis)}</p>` : ''}
+        <ul class="results">${o.ergebnis.map(path => `<li><span>${esc(path.split('/').pop())}</span><span class="muted small">${esc(path.split('/').slice(0, -1).join('/'))}</span>
+          <span class="act">${/\.(md|txt|csv)$/i.test(path) ? `<button class="btn small" data-view-repo="${esc(path)}">Ansehen</button>` : ''}<button class="btn small" data-get-repo="${esc(path)}">Herunterladen</button></span></li>`).join('')}</ul>` : ''}
+      ${o.feedback.length ? `<h3>Verbesserungen und Fehler</h3><ul class="feedback">${o.feedback.slice().reverse().map(f => `
+        <li class="${f.erledigt ? 'fb-done' : 'fb-open'}"><div class="fb-head"><b>${esc(f.von || 'Gruppe')}</b> <span class="muted small">${fmtDT(f.datum)}${f.runde ? ' · zu Runde ' + f.runde : ''}</span>
+          <span class="badge ${f.erledigt ? 'st-done' : 'st-check'}">${f.erledigt ? 'eingearbeitet' : 'offen'}</span></div>
+          <p>${esc(f.text).replace(/\n/g, '<br>')}</p>${f.antwort ? `<p class="fb-answer"><b>Antwort der KI:</b> ${esc(f.antwort)}</p>` : ''}</li>`).join('')}</ul>` : ''}
+      ${o.status !== 'fertig' ? `
+        <form class="fb-form" id="fb-form">
+          <label for="fb-text">${o.status === 'offen' ? 'Hinweis für die KI (optional)' : 'Verbesserungen oder Fehler'}</label>
+          <textarea id="fb-text" rows="5" placeholder="${o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 25.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
+          <div class="fb-row"><label>Name <input id="fb-von" value="${esc(Ablage.LS.get('name', ''))}" placeholder="Ihr Name" ${canWrite ? '' : 'disabled'}></label>
+            <button class="btn primary" ${canWrite ? '' : 'disabled'}>${o.status === 'offen' ? 'Hinweis speichern' : 'Als überprüft markieren und an KI geben'}</button></div>
+          ${canWrite ? '' : `<p class="hint">Zum Eintragen ein GitHub-Token in den <button type="button" class="link" data-settings-global>Ablage-Einstellungen</button> hinterlegen.</p>`}
+        </form>` : ''}
+      ${o.status === 'ki_erledigt' ? `<label class="perfect"><input type="checkbox" id="fb-ok" ${canWrite ? '' : 'disabled'}> <span><b>Passt so, perfekt.</b> Haken setzen, um das Projekt abzunehmen.</span></label>` : ''}
+      ${o.status === 'fertig' ? `<label class="perfect is-done"><input type="checkbox" id="fb-reopen" checked ${canWrite ? '' : 'disabled'}> <span><b>Abgenommen.</b> Haken entfernen, um die Abnahme zurückzunehmen.</span></label>` : ''}
+      ${o.verlauf.length ? `<details class="acc"><summary>Verlauf (${o.verlauf.length})</summary><ol class="verlauf">${o.verlauf.slice().reverse().map(v => `<li><span class="muted small">${fmtDT(v.datum)}</span> <b>${esc(v.von || '')}</b> ${esc(v.text || v.art)}</li>`).join('')}</ol></details>` : ''}`;
+
+    const now = () => new Date().toISOString();
+    const save = async (fn, msg, done) => {
+      el.classList.add('busy');
+      try { await Ablage.status.update(p.id, fn, msg); toast(done); } catch (e) { toast(e.message, 6000); }
+      el.classList.remove('busy'); paintStatus(); statusPanel(el, p);
+    };
+    const form = $('#fb-form', el);
+    if (form) form.onsubmit = e => {
+      e.preventDefault();
+      const text = $('#fb-text', el).value.trim(), von = $('#fb-von', el).value.trim();
+      if (!text) { toast('Bitte zuerst eintragen, was verbessert werden soll.'); $('#fb-text', el).focus(); return; }
+      if (!von) { toast('Bitte Ihren Namen angeben.'); $('#fb-von', el).focus(); return; }
+      Ablage.LS.set('name', von);
+      save(x => {
+        x.feedback.push({ datum: now(), von, text, runde: x.runde, erledigt: false });
+        const toCheck = x.status === 'ki_erledigt';
+        if (toCheck) x.status = 'ueberprueft';
+        x.verlauf.push({ datum: now(), von, art: 'feedback', text: toCheck ? 'Verbesserungen eingetragen, Status „Überprüft“' : 'Hinweis für die KI eingetragen' });
+      }, `Status ${p.id}: Feedback von ${von}`, o.status === 'offen' ? 'Hinweis gespeichert.' : 'Gespeichert. Status: Überprüft.');
+    };
+    const ok = $('#fb-ok', el);
+    if (ok) ok.onchange = async () => {
+      const von = Ablage.LS.get('name', '') || (await ask('Projekt abnehmen', [{ name: 'von', label: 'Ihr Name' }], 'Abnehmen') || {}).von;
+      if (!von) { ok.checked = false; return; }
+      Ablage.LS.set('name', von);
+      save(x => { x.status = 'fertig'; x.verlauf.push({ datum: now(), von, art: 'abgenommen', text: 'Haken gesetzt: abgenommen' }); }, `Status ${p.id}: abgenommen von ${von}`, 'Projekt abgenommen.');
+    };
+    const ro = $('#fb-reopen', el);
+    if (ro) ro.onchange = () => {
+      const von = Ablage.LS.get('name', '') || 'Gruppe';
+      save(x => { x.status = 'ki_erledigt'; x.verlauf.push({ datum: now(), von, art: 'zurueckgenommen', text: 'Abnahme zurückgenommen' }); }, `Status ${p.id}: Abnahme zurückgenommen`, 'Abnahme zurückgenommen.');
+    };
   }
 
   // ------------------------------------------------------------------ Dateien
@@ -408,6 +505,11 @@
     if (q && !e.metaKey && !e.ctrlKey) { e.preventDefault(); openDrawer(q.dataset.file, q.dataset.loc || ''); return; }
     const rv = e.target.closest('[data-reveal]');
     if (rv) { const box = rv.closest('[data-private]'); $('.prose', box).hidden = false; rv.remove(); return; }
+    const gr = e.target.closest('[data-get-repo]');
+    if (gr) { Ablage.readRepo(gr.dataset.getRepo).then(b => download(b, gr.dataset.getRepo.split('/').pop())).catch(err => toast(err.message)); return; }
+    const vr = e.target.closest('[data-view-repo]');
+    if (vr) { Ablage.readRepo(vr.dataset.viewRepo).then(b => b.text()).then(t => showText(vr.dataset.viewRepo, t)).catch(err => toast(err.message)); return; }
+    if (e.target.closest('[data-settings-global]')) { settings(); return; }
     const dl = e.target.closest('[data-dl-ablage]');
     if (dl) { const [pers, path] = dl.dataset.dlAblage.split('|'); Ablage.backend().read(pers, path).then(b => download(b, path.split('/').pop())).catch(err => toast(err.message)); }
     if (!e.target.closest('#drawer') && $('#drawer').classList.contains('on') && !q) closeDrawer();
@@ -562,6 +664,27 @@
       const first = d.querySelector('input'); if (first) first.focus();
     });
   }
+  function showText(path, txt) {
+    const d = $('#dlg');
+    d.innerHTML = `<form method="dialog" class="dlg wide"><h2>${esc(path.split('/').pop())}</h2><p class="muted small">${esc(path)}</p>
+      <div class="md">${mdLite(txt)}</div><div class="btnrow"><button class="btn primary" value="ok">Schließen</button></div></form>`;
+    d.onclose = null; d.showModal();
+  }
+  // Sehr kleiner Markdown-Darsteller für die Ergebnisse des Agenten
+  function mdLite(md) {
+    const inline = t => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`([^`]+)`/g, '<code>$1</code>').replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    const lines = md.replace(/\r/g, '').split('\n'); let out = '', i = 0;
+    while (i < lines.length) {
+      const l = lines[i];
+      if (/^#{1,4} /.test(l)) { const n = l.match(/^#+/)[0].length; out += `<h${n + 1}>${inline(l.replace(/^#+ /, ''))}</h${n + 1}>`; i++; }
+      else if (/^\s*\|/.test(l)) { const rows = []; while (i < lines.length && /^\s*\|/.test(lines[i])) rows.push(lines[i++]); out += '<div class="scroll"><table class="grid">' + rows.filter(r => !/^\s*\|[\s:|-]+\|\s*$/.test(r)).map((r, k) => '<tr>' + r.trim().replace(/^\||\|$/g, '').split('|').map(c => k === 0 ? `<th>${inline(c.trim())}</th>` : `<td>${inline(c.trim())}</td>`).join('') + '</tr>').join('') + '</table></div>'; }
+      else if (/^\s*[-*] /.test(l)) { out += '<ul>'; while (i < lines.length && /^\s*[-*] /.test(lines[i])) out += `<li>${inline(lines[i++].replace(/^\s*[-*] /, ''))}</li>`; out += '</ul>'; }
+      else if (/^\s*\d+\. /.test(l)) { out += '<ol>'; while (i < lines.length && /^\s*\d+\. /.test(lines[i])) out += `<li>${inline(lines[i++].replace(/^\s*\d+\. /, ''))}</li>`; out += '</ol>'; }
+      else if (!l.trim()) i++;
+      else { const para = []; while (i < lines.length && lines[i].trim() && !/^(#|\s*[-*] |\s*\||\s*\d+\. )/.test(lines[i])) para.push(lines[i++]); out += `<p>${inline(para.join(' '))}</p>`; }
+    }
+    return out;
+  }
   function settings() {
     const d = $('#dlg'), mode = Ablage.LS.get('mode', 'github'), C = Ablage.config;
     d.innerHTML = `<form method="dialog" class="dlg"><h2>Ablage-Einstellungen</h2>
@@ -577,7 +700,9 @@
       Ablage.setMode(d.querySelector('[name=mode]:checked').value);
       Ablage.setToken(d.querySelector('[name=token]').value.trim());
       toast('Einstellungen gespeichert.');
-      if (location.hash.includes('/ablage')) route();
+      Ablage.status.data = null;
+      route();
+      Ablage.status.load(true).then(() => { paintStatus(); const sp = $('#st-panel'); if (sp) statusPanel(sp, PROJ[sp.dataset.id]); });
     };
     d.returnValue = ''; d.showModal();
   }

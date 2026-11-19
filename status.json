@@ -1,0 +1,166 @@
+{
+ "version": 1,
+ "letzterLauf": null,
+ "projekte": {
+  "START": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A001": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A002": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A003": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A004": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A005": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A006": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A007": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A008": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A014": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A018": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A097": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A161": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A162": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A163": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A164": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A165": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "A166": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "UEB-AKTE": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  },
+  "UEB-ZAEHLER": {
+   "status": "offen",
+   "runde": 0,
+   "ergebnis": [],
+   "hinweis": "",
+   "feedback": [],
+   "verlauf": []
+  }
+ }
+}
