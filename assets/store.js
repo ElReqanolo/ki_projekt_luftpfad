@@ -322,6 +322,7 @@
   };
 
   window.Ablage = {
+    github: GitHub,
     auth: Auth,
     checkToken,
     status: Status,

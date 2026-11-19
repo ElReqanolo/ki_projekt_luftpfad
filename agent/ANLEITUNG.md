@@ -40,7 +40,7 @@ Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik Gmb
 
 ## Feedback einarbeiten (Status `ueberprueft`)
 
-1. Lies alle Einträge in `feedback` mit `erledigt: false` und die letzte Ergebnisdatei.
+1. Lies alle Einträge in `feedback` mit `erledigt: false` und die letzte Ergebnisdatei. Hat ein Eintrag `dateien` (Liste von Repo-Pfaden, meist `ablage/Person_N/<Projektordner>/Verbesserungen/…`), lies diese Dateien vollständig: Sie sind Teil der Verbesserung (z. B. korrigierte Tabelle, Bildschirmfoto der richtigen Stelle, Antwort einer anderen Gruppe). Zitiere sie in der neuen Fassung mit Dateiname.
 2. Erstelle eine neue Fassung `KI_Ergebnis_<ID>_v<Runde+1>.md`. Die alte Fassung bleibt liegen.
 3. Füge oben einen Abschnitt **„Änderungen gegenüber v<Runde>“** ein: je Feedback-Punkt, was du geändert hast, mit Quelle. Hältst du einen Punkt für falsch, sag es mit Beleg, statt ihn stillschweigend zu übernehmen.
 4. Setze bei jedem bearbeiteten Feedback `erledigt: true` und `antwort` (ein Satz, was du getan hast).
@@ -55,7 +55,7 @@ Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik Gmb
 | `ueberprueft` | Gruppe hat Verbesserungen oder Fehler eingetragen | Webseite (Textfeld) |
 | `fertig` | Gruppe hat den Haken gesetzt | Webseite (Haken) |
 
-Felder je Projekt: `person` (federführend), `status`, `runde`, `ergebnis` (Liste von Repo-Pfaden), `hinweis`, `feedback` (Liste `{datum, von, text, runde, erledigt, antwort?}`), `verlauf` (Liste `{datum, von, art, text}`). Ändere nie `feedback[].text`, `von` oder `datum` und setze nie selbst `fertig` oder `ueberprueft`.
+Felder je Projekt: `person` (federführend), `status`, `runde`, `ergebnis` (Liste von Repo-Pfaden), `hinweis`, `feedback` (Liste `{datum, von, text, runde, erledigt, antwort?, dateien?}`), `verlauf` (Liste `{datum, von, art, text}`). Ändere nie `feedback[].text`, `von`, `datum` oder `dateien` und setze nie selbst `fertig` oder `ueberprueft`.
 
 ## Grenzen
 

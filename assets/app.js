@@ -330,11 +330,15 @@
       ${o.feedback.length ? `<h3>Verbesserungen und Fehler</h3><ul class="feedback">${o.feedback.slice().reverse().map(f => `
         <li class="${f.erledigt ? 'fb-done' : 'fb-open'}"><div class="fb-head"><b>${esc(f.von || 'Gruppe')}</b> <span class="muted small">${fmtDT(f.datum)}${f.runde ? ' · zu Runde ' + f.runde : ''}</span>
           <span class="badge ${f.erledigt ? 'st-done' : 'st-check'}">${f.erledigt ? 'eingearbeitet' : 'offen'}</span></div>
-          <p>${esc(f.text).replace(/\n/g, '<br>')}</p>${f.antwort ? `<p class="fb-answer"><b>Antwort der KI:</b> ${esc(f.antwort)}</p>` : ''}</li>`).join('')}</ul>` : ''}
+          <p>${esc(f.text).replace(/\n/g, '<br>')}</p>
+          ${(f.dateien || []).length ? `<ul class="fb-files">${f.dateien.map(d => `<li><span>${esc(d.split('/').pop().replace(/^\d{4}-\d\d-\d\d_\d{4}_/, ''))}</span>${/\.(md|txt|csv)$/i.test(d) ? `<button type="button" class="btn small" data-view-repo="${esc(d)}">Ansehen</button>` : ''}<button type="button" class="btn small" data-get-repo="${esc(d)}">Herunterladen</button></li>`).join('')}</ul>` : ''}${f.antwort ? `<p class="fb-answer"><b>Antwort der KI:</b> ${esc(f.antwort)}</p>` : ''}</li>`).join('')}</ul>` : ''}
       ${o.status !== 'fertig' ? `
         <form class="fb-form" id="fb-form">
           <label for="fb-text">${o.status === 'offen' ? 'Hinweis für die KI (optional)' : 'Verbesserungen oder Fehler'}</label>
           <textarea id="fb-text" rows="5" placeholder="${o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 25.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
+          <label class="fb-attach">Dateien anhängen (optional)<input type="file" id="fb-files" multiple ${canWrite ? '' : 'disabled'}>
+            <small>Zum Beispiel eine korrigierte Tabelle, ein Bildschirmfoto der richtigen Stelle oder eine Antwort aus dem Kursteam. Die Dateien landen in der Ablage von ${esc(PERS[p.person].name)} unter „${esc(projFolder(p))}/Verbesserungen“.</small></label>
+          <ul class="fb-picked" id="fb-picked"></ul>
           <div class="fb-row">${me ? `<span class="muted small">Eingetragen als <b>${esc(me.name)}</b></span><input type="hidden" id="fb-von" value="${esc(me.name)}">` : `<label>Name <input id="fb-von" value="${esc(Ablage.LS.get('name', ''))}" placeholder="Ihr Name" ${canWrite ? '' : 'disabled'}></label>`}
             <button class="btn primary" ${canWrite ? '' : 'disabled'}>${o.status === 'offen' ? 'Hinweis speichern' : 'Als überprüft markieren und an KI geben'}</button></div>
           ${canWrite ? '' : Ablage.auth.enabled() ? (me ? `<p class="hint">Verbesserungen eintragen und abhaken kann nur ${esc(PERS[p.person].name)} als federführende Person (oder das Admin-Konto). Sehen können alle.</p>` : `<p class="hint">Verbesserungen eintragen und abhaken kann ${esc(PERS[p.person].name)} als federführende Person. Bitte <button type="button" class="link" data-login>anmelden</button>.</p>`) : `<p class="hint">Zum Eintragen ein GitHub-Token in den <button type="button" class="link" data-settings-global>Ablage-Einstellungen</button> hinterlegen.</p>`}
@@ -350,19 +354,43 @@
       el.classList.remove('busy'); paintStatus(); statusPanel(el, p);
     };
     const form = $('#fb-form', el);
-    if (form) form.onsubmit = e => {
+    if (form) form.onsubmit = async e => {
       e.preventDefault();
-      const text = $('#fb-text', el).value.trim(), von = $('#fb-von', el).value.trim();
+      const picked = [...(($('#fb-files', el) || {}).files || [])];
+      let text = $('#fb-text', el).value.trim(); const von = $('#fb-von', el).value.trim();
+      if (!text && picked.length) text = 'Siehe angehängte Dateien.';
       if (!text) { toast('Bitte zuerst eintragen, was verbessert werden soll.'); $('#fb-text', el).focus(); return; }
       if (!von) { toast('Bitte Ihren Namen angeben.'); $('#fb-von', el).focus(); return; }
       Ablage.LS.set('name', von);
+      const dateien = [];
+      if (picked.length) {
+        el.classList.add('busy');
+        try {
+          const gh = Ablage.github, person = `Person_${p.person}`, dir = `${projFolder(p)}/Verbesserungen`;
+          const d0 = new Date(), z = n => String(n).padStart(2, '0'), stamp = `${d0.getFullYear()}-${z(d0.getMonth() + 1)}-${z(d0.getDate())}_${z(d0.getHours())}${z(d0.getMinutes())}`;
+          const meta = {};
+          for (let i = 0; i < picked.length; i++) {
+            const f = picked[i];
+            if (f.size > 50 * 1048576) throw new Error(`${f.name} ist größer als 50 MB.`);
+            f.relPath = `${stamp}_${f.name}`;
+            toast(`Lade hoch: ${f.name} (${i + 1}/${picked.length})`, 60000);
+            await gh.upload(person, dir, f);
+            dateien.push(`${Ablage.config.ablagePfad}/${person}/${dir}/${f.relPath}`);
+            meta[`${dir}/${f.relPath}`] = { herkunft: `Verbesserung zu ${p.id}${o.runde ? ', Runde ' + o.runde : ''}`, von, am: new Date().toLocaleDateString('de-DE') };
+          }
+          await gh.setMeta(person, meta);
+        } catch (er) { el.classList.remove('busy'); toast('Dateien nicht hochgeladen: ' + er.message, 7000); return; }
+        el.classList.remove('busy');
+      }
       save(x => {
-        x.feedback.push({ datum: now(), von, text, runde: x.runde, erledigt: false });
+        x.feedback.push(Object.assign({ datum: now(), von, text, runde: x.runde, erledigt: false }, dateien.length ? { dateien } : {}));
         const toCheck = x.status === 'ki_erledigt';
         if (toCheck) x.status = 'ueberprueft';
         x.verlauf.push({ datum: now(), von, art: 'feedback', text: toCheck ? 'Verbesserungen eingetragen, Status „Überprüft“' : 'Hinweis für die KI eingetragen' });
       }, `Status ${p.id}: Feedback von ${von}`, o.status === 'offen' ? 'Hinweis gespeichert.' : 'Gespeichert. Status: Überprüft.');
     };
+    const fi = $('#fb-files', el);
+    if (fi) fi.onchange = () => { $('#fb-picked', el).innerHTML = [...fi.files].map(f => `<li>${esc(f.name)} <span class="muted small">${fmtSize(f.size)}</span></li>`).join(''); };
     const ok = $('#fb-ok', el);
     if (ok) ok.onchange = async () => {
       const von = (me && me.name) || Ablage.LS.get('name', '') || (await ask('Projekt abnehmen', [{ name: 'von', label: 'Ihr Name' }], 'Abnehmen') || {}).von;
