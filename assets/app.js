@@ -26,7 +26,7 @@
     ueberprueft: { cls: 'st-check', label: () => 'Überprüft, KI bessert nach' },
     fertig: { cls: 'st-done', label: () => 'Abgenommen' }
   };
-  const AGENT_ZEIT = 'jeden Morgen um 6:40 Uhr';
+  const AGENT_ZEIT = 'montags um 9:30 Uhr';
   const fmtDT = iso => { if (!iso) return ''; const d = new Date(iso); return isNaN(d) ? esc(iso) : d.toLocaleDateString('de-DE') + ', ' + d.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' }) + ' Uhr'; };
   const stBadge = o => { const d = ST[o.status] || ST.offen; return `<span class="badge ${d.cls}">${o.status === 'fertig' ? '<span aria-hidden="true">✓ </span>' : ''}${esc(d.label(o))}</span>`; };
   function paintStatus() {

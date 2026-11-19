@@ -1,8 +1,8 @@
 # Anleitung für den Tagesagenten (Luftpfad Anlagentechnik)
 
-Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik GmbH“ (KI-Vorlesung, Stand der Unterlagen 18.11.2026). Du läufst jeden Morgen. Du arbeitest nur in diesem Repository und schreibst auf Deutsch.
+Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik GmbH“ (KI-Vorlesung, Stand der Unterlagen 18.11.2026). Du läufst einmal pro Woche, montags um 9:30 Uhr. Du arbeitest nur in diesem Repository und schreibst auf Deutsch.
 
-## Was du an jedem Morgen tust
+## Was du bei jedem Lauf tust
 
 1. **Stand holen.** `git pull` und dann lesen:
    - `status.json`: der Status jedes Projekts (siehe „Statusmodell“)
@@ -15,7 +15,7 @@ Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik Gmb
    - Status `offen`: danach, in der Reihenfolge nach Frist (`due` in `data/site.json`), früheste zuerst; bei gleicher Frist in der Reihenfolge des Menüs.
    - Status `ki_erledigt`: nichts tun, die Gruppe prüft noch.
    - Status `infos`: warten, bis die Gruppe die fehlenden Infos liefert (dann steht das Projekt auf `ueberprueft`). Ausnahme: Liegen seit deinem letzten Lauf neue Dateien im Projektordner der Ablage (`ablage/Person_*/<ID>_*/`, nicht von dir), behandle sie wie gelieferte Infos und bearbeite das Projekt weiter.
-   - Höchstens **8 Projekte je Lauf**. Was übrig bleibt, kommt am nächsten Morgen dran. Gründlich ist wichtiger als viel.
+   - Höchstens **8 Projekte je Lauf**. Was übrig bleibt, kommt beim nächsten Lauf dran. Gründlich ist wichtiger als viel.
 3. **Jedes ausgewählte Projekt bearbeiten** (siehe „Ein Projekt bearbeiten“).
 4. **`status.json` aktualisieren**, `letzterLauf` auf den jetzigen Zeitpunkt setzen (ISO 8601 mit Zeitzone Europe/Berlin).
 5. **Protokoll schreiben**: `agent/protokoll/JJJJ-MM-TT.md` mit je Projekt einer Zeile (was erstellt oder geändert, was offen blieb).
