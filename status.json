@@ -151,7 +151,7 @@
    "person": 5
   },
   "A008": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 1,
    "ergebnis": [
     "ablage/Person_5/A008_Uebergabeliste_pruefen_und_Nachfolge_regel/KI_Ergebnis_A008_v1.md",
@@ -165,12 +165,32 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 1 erstellt"
+    },
+    {
+     "datum": "2026-11-20T09:00:09+01:00",
+     "von": "KI-Agent",
+     "art": "infos",
+     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
     }
    ],
-   "person": 5
+   "person": 5,
+   "benoetigt": [
+    {
+     "was": "Antwort von Torwinkel auf die Nachricht zu den Brandschutzklappen",
+     "von": "Torwinkel Gebäudeservice",
+     "wo": "Uebergaben/K65",
+     "bis": "30.11."
+    },
+    {
+     "was": "Abnahmevermerk und Rückfrage zum Protokoll 09384 (muss zur Klappen-Nachricht passen)",
+     "von": "Torwinkel (Florian Kunze)",
+     "wo": "Uebergaben/Abnahme_Wartung",
+     "bis": "25.11."
+    }
+   ]
   },
   "A014": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 1,
    "ergebnis": [
     "ablage/Person_4/A014_Hauschronik_1990_bis_2026_mit_Zusammenfueh/KI_Ergebnis_A014_v1.md",
@@ -184,12 +204,26 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 1 erstellt"
+    },
+    {
+     "datum": "2026-11-20T09:00:09+01:00",
+     "von": "KI-Agent",
+     "art": "infos",
+     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
     }
    ],
-   "person": 4
+   "person": 4,
+   "benoetigt": [
+    {
+     "was": "Abschnitte der Hauschronik der sieben anderen Gruppen (Werkraum, Kantbogen, Torwinkel, Raumlot, Thermenfeld, Richtgrund, Signalsteg)",
+     "von": "alle Gruppen",
+     "wo": "Uebergaben/K12",
+     "bis": "30.11."
+    }
+   ]
   },
   "A018": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 1,
    "ergebnis": [
     "ablage/Person_1/A018_Wartungsbericht_Lueftung_gegen_Auswertung/KI_Ergebnis_A018_v1.md",
@@ -203,12 +237,32 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 1 erstellt"
+    },
+    {
+     "datum": "2026-11-20T09:00:09+01:00",
+     "von": "KI-Agent",
+     "art": "infos",
+     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
     }
    ],
-   "person": 1
+   "person": 1,
+   "benoetigt": [
+    {
+     "was": "Antwort von Raumlot auf das Angebot bzw. die Mitteilung zum Kondensat",
+     "von": "Raumlot (Farid Mertens)",
+     "wo": "Uebergaben/K62",
+     "bis": "30.11."
+    },
+    {
+     "was": "Prüfauftrag zu den warmen Büros (für die Entscheidung, ob beide Themen verknüpft werden)",
+     "von": "Raumlot (Farid Mertens)",
+     "wo": "Uebergaben/K05",
+     "bis": "30.11."
+    }
+   ]
   },
   "A097": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 1,
    "ergebnis": [
     "ablage/Person_1/A097_Vortrag/KI_Ergebnis_A097_v1.md"
@@ -221,12 +275,32 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 1 erstellt"
+    },
+    {
+     "datum": "2026-11-20T09:00:09+01:00",
+     "von": "KI-Agent",
+     "art": "infos",
+     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
     }
    ],
-   "person": 1
+   "person": 1,
+   "benoetigt": [
+    {
+     "was": "Antworten in den acht Ordnern für die Liste „Antwort lag vor / fehlte“",
+     "von": "Kantbogen, Raumlot, Torwinkel, Thermenfeld, alle Gruppen",
+     "wo": "Uebergaben/K61–K65, Abnahme_Wartung, K05, K12",
+     "bis": "30.11."
+    },
+    {
+     "was": "Angebot von Signalsteg und Antwort von Konrad Elster (für Kais und Elenas Folienteil)",
+     "von": "Signalsteg (Konrad Elster)",
+     "wo": "Uebergaben/K64",
+     "bis": "27.11."
+    }
+   ]
   },
   "A161": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 1,
    "ergebnis": [
     "ablage/Person_2/A161_Offene_Rechnungen_Preisanpassung_und_Laufz/KI_Ergebnis_A161_v1.md",
@@ -240,12 +314,26 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 1 erstellt"
+    },
+    {
+     "datum": "2026-11-20T09:00:09+01:00",
+     "von": "KI-Agent",
+     "art": "infos",
+     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
     }
    ],
-   "person": 2
+   "person": 2,
+   "benoetigt": [
+    {
+     "was": "Antwort von Kantbogen auf das Schreiben (für den Vermerk)",
+     "von": "Kantbogen (Sophia Albrecht / Eva Brandt)",
+     "wo": "Uebergaben/K61",
+     "bis": "30.11."
+    }
+   ]
   },
   "A162": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 1,
    "ergebnis": [
     "ablage/Person_3/A162_Wartungstermine_2027_und_Abschaltungen_fes/KI_Ergebnis_A162_v1.md",
@@ -259,9 +347,29 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 1 erstellt"
+    },
+    {
+     "datum": "2026-11-20T09:00:09+01:00",
+     "von": "KI-Agent",
+     "art": "infos",
+     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
     }
    ],
-   "person": 3
+   "person": 3,
+   "benoetigt": [
+    {
+     "was": "Rückmeldung von Torwinkel, welche Termine 2027 mit Mietern oder anderen Firmen kollidieren",
+     "von": "Torwinkel (Ben Hecht)",
+     "wo": "Uebergaben/K63",
+     "bis": "30.11."
+    },
+    {
+     "was": "Abstimmungsnotiz zu den Terminen",
+     "von": "Thermenfeld Wärme und Wasser",
+     "wo": "Uebergaben/K63",
+     "bis": "30.11."
+    }
+   ]
   },
   "A163": {
    "status": "infos",
@@ -297,7 +405,7 @@
    ]
   },
   "A164": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 1,
    "ergebnis": [
     "ablage/Person_5/A164_Protokoll_09384_Rueckfrage_zur_Abnahme/KI_Ergebnis_A164_v1.md"
@@ -310,9 +418,23 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 1 erstellt"
+    },
+    {
+     "datum": "2026-11-20T09:00:09+01:00",
+     "von": "KI-Agent",
+     "art": "infos",
+     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
     }
    ],
-   "person": 5
+   "person": 5,
+   "benoetigt": [
+    {
+     "was": "Abnahmevermerk und Rückfrage zum Protokoll 09384",
+     "von": "Torwinkel (Florian Kunze)",
+     "wo": "Uebergaben/Abnahme_Wartung",
+     "bis": "25.11."
+    }
+   ]
   },
   "A165": {
    "status": "infos",
@@ -374,7 +496,7 @@
    ]
   },
   "UEB-AKTE": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 1,
    "ergebnis": [
     "ablage/Person_1/UEB-AKTE_Gemeinsame_Uebung/KI_Ergebnis_UEB-AKTE_v1.md"
@@ -387,12 +509,25 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 1 erstellt"
+    },
+    {
+     "datum": "2026-11-20T09:00:09+01:00",
+     "von": "KI-Agent",
+     "art": "infos",
+     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
     }
    ],
-   "person": 1
+   "person": 1,
+   "benoetigt": [
+    {
+     "was": "Auftrag der Übung „Akte Abfluss OG2 West“ mit allen zugehörigen Dateien",
+     "von": "Kursteam (Dozent)",
+     "wo": "00_Kurs/Uebung_akte_abfluss"
+    }
+   ]
   },
   "UEB-ZAEHLER": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 1,
    "ergebnis": [
     "ablage/Person_3/UEB-ZAEHLER_Gemeinsame_Aufgabe/KI_Ergebnis_UEB-ZAEHLER_v1.md"
@@ -405,9 +540,22 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 1 erstellt"
+    },
+    {
+     "datum": "2026-11-20T09:00:09+01:00",
+     "von": "KI-Agent",
+     "art": "infos",
+     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
     }
    ],
-   "person": 3
+   "person": 3,
+   "benoetigt": [
+    {
+     "was": "Auftrag der Aufgabe „Zählerfehler 8,4 Mio kWh“ mit den Daten (Zählerliste, Energiebericht 2026)",
+     "von": "Kursteam (Dozent)",
+     "wo": "00_Kurs/Uebung_zaehlerfehler"
+    }
+   ]
   }
  }
 }
