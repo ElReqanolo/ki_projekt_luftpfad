@@ -1,6 +1,6 @@
 {
  "version": 1,
- "letzterLauf": "2026-11-19T19:26:23+01:00",
+ "letzterLauf": "2026-11-20T08:57:21+01:00",
  "projekte": {
   "START": {
    "status": "ki_erledigt",
@@ -264,13 +264,37 @@
    "person": 3
   },
   "A163": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "infos",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_4/A163_Trendaufzeichnung_Forum/KI_Ergebnis_A163_v1.md",
+    "ablage/Person_4/A163_Trendaufzeichnung_Forum/KI_Ergebnis_A163_v1.csv"
+   ],
+   "hinweis": "Teilergebnis: Volumenstrom stimmt seit 30.10. (ca. 1.101 m³/h), aber die Zuluft hinter dem Lufterhitzer der EZ EG ist rund 7 K zu warm (23 statt 18 °C) bei Ventil 0 %; Entwurf Stellungnahme und Sofortmaßnahme liegen vor. Es fehlen die Antwort von Thermenfeld und das Angebot von Signalsteg (K64).",
    "feedback": [],
-   "verlauf": [],
-   "person": 4
+   "verlauf": [
+    {
+     "datum": "20.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt (Teilergebnis, Infos benötigt)"
+    }
+   ],
+   "person": 4,
+   "benoetigt": [
+    {
+     "was": "Antwort von Thermenfeld auf die Stellungnahme zum Forum",
+     "von": "Thermenfeld Wärme und Wasser GmbH",
+     "wo": "Uebergaben/K64",
+     "bis": "30.11."
+    },
+    {
+     "was": "Angebot von Signalsteg zur Raumklimamessung im Forum (Messplan, Kosten)",
+     "von": "Signalsteg Messtechnik GmbH (Konrad Elster)",
+     "wo": "Uebergaben/K64",
+     "bis": "27.11."
+    }
+   ]
   },
   "A164": {
    "status": "ki_erledigt",
@@ -291,22 +315,63 @@
    "person": 5
   },
   "A165": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "infos",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_3/A165_Pruefauftrag_der_Verwaltung/KI_Ergebnis_A165_v1.md",
+    "ablage/Person_3/A165_Pruefauftrag_der_Verwaltung/KI_Ergebnis_A165_v1.csv"
+   ],
+   "hinweis": "Teilergebnis: Einsatzbilanz fertig (80 Einsätze, 210,25 h, 19.197,69 EUR netto, Räume, Wiederholungen, Besteller, Messvorschlag). Die Antwort je Frage folgt, sobald der Prüfauftrag von Raumlot in K05 liegt; Ursache und Offenlegung entscheiden Selim und Henrike.",
    "feedback": [],
-   "verlauf": [],
-   "person": 3
+   "verlauf": [
+    {
+     "datum": "20.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt (Teilergebnis, Infos benötigt)"
+    }
+   ],
+   "person": 3,
+   "benoetigt": [
+    {
+     "was": "Prüfauftrag von Raumlot zu den zu warmen Büros (höchstens fünf Fragen)",
+     "von": "Raumlot Objektmanagement (Farid Mertens)",
+     "wo": "Uebergaben/K05",
+     "bis": "30.11."
+    }
+   ]
   },
   "A166": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "infos",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_2/A166_Regierechnung_Forum_Messung_und_Nachweise/KI_Ergebnis_A166_v1.md",
+    "ablage/Person_2/A166_Regierechnung_Forum_Messung_und_Nachweise/KI_Ergebnis_A166_v1.csv"
+   ],
+   "hinweis": "Teilergebnis: Prüfung 2026-1182 (keinem Forum-Einsatz zuzuordnen, Vorschlag zurückziehen und korrigiert neu ausstellen) und Vermerk Nachweise §§ 7/8/10 fertig. Teil 2 (Messangebot) wartet auf das Angebot von Signalsteg (K64, 27.11.) und die Bestellangabe von Raumlot.",
    "feedback": [],
-   "verlauf": [],
-   "person": 2
+   "verlauf": [
+    {
+     "datum": "20.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt (Teilergebnis, Infos benötigt)"
+    }
+   ],
+   "person": 2,
+   "benoetigt": [
+    {
+     "was": "Angebot von Signalsteg für die Messung im Forum",
+     "von": "Signalsteg (Konrad Elster)",
+     "wo": "Uebergaben/K64",
+     "bis": "27.11."
+    },
+    {
+     "was": "Rückmeldung, wer den Einsatz am Forum-Regler am 30.10.2026 bestellt hat, mit Bestellnummer (Rechnung 2026-1182)",
+     "von": "Raumlot (Jonas Heller/Farid Mertens)",
+     "wo": "Kurschat Objektwelt"
+    }
+   ]
   },
   "UEB-AKTE": {
    "status": "ki_erledigt",
@@ -327,12 +392,21 @@
    "person": 1
   },
   "UEB-ZAEHLER": {
-   "status": "offen",
-   "runde": 0,
-   "ergebnis": [],
-   "hinweis": "",
+   "status": "ki_erledigt",
+   "runde": 1,
+   "ergebnis": [
+    "ablage/Person_3/UEB-ZAEHLER_Gemeinsame_Aufgabe/KI_Ergebnis_UEB-ZAEHLER_v1.md"
+   ],
+   "hinweis": "Nur Organisationsblatt (Rollen, Ablage, Gliederung Prüfprotokoll, Folienaufbau): Auftrag, Zählerdaten und Energiebericht 2026 liegen im Kursteam (00_Kurs/Uebung_zaehlerfehler), nicht im Repository; die Aufgabe führt die Gruppe selbst.",
    "feedback": [],
-   "verlauf": [],
+   "verlauf": [
+    {
+     "datum": "20.11.2026",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 1 erstellt"
+    }
+   ],
    "person": 3
   }
  }

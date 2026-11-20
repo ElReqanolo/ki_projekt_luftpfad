@@ -1,0 +1,7 @@
+Zeile;Ticket;gemeldet;Meldung;Auftragsnummer;Besteller;Bestellgrenze EUR;Einsatz am;Std Monteur;Satz EUR;Anfahrt EUR;Material EUR;Netto EUR (Liste);Netto EUR (nachgerechnet);Rechnung;Status;Quelle
+29;TKT-112551;19.07.2025;Büro im EG Forum zu warm;AUF-2497;Torwinkel, Haustechniker;500;19.07.2025;3,75;63,91;50,55;62,71;352,92;352,92;2025/1358;bezahlt;Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx, Blatt Einsaetze, Zeile 29
+56;TKT-113267;07.07.2026;Raum EG Forum heizt sich auf;AUF-2624;Torwinkel, Haustechniker;500;16.07.2026;3,75;65,24;51,60;;296,25;296,25;2026/3291;bezahlt;Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx, Blatt Einsaetze, Zeile 56
+65;TKT-113299;22.07.2026;Temperatur EG Forum über 27 Grad;AUF-2629;Torwinkel, FM-Objektleitung;200;28.07.2026;1,25;65,24;51,60;;133,15;133,15;2026/3296;bezahlt;Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx, Blatt Einsaetze, Zeile 65
+82;TKT-113367;23.08.2026;Raum EG Forum heizt sich auf;AUF-2651;Torwinkel, FM-Objektleitung;200;24.08.2026;1,25;65,24;51,60;;133,15;133,15;2026/3317;bezahlt;Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx, Blatt Einsaetze, Zeile 82
+;2026-1182 (zum Vergleich);;Regie Forum;fehlt;nicht belegt;;;;;;;833,00;;2026-1182;offen;OP_Kantbogen_Stand_2026-11-18.xlsx, Zeile 11
+;Summe Forum-Einsätze laut Liste (4);;;;;;;;;;;915,47;;;;
