@@ -1,561 +1,561 @@
 {
- "version": 1,
- "letzterLauf": "2026-11-20T08:57:21+01:00",
- "projekte": {
-  "START": {
-   "status": "ki_erledigt",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_2/START_Startfrage/KI_Ergebnis_START_v1.md",
-    "ablage/Person_2/START_Startfrage/KI_Ergebnis_START_v1.csv"
-   ],
-   "hinweis": "Nach Vertrag § 16 (30 Tage nach Zugang) gerechnet: 3.767,43 EUR brutto fällig und unbezahlt am 18.11.2026, 1.287,84 EUR noch nicht fällig (2026/3329, 2026-1182, ab 02.12.), Gesamtstand 5.055,27 EUR. Offen: tatsächlicher Zugangstag der Rechnungen (v. a. 2026/3328), erste KI-Antwort aus dem eigenen Chat, eigene Prüfung und Folie.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
-    }
-   ],
-   "person": 2
-  },
-  "A001": {
-   "status": "ki_erledigt",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_3/A001_Projektmappe_fuer_die_eigene_Firma_anlegen/KI_Ergebnis_A001_v1.md"
-   ],
-   "hinweis": "START-Entwurf mit Rolle im Haus, fünf Personen, vier Gegenfirmen und Fundstellen, Ordnerstruktur und Protokollköpfe. Offen: Rückmeldungen der Personen bis 25.11., Ordner anlegen, Bildschirmfoto.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
-    }
-   ],
-   "person": 3
-  },
-  "A002": {
-   "status": "ki_erledigt",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_2/A002_Unsere_Firma_auf_einer_Seite/KI_Ergebnis_A002_v1.md"
-   ],
-   "hinweis": "Seite mit 15 belegten Sätzen (233 Wörter) und Liste von 9 Widersprüchen (u. a. HRB 24559 von 2002, drei Anfangsdaten Absauganlage). Offen: Satzabgleich durch Kai, Bildschirmfotos, Antwort Kantbogen am 1.12.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
-    }
-   ],
-   "person": 2
-  },
-  "A003": {
-   "status": "ki_erledigt",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_2/A003_Posteingang_sortieren/KI_Ergebnis_A003_v1.md",
-    "ablage/Person_2/A003_Posteingang_sortieren/KI_Ergebnis_A003_v1.csv"
-   ],
-   "hinweis": "Tabelle mit 18 Nachrichten (Einstufung, Zuständigkeit, Weiterlauf, Alter) und Notiz zu Mail Nr. 11 (Zusatz an automatische Verarbeitung nicht befolgt). Offen: Abstimmung mit Selim, Elena, Kevin und Bildschirmfotos.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
-    }
-   ],
-   "person": 2
-  },
-  "A004": {
-   "status": "ki_erledigt",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v1.md",
-    "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v1.csv"
-   ],
-   "hinweis": "Frage (Kündigungstermin VTR-1005), beide Fassungen und belegte Referenzantwort (Zugang bis 02.01.2027, Ende 02.04.2027). Offen: die zwei Chats selbst führen, Antworten unverändert sichern, Vergleich.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
-    }
-   ],
-   "person": 1
-  },
-  "A005": {
-   "status": "ki_erledigt",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_3/A005_Wer_ist_wer_im_Haus/KI_Ergebnis_A005_v1.md"
-   ],
-   "hinweis": "Karte mit sechs Gruppen, Ansprechpersonen mit Stand, direkt/über mit Beleg, 8 Widersprüche und Lücken. Offen: Einordnung durch die Gruppe, Abgleich mit Kevin (A007), Ansprechpersonen der Mieter.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
-    }
-   ],
-   "person": 3
-  },
-  "A006": {
-   "status": "ki_erledigt",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_5/A006_Rundgang_als_Sprachnotiz/KI_Ergebnis_A006_v1.md"
-   ],
-   "hinweis": "Nur Planauswertung: Treppen-/Aufzugsnummern, Technikräume, Lücken (Eingang und Etagenzentrale im Plan nicht beschriftet). Offen: Ziele von Elena und Selim, Sprachnotiz, Abschrift, Weg am Plan.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
-    }
-   ],
-   "person": 5
-  },
-  "A007": {
-   "status": "ki_erledigt",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_5/A007_Was_ohne_Uebergabe_liegen_geblieben_ist/KI_Ergebnis_A007_v1.md",
-    "ablage/Person_5/A007_Was_ohne_Uebergabe_liegen_geblieben_ist/KI_Ergebnis_A007_v1.csv"
-   ],
-   "hinweis": "Tabelle mit 23 offenen Punkten, Liste „erwartet, aber nicht gefunden“ samt Suche nach Wartungsnachweisen (CSV), 10 Widersprüche und Vorschlag für die ersten drei Punkte. Offen: Bestätigung durch Kai (A161) und Selim (A162/A165), Bildschirmfotos, Reihenfolge (Behalten).",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
-    }
-   ],
-   "person": 5
-  },
-  "A008": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_5/A008_Uebergabeliste_pruefen_und_Nachfolge_regel/KI_Ergebnis_A008_v1.md",
-    "ablage/Person_5/A008_Uebergabeliste_pruefen_und_Nachfolge_regel/KI_Ergebnis_A008_v1.csv"
-   ],
-   "hinweis": "Geprüfte Übergabeliste (25 Punkte, 10 offen, CSV), Gegenüberstellung der Klappenprotokolle 07666/08486/09267, Entwurf der Nachricht an Torwinkel, Stichworte fürs Gruppengespräch. Offen: Antwort Torwinkel in K65 (bis 30.11.) und Vermerk, Entscheidungen mit Henrike/Kai, Zuteilung, Bildschirmfotos.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
+  "version": 1,
+  "letzterLauf": "2026-11-23T00:39:08+01:00",
+  "projekte": {
+    "START": {
+      "status": "ki_erledigt",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_2/START_Startfrage/KI_Ergebnis_START_v1.md",
+        "ablage/Person_2/START_Startfrage/KI_Ergebnis_START_v1.csv"
+      ],
+      "hinweis": "Nach Vertrag § 16 (30 Tage nach Zugang) gerechnet: 3.767,43 EUR brutto fällig und unbezahlt am 18.11.2026, 1.287,84 EUR noch nicht fällig (2026/3329, 2026-1182, ab 02.12.), Gesamtstand 5.055,27 EUR. Offen: tatsächlicher Zugangstag der Rechnungen (v. a. 2026/3328), erste KI-Antwort aus dem eigenen Chat, eigene Prüfung und Folie.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        }
+      ],
+      "person": 2
     },
-    {
-     "datum": "2026-11-20T09:00:09+01:00",
-     "von": "KI-Agent",
-     "art": "infos",
-     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
-    }
-   ],
-   "person": 5,
-   "benoetigt": [
-    {
-     "was": "Antwort von Torwinkel auf die Nachricht zu den Brandschutzklappen",
-     "von": "Torwinkel Gebäudeservice",
-     "wo": "Uebergaben/K65",
-     "bis": "30.11."
+    "A001": {
+      "status": "ki_erledigt",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_3/A001_Projektmappe_fuer_die_eigene_Firma_anlegen/KI_Ergebnis_A001_v1.md"
+      ],
+      "hinweis": "START-Entwurf mit Rolle im Haus, fünf Personen, vier Gegenfirmen und Fundstellen, Ordnerstruktur und Protokollköpfe. Offen: Rückmeldungen der Personen bis 25.11., Ordner anlegen, Bildschirmfoto.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        }
+      ],
+      "person": 3
     },
-    {
-     "was": "Abnahmevermerk und Rückfrage zum Protokoll 09384 (muss zur Klappen-Nachricht passen)",
-     "von": "Torwinkel (Florian Kunze)",
-     "wo": "Uebergaben/Abnahme_Wartung",
-     "bis": "25.11."
-    }
-   ]
-  },
-  "A014": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_4/A014_Hauschronik_1990_bis_2026_mit_Zusammenfueh/KI_Ergebnis_A014_v1.md",
-    "ablage/Person_4/A014_Hauschronik_1990_bis_2026_mit_Zusammenfueh/KI_Ergebnis_A014_v1.csv"
-   ],
-   "hinweis": "Eigener Abschnitt 2008–2012 mit 11 belegten Ereignissen aus 9 Akten (2 strittig, CSV), Entwürfe für Vorlage, Kurschat-Nachricht, Chronik-Gerüst, Widerspruchsliste und Vermerk. Offen: Belegprüfung und Widerspruchsentscheidungen durch Elena, Abschicken bis 25.11., Abschnitte der anderen sieben Gruppen in K12.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
+    "A002": {
+      "status": "ki_erledigt",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_2/A002_Unsere_Firma_auf_einer_Seite/KI_Ergebnis_A002_v1.md"
+      ],
+      "hinweis": "Seite mit 15 belegten Sätzen (233 Wörter) und Liste von 9 Widersprüchen (u. a. HRB 24559 von 2002, drei Anfangsdaten Absauganlage). Offen: Satzabgleich durch Kai, Bildschirmfotos, Antwort Kantbogen am 1.12.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        }
+      ],
+      "person": 2
     },
-    {
-     "datum": "2026-11-20T09:00:09+01:00",
-     "von": "KI-Agent",
-     "art": "infos",
-     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
-    }
-   ],
-   "person": 4,
-   "benoetigt": [
-    {
-     "was": "Abschnitte der Hauschronik der sieben anderen Gruppen (Werkraum, Kantbogen, Torwinkel, Raumlot, Thermenfeld, Richtgrund, Signalsteg)",
-     "von": "alle Gruppen",
-     "wo": "Uebergaben/K12",
-     "bis": "30.11."
-    }
-   ]
-  },
-  "A018": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_1/A018_Wartungsbericht_Lueftung_gegen_Auswertung/KI_Ergebnis_A018_v1.md",
-    "ablage/Person_1/A018_Wartungsbericht_Lueftung_gegen_Auswertung/KI_Ergebnis_A018_v1.csv"
-   ],
-   "hinweis": "Zusammenfassung von 04.21.04.182 mit vorgeschlagenem Urteil je Satz, Abgleich mit 09384 (andere Anlage AST-100167!), Vertragsaufstellung und Angebotsentwurf an Raumlot (8 × (1,0 h × 65,24 + 51,60) = 934,72 EUR netto/Jahr, Varianten in CSV). Offen: Henrikes Satzprüfung, Preisentscheidung, Unterschriften, Ablage in K62 bis 25.11., Antworten K62/K05.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
+    "A003": {
+      "status": "ki_erledigt",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_2/A003_Posteingang_sortieren/KI_Ergebnis_A003_v1.md",
+        "ablage/Person_2/A003_Posteingang_sortieren/KI_Ergebnis_A003_v1.csv"
+      ],
+      "hinweis": "Tabelle mit 18 Nachrichten (Einstufung, Zuständigkeit, Weiterlauf, Alter) und Notiz zu Mail Nr. 11 (Zusatz an automatische Verarbeitung nicht befolgt). Offen: Abstimmung mit Selim, Elena, Kevin und Bildschirmfotos.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        }
+      ],
+      "person": 2
     },
-    {
-     "datum": "2026-11-20T09:00:09+01:00",
-     "von": "KI-Agent",
-     "art": "infos",
-     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
-    }
-   ],
-   "person": 1,
-   "benoetigt": [
-    {
-     "was": "Antwort von Raumlot auf das Angebot bzw. die Mitteilung zum Kondensat",
-     "von": "Raumlot (Farid Mertens)",
-     "wo": "Uebergaben/K62",
-     "bis": "30.11."
+    "A004": {
+      "status": "ki_erledigt",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v1.md",
+        "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v1.csv"
+      ],
+      "hinweis": "Frage (Kündigungstermin VTR-1005), beide Fassungen und belegte Referenzantwort (Zugang bis 02.01.2027, Ende 02.04.2027). Offen: die zwei Chats selbst führen, Antworten unverändert sichern, Vergleich.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        }
+      ],
+      "person": 1
     },
-    {
-     "was": "Prüfauftrag zu den warmen Büros (für die Entscheidung, ob beide Themen verknüpft werden)",
-     "von": "Raumlot (Farid Mertens)",
-     "wo": "Uebergaben/K05",
-     "bis": "30.11."
-    }
-   ]
-  },
-  "A097": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_1/A097_Vortrag/KI_Ergebnis_A097_v1.md"
-   ],
-   "hinweis": "Folienplan für 8 Folien mit Sprechern und Stand, Personenteile mit belegten Bausteinen, Gerüst Zählerfehler-Folie, Kandidaten „KI geprüft“, Ordnerliste, Zeitplan. Offen: Stücke aus A163/A165/A166, Antworten der acht Ordner, Zählerfehler-Ergebnis, Auswahl und Vortrag selbst; Folienplan mit den heute erstellten Ergebnissen abgleichen.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
+    "A005": {
+      "status": "ki_erledigt",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_3/A005_Wer_ist_wer_im_Haus/KI_Ergebnis_A005_v1.md"
+      ],
+      "hinweis": "Karte mit sechs Gruppen, Ansprechpersonen mit Stand, direkt/über mit Beleg, 8 Widersprüche und Lücken. Offen: Einordnung durch die Gruppe, Abgleich mit Kevin (A007), Ansprechpersonen der Mieter.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        }
+      ],
+      "person": 3
     },
-    {
-     "datum": "2026-11-20T09:00:09+01:00",
-     "von": "KI-Agent",
-     "art": "infos",
-     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
-    }
-   ],
-   "person": 1,
-   "benoetigt": [
-    {
-     "was": "Antworten in den acht Ordnern für die Liste „Antwort lag vor / fehlte“",
-     "von": "Kantbogen, Raumlot, Torwinkel, Thermenfeld, alle Gruppen",
-     "wo": "Uebergaben/K61–K65, Abnahme_Wartung, K05, K12",
-     "bis": "30.11."
+    "A006": {
+      "status": "ki_erledigt",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_5/A006_Rundgang_als_Sprachnotiz/KI_Ergebnis_A006_v1.md"
+      ],
+      "hinweis": "Nur Planauswertung: Treppen-/Aufzugsnummern, Technikräume, Lücken (Eingang und Etagenzentrale im Plan nicht beschriftet). Offen: Ziele von Elena und Selim, Sprachnotiz, Abschrift, Weg am Plan.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        }
+      ],
+      "person": 5
     },
-    {
-     "was": "Angebot von Signalsteg und Antwort von Konrad Elster (für Kais und Elenas Folienteil)",
-     "von": "Signalsteg (Konrad Elster)",
-     "wo": "Uebergaben/K64",
-     "bis": "27.11."
-    }
-   ]
-  },
-  "A161": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_2/A161_Offene_Rechnungen_Preisanpassung_und_Laufz/KI_Ergebnis_A161_v1.md",
-    "ablage/Person_2/A161_Offene_Rechnungen_Preisanpassung_und_Laufz/KI_Ergebnis_A161_v1.csv"
-   ],
-   "hinweis": "OP-Abgleich (fällig 3.767,43 EUR, gesamt 5.055,27 EUR brutto), Verzugszins 2026/3322, Laufzeit (Kündigung bis 02.01.2027 zum 02.04.2027), Entwürfe an Jasmin Ebert und Kantbogen (CSV). Offen: Satz 2027 nach § 4 (Reihen Tariflohn/Erzeugerpreise fehlen), Basiszins amtlich prüfen, Antwort Kantbogen K61, Entscheidungen und Unterschriften.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
+    "A007": {
+      "status": "ki_erledigt",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_5/A007_Was_ohne_Uebergabe_liegen_geblieben_ist/KI_Ergebnis_A007_v1.md",
+        "ablage/Person_5/A007_Was_ohne_Uebergabe_liegen_geblieben_ist/KI_Ergebnis_A007_v1.csv"
+      ],
+      "hinweis": "Tabelle mit 23 offenen Punkten, Liste „erwartet, aber nicht gefunden“ samt Suche nach Wartungsnachweisen (CSV), 10 Widersprüche und Vorschlag für die ersten drei Punkte. Offen: Bestätigung durch Kai (A161) und Selim (A162/A165), Bildschirmfotos, Reihenfolge (Behalten).",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        }
+      ],
+      "person": 5
     },
-    {
-     "datum": "2026-11-20T09:00:09+01:00",
-     "von": "KI-Agent",
-     "art": "infos",
-     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
-    }
-   ],
-   "person": 2,
-   "benoetigt": [
-    {
-     "was": "Antwort von Kantbogen auf das Schreiben (für den Vermerk)",
-     "von": "Kantbogen (Sophia Albrecht / Eva Brandt)",
-     "wo": "Uebergaben/K61",
-     "bis": "30.11."
-    }
-   ]
-  },
-  "A162": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_3/A162_Wartungstermine_2027_und_Abschaltungen_fes/KI_Ergebnis_A162_v1.md",
-    "ablage/Person_3/A162_Wartungstermine_2027_und_Abschaltungen_fes/KI_Ergebnis_A162_v1.csv"
-   ],
-   "hinweis": "Terminplan 2027 als Vorschlag (99 Positionen, CSV), Einsätze je Monat nach zwei Zählbasen, Sommerreserve 100 h, drei heikle Septembertermine, 13 Abweichungen. Offen: Festlegung von Terminen, Reserve und Personal, fehlende Dauern, Rückmeldungen Torwinkel/Thermenfeld (K63, 30.11.), PDF bis 25.11.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
+    "A008": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_5/A008_Uebergabeliste_pruefen_und_Nachfolge_regel/KI_Ergebnis_A008_v1.md",
+        "ablage/Person_5/A008_Uebergabeliste_pruefen_und_Nachfolge_regel/KI_Ergebnis_A008_v1.csv"
+      ],
+      "hinweis": "Geprüfte Übergabeliste (25 Punkte, 10 offen, CSV), Gegenüberstellung der Klappenprotokolle 07666/08486/09267, Entwurf der Nachricht an Torwinkel, Stichworte fürs Gruppengespräch. Offen: Antwort Torwinkel in K65 (bis 30.11.) und Vermerk, Entscheidungen mit Henrike/Kai, Zuteilung, Bildschirmfotos.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        },
+        {
+          "datum": "2026-11-20T09:00:09+01:00",
+          "von": "KI-Agent",
+          "art": "infos",
+          "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+        }
+      ],
+      "person": 5,
+      "benoetigt": [
+        {
+          "was": "Antwort von Torwinkel auf die Nachricht zu den Brandschutzklappen",
+          "von": "Torwinkel Gebäudeservice",
+          "wo": "Uebergaben/K65",
+          "bis": "30.11."
+        },
+        {
+          "was": "Abnahmevermerk und Rückfrage zum Protokoll 09384 (muss zur Klappen-Nachricht passen)",
+          "von": "Torwinkel (Florian Kunze)",
+          "wo": "Uebergaben/Abnahme_Wartung",
+          "bis": "25.11."
+        }
+      ]
     },
-    {
-     "datum": "2026-11-20T09:00:09+01:00",
-     "von": "KI-Agent",
-     "art": "infos",
-     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
-    }
-   ],
-   "person": 3,
-   "benoetigt": [
-    {
-     "was": "Rückmeldung von Torwinkel, welche Termine 2027 mit Mietern oder anderen Firmen kollidieren",
-     "von": "Torwinkel (Ben Hecht)",
-     "wo": "Uebergaben/K63",
-     "bis": "30.11."
+    "A014": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_4/A014_Hauschronik_1990_bis_2026_mit_Zusammenfueh/KI_Ergebnis_A014_v1.md",
+        "ablage/Person_4/A014_Hauschronik_1990_bis_2026_mit_Zusammenfueh/KI_Ergebnis_A014_v1.csv"
+      ],
+      "hinweis": "Eigener Abschnitt 2008–2012 mit 11 belegten Ereignissen aus 9 Akten (2 strittig, CSV), Entwürfe für Vorlage, Kurschat-Nachricht, Chronik-Gerüst, Widerspruchsliste und Vermerk. Offen: Belegprüfung und Widerspruchsentscheidungen durch Elena, Abschicken bis 25.11., Abschnitte der anderen sieben Gruppen in K12.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        },
+        {
+          "datum": "2026-11-20T09:00:09+01:00",
+          "von": "KI-Agent",
+          "art": "infos",
+          "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+        }
+      ],
+      "person": 4,
+      "benoetigt": [
+        {
+          "was": "Abschnitte der Hauschronik der sieben anderen Gruppen (Werkraum, Kantbogen, Torwinkel, Raumlot, Thermenfeld, Richtgrund, Signalsteg)",
+          "von": "alle Gruppen",
+          "wo": "Uebergaben/K12",
+          "bis": "30.11."
+        }
+      ]
     },
-    {
-     "was": "Abstimmungsnotiz zu den Terminen",
-     "von": "Thermenfeld Wärme und Wasser",
-     "wo": "Uebergaben/K63",
-     "bis": "30.11."
-    }
-   ]
-  },
-  "A163": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_4/A163_Trendaufzeichnung_Forum/KI_Ergebnis_A163_v1.md",
-    "ablage/Person_4/A163_Trendaufzeichnung_Forum/KI_Ergebnis_A163_v1.csv"
-   ],
-   "hinweis": "Teilergebnis: Volumenstrom stimmt seit 30.10. (ca. 1.101 m³/h), aber die Zuluft hinter dem Lufterhitzer der EZ EG ist rund 7 K zu warm (23 statt 18 °C) bei Ventil 0 %; Entwurf Stellungnahme und Sofortmaßnahme liegen vor. Es fehlen die Antwort von Thermenfeld und das Angebot von Signalsteg (K64).",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "20.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt (Teilergebnis, Infos benötigt)"
-    }
-   ],
-   "person": 4,
-   "benoetigt": [
-    {
-     "was": "Antwort von Thermenfeld auf die Stellungnahme zum Forum",
-     "von": "Thermenfeld Wärme und Wasser GmbH",
-     "wo": "Uebergaben/K64",
-     "bis": "30.11."
+    "A018": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_1/A018_Wartungsbericht_Lueftung_gegen_Auswertung/KI_Ergebnis_A018_v1.md",
+        "ablage/Person_1/A018_Wartungsbericht_Lueftung_gegen_Auswertung/KI_Ergebnis_A018_v1.csv"
+      ],
+      "hinweis": "Zusammenfassung von 04.21.04.182 mit vorgeschlagenem Urteil je Satz, Abgleich mit 09384 (andere Anlage AST-100167!), Vertragsaufstellung und Angebotsentwurf an Raumlot (8 × (1,0 h × 65,24 + 51,60) = 934,72 EUR netto/Jahr, Varianten in CSV). Offen: Henrikes Satzprüfung, Preisentscheidung, Unterschriften, Ablage in K62 bis 25.11., Antworten K62/K05.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        },
+        {
+          "datum": "2026-11-20T09:00:09+01:00",
+          "von": "KI-Agent",
+          "art": "infos",
+          "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+        }
+      ],
+      "person": 1,
+      "benoetigt": [
+        {
+          "was": "Antwort von Raumlot auf das Angebot bzw. die Mitteilung zum Kondensat",
+          "von": "Raumlot (Farid Mertens)",
+          "wo": "Uebergaben/K62",
+          "bis": "30.11."
+        },
+        {
+          "was": "Prüfauftrag zu den warmen Büros (für die Entscheidung, ob beide Themen verknüpft werden)",
+          "von": "Raumlot (Farid Mertens)",
+          "wo": "Uebergaben/K05",
+          "bis": "30.11."
+        }
+      ]
     },
-    {
-     "was": "Angebot von Signalsteg zur Raumklimamessung im Forum (Messplan, Kosten)",
-     "von": "Signalsteg Messtechnik GmbH (Konrad Elster)",
-     "wo": "Uebergaben/K64",
-     "bis": "27.11."
-    }
-   ]
-  },
-  "A164": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_5/A164_Protokoll_09384_Rueckfrage_zur_Abnahme/KI_Ergebnis_A164_v1.md"
-   ],
-   "hinweis": "Prüfvermerk Zeile für Zeile, Gegenüberstellung 09384/08988/09272 und Entwürfe für Torwinkel und Kai sind fertig (vier Zeilen gehören nicht zum Regler). Offen: Rückfrage von Torwinkel ab 25.11., Entscheidung mit Henrike, Angebotsdatum, Abgleich mit A008.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
+    "A097": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_1/A097_Vortrag/KI_Ergebnis_A097_v1.md"
+      ],
+      "hinweis": "Folienplan für 8 Folien mit Sprechern und Stand, Personenteile mit belegten Bausteinen, Gerüst Zählerfehler-Folie, Kandidaten „KI geprüft“, Ordnerliste, Zeitplan. Offen: Stücke aus A163/A165/A166, Antworten der acht Ordner, Zählerfehler-Ergebnis, Auswahl und Vortrag selbst; Folienplan mit den heute erstellten Ergebnissen abgleichen.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        },
+        {
+          "datum": "2026-11-20T09:00:09+01:00",
+          "von": "KI-Agent",
+          "art": "infos",
+          "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+        }
+      ],
+      "person": 1,
+      "benoetigt": [
+        {
+          "was": "Antworten in den acht Ordnern für die Liste „Antwort lag vor / fehlte“",
+          "von": "Kantbogen, Raumlot, Torwinkel, Thermenfeld, alle Gruppen",
+          "wo": "Uebergaben/K61–K65, Abnahme_Wartung, K05, K12",
+          "bis": "30.11."
+        },
+        {
+          "was": "Angebot von Signalsteg und Antwort von Konrad Elster (für Kais und Elenas Folienteil)",
+          "von": "Signalsteg (Konrad Elster)",
+          "wo": "Uebergaben/K64",
+          "bis": "27.11."
+        }
+      ]
     },
-    {
-     "datum": "2026-11-20T09:00:09+01:00",
-     "von": "KI-Agent",
-     "art": "infos",
-     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
-    }
-   ],
-   "person": 5,
-   "benoetigt": [
-    {
-     "was": "Abnahmevermerk und Rückfrage zum Protokoll 09384",
-     "von": "Torwinkel (Florian Kunze)",
-     "wo": "Uebergaben/Abnahme_Wartung",
-     "bis": "25.11."
-    }
-   ]
-  },
-  "A165": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_3/A165_Pruefauftrag_der_Verwaltung/KI_Ergebnis_A165_v1.md",
-    "ablage/Person_3/A165_Pruefauftrag_der_Verwaltung/KI_Ergebnis_A165_v1.csv"
-   ],
-   "hinweis": "Teilergebnis: Einsatzbilanz fertig (80 Einsätze, 210,25 h, 19.197,69 EUR netto, Räume, Wiederholungen, Besteller, Messvorschlag). Die Antwort je Frage folgt, sobald der Prüfauftrag von Raumlot in K05 liegt; Ursache und Offenlegung entscheiden Selim und Henrike.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "20.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt (Teilergebnis, Infos benötigt)"
-    }
-   ],
-   "person": 3,
-   "benoetigt": [
-    {
-     "was": "Prüfauftrag von Raumlot zu den zu warmen Büros (höchstens fünf Fragen)",
-     "von": "Raumlot Objektmanagement (Farid Mertens)",
-     "wo": "Uebergaben/K05",
-     "bis": "30.11."
-    }
-   ]
-  },
-  "A166": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_2/A166_Regierechnung_Forum_Messung_und_Nachweise/KI_Ergebnis_A166_v1.md",
-    "ablage/Person_2/A166_Regierechnung_Forum_Messung_und_Nachweise/KI_Ergebnis_A166_v1.csv"
-   ],
-   "hinweis": "Teilergebnis: Prüfung 2026-1182 (keinem Forum-Einsatz zuzuordnen, Vorschlag zurückziehen und korrigiert neu ausstellen) und Vermerk Nachweise §§ 7/8/10 fertig. Teil 2 (Messangebot) wartet auf das Angebot von Signalsteg (K64, 27.11.) und die Bestellangabe von Raumlot.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "20.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt (Teilergebnis, Infos benötigt)"
-    }
-   ],
-   "person": 2,
-   "benoetigt": [
-    {
-     "was": "Angebot von Signalsteg für die Messung im Forum",
-     "von": "Signalsteg (Konrad Elster)",
-     "wo": "Uebergaben/K64",
-     "bis": "27.11."
+    "A161": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_2/A161_Offene_Rechnungen_Preisanpassung_und_Laufz/KI_Ergebnis_A161_v1.md",
+        "ablage/Person_2/A161_Offene_Rechnungen_Preisanpassung_und_Laufz/KI_Ergebnis_A161_v1.csv"
+      ],
+      "hinweis": "OP-Abgleich (fällig 3.767,43 EUR, gesamt 5.055,27 EUR brutto), Verzugszins 2026/3322, Laufzeit (Kündigung bis 02.01.2027 zum 02.04.2027), Entwürfe an Jasmin Ebert und Kantbogen (CSV). Offen: Satz 2027 nach § 4 (Reihen Tariflohn/Erzeugerpreise fehlen), Basiszins amtlich prüfen, Antwort Kantbogen K61, Entscheidungen und Unterschriften.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        },
+        {
+          "datum": "2026-11-20T09:00:09+01:00",
+          "von": "KI-Agent",
+          "art": "infos",
+          "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+        }
+      ],
+      "person": 2,
+      "benoetigt": [
+        {
+          "was": "Antwort von Kantbogen auf das Schreiben (für den Vermerk)",
+          "von": "Kantbogen (Sophia Albrecht / Eva Brandt)",
+          "wo": "Uebergaben/K61",
+          "bis": "30.11."
+        }
+      ]
     },
-    {
-     "was": "Rückmeldung, wer den Einsatz am Forum-Regler am 30.10.2026 bestellt hat, mit Bestellnummer (Rechnung 2026-1182)",
-     "von": "Raumlot (Jonas Heller/Farid Mertens)",
-     "wo": "Kurschat Objektwelt"
-    }
-   ]
-  },
-  "UEB-AKTE": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_1/UEB-AKTE_Gemeinsame_Uebung/KI_Ergebnis_UEB-AKTE_v1.md"
-   ],
-   "hinweis": "Nur Organisationsblatt (Rollen, Abgabe 25.11., Gliederung): Der Auftrag liegt im Kursteam und nicht im Repository, die Übung selbst führen die Paare.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "19.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
+    "A162": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_3/A162_Wartungstermine_2027_und_Abschaltungen_fes/KI_Ergebnis_A162_v1.md",
+        "ablage/Person_3/A162_Wartungstermine_2027_und_Abschaltungen_fes/KI_Ergebnis_A162_v1.csv"
+      ],
+      "hinweis": "Terminplan 2027 als Vorschlag (99 Positionen, CSV), Einsätze je Monat nach zwei Zählbasen, Sommerreserve 100 h, drei heikle Septembertermine, 13 Abweichungen. Offen: Festlegung von Terminen, Reserve und Personal, fehlende Dauern, Rückmeldungen Torwinkel/Thermenfeld (K63, 30.11.), PDF bis 25.11.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        },
+        {
+          "datum": "2026-11-20T09:00:09+01:00",
+          "von": "KI-Agent",
+          "art": "infos",
+          "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+        }
+      ],
+      "person": 3,
+      "benoetigt": [
+        {
+          "was": "Rückmeldung von Torwinkel, welche Termine 2027 mit Mietern oder anderen Firmen kollidieren",
+          "von": "Torwinkel (Ben Hecht)",
+          "wo": "Uebergaben/K63",
+          "bis": "30.11."
+        },
+        {
+          "was": "Abstimmungsnotiz zu den Terminen",
+          "von": "Thermenfeld Wärme und Wasser",
+          "wo": "Uebergaben/K63",
+          "bis": "30.11."
+        }
+      ]
     },
-    {
-     "datum": "2026-11-20T09:00:09+01:00",
-     "von": "KI-Agent",
-     "art": "infos",
-     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
-    }
-   ],
-   "person": 1,
-   "benoetigt": [
-    {
-     "was": "Auftrag der Übung „Akte Abfluss OG2 West“ mit allen zugehörigen Dateien",
-     "von": "Kursteam (Dozent)",
-     "wo": "00_Kurs/Uebung_akte_abfluss"
-    }
-   ]
-  },
-  "UEB-ZAEHLER": {
-   "status": "infos",
-   "runde": 1,
-   "ergebnis": [
-    "ablage/Person_3/UEB-ZAEHLER_Gemeinsame_Aufgabe/KI_Ergebnis_UEB-ZAEHLER_v1.md"
-   ],
-   "hinweis": "Nur Organisationsblatt (Rollen, Ablage, Gliederung Prüfprotokoll, Folienaufbau): Auftrag, Zählerdaten und Energiebericht 2026 liegen im Kursteam (00_Kurs/Uebung_zaehlerfehler), nicht im Repository; die Aufgabe führt die Gruppe selbst.",
-   "feedback": [],
-   "verlauf": [
-    {
-     "datum": "20.11.2026",
-     "von": "KI-Agent",
-     "art": "ki",
-     "text": "Runde 1 erstellt"
+    "A163": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_4/A163_Trendaufzeichnung_Forum/KI_Ergebnis_A163_v1.md",
+        "ablage/Person_4/A163_Trendaufzeichnung_Forum/KI_Ergebnis_A163_v1.csv"
+      ],
+      "hinweis": "Teilergebnis: Volumenstrom stimmt seit 30.10. (ca. 1.101 m³/h), aber die Zuluft hinter dem Lufterhitzer der EZ EG ist rund 7 K zu warm (23 statt 18 °C) bei Ventil 0 %; Entwurf Stellungnahme und Sofortmaßnahme liegen vor. Es fehlen die Antwort von Thermenfeld und das Angebot von Signalsteg (K64).",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "20.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt (Teilergebnis, Infos benötigt)"
+        }
+      ],
+      "person": 4,
+      "benoetigt": [
+        {
+          "was": "Antwort von Thermenfeld auf die Stellungnahme zum Forum",
+          "von": "Thermenfeld Wärme und Wasser GmbH",
+          "wo": "Uebergaben/K64",
+          "bis": "30.11."
+        },
+        {
+          "was": "Angebot von Signalsteg zur Raumklimamessung im Forum (Messplan, Kosten)",
+          "von": "Signalsteg Messtechnik GmbH (Konrad Elster)",
+          "wo": "Uebergaben/K64",
+          "bis": "27.11."
+        }
+      ]
     },
-    {
-     "datum": "2026-11-20T09:00:09+01:00",
-     "von": "KI-Agent",
-     "art": "infos",
-     "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+    "A164": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_5/A164_Protokoll_09384_Rueckfrage_zur_Abnahme/KI_Ergebnis_A164_v1.md"
+      ],
+      "hinweis": "Prüfvermerk Zeile für Zeile, Gegenüberstellung 09384/08988/09272 und Entwürfe für Torwinkel und Kai sind fertig (vier Zeilen gehören nicht zum Regler). Offen: Rückfrage von Torwinkel ab 25.11., Entscheidung mit Henrike, Angebotsdatum, Abgleich mit A008.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        },
+        {
+          "datum": "2026-11-20T09:00:09+01:00",
+          "von": "KI-Agent",
+          "art": "infos",
+          "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+        }
+      ],
+      "person": 5,
+      "benoetigt": [
+        {
+          "was": "Abnahmevermerk und Rückfrage zum Protokoll 09384",
+          "von": "Torwinkel (Florian Kunze)",
+          "wo": "Uebergaben/Abnahme_Wartung",
+          "bis": "25.11."
+        }
+      ]
+    },
+    "A165": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_3/A165_Pruefauftrag_der_Verwaltung/KI_Ergebnis_A165_v1.md",
+        "ablage/Person_3/A165_Pruefauftrag_der_Verwaltung/KI_Ergebnis_A165_v1.csv"
+      ],
+      "hinweis": "Teilergebnis: Einsatzbilanz fertig (80 Einsätze, 210,25 h, 19.197,69 EUR netto, Räume, Wiederholungen, Besteller, Messvorschlag). Die Antwort je Frage folgt, sobald der Prüfauftrag von Raumlot in K05 liegt; Ursache und Offenlegung entscheiden Selim und Henrike.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "20.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt (Teilergebnis, Infos benötigt)"
+        }
+      ],
+      "person": 3,
+      "benoetigt": [
+        {
+          "was": "Prüfauftrag von Raumlot zu den zu warmen Büros (höchstens fünf Fragen)",
+          "von": "Raumlot Objektmanagement (Farid Mertens)",
+          "wo": "Uebergaben/K05",
+          "bis": "30.11."
+        }
+      ]
+    },
+    "A166": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_2/A166_Regierechnung_Forum_Messung_und_Nachweise/KI_Ergebnis_A166_v1.md",
+        "ablage/Person_2/A166_Regierechnung_Forum_Messung_und_Nachweise/KI_Ergebnis_A166_v1.csv"
+      ],
+      "hinweis": "Teilergebnis: Prüfung 2026-1182 (keinem Forum-Einsatz zuzuordnen, Vorschlag zurückziehen und korrigiert neu ausstellen) und Vermerk Nachweise §§ 7/8/10 fertig. Teil 2 (Messangebot) wartet auf das Angebot von Signalsteg (K64, 27.11.) und die Bestellangabe von Raumlot.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "20.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt (Teilergebnis, Infos benötigt)"
+        }
+      ],
+      "person": 2,
+      "benoetigt": [
+        {
+          "was": "Angebot von Signalsteg für die Messung im Forum",
+          "von": "Signalsteg (Konrad Elster)",
+          "wo": "Uebergaben/K64",
+          "bis": "27.11."
+        },
+        {
+          "was": "Rückmeldung, wer den Einsatz am Forum-Regler am 30.10.2026 bestellt hat, mit Bestellnummer (Rechnung 2026-1182)",
+          "von": "Raumlot (Jonas Heller/Farid Mertens)",
+          "wo": "Kurschat Objektwelt"
+        }
+      ]
+    },
+    "UEB-AKTE": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_1/UEB-AKTE_Gemeinsame_Uebung/KI_Ergebnis_UEB-AKTE_v1.md"
+      ],
+      "hinweis": "Nur Organisationsblatt (Rollen, Abgabe 25.11., Gliederung): Der Auftrag liegt im Kursteam und nicht im Repository, die Übung selbst führen die Paare.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "19.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        },
+        {
+          "datum": "2026-11-20T09:00:09+01:00",
+          "von": "KI-Agent",
+          "art": "infos",
+          "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+        }
+      ],
+      "person": 1,
+      "benoetigt": [
+        {
+          "was": "Auftrag der Übung „Akte Abfluss OG2 West“ mit allen zugehörigen Dateien",
+          "von": "Kursteam (Dozent)",
+          "wo": "00_Kurs/Uebung_akte_abfluss"
+        }
+      ]
+    },
+    "UEB-ZAEHLER": {
+      "status": "infos",
+      "runde": 1,
+      "ergebnis": [
+        "ablage/Person_3/UEB-ZAEHLER_Gemeinsame_Aufgabe/KI_Ergebnis_UEB-ZAEHLER_v1.md"
+      ],
+      "hinweis": "Nur Organisationsblatt (Rollen, Ablage, Gliederung Prüfprotokoll, Folienaufbau): Auftrag, Zählerdaten und Energiebericht 2026 liegen im Kursteam (00_Kurs/Uebung_zaehlerfehler), nicht im Repository; die Aufgabe führt die Gruppe selbst.",
+      "feedback": [],
+      "verlauf": [
+        {
+          "datum": "20.11.2026",
+          "von": "KI-Agent",
+          "art": "ki",
+          "text": "Runde 1 erstellt"
+        },
+        {
+          "datum": "2026-11-20T09:00:09+01:00",
+          "von": "KI-Agent",
+          "art": "infos",
+          "text": "Nachprüfung aller Projekte: Status „Infos benötigt“, Teilergebnis Runde 1 bleibt gültig"
+        }
+      ],
+      "person": 3,
+      "benoetigt": [
+        {
+          "was": "Auftrag der Aufgabe „Zählerfehler 8,4 Mio kWh“ mit den Daten (Zählerliste, Energiebericht 2026)",
+          "von": "Kursteam (Dozent)",
+          "wo": "00_Kurs/Uebung_zaehlerfehler"
+        }
+      ]
     }
-   ],
-   "person": 3,
-   "benoetigt": [
-    {
-     "was": "Auftrag der Aufgabe „Zählerfehler 8,4 Mio kWh“ mit den Daten (Zählerliste, Energiebericht 2026)",
-     "von": "Kursteam (Dozent)",
-     "wo": "00_Kurs/Uebung_zaehlerfehler"
-    }
-   ]
   }
- }
 }
