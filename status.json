@@ -58,13 +58,21 @@
    "person": 3
   },
   "A002": {
-   "status": "ki_erledigt",
+   "status": "ueberprueft",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_2/A002_Unsere_Firma_auf_einer_Seite/KI_Ergebnis_A002_v2.md"
    ],
    "hinweis": "Runde 2: Wortzahl korrigiert (227 statt 233, Grenze 300 eingehalten); Antwort aus K61 ruht. Offen: Satzprüfung und Bildschirmfotos.",
-   "feedback": [],
+   "feedback": [
+    {
+     "datum": "2026-11-23T09:31:35.346Z",
+     "von": "Kai Landmann",
+     "text": "Wenn zwei quellen verschiedenes sagen. Entscheide selber welcher du mehr glaubst, dafür schreibe auch hin das es verschiedene angaben gibt.",
+     "runde": 2,
+     "erledigt": false
+    }
+   ],
    "verlauf": [
     {
      "datum": "19.11.2026",
@@ -77,6 +85,12 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T09:31:35.346Z",
+     "von": "Kai Landmann",
+     "art": "feedback",
+     "text": "Verbesserungen eingetragen, Status „Überprüft“"
     }
    ],
    "person": 2
