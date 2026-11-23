@@ -185,6 +185,16 @@
      "dateien": [
       "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/Verbesserungen/2026-11-23_1407_A002_Unsere_Firma_auf_einer_Seite.pdf"
      ]
+    },
+    {
+     "datum": "2026-11-23T13:08:13.534Z",
+     "von": "Henrike Baum",
+     "text": "Siehe angehängte Dateien.",
+     "runde": 2,
+     "erledigt": false,
+     "dateien": [
+      "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/Verbesserungen/2026-11-23_1408_A001_Projektmappe_fuer_die_eigene_Firma_anlegen.pdf"
+     ]
     }
    ],
    "verlauf": [
@@ -214,6 +224,12 @@
     },
     {
      "datum": "2026-11-23T13:07:10.042Z",
+     "von": "Henrike Baum",
+     "art": "feedback",
+     "text": "Hinweis für die KI eingetragen"
+    },
+    {
+     "datum": "2026-11-23T13:08:13.534Z",
      "von": "Henrike Baum",
      "art": "feedback",
      "text": "Hinweis für die KI eingetragen"
