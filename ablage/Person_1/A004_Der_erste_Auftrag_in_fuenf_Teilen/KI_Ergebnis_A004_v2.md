@@ -12,6 +12,7 @@ Runde 2 vom 23.11.2026: Alle Projekte wurden auf Wunsch der Gruppe unabhängig v
 
 - **Lage seit dem 23.11.2026:** Laut dem neuen Blatt „Bis zum 2.12.“ ruhen die Aufgabenblätter der Figuren bis auf Weiteres. Abgabetage, Stundenangaben und Lieferungen an andere Firmen gelten nicht, in 90_Uebergaben wird nichts abgelegt, und keine Gruppe wartet auf Post [00_Bis_zum_2_12.pdf, „Was bis auf Weiteres nicht gilt“]. Fristen und Übergabeordner in dieser Datei stehen so im Aufgabenblatt und gelten erst wieder, wenn der Dozent es sagt [ebd., letzter Absatz].
 - Inhalt unverändert; die Aufgabe hat keine Übergaben an andere Gruppen.
+- **Status „Infos benötigt“:** Dem Agenten fehlen Infos, die jemand liefern kann: Welche Frage zum Firmenbriefing in A001 bzw. A002 offen geblieben ist (eine davon kann die Frage für A004 werden) (von Selim Ahrens, Kai Landmann). Bitte im Verbesserungsfeld des Projekts eintragen oder als Datei anhängen; der Agent arbeitet sie beim nächsten Lauf ein.
 
 **Geprüft in Runde 2:**
 

@@ -5,8 +5,8 @@ Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik Gmb
 ## Aktuelle Lage (Paket vom 23.11.2026)
 
 Laut `files/0_Allgemein/00_Bis_zum_2_12.pdf` (Stand 19.11.2026, nach der ersten Sitzung) **ruhen die Aufgabenblätter der Figuren bis auf Weiteres**: Abgabetage, Stundenangaben, Lieferungen an andere Firmen und Post anderer Firmen gelten nicht, der Vortrag mit acht Folien am 2.12. entfällt in dieser Form. Projekte mit `"ruht": true` in `data/site.json` bearbeitest du trotzdem nach den Regeln unten (die Gruppe will die Ergebnisse als Übung), aber:
-- Erwarte keine Eingänge anderer Gruppen. Setze **kein neues** `infos` wegen fehlender Post anderer Firmen, sondern schreib das fertige Teilergebnis, setze `ki_erledigt` und nenne die fehlenden Eingänge im Abschnitt „Was die Gruppe selbst entscheiden oder liefern muss“ mit dem Hinweis, dass sie derzeit nicht kommen.
-- Bestehende `infos`-Projekte bleiben, bis die Gruppe Feedback gibt.
+- Erwarte keine Eingänge anderer Firmen: Sie liefern derzeit nichts. Eine fehlende Lieferung einer anderen Firma ist deshalb **kein** Grund für `infos`, weil niemand sie liefern kann; nenne sie im Abschnitt „Was die Gruppe selbst entscheiden oder liefern muss“ mit dem Hinweis, dass sie derzeit nicht kommt. Infos aus der eigenen Gruppe oder vom Dozenten sind weiterhin ein Grund für `infos` (siehe Schritt 7).
+- Bestehende `infos`-Projekte bleiben, bis die Gruppe die Infos liefert.
 - Die Übungen `UEB-AKTE` und `UEB-ZAEHLER` sind freiwillig, ohne Abgabe. Ihre Aufträge liegen nicht im Repository: Ohne Auftrag in der Ablage nur einen Vermerk schreiben, was fehlt.
 
 ## Gebäudedaten (3D-Modell)
@@ -25,7 +25,7 @@ Laut `files/0_Allgemein/00_Bis_zum_2_12.pdf` (Stand 19.11.2026, nach der ersten 
    - Status `ueberprueft`: zuerst bearbeiten (Feedback der Gruppe einarbeiten, siehe unten).
    - Status `offen`: danach, in der Reihenfolge nach Frist (`due` in `data/site.json`), früheste zuerst; bei gleicher Frist in der Reihenfolge des Menüs.
    - Status `ki_erledigt`: nichts tun, die Gruppe prüft noch.
-   - Status `infos`: warten, bis die Gruppe die fehlenden Infos liefert (dann steht das Projekt auf `ueberprueft`). Ausnahme: Liegen seit deinem letzten Lauf neue Dateien im Projektordner der Ablage (`ablage/Person_*/<ID>_*/`, nicht von dir), behandle sie wie gelieferte Infos und bearbeite das Projekt weiter.
+   - Status `infos`: warten, bis die fehlenden Infos geliefert sind (dann steht das Projekt auf `ueberprueft`). Ausnahme: Liegen seit deinem letzten Lauf neue Dateien im Projektordner der Ablage (`ablage/Person_*/<ID>_*/`, nicht von dir), behandle sie wie gelieferte Infos und bearbeite das Projekt weiter.
    - Höchstens **8 Projekte je Lauf**. Was übrig bleibt, kommt beim nächsten Lauf dran. Gründlich ist wichtiger als viel.
 3. **Jedes ausgewählte Projekt bearbeiten** (siehe „Ein Projekt bearbeiten“).
 4. **`status.json` aktualisieren**, `letzterLauf` auf den jetzigen Zeitpunkt setzen (ISO 8601 mit Zeitzone Europe/Berlin).
@@ -47,7 +47,7 @@ Laut `files/0_Allgemein/00_Bis_zum_2_12.pdf` (Stand 19.11.2026, nach der ersten 
    - **Was die Gruppe selbst entscheiden oder liefern muss**: alles, was das Aufgabenblatt unter „Behalten“ nennt (Entscheidungen, Unterschriften, Urteile), Eingänge anderer Gruppen, die noch nicht in der Ablage liegen, Bildschirmfotos, Sprachnotizen, Nachrichten im Kurschat. Hier schreibst du Vorschläge mit Begründung, entscheidest aber nicht und gibst nichts als abgeschickt aus.
    - **Geprüft**: welche drei Werte du gegen das Original geprüft hast und wie.
 6. Trage jede neue Datei in `ablage/Person_<N>/.meta.json` ein, damit die Webseite ihre Herkunft zeigt: `"<Pfad ab Personenordner>": {"herkunft": "KI-Agent, Runde 1, Quellen in der Datei", "von": "KI-Agent", "am": "TT.MM.JJJJ"}`. Vorhandene Einträge nicht verändern.
-7. **Fehlen Infos aus anderen Gruppen?** Wenn das Ergebnis ohne Eingänge anderer Gruppen nicht sinnvoll fertig werden kann (z. B. Antwort aus Uebergaben/K61 bis K65, K05, K12, Abnahme_Wartung, das Angebot von Signalsteg, Rückmeldungen aus dem Kurschat) und diese weder in der Ablage noch im Feedback liegen: Erstelle trotzdem alles, was ohne sie geht, als Teilergebnis, und setze statt `ki_erledigt` den Status `"infos"`. Trage in `benoetigt` jede fehlende Info als Eintrag ein: `{"was": "Antwort von Kantbogen auf das Schreiben", "von": "Kantbogen (Clara Rhein/Sophia Albrecht)", "wo": "Uebergaben/K61", "bis": "30.11."}`. Frist und Ordner nur, wenn sie in den Unterlagen stehen. Fehlt nur etwas, das die Gruppe selbst entscheidet (Behalten), ist das **kein** Grund für `infos`.
+7. **Fehlen Infos?** Egal von wem: aus der eigenen Gruppe (z. B. „Eingang aus Ihrer Gruppe“ im Aufgabenblatt), vom Dozenten oder Kursteam (z. B. ein Auftrag, der nicht im Repository liegt) oder von einer anderen Firma. Wenn das Ergebnis ohne diese Infos nicht sinnvoll fertig werden kann und sie weder in der Ablage noch im Feedback liegen: Erstelle trotzdem alles, was ohne sie geht, und setze statt `ki_erledigt` den Status `"infos"`. Trage in `benoetigt` jede fehlende Info ein: `{"was": "…", "von": "<Person, Dozent oder Firma>", "wo": "<Ordner, Kanal oder Datei>", "bis": "<nur wenn eine geltende Frist in den Unterlagen steht>"}`. Kein Grund für `infos` sind Entscheidungen, Unterschriften und eigene Arbeitsschritte der Gruppe („Behalten“, Chats führen, Sprachnotiz aufnehmen) und Lieferungen, die derzeit niemand liefern kann (siehe „Aktuelle Lage“).
 8. Sonst Status setzen: `status = "ki_erledigt"`, `runde = 1`, `ergebnis = [Pfade der erzeugten Dateien]`, `hinweis =` ein bis zwei Sätze, was fertig ist und was offen bleibt, Eintrag in `verlauf` (`{"datum", "von": "KI-Agent", "art": "ki", "text": "Runde 1 erstellt"}`).
 9. Hinweise, die die Gruppe schon im Status `offen` eingetragen hat (`feedback` mit `erledigt: false`), arbeitest du gleich mit ein und behandelst sie wie Feedback (siehe unten).
 
@@ -57,7 +57,7 @@ Laut `files/0_Allgemein/00_Bis_zum_2_12.pdf` (Stand 19.11.2026, nach der ersten 
 2. Erstelle eine neue Fassung `KI_Ergebnis_<ID>_v<Runde+1>.md`. Die alte Fassung bleibt liegen.
 3. Füge oben einen Abschnitt **„Änderungen gegenüber v<Runde>“** ein: je Feedback-Punkt, was du geändert hast, mit Quelle. Hältst du einen Punkt für falsch, sag es mit Beleg, statt ihn stillschweigend zu übernehmen.
 4. Setze bei jedem bearbeiteten Feedback `erledigt: true` und `antwort` (ein Satz, was du getan hast).
-5. Einträge mit `art: "infos"` sind gelieferte Infos aus anderen Gruppen (Text und/oder `dateien`). Baue sie ein und entferne die gelieferten Punkte aus `benoetigt`. Fehlt danach immer noch etwas Wesentliches, bleibt bzw. wird der Status wieder `infos` (mit aktualisiertem `benoetigt`), sonst:
+5. Einträge mit `art: "infos"` sind gelieferte Infos (Text und/oder `dateien`), egal von wem. Baue sie ein und entferne die gelieferten Punkte aus `benoetigt`. Fehlt danach immer noch etwas Wesentliches, bleibt bzw. wird der Status wieder `infos` (mit aktualisiertem `benoetigt`), sonst:
 6. `status = "ki_erledigt"`, `runde` um 1 erhöhen, `ergebnis` = Pfade der neuen Fassung (und neuer CSV), `hinweis` aktualisieren, Eintrag in `verlauf` („Runde N: Feedback eingearbeitet“).
 
 ## Statusmodell (`status.json`)
@@ -66,7 +66,7 @@ Laut `files/0_Allgemein/00_Bis_zum_2_12.pdf` (Stand 19.11.2026, nach der ersten 
 |---|---|---|
 | `offen` | noch nicht bearbeitet | Ausgangszustand |
 | `ki_erledigt` | KI hat erstellt oder überarbeitet (Runde in `runde`) | du |
-| `infos` | KI braucht Infos aus anderen Gruppen; Liste in `benoetigt` | du |
+| `infos` | KI braucht Infos, egal von wem; was, von wem und wo steht in `benoetigt` | du |
 | `ueberprueft` | Gruppe hat Verbesserungen, Fehler oder die fehlenden Infos eingetragen | Webseite (Textfeld) |
 | `fertig` | Gruppe hat den Haken gesetzt | Webseite (Haken) |
 

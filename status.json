@@ -34,12 +34,12 @@
    "person": 2
   },
   "A001": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_3/A001_Projektmappe_fuer_die_eigene_Firma_anlegen/KI_Ergebnis_A001_v2.md"
    ],
-   "hinweis": "Runde 2: an die neue Erwartung angepasst (Ordner mit START, Projektanweisung, Gedächtnis der Gruppe); Vorschlag für Projektanweisung und Gedächtnis neu. Offen: Rückmeldungen der vier Personen.",
+   "hinweis": "Runde 2: an die neue Erwartung angepasst (Ordner mit START, Projektanweisung, Gedächtnis der Gruppe); Vorschlag für Projektanweisung und Gedächtnis neu. Offen: Rückmeldungen der vier Personen. Es fehlen Infos, siehe Liste.",
    "feedback": [],
    "verlauf": [
     {
@@ -53,9 +53,22 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T13:06:15+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
     }
    ],
-   "person": 3
+   "person": 3,
+   "benoetigt": [
+    {
+     "was": "Funktion laut eigenem Personenbriefing, je Person mit Datum (für den Vermerk in START)",
+     "von": "Henrike Baum, Kai Landmann, Elena Voss, Kevin Schuster",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    }
+   ]
   },
   "A002": {
    "status": "ueberprueft",
@@ -96,13 +109,13 @@
    "person": 2
   },
   "A003": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_2/A003_Posteingang_sortieren/KI_Ergebnis_A003_v2.md",
     "ablage/Person_2/A003_Posteingang_sortieren/KI_Ergebnis_A003_v2.csv"
    ],
-   "hinweis": "Runde 2: geprüft, inhaltlich unverändert. Offen: Rückfragen an die Federführenden und Bildschirmfotos.",
+   "hinweis": "Runde 2: geprüft, inhaltlich unverändert. Offen: Rückfragen an die Federführenden und Bildschirmfotos. Es fehlen Infos, siehe Liste.",
    "feedback": [],
    "verlauf": [
     {
@@ -116,18 +129,41 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T13:06:15+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
     }
    ],
-   "person": 2
+   "person": 2,
+   "benoetigt": [
+    {
+     "was": "Ob Einstufung und Zuständigkeit stimmen: Nr. 1, 4, 5 und 12",
+     "von": "Selim Ahrens",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    },
+    {
+     "was": "Ob Einstufung und Zuständigkeit stimmen: Nr. 6 und 16",
+     "von": "Elena Voss",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    },
+    {
+     "was": "Ob Einstufung und Zuständigkeit stimmen: Nr. 17 und 18 (dazu 1, 2, 3, 11)",
+     "von": "Kevin Schuster",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    }
+   ]
   },
   "A004": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v2.md",
     "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v2.csv"
    ],
-   "hinweis": "Runde 2: geprüft, unverändert. Offen: Frage festlegen, beide Chats führen, Vergleich.",
+   "hinweis": "Runde 2: geprüft, unverändert. Offen: Frage festlegen, beide Chats führen, Vergleich. Es fehlen Infos, siehe Liste.",
    "feedback": [],
    "verlauf": [
     {
@@ -141,17 +177,30 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T13:06:15+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
     }
    ],
-   "person": 1
+   "person": 1,
+   "benoetigt": [
+    {
+     "was": "Welche Frage zum Firmenbriefing in A001 bzw. A002 offen geblieben ist (eine davon kann die Frage für A004 werden)",
+     "von": "Selim Ahrens, Kai Landmann",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    }
+   ]
   },
   "A005": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_3/A005_Wer_ist_wer_im_Haus/KI_Ergebnis_A005_v2.md"
    ],
-   "hinweis": "Runde 2: Mieter mit dem 3D-Modell abgeglichen (Flächen stimmen), Thermenfeld-Weg angepasst. Offen: Ansprechpersonen der Mieter, Abgleich mit Kevin.",
+   "hinweis": "Runde 2: Mieter mit dem 3D-Modell abgeglichen (Flächen stimmen), Thermenfeld-Weg angepasst. Offen: Ansprechpersonen der Mieter, Abgleich mit Kevin. Es fehlen Infos, siehe Liste.",
    "feedback": [],
    "verlauf": [
     {
@@ -165,17 +214,30 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T13:06:15+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
     }
    ],
-   "person": 3
+   "person": 3,
+   "benoetigt": [
+    {
+     "was": "Ob der Stand der Verzeichnisse zu dem passt, was die anderen aus ihren Unterlagen wissen, mit Datum",
+     "von": "Gruppe, vor allem Kevin Schuster (A007)",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    }
+   ]
   },
   "A006": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_5/A006_Rundgang_als_Sprachnotiz/KI_Ergebnis_A006_v2.md"
    ],
-   "hinweis": "Runde 2: Lücken mit dem 3D-Modell gefüllt (Eingang 0131, Etagenzentrale-Kandidat 1029, RLT-Räume im 1. UG, Treppen EG↔UG bestätigt). Offen: Sprachnotiz, Ziele, Weg am Plan prüfen.",
+   "hinweis": "Runde 2: Lücken mit dem 3D-Modell gefüllt (Eingang 0131, Etagenzentrale-Kandidat 1029, RLT-Räume im 1. UG, Treppen EG↔UG bestätigt). Offen: Sprachnotiz, Ziele, Weg am Plan prüfen. Es fehlen Infos, siehe Liste.",
    "feedback": [],
    "verlauf": [
     {
@@ -189,18 +251,36 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T13:06:15+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
     }
    ],
-   "person": 5
+   "person": 5,
+   "benoetigt": [
+    {
+     "was": "Welche Räume und Anlagen der Weg erreichen soll: Etagenzentrale EG",
+     "von": "Elena Voss",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    },
+    {
+     "was": "Welche Räume und Anlagen der Weg erreichen soll: Abschaltbereiche",
+     "von": "Selim Ahrens",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    }
+   ]
   },
   "A007": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_5/A007_Was_ohne_Uebergabe_liegen_geblieben_ist/KI_Ergebnis_A007_v2.md",
     "ablage/Person_5/A007_Was_ohne_Uebergabe_liegen_geblieben_ist/KI_Ergebnis_A007_v2.csv"
    ],
-   "hinweis": "Runde 2: Klappenzahlen durch das 3D-Modell bestätigt; Übergaben an Torwinkel ruhen. Offen: Reihenfolge der ersten drei Punkte, Bestätigungen von Kai und Selim.",
+   "hinweis": "Runde 2: Klappenzahlen durch das 3D-Modell bestätigt; Übergaben an Torwinkel ruhen. Offen: Reihenfolge der ersten drei Punkte, Bestätigungen von Kai und Selim. Es fehlen Infos, siehe Liste.",
    "feedback": [],
    "verlauf": [
     {
@@ -214,9 +294,27 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T13:06:15+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
     }
    ],
-   "person": 5
+   "person": 5,
+   "benoetigt": [
+    {
+     "was": "Bestätigung der Rechnungen 3322 bis 3329 gegen die Offene-Posten-Liste, vor allem 2026/3329 (16.12. oder 02.12.) und die fehlende 3328",
+     "von": "Kai Landmann",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    },
+    {
+     "was": "Bestätigung der Vorgänge zu den warmen Räumen (Nr. 1, 11, 12, 13)",
+     "von": "Selim Ahrens",
+     "wo": "Verbesserungsfeld dieses Projekts"
+    }
+   ]
   },
   "A008": {
    "status": "ki_erledigt",
@@ -509,12 +607,12 @@
    "person": 2
   },
   "UEB-AKTE": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_1/UEB-AKTE_Gemeinsame_Uebung/KI_Ergebnis_UEB-AKTE_v2.md"
    ],
-   "hinweis": "Runde 2: Übung ist jetzt freiwillig ohne Abgabe; Räume im 2. OG West aus dem 3D-Modell. Der Auftrag liegt nur im Kursteam.",
+   "hinweis": "Runde 2: Übung ist jetzt freiwillig ohne Abgabe; Räume im 2. OG West aus dem 3D-Modell. Der Auftrag liegt nur im Kursteam. Es fehlen Infos, siehe Liste.",
    "feedback": [],
    "verlauf": [
     {
@@ -534,17 +632,30 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T13:06:15+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
     }
    ],
-   "person": 1
+   "person": 1,
+   "benoetigt": [
+    {
+     "was": "Auftrag der Übung „Akte Abfluss OG2 West“ mit allen zugehörigen Dateien",
+     "von": "Dozent (Kursteam)",
+     "wo": "00_Kurs/Uebung_akte_abfluss; in die Ablage oder als Anhang hier"
+    }
+   ]
   },
   "UEB-ZAEHLER": {
-   "status": "ki_erledigt",
+   "status": "infos",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_3/UEB-ZAEHLER_Gemeinsame_Aufgabe/KI_Ergebnis_UEB-ZAEHLER_v2.md"
    ],
-   "hinweis": "Runde 2: Übung ist jetzt freiwillig ohne Abgabe; Auftrag und Zählerdaten liegen nur im Kursteam.",
+   "hinweis": "Runde 2: Übung ist jetzt freiwillig ohne Abgabe; Auftrag und Zählerdaten liegen nur im Kursteam. Es fehlen Infos, siehe Liste.",
    "feedback": [],
    "verlauf": [
     {
@@ -564,9 +675,22 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T13:06:15+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
     }
    ],
-   "person": 3
+   "person": 3,
+   "benoetigt": [
+    {
+     "was": "Auftrag der Übung „Zählerfehler 8,4 Mio kWh“ mit den Daten (Zählerliste, Energiebericht 2026)",
+     "von": "Dozent (Kursteam)",
+     "wo": "00_Kurs/Uebung_zaehlerfehler; in die Ablage oder als Anhang hier"
+    }
+   ]
   }
  }
 }

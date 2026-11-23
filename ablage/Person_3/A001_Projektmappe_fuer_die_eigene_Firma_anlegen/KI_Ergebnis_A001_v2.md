@@ -13,6 +13,7 @@ Runde 2 vom 23.11.2026: Alle Projekte wurden auf Wunsch der Gruppe unabhängig v
 - **Neuer Bezug:** Bis zum 2.12. ist erwartet, den Arbeitsplatz der Firma weiterzuentwickeln: ein gemeinsamer Ordner mit einer Datei START, eine Projektanweisung für Luftpfad und ein Gedächtnis der Gruppe mit Stand und Entscheidungen [00_Bis_zum_2_12.pdf, „Was erwartet ist“, Punkt 1]. Die Projektmappe aus A001 ist genau dieser Ordner. Neu ist Abschnitt „Projektanweisung und Gedächtnis“ mit Vorschlägen.
 - Die Frist „bis 25.11.“ für die Rückmeldungen der vier Personen ist gestrichen; die Rückmeldung selbst bleibt sinnvoll, weil START die Funktionen belegen soll [A001_…pdf, S. 1, „Eingang aus Ihrer Gruppe“].
 - Punkt 7: Der Verweis auf das alte Blatt „Wie Ihre Aufgaben zusammenhängen“ ist entfernt, weil es ersetzt wurde.
+- **Status „Infos benötigt“:** Dem Agenten fehlen Infos, die jemand liefern kann: Funktion laut eigenem Personenbriefing, je Person mit Datum (für den Vermerk in START) (von Henrike Baum, Kai Landmann, Elena Voss, Kevin Schuster). Bitte im Verbesserungsfeld des Projekts eintragen oder als Datei anhängen; der Agent arbeitet sie beim nächsten Lauf ein.
 
 **Geprüft in Runde 2:**
 

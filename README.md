@@ -39,7 +39,7 @@ Jedes Projekt hat einen Status, sichtbar auf der Übersicht, in der Projektliste
 
 1. **Offen**: noch nicht bearbeitet. Hinweise für die KI können schon eingetragen werden.
 2. **Von KI erledigt**: Der Agent hat ein Ergebnis in die Datenablage der federführenden Person gelegt (`KI_Ergebnis_<ID>_v<Runde>.md`). Es ist auf der Projektseite verlinkt.
-3. **Infos benötigt**: Dem Agenten fehlen Eingänge anderer Gruppen (z. B. Antworten aus Uebergaben/K61). Die Projektseite listet, was fehlt. Die federführende Person trägt die Infos im Textfeld ein oder hängt die Dateien an, dann geht es mit „Überprüft“ weiter.
+3. **Infos benötigt**: Dem Agenten fehlen Infos, egal von wem: aus der eigenen Gruppe, vom Dozenten oder von einer anderen Firma. Die Projektseite listet, was fehlt, von wem und wo. Die federführende Person trägt die Infos im Textfeld ein oder hängt die Dateien an, dann geht es mit „Überprüft“ weiter.
 4. **Überprüft**: Die Gruppe hat im Textfeld Verbesserungen oder Fehler eingetragen. Der Agent arbeitet sie beim nächsten Lauf (montags) ein, danach steht das Projekt wieder auf „Von KI überarbeitet (Runde n)“.
 5. **Abgenommen**: Jemand hat den Haken „Passt so, perfekt“ gesetzt. Der Agent fasst das Projekt nicht mehr an. Haken entfernen nimmt die Abnahme zurück.
 

@@ -12,6 +12,7 @@ Runde 2 vom 23.11.2026: Alle Projekte wurden auf Wunsch der Gruppe unabhängig v
 - **Lage seit dem 23.11.2026:** Laut dem neuen Blatt „Bis zum 2.12.“ ruhen die Aufgabenblätter der Figuren bis auf Weiteres. Abgabetage, Stundenangaben und Lieferungen an andere Firmen gelten nicht, in 90_Uebergaben wird nichts abgelegt, und keine Gruppe wartet auf Post [00_Bis_zum_2_12.pdf, „Was bis auf Weiteres nicht gilt“]. Fristen und Übergabeordner in dieser Datei stehen so im Aufgabenblatt und gelten erst wieder, wenn der Dozent es sagt [ebd., letzter Absatz].
 - **Neu: Abgleich der Mieter mit dem 3D-Modell** (Abschnitt „Abgleich mit dem Gebäudemodell“). Die Flächen von sieben Mietern stimmen auf 0,2 m² mit dem Flächenspiegel überein; bei Achsenraum (EG) und Lernhafen (EG) tragen die Räume im Modell nicht durchgehend den Mieternamen [3D-Modell Objektwelt, Stand 23.11.2026, Raumliste].
 - Thermenfeld: Der Weg über Uebergaben/K64 stammt aus dem alten Blatt und ruht derzeit; der Eintrag „direkt“ bleibt als Sachaussage aus A163 stehen.
+- **Status „Infos benötigt“:** Dem Agenten fehlen Infos, die jemand liefern kann: Ob der Stand der Verzeichnisse zu dem passt, was die anderen aus ihren Unterlagen wissen, mit Datum (von Gruppe, vor allem Kevin Schuster (A007)). Bitte im Verbesserungsfeld des Projekts eintragen oder als Datei anhängen; der Agent arbeitet sie beim nächsten Lauf ein.
 
 **Geprüft in Runde 2:**
 

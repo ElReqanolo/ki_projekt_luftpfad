@@ -431,7 +431,7 @@
       ${o.status === 'offen' ? `<p>Der Agent bearbeitet dieses Projekt ${AGENT_ZEIT} und legt sein Ergebnis in der Datenablage der federführenden Person ab. Hinweise, die Sie vorher eintragen, berücksichtigt er.</p>` : ''}
       ${o.status === 'infos' ? `<div class="need-box"><h3>Diese Infos fehlen dem Agenten noch</h3>
         ${need.length ? `<ul>${need.map(n => `<li><b>${esc(n.was || n)}</b>${n.von ? ` <span class="muted">von ${esc(n.von)}</span>` : ''}${n.wo ? ` <span class="muted">· ${esc(n.wo)}</span>` : ''}${n.bis ? ` <span class="muted">· erwartet bis ${esc(n.bis)}</span>` : ''}</li>`).join('')}</ul>` : '<p>Der Agent hat keine Einzelheiten angegeben, siehe Hinweis unten.</p>'}
-        <p>Tragen Sie die Infos unten ein oder hängen Sie die Dateien an (z. B. die Antwort aus Uebergaben/K61). Danach macht der Agent beim nächsten Lauf (${AGENT_ZEIT}) weiter.</p></div>` : ''}
+        <p>Von wem die Infos kommen, steht bei jedem Punkt: aus der Gruppe, vom Dozenten oder von einer anderen Firma. Tragen Sie sie unten ein oder hängen Sie Dateien an. Danach macht der Agent beim nächsten Lauf (${AGENT_ZEIT}) weiter.</p></div>` : ''}
       ${o.status === 'ueberprueft' ? `<p>Ihre Verbesserungen sind gespeichert. Der Agent arbeitet sie beim nächsten Lauf (${AGENT_ZEIT}) ein.</p>` : ''}
       ${o.status === 'fertig' ? `<p class="done-note">✓ Abgenommen${(o.verlauf.slice().reverse().find(v => v.art === 'abgenommen') || {}).von ? ' von ' + esc(o.verlauf.slice().reverse().find(v => v.art === 'abgenommen').von) : ''}. Der Agent fasst dieses Projekt nicht mehr an.</p>` : ''}
       ${o.ergebnis.length ? `<h3>Ergebnis der KI${o.runde ? ` <small>Runde ${o.runde}</small>` : ''}</h3>
@@ -446,7 +446,7 @@
       ${o.status !== 'fertig' ? `
         <form class="fb-form" id="fb-form">
           <label for="fb-text">${o.status === 'offen' ? 'Hinweis für die KI (optional)' : o.status === 'infos' ? 'Fehlende Infos eintragen' : 'Verbesserungen oder Fehler'}</label>
-          <textarea id="fb-text" rows="5" placeholder="${o.status === 'infos' ? 'Zum Beispiel: Diese Info haben wir selbst ermittelt oder vom Dozenten bekommen: …' : o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 18.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
+          <textarea id="fb-text" rows="5" placeholder="${o.status === 'infos' ? 'Zum Beispiel: Funktion laut meinem Personenbriefing: Technische Geschäftsführung (Henrike Baum) …' : o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 18.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
           <label class="fb-attach">Dateien anhängen (optional)<input type="file" id="fb-files" multiple ${canWrite ? '' : 'disabled'}>
             <small>Zum Beispiel eine korrigierte Tabelle, ein Bildschirmfoto der richtigen Stelle oder eine Antwort aus dem Kursteam. Die Dateien landen in der Ablage von ${esc(PERS[p.person].name)} unter „${esc(projFolder(p))}/Verbesserungen“.</small></label>
           <ul class="fb-picked" id="fb-picked"></ul>

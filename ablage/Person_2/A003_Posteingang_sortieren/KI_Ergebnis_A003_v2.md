@@ -13,6 +13,7 @@ Runde 2 vom 23.11.2026: Alle Projekte wurden auf Wunsch der Gruppe unabhängig v
 - **Lage seit dem 23.11.2026:** Laut dem neuen Blatt „Bis zum 2.12.“ ruhen die Aufgabenblätter der Figuren bis auf Weiteres. Abgabetage, Stundenangaben und Lieferungen an andere Firmen gelten nicht, in 90_Uebergaben wird nichts abgelegt, und keine Gruppe wartet auf Post [00_Bis_zum_2_12.pdf, „Was bis auf Weiteres nicht gilt“]. Fristen und Übergabeordner in dieser Datei stehen so im Aufgabenblatt und gelten erst wieder, wenn der Dozent es sagt [ebd., letzter Absatz].
 - Inhalt unverändert. Die Fristen in der Tabelle (z. B. Torwinkel bis 30.11., Prüfung bis 25.11.) stehen so in den Mails selbst und gehören zur Spielwelt; sie sind keine Abgabetage der Gruppe.
 - Die Rückfragen an Selim, Elena und Kevin (Punkt 2) bleiben gruppenintern und sind weiterhin möglich.
+- **Status „Infos benötigt“:** Dem Agenten fehlen Infos, die jemand liefern kann: Ob Einstufung und Zuständigkeit stimmen: Nr. 1, 4, 5 und 12 (von Selim Ahrens); Ob Einstufung und Zuständigkeit stimmen: Nr. 6 und 16 (von Elena Voss); Ob Einstufung und Zuständigkeit stimmen: Nr. 17 und 18 (dazu 1, 2, 3, 11) (von Kevin Schuster). Bitte im Verbesserungsfeld des Projekts eintragen oder als Datei anhängen; der Agent arbeitet sie beim nächsten Lauf ein.
 
 **Geprüft in Runde 2:**
 
