@@ -59,7 +59,7 @@
 
   // ------------------------------------------------------------------ Laden
   async function boot() {
-    try { S = await (await fetch('data/site.json')).json(); } catch (e) {
+    try { S = await (await fetch('data/site.json', { cache: 'no-cache' })).json(); } catch (e) {
       main.innerHTML = `<div class="empty"><h1>Daten nicht gefunden</h1><p>Die Datei data/site.json fehlt. Bauen Sie die Daten mit <code>python3 tools/build.py</code> und öffnen Sie die Seite über einen Webserver (nicht als Datei).</p></div>`;
       return;
     }

@@ -30,3 +30,4 @@ Live: https://elreqanolo.github.io/ki_projekt_luftpfad/ (GitHub Pages, Branch `m
 - Seite lokal: `python3 -m http.server 8765` im Repo, dann http://localhost:8765 (nicht als Datei öffnen).
 - Worker: Unit-Tests lassen sich mit Node und Attrappen für KV und `fetch` schreiben (Worker exportiert `default.fetch(request, env)`).
 - Nach Änderungen an `assets/*.js`: `node --check assets/app.js assets/store.js`.
+- Nach Änderungen an `assets/*`: in `index.html` den Parameter `?v=…` an CSS und Skripten hochzählen, sonst laden Browser die alte Fassung aus dem Cache.
