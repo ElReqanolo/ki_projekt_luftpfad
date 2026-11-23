@@ -646,6 +646,8 @@
   document.addEventListener('click', e => {
     const q = e.target.closest('a.q[data-file]');
     if (q && !e.metaKey && !e.ctrlKey) { e.preventDefault(); openDrawer(q.dataset.file, q.dataset.loc || ''); return; }
+    const cn = e.target.closest('[data-cancel]');
+    if (cn) { const dl = cn.closest('dialog'); if (dl) dl.close('cancel'); return; }
     const rv = e.target.closest('[data-reveal]');
     if (rv) { const box = rv.closest('[data-private]'); $('.prose', box).hidden = false; rv.remove(); return; }
     const gr = e.target.closest('[data-get-repo]');
@@ -817,7 +819,7 @@
     const d = $('#dlg');
     d.innerHTML = `<form method="dialog" class="dlg"><h2>${esc(title)}</h2>${text ? `<p>${esc(text)}</p>` : ''}
       ${fields.map(f => `<label>${esc(f.label)}<input name="${f.name}" value="${esc(f.value || '')}" ${f.type ? `type="${f.type}"` : ''}>${f.hint ? `<small>${esc(f.hint)}</small>` : ''}</label>`).join('')}
-      <div class="btnrow"><button value="cancel" class="btn" formnovalidate>Abbrechen</button><button value="ok" class="btn primary ${okLabel === 'Löschen' ? 'danger' : ''}">${esc(okLabel)}</button></div></form>`;
+      <div class="btnrow"><button type="button" class="btn" data-cancel>Abbrechen</button><button value="ok" class="btn primary ${okLabel === 'Löschen' ? 'danger' : ''}">${esc(okLabel)}</button></div></form>`;
     return new Promise(res => {
       d.onclose = () => res(d.returnValue === 'ok' ? Object.fromEntries(fields.map(f => [f.name, d.querySelector(`[name="${f.name}"]`).value])) : null);
       d.returnValue = ''; d.showModal();
@@ -861,7 +863,7 @@
         <small>Auf GitHub unter Settings › Developer settings › Fine-grained tokens anlegen, nur für dieses Repository, Berechtigung „Contents: Read and write“. Das Token bleibt nur in diesem Browser gespeichert.</small></label>
       <div class="btnrow" style="margin-top:0"><button type="button" class="btn" id="tok-check">Token prüfen</button></div>
       <ul class="tok-result" id="tok-result" aria-live="polite"></ul></details>
-      <div class="btnrow"><button value="cancel" class="btn">Abbrechen</button><button value="ok" class="btn primary">Speichern</button></div></form>`;
+      <div class="btnrow"><button type="button" class="btn" data-cancel>Abbrechen</button><button value="ok" class="btn primary">Speichern</button></div></form>`;
     d.onclose = () => {
       if (d.returnValue !== 'ok') return;
       Ablage.setMode(d.querySelector('[name=mode]:checked').value);
@@ -913,7 +915,7 @@
       <label>Benutzername<input name="login" autocomplete="username" required autocapitalize="none"></label>
       <label>Passwort<input name="password" type="password" autocomplete="current-password" required></label>
       <p class="error" id="login-err" hidden></p>
-      <div class="btnrow"><button value="cancel" class="btn" formnovalidate>Abbrechen</button><button value="ok" class="btn primary">Anmelden</button></div></form>`;
+      <div class="btnrow"><button type="button" class="btn" data-cancel>Abbrechen</button><button value="ok" class="btn primary">Anmelden</button></div></form>`;
     const f = $('#login-form', d);
     f.onsubmit = async e => {
       if (e.submitter && e.submitter.value === 'cancel') return;
