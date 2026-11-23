@@ -1,5 +1,8 @@
 --- Seite 1 ---
  Startblatt Person 3, Luftpfad Anlagentechnik GmbH
+ Stand 19.11.2026, nach der ersten Sitzung. Die Abgabetage, Übergaben und Stundenangaben in diesem
+ Blatt gelten bis auf Weiteres nicht. Was bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf im Ordner
+ 0_Allgemein Ihrer Firma und in 00_Kurs/Bis_zum_2_12.pdf.
  Sie spielen Selim Ahrens, Disposition Fachfirma.
  Ihre Gruppe verteilt die fünf Figuren selbst. Getauscht werden kann zu jedem Semesterbeginn. Der
  Ordner Person_3 entspricht dem Rang der Figur in der Firma.
@@ -43,14 +46,15 @@
   • 02_Aufgaben/A165_Pruefauftrag_der_Verwaltung_zu_warme_Bueros.docx
   • 02_Aufgaben/A165_Pruefauftrag_der_Verwaltung_zu_warme_Bueros.pdf
 
- Aus 0_Allgemein brauchen Ihre Aufgaben außerdem
- Die Aufgabenblätter nennen die Dateien einzeln. Diese Liste gibt nur die Übersicht, ohne Briefings der
- Firma und ohne Vorlagen, die Sie ohnehin öffnen.
+
 
 
 Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                          Seite 1
 
 --- Seite 2 ---
+ Aus 0_Allgemein brauchen Ihre Aufgaben außerdem
+ Die Aufgabenblätter nennen die Dateien einzeln. Diese Liste gibt nur die Übersicht, ohne Briefings der
+ Firma und ohne Vorlagen, die Sie ohnehin öffnen.
   • 02_Aufgaben/A001_Projektmappe_fuer_die_eigene_Firma_anlegen.docx
   • 02_Aufgaben/A001_Projektmappe_fuer_die_eigene_Firma_anlegen.pdf
   • 03_Material/Laufwerk/Einsaetze_Raumklima_Bogenfeld_2025_2026.xlsx
@@ -78,5 +82,5 @@ Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026               
 
 
 
-Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                      Seite 2
+Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                         Seite 2
 

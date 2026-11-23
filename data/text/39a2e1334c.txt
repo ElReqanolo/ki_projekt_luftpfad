@@ -1,5 +1,8 @@
 --- Seite 1 ---
  Startblatt Person 5, Luftpfad Anlagentechnik GmbH
+ Stand 19.11.2026, nach der ersten Sitzung. Die Abgabetage, Übergaben und Stundenangaben in diesem
+ Blatt gelten bis auf Weiteres nicht. Was bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf im Ordner
+ 0_Allgemein Ihrer Firma und in 00_Kurs/Bis_zum_2_12.pdf.
  Sie spielen Kevin Schuster, Servicetechniker Lüftung und Kälte.
  Sie sind seit 16.11.2026 im Unternehmen und folgen ohne Übergabe auf Maximilian Backhaus. Was dort
  liegen geblieben ist, finden Sie im Abgangsmaterial (03_Material/Abgang). Es liegt teils hier, teils in
@@ -26,6 +29,7 @@
  Ihre Aufgaben
  Federführend heißt: Sie sorgen dafür, dass die Aufgabe fertig wird. Gearbeitet wird gemeinsam. Aufwand,
  Beginn und Frist stehen im Inhaltsverzeichnis in 0_Allgemein.
+
  Aufgabe                                                            Beginn   fertig bis       Aufwand
  Rundgang als Sprachnotiz                                           19.11.   2.12.2026        1h
  Was ohne Übergabe liegen geblieben ist                             19.11.   2.12.2026        1,5 h
@@ -43,14 +47,14 @@
   • 02_Aufgaben/A006_Rundgang_als_Sprachnotiz.pdf
   • 02_Aufgaben/A007_Was_ohne_Uebergabe_liegen_geblieben_ist.docx
   • 02_Aufgaben/A007_Was_ohne_Uebergabe_liegen_geblieben_ist.pdf
-  • 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.docx
-  • 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.pdf
-  • 02_Aufgaben/A164_Protokoll_09384_Rueckfrage_zur_Abnahme.docx
 
 
 Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                          Seite 1
 
 --- Seite 2 ---
+  • 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.docx
+  • 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.pdf
+  • 02_Aufgaben/A164_Protokoll_09384_Rueckfrage_zur_Abnahme.docx
   • 02_Aufgaben/A164_Protokoll_09384_Rueckfrage_zur_Abnahme.pdf
   • 03_Material/Abgang/01_Mitteilung_Austritt.eml
   • 03_Material/Abgang/01_Mitteilung_Austritt.txt

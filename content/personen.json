@@ -1,10 +1,16 @@
 {
   "personen": [
     {
-      "nr": 1, "ordner": "Person_1", "id": "person-1",
-      "name": "Henrike Baum", "funktion": "Technische Geschäftsführung", "kuerzel": "HBa",
-      "seit": "04.02.2008", "jahrgang": "1972",
-      "mail": "henrike.baum@luftpfad-anlagentechnik.de", "telefon": "05990 5061-19",
+      "nr": 1,
+      "ordner": "Person_1",
+      "id": "person-1",
+      "name": "Henrike Baum",
+      "funktion": "Technische Geschäftsführung",
+      "kuerzel": "HBa",
+      "seit": "04.02.2008",
+      "jahrgang": "1972",
+      "mail": "henrike.baum@luftpfad-anlagentechnik.de",
+      "telefon": "05990 5061-19",
       "briefing": "Personenbriefing_Henrike_Baum",
       "quelle": "[[Personenbriefing_Henrike_Baum|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
       "profil": [
@@ -14,14 +20,19 @@
         "Schreibt sachlich und genau, mit Aktenzeichen, Bezug und Anlagenverzeichnis. [[Personenbriefing_Henrike_Baum|Abschnitt 5, S. 2]]"
       ],
       "beginnt": "Wartungsbericht Lüftung (A018)",
-      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
-      "stunden": "6,5"
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]"
     },
     {
-      "nr": 2, "ordner": "Person_2", "id": "person-2",
-      "name": "Kai Landmann", "funktion": "Kaufmännischer Geschäftsführer", "kuerzel": "KLa",
-      "seit": "01.11.2020", "jahrgang": "1976",
-      "mail": "kai.landmann@luftpfad-anlagentechnik.de", "telefon": "05990 1004-23 / 05998 215386",
+      "nr": 2,
+      "ordner": "Person_2",
+      "id": "person-2",
+      "name": "Kai Landmann",
+      "funktion": "Kaufmännischer Geschäftsführer",
+      "kuerzel": "KLa",
+      "seit": "01.11.2020",
+      "jahrgang": "1976",
+      "mail": "kai.landmann@luftpfad-anlagentechnik.de",
+      "telefon": "05990 1004-23 / 05998 215386",
       "briefing": "Personenbriefing_Kai_Landmann",
       "quelle": "[[Personenbriefing_Kai_Landmann|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
       "profil": [
@@ -31,14 +42,19 @@
         "Hat die Firma von Gerhard Rehm übernommen. [[Personenbriefing_Kai_Landmann|Abschnitt 1, S. 1]]"
       ],
       "beginnt": "Posteingang sortieren (A003)",
-      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
-      "stunden": "6,5"
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]"
     },
     {
-      "nr": 3, "ordner": "Person_3", "id": "person-3",
-      "name": "Selim Ahrens", "funktion": "Disposition Fachfirma", "kuerzel": "SAh",
-      "seit": "01.08.2014", "jahrgang": "1985",
-      "mail": "selim.ahrens@luftpfad-anlagentechnik.de", "telefon": "05990 5061-37",
+      "nr": 3,
+      "ordner": "Person_3",
+      "id": "person-3",
+      "name": "Selim Ahrens",
+      "funktion": "Disposition Fachfirma",
+      "kuerzel": "SAh",
+      "seit": "01.08.2014",
+      "jahrgang": "1985",
+      "mail": "selim.ahrens@luftpfad-anlagentechnik.de",
+      "telefon": "05990 5061-37",
       "briefing": "Personenbriefing_Selim_Ahrens",
       "quelle": "[[Personenbriefing_Selim_Ahrens|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
       "profil": [
@@ -47,14 +63,19 @@
         "Darf Ausführungstermine vorschlagen und den Lieferantenumfang erläutern; Bestellung und Freigabe liegen beim Eigentümer. [[Personenbriefing_Selim_Ahrens|Abschnitt 1, S. 1]]"
       ],
       "beginnt": "Projektmappe für die eigene Firma anlegen (A001)",
-      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
-      "stunden": "6,5"
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]"
     },
     {
-      "nr": 4, "ordner": "Person_4", "id": "person-4",
-      "name": "Elena Voss", "funktion": "Automationsfachkraft", "kuerzel": "EVo",
-      "seit": "01.01.2021", "jahrgang": "1991",
-      "mail": "elena.voss@luftpfad-anlagentechnik.de", "telefon": "05990 5061-66 / 05998 268213",
+      "nr": 4,
+      "ordner": "Person_4",
+      "id": "person-4",
+      "name": "Elena Voss",
+      "funktion": "Automationsfachkraft",
+      "kuerzel": "EVo",
+      "seit": "01.01.2021",
+      "jahrgang": "1991",
+      "mail": "elena.voss@luftpfad-anlagentechnik.de",
+      "telefon": "05990 5061-66 / 05998 268213",
       "briefing": "Personenbriefing_Elena_Voss",
       "quelle": "[[Personenbriefing_Elena_Voss|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
       "profil": [
@@ -64,14 +85,19 @@
         "Ändert an Kundenanlagen nichts ohne Rücksprache mit der Technischen Geschäftsführung; jede Änderung mit altem und neuem Wert ins Protokoll. [[Personenbriefing_Elena_Voss|Abschnitt 13]]"
       ],
       "beginnt": "Trendaufzeichnung Forum (A163)",
-      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
-      "stunden": "6,0"
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]"
     },
     {
-      "nr": 5, "ordner": "Person_5", "id": "person-5",
-      "name": "Kevin Schuster", "funktion": "Servicetechniker Lüftung und Kälte (Nachfolge für Maximilian Backhaus)", "kuerzel": "KSc",
-      "seit": "16.11.2026", "jahrgang": "1994",
-      "mail": "kevin.schuster@luftpfad-anlagentechnik.de", "telefon": "05990 1004-21 / 05998 403017",
+      "nr": 5,
+      "ordner": "Person_5",
+      "id": "person-5",
+      "name": "Kevin Schuster",
+      "funktion": "Servicetechniker Lüftung und Kälte (Nachfolge für Maximilian Backhaus)",
+      "kuerzel": "KSc",
+      "seit": "16.11.2026",
+      "jahrgang": "1994",
+      "mail": "kevin.schuster@luftpfad-anlagentechnik.de",
+      "telefon": "05990 1004-21 / 05998 403017",
       "briefing": "Personenbriefing_Kevin_Schuster",
       "quelle": "[[Personenbriefing_Kevin_Schuster|Kopf, S. 1]] [[Firmenbriefing|Abschnitt 10]] [[00_Inhaltsverzeichnis|Wer bei Ihnen mitspielt]]",
       "profil": [
@@ -80,8 +106,7 @@
         "Zupackend und schnell, will vor Ort fertig werden und unterschätzt dabei manchmal den Papierkram. [[00_Start_Gruppe|Wer ist wer]]"
       ],
       "beginnt": "Was ohne Übergabe liegen geblieben ist (A007)",
-      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]",
-      "stunden": "6,5"
+      "beginntQuelle": "[[00_Ablauf|Wer welche Figur übernimmt]]"
     }
   ],
   "ketten": {

@@ -1,5 +1,8 @@
 --- Seite 1 ---
  Startblatt Person 2, Luftpfad Anlagentechnik GmbH
+ Stand 19.11.2026, nach der ersten Sitzung. Die Abgabetage, Übergaben und Stundenangaben in diesem
+ Blatt gelten bis auf Weiteres nicht. Was bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf im Ordner
+ 0_Allgemein Ihrer Firma und in 00_Kurs/Bis_zum_2_12.pdf.
  Sie spielen Kai Landmann, Kaufmännischer Geschäftsführer.
  Ihre Gruppe verteilt die fünf Figuren selbst. Getauscht werden kann zu jedem Semesterbeginn. Der
  Ordner Person_2 entspricht dem Rang der Figur in der Firma.
@@ -43,14 +46,14 @@
   • 02_Aufgaben/A166_Regierechnung_Forum_Messung_und_Versicherungsnachweis.docx
   • 02_Aufgaben/A166_Regierechnung_Forum_Messung_und_Versicherungsnachweis.pdf
   • 03_Material/Laufwerk/Indexreihen_VPI_Basiszins.xlsx
-  • 03_Material/Laufwerk/OP_Kantbogen_Stand_2026-11-18.xlsx
-
- Aus 0_Allgemein brauchen Ihre Aufgaben außerdem
 
 
 Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                          Seite 1
 
 --- Seite 2 ---
+  • 03_Material/Laufwerk/OP_Kantbogen_Stand_2026-11-18.xlsx
+
+ Aus 0_Allgemein brauchen Ihre Aufgaben außerdem
  Die Aufgabenblätter nennen die Dateien einzeln. Diese Liste gibt nur die Übersicht, ohne Briefings der
  Firma und ohne Vorlagen, die Sie ohnehin öffnen.
   • 02_Aufgaben/A002_Unsere_Firma_auf_einer_Seite.docx

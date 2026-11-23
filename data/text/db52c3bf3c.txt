@@ -1,12 +1,14 @@
 # Inhaltsverzeichnis Luftpfad Anlagentechnik GmbH
 
+Stand 19.11.2026, nach der ersten Sitzung. Die Abgabetage, Übergaben und Stundenangaben in diesem Blatt gelten bis auf Weiteres nicht. Was bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf im Ordner 0_Allgemein Ihrer Firma und in 00_Kurs/Bis_zum_2_12.pdf.
+
 Paket für die Arbeit im Haus am Bogenfeld, Bogenfeld 12, Stuttgart-Vaihingen. Stand 18.11.2026.
 
 ## So fangen Sie an
 
 * Öffnen Sie zuerst das Startblatt der Gruppe (00_Start_Gruppe.pdf, in 0_Allgemein) und in Ihrem Ordner Person_N das Startblatt (00_Start_Person_N.pdf). Lesen Sie dann das Firmenbriefing und Ihr eigenes Personenbriefing in 01_Briefings. Dieses Inhaltsverzeichnis und den Ablauf nutzen Sie zum Nachschlagen.
 * Dieses Inhaltsverzeichnis und den Ablauf gibt es zum Lesen auch als PDF: 00_Inhaltsverzeichnis.pdf und 00_Ablauf.pdf.
-* Was Ihre Gruppe bis zum 2.12. abgibt oder an andere Firmen übergibt, wer in der Gruppe was macht und wohin es geht, steht nach Tagen geordnet in 00_Bis_zum_2_12.pdf (auch als .md).
+* Was bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf (auch als .md).
 * Die Aufgaben stehen in 02_Aufgaben, je Aufgabe ein Blatt als DOCX und als PDF.
 * Laden Sie je Chat nur die Dateien hoch, die das Aufgabenblatt nennt. Richtwert: höchstens 8 Dateien und 10 MB je Chat. Nennt ein Blatt mehr Dateien (Spalte Portionen 2 im Ladeplan), laden Sie sie in zwei Chats: zuerst die Dateien, die das Blatt zuerst nennt, dann den Rest.
 * Liest ein Chat eine gescannte Seite nicht, laden Sie die Seite als Bild hoch.
@@ -29,7 +31,7 @@ Ihre Gruppe verteilt die fünf Figuren selbst, getauscht werden kann zu jedem Se
 
 ## Am 19.11. in der Vorlesung
 
-In der Sitzung arbeitet Ihre Gruppe an der Antrittsvorstellung, der genaue Ablauf steht in 00_Ablauf.md. Danach beginnt jede Person mit der Aufgabe in der Tabelle. Alle Aufgaben sind bis 2.12.2026 fertig, außer die Spalte fertig bis nennt einen anderen Tag.
+In der Sitzung arbeitet Ihre Gruppe an der Antrittsvorstellung, der genaue Ablauf steht in 00_Ablauf.md. Danach beginnt jede Person mit der Aufgabe in der Tabelle. Die Aufgabenblätter ruhen bis auf Weiteres. Die Spalte fertig bis gilt nicht.
 
 | Person | beginnt nach der Sitzung |
 | --- | --- |
@@ -91,68 +93,68 @@ Laden Sie nie das ganze Paket in einen Chat. Die Tabelle zeigt je Aufgabe die Da
 
 | Datei | Größe | Text rund Token | gebraucht für | Liegt in |
 | --- | --- | --- | --- | --- |
-| 00_Ablauf.md | 7,7 KB | 1.962 | Nachschlagen | Allgemein |
-| 00_Ablauf.pdf | 68,7 KB | 2.611 | Nachschlagen | Allgemein |
-| 00_Bis_zum_2_12.md | 6,5 KB | 1.652 | Termine bis 2.12. | Allgemein |
-| 00_Bis_zum_2_12.pdf | 68,9 KB | 2.488 | Termine bis 2.12. | Allgemein |
-| 00_Inhaltsverzeichnis.pdf | 85,4 KB | 10.629 | Nachschlagen | Allgemein |
-| 00_Start_Gruppe.md | 8,0 KB | 2.020 | Erstes Lesen | Allgemein |
-| 00_Start_Gruppe.pdf | 69,1 KB | 2.589 | Erstes Lesen | Allgemein |
-| 00_Startfrage.md | 2,3 KB | 576 | Antrittsvorstellung | Allgemein |
-| 00_Startfrage.pdf | 65,1 KB | 627 | Antrittsvorstellung | Allgemein |
+| 00_Ablauf.md | 4,2 KB | 1.066 | Nachschlagen | Allgemein |
+| 00_Ablauf.pdf | 64,7 KB | 1.064 | Nachschlagen | Allgemein |
+| 00_Bis_zum_2_12.md | 2,5 KB | 622 | Was bis zum 2.12. gilt | Allgemein |
+| 00_Bis_zum_2_12.pdf | 65,2 KB | 602 | Was bis zum 2.12. gilt | Allgemein |
+| 00_Inhaltsverzeichnis.pdf | 85,2 KB | 5.644 | Nachschlagen | Allgemein |
+| 00_Start_Gruppe.md | 7,8 KB | 1.964 | Erstes Lesen | Allgemein |
+| 00_Start_Gruppe.pdf | 68,6 KB | 1.978 | Erstes Lesen | Allgemein |
+| 00_Startfrage.md | 2,4 KB | 595 | Antrittsvorstellung | Allgemein |
+| 00_Startfrage.pdf | 65,1 KB | 576 | Antrittsvorstellung | Allgemein |
 | 01_Briefings/Firmenbriefing_Luftpfad_Anlagentechnik.docx | 49,5 KB | 9.878 | Projektmappe für die eigene Firma anlegen, Unsere Firma auf einer Seite, Der erste Auftrag in fünf Teilen, Wer ist wer im Haus, Vortrag, Trendaufzeichnung Forum und Prüfauftrag der Verwaltung | Allgemein |
-| 01_Briefings/Firmenbriefing_Luftpfad_Anlagentechnik.pdf | 94,6 KB | 10.275 | Projektmappe für die eigene Firma anlegen, Unsere Firma auf einer Seite, Der erste Auftrag in fünf Teilen, Wer ist wer im Haus, Vortrag, Trendaufzeichnung Forum und Prüfauftrag der Verwaltung | Allgemein |
+| 01_Briefings/Firmenbriefing_Luftpfad_Anlagentechnik.pdf | 94,5 KB | 10.260 | Projektmappe für die eigene Firma anlegen, Unsere Firma auf einer Seite, Der erste Auftrag in fünf Teilen, Wer ist wer im Haus, Vortrag, Trendaufzeichnung Forum und Prüfauftrag der Verwaltung | Allgemein |
 | 01_Briefings/Personenbriefing_Elena_Voss.docx | 40,7 KB | 2.695 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 4 |
 | 01_Briefings/Personenbriefing_Elena_Voss.pdf | 71,2 KB | 2.774 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 4 |
-| 01_Briefings/Personenbriefing_Henrike_Baum.docx | 40,9 KB | 3.021 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 1 |
-| 01_Briefings/Personenbriefing_Henrike_Baum.pdf | 72,1 KB | 3.139 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 1 |
-| 01_Briefings/Personenbriefing_Kai_Landmann.docx | 41,6 KB | 3.434 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 2 |
-| 01_Briefings/Personenbriefing_Kai_Landmann.pdf | 73,5 KB | 3.548 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 2 |
+| 01_Briefings/Personenbriefing_Henrike_Baum.docx | 40,8 KB | 3.005 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 1 |
+| 01_Briefings/Personenbriefing_Henrike_Baum.pdf | 72,0 KB | 3.124 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 1 |
+| 01_Briefings/Personenbriefing_Kai_Landmann.docx | 41,5 KB | 3.410 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 2 |
+| 01_Briefings/Personenbriefing_Kai_Landmann.pdf | 73,4 KB | 3.524 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 2 |
 | 01_Briefings/Personenbriefing_Kevin_Schuster.docx | 42,3 KB | 4.496 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 5 |
-| 01_Briefings/Personenbriefing_Kevin_Schuster.pdf | 76,5 KB | 4.630 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 5 |
+| 01_Briefings/Personenbriefing_Kevin_Schuster.pdf | 76,4 KB | 4.637 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 5 |
 | 01_Briefings/Personenbriefing_Selim_Ahrens.docx | 40,5 KB | 2.609 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 3 |
-| 01_Briefings/Personenbriefing_Selim_Ahrens.pdf | 70,8 KB | 2.700 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 3 |
-| 02_Aufgaben/A001_Projektmappe_fuer_die_eigene_Firma_anlegen.docx | 36,7 KB | 345 | Projektmappe für die eigene Firma anlegen | Allgemein |
-| 02_Aufgaben/A001_Projektmappe_fuer_die_eigene_Firma_anlegen.pdf | 62,2 KB | 343 | Projektmappe für die eigene Firma anlegen | Allgemein |
-| 02_Aufgaben/A002_Unsere_Firma_auf_einer_Seite.docx | 36,8 KB | 407 | Unsere Firma auf einer Seite | Allgemein |
-| 02_Aufgaben/A002_Unsere_Firma_auf_einer_Seite.pdf | 62,3 KB | 409 | Unsere Firma auf einer Seite | Allgemein |
-| 02_Aufgaben/A003_Posteingang_sortieren.docx | 37,0 KB | 438 | Posteingang sortieren | Person 2 |
-| 02_Aufgaben/A003_Posteingang_sortieren.pdf | 62,8 KB | 442 | Posteingang sortieren | Person 2 |
-| 02_Aufgaben/A004_Der_erste_Auftrag_in_fuenf_Teilen.docx | 36,9 KB | 418 | Der erste Auftrag in fünf Teilen | Person 1 |
-| 02_Aufgaben/A004_Der_erste_Auftrag_in_fuenf_Teilen.pdf | 62,7 KB | 420 | Der erste Auftrag in fünf Teilen | Person 1 |
-| 02_Aufgaben/A005_Wer_ist_wer_im_Haus.docx | 36,7 KB | 271 | Wer ist wer im Haus | Person 3 |
-| 02_Aufgaben/A005_Wer_ist_wer_im_Haus.pdf | 62,0 KB | 275 | Wer ist wer im Haus | Person 3 |
-| 02_Aufgaben/A006_Rundgang_als_Sprachnotiz.docx | 36,7 KB | 290 | Rundgang als Sprachnotiz | Person 5 |
-| 02_Aufgaben/A006_Rundgang_als_Sprachnotiz.pdf | 62,0 KB | 293 | Rundgang als Sprachnotiz | Person 5 |
-| 02_Aufgaben/A007_Was_ohne_Uebergabe_liegen_geblieben_ist.docx | 36,9 KB | 430 | Was ohne Übergabe liegen geblieben ist | Person 5 |
-| 02_Aufgaben/A007_Was_ohne_Uebergabe_liegen_geblieben_ist.pdf | 62,7 KB | 430 | Was ohne Übergabe liegen geblieben ist | Person 5 |
-| 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.docx | 37,9 KB | 991 | Übergabeliste prüfen und Nachfolge regeln | Person 5 |
-| 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.pdf | 65,0 KB | 1.008 | Übergabeliste prüfen und Nachfolge regeln | Person 5 |
-| 02_Aufgaben/A014_Hauschronik_1990_bis_2026_mit_Zusammenfuehrung.docx | 37,3 KB | 638 | Hauschronik 1990 bis 2026 | Person 4 |
-| 02_Aufgaben/A014_Hauschronik_1990_bis_2026_mit_Zusammenfuehrung.pdf | 63,5 KB | 656 | Hauschronik 1990 bis 2026 | Person 4 |
-| 02_Aufgaben/A018_Wartungsbericht_Lueftung_gegen_Auswertung.docx | 37,6 KB | 818 | Wartungsbericht Lüftung | Person 1 |
-| 02_Aufgaben/A018_Wartungsbericht_Lueftung_gegen_Auswertung.pdf | 64,8 KB | 835 | Wartungsbericht Lüftung | Person 1 |
-| 02_Aufgaben/A097_Vortrag_Firma_Rollen_Ergebnisse.docx | 37,7 KB | 868 | Vortrag | Allgemein |
-| 02_Aufgaben/A097_Vortrag_Firma_Rollen_Ergebnisse.pdf | 64,7 KB | 882 | Vortrag | Allgemein |
-| 02_Aufgaben/A161_Offene_Rechnungen_Preisanpassung_und_Kuendigungsfenster.docx | 38,0 KB | 1.026 | Offene Rechnungen und Preisanpassung | Person 2 |
-| 02_Aufgaben/A161_Offene_Rechnungen_Preisanpassung_und_Kuendigungsfenster.pdf | 65,5 KB | 1.041 | Offene Rechnungen und Preisanpassung | Person 2 |
-| 02_Aufgaben/A162_Wartungstermine_2027_und_Abschaltungen_festlegen.docx | 37,7 KB | 850 | Wartungstermine 2027 | Person 3 |
-| 02_Aufgaben/A162_Wartungstermine_2027_und_Abschaltungen_festlegen.pdf | 64,3 KB | 869 | Wartungstermine 2027 | Person 3 |
-| 02_Aufgaben/A163_Trendaufzeichnung_Forum_Lueftung_oder_Heizung.docx | 38,4 KB | 1.254 | Trendaufzeichnung Forum | Person 4 |
-| 02_Aufgaben/A163_Trendaufzeichnung_Forum_Lueftung_oder_Heizung.pdf | 65,6 KB | 1.271 | Trendaufzeichnung Forum | Person 4 |
-| 02_Aufgaben/A164_Protokoll_09384_Rueckfrage_zur_Abnahme.docx | 38,0 KB | 1.014 | Protokoll 09384 | Person 5 |
-| 02_Aufgaben/A164_Protokoll_09384_Rueckfrage_zur_Abnahme.pdf | 65,1 KB | 1.043 | Protokoll 09384 | Person 5 |
-| 02_Aufgaben/A165_Pruefauftrag_der_Verwaltung_zu_warme_Bueros.docx | 38,0 KB | 1.013 | Prüfauftrag der Verwaltung | Person 3 |
-| 02_Aufgaben/A165_Pruefauftrag_der_Verwaltung_zu_warme_Bueros.pdf | 65,2 KB | 1.042 | Prüfauftrag der Verwaltung | Person 3 |
-| 02_Aufgaben/A166_Regierechnung_Forum_Messung_und_Versicherungsnachweis.docx | 38,5 KB | 1.338 | Regierechnung Forum | Person 2 |
-| 02_Aufgaben/A166_Regierechnung_Forum_Messung_und_Versicherungsnachweis.pdf | 65,9 KB | 1.353 | Regierechnung Forum | Person 2 |
+| 01_Briefings/Personenbriefing_Selim_Ahrens.pdf | 70,9 KB | 2.704 | Projektmappe für die eigene Firma anlegen und Vortrag | Person 3 |
+| 02_Aufgaben/A001_Projektmappe_fuer_die_eigene_Firma_anlegen.docx | 37,5 KB | 777 | Projektmappe für die eigene Firma anlegen | Allgemein |
+| 02_Aufgaben/A001_Projektmappe_fuer_die_eigene_Firma_anlegen.pdf | 64,0 KB | 796 | Projektmappe für die eigene Firma anlegen | Allgemein |
+| 02_Aufgaben/A002_Unsere_Firma_auf_einer_Seite.docx | 37,7 KB | 876 | Unsere Firma auf einer Seite | Allgemein |
+| 02_Aufgaben/A002_Unsere_Firma_auf_einer_Seite.pdf | 64,3 KB | 899 | Unsere Firma auf einer Seite | Allgemein |
+| 02_Aufgaben/A003_Posteingang_sortieren.docx | 37,8 KB | 925 | Posteingang sortieren | Person 2 |
+| 02_Aufgaben/A003_Posteingang_sortieren.pdf | 64,7 KB | 949 | Posteingang sortieren | Person 2 |
+| 02_Aufgaben/A004_Der_erste_Auftrag_in_fuenf_Teilen.docx | 37,6 KB | 870 | Der erste Auftrag in fünf Teilen | Person 1 |
+| 02_Aufgaben/A004_Der_erste_Auftrag_in_fuenf_Teilen.pdf | 64,5 KB | 894 | Der erste Auftrag in fünf Teilen | Person 1 |
+| 02_Aufgaben/A005_Wer_ist_wer_im_Haus.docx | 37,5 KB | 747 | Wer ist wer im Haus | Person 3 |
+| 02_Aufgaben/A005_Wer_ist_wer_im_Haus.pdf | 64,0 KB | 772 | Wer ist wer im Haus | Person 3 |
+| 02_Aufgaben/A006_Rundgang_als_Sprachnotiz.docx | 37,5 KB | 683 | Rundgang als Sprachnotiz | Person 5 |
+| 02_Aufgaben/A006_Rundgang_als_Sprachnotiz.pdf | 63,8 KB | 707 | Rundgang als Sprachnotiz | Person 5 |
+| 02_Aufgaben/A007_Was_ohne_Uebergabe_liegen_geblieben_ist.docx | 37,8 KB | 896 | Was ohne Übergabe liegen geblieben ist | Person 5 |
+| 02_Aufgaben/A007_Was_ohne_Uebergabe_liegen_geblieben_ist.pdf | 64,8 KB | 916 | Was ohne Übergabe liegen geblieben ist | Person 5 |
+| 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.docx | 38,6 KB | 1.400 | Übergabeliste prüfen und Nachfolge regeln | Person 5 |
+| 02_Aufgaben/A008_Uebergabeliste_pruefen_und_Nachfolge_regeln.pdf | 66,5 KB | 1.429 | Übergabeliste prüfen und Nachfolge regeln | Person 5 |
+| 02_Aufgaben/A014_Hauschronik_1990_bis_2026_mit_Zusammenfuehrung.docx | 38,1 KB | 1.122 | Hauschronik 1990 bis 2026 | Person 4 |
+| 02_Aufgaben/A014_Hauschronik_1990_bis_2026_mit_Zusammenfuehrung.pdf | 65,0 KB | 1.143 | Hauschronik 1990 bis 2026 | Person 4 |
+| 02_Aufgaben/A018_Wartungsbericht_Lueftung_gegen_Auswertung.docx | 38,2 KB | 1.188 | Wartungsbericht Lüftung | Person 1 |
+| 02_Aufgaben/A018_Wartungsbericht_Lueftung_gegen_Auswertung.pdf | 65,5 KB | 1.217 | Wartungsbericht Lüftung | Person 1 |
+| 02_Aufgaben/A097_Vortrag_Firma_Rollen_Ergebnisse.docx | 38,4 KB | 1.303 | Vortrag | Allgemein |
+| 02_Aufgaben/A097_Vortrag_Firma_Rollen_Ergebnisse.pdf | 66,1 KB | 1.321 | Vortrag | Allgemein |
+| 02_Aufgaben/A161_Offene_Rechnungen_Preisanpassung_und_Kuendigungsfenster.docx | 38,7 KB | 1.482 | Offene Rechnungen und Preisanpassung | Person 2 |
+| 02_Aufgaben/A161_Offene_Rechnungen_Preisanpassung_und_Kuendigungsfenster.pdf | 67,4 KB | 1.519 | Offene Rechnungen und Preisanpassung | Person 2 |
+| 02_Aufgaben/A162_Wartungstermine_2027_und_Abschaltungen_festlegen.docx | 38,4 KB | 1.318 | Wartungstermine 2027 | Person 3 |
+| 02_Aufgaben/A162_Wartungstermine_2027_und_Abschaltungen_festlegen.pdf | 65,7 KB | 1.340 | Wartungstermine 2027 | Person 3 |
+| 02_Aufgaben/A163_Trendaufzeichnung_Forum_Lueftung_oder_Heizung.docx | 39,0 KB | 1.625 | Trendaufzeichnung Forum | Person 4 |
+| 02_Aufgaben/A163_Trendaufzeichnung_Forum_Lueftung_oder_Heizung.pdf | 67,4 KB | 1.664 | Trendaufzeichnung Forum | Person 4 |
+| 02_Aufgaben/A164_Protokoll_09384_Rueckfrage_zur_Abnahme.docx | 38,5 KB | 1.320 | Protokoll 09384 | Person 5 |
+| 02_Aufgaben/A164_Protokoll_09384_Rueckfrage_zur_Abnahme.pdf | 65,6 KB | 1.342 | Protokoll 09384 | Person 5 |
+| 02_Aufgaben/A165_Pruefauftrag_der_Verwaltung_zu_warme_Bueros.docx | 38,8 KB | 1.475 | Prüfauftrag der Verwaltung | Person 3 |
+| 02_Aufgaben/A165_Pruefauftrag_der_Verwaltung_zu_warme_Bueros.pdf | 66,5 KB | 1.498 | Prüfauftrag der Verwaltung | Person 3 |
+| 02_Aufgaben/A166_Regierechnung_Forum_Messung_und_Versicherungsnachweis.docx | 39,2 KB | 1.814 | Regierechnung Forum | Person 2 |
+| 02_Aufgaben/A166_Regierechnung_Forum_Messung_und_Versicherungsnachweis.pdf | 67,9 KB | 1.851 | Regierechnung Forum | Person 2 |
 | 03_Material/Abgang/01_Mitteilung_Austritt.eml | 1,1 KB | 223 | Was ohne Übergabe liegen geblieben ist | Person 5 |
-| 03_Material/Abgang/01_Mitteilung_Austritt.txt | 0,9 KB | 239 | "Was ohne Übergabe liegen geblieben ist" (Lesefassung der EML) | Person 5 |
+| 03_Material/Abgang/01_Mitteilung_Austritt.txt | 0,9 KB | 233 | "Was ohne Übergabe liegen geblieben ist" (Lesefassung der EML) | Person 5 |
 | 03_Material/Abgang/02_Abwesenheitsnotiz.txt | 0,3 KB | 66 | Was ohne Übergabe liegen geblieben ist | Person 5 |
 | 03_Material/Abgang/03_Notizen_MBa.txt | 1,0 KB | 250 | Was ohne Übergabe liegen geblieben ist, Wartungsbericht Lüftung und Protokoll 09384 | Allgemein |
 | 03_Material/Abgang/04_Meine_Fristen_MBa.xlsx | 5,9 KB | 342 | Was ohne Übergabe liegen geblieben ist und Übergabeliste prüfen und Nachfolge regeln | Person 5 |
 | 03_Material/Abgang/05_Kalender_MBa.ics | 0,8 KB | 204 | Was ohne Übergabe liegen geblieben ist und Übergabeliste prüfen und Nachfolge regeln | Person 5 |
-| 03_Material/Abgang/05_Kalender_MBa.csv | 0,6 KB | 160 | Was ohne Übergabe liegen geblieben ist und Übergabeliste prüfen und Nachfolge regeln | Person 5 |
+| 03_Material/Abgang/05_Kalender_MBa.csv | 0,6 KB | 159 | Was ohne Übergabe liegen geblieben ist und Übergabeliste prüfen und Nachfolge regeln | Person 5 |
 | 03_Material/Abgang/06_Entwuerfe/Entwurf_1_Telefonnotiz_Buero_im_Kern_2_T.docx | 36,0 KB | 91 | Was ohne Übergabe liegen geblieben ist | Person 5 |
 | 03_Material/Abgang/06_Entwuerfe/Entwurf_2_Raum_EG_Forum_heizt_sich_auf.docx | 35,9 KB | 76 | Was ohne Übergabe liegen geblieben ist | Person 5 |
 | 03_Material/GA/Trend_EZ_EG_Forum_2026-10-26_bis_2026-11-17.csv | 29,5 KB | 7.405 | Trendaufzeichnung Forum | Person 4 |
@@ -182,7 +184,7 @@ Laden Sie nie das ganze Paket in einen Chat. Die Tabelle zeigt je Aufgabe die Da
 | 03_Material/Postfach/16_2026-11-18_Forum_und_EZ_EG.eml | 1,2 KB | 246 | Trendaufzeichnung Forum und Regierechnung Forum | Allgemein |
 | 03_Material/Postfach/17_2026-11-18_Klappenpruefung_Bogenfeld.eml | 0,8 KB | 149 | Übergabeliste prüfen und Nachfolge regeln | Allgemein |
 | 03_Material/Postfach/18_2026-11-18_Abrechnung_Wartungen_November.eml | 1,1 KB | 230 | Offene Rechnungen und Preisanpassung und Protokoll 09384 | Allgemein |
-| 04_Datenraum/00_Auszug_Datenraumindex.xlsx | 7,7 KB | 1.740 | Nachschlagen | Allgemein |
+| 04_Datenraum/00_Auszug_Datenraumindex.xlsx | 7,5 KB | 1.740 | Nachschlagen | Allgemein |
 | 04_Datenraum/03/03.10.02.017_2026-11-03_Flaechenspiegel_Raumlot_Objektmanagement.pdf | 52,1 KB | 318 | Rundgang als Sprachnotiz und Wartungstermine 2027 | Allgemein |
 | 04_Datenraum/03/03.13.01.012_2008-12-31_Rueckgabeprotokoll_Mietflaeche_Brenner_D.pdf | 335,8 KB | 880 | Hauschronik 1990 bis 2026 | Allgemein |
 | 04_Datenraum/04/04.03.01.018_2018-03-06_Wartungsvertrag_Torwinkel.pdf | 640,4 KB | 4.800 | Wartungsbericht Lüftung, Offene Rechnungen und Preisanpassung und Regierechnung Forum | Allgemein |
@@ -214,4 +216,4 @@ Laden Sie nie das ganze Paket in einen Chat. Die Tabelle zeigt je Aufgabe die Da
 | 05_Vorlagen/START.docx | 36,6 KB | 240 | Nachschlagen | Allgemein |
 | 05_Vorlagen/START.md | 1,0 KB | 246 | Nachschlagen | Allgemein |
 | 05_Vorlagen/protokoll.docx | 36,3 KB | 219 | Nachschlagen | Allgemein |
-| 05_Vorlagen/protokoll.md | 0,8 KB | 203 | Nachschlagen | Allgemein |
+| 05_Vorlagen/protokoll.md | 0,8 KB | 208 | Nachschlagen | Allgemein |

@@ -1,6 +1,6 @@
 # Projektakte Luftpfad Anlagentechnik GmbH
 
-Webseite einer Studierendengruppe (KI-Vorlesung) zur fiktiven Firma Luftpfad Anlagentechnik GmbH im Haus am Bogenfeld. Stand der Kursunterlagen: 18.11.2026. Sprache der Seite und aller Texte: Deutsch.
+Webseite einer Studierendengruppe (KI-Vorlesung) zur fiktiven Firma Luftpfad Anlagentechnik GmbH im Haus am Bogenfeld. Stand der Kursunterlagen: 18.11.2026, Paket aktualisiert am 23.11.2026 (Aufgabenblätter ruhen bis auf Weiteres, siehe `files/0_Allgemein/00_Bis_zum_2_12.md`). Sprache der Seite und aller Texte: Deutsch.
 
 Live: https://elreqanolo.github.io/ki_projekt_luftpfad/ (GitHub Pages, Branch `main`, Ordner `/`).
 

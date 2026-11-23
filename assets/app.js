@@ -114,7 +114,8 @@
           <text x="${xs[i]}" y="${y + 156}" class="node-role">${esc(p.funktion.split(' (')[0].replace('Servicetechniker ', 'Service '))}</text>
         </a>`).join('')}
     </svg>`;
-    const due = S.projekte.filter(p => p.id !== 'START').slice().sort((a, b) => toDate(a.due) - toDate(b.due) || a.id.localeCompare(b.id));
+    const A = S.firma.ansteht;
+    const blaetter = S.projekte.filter(p => p.ruht).slice().sort((a, b) => a.person - b.person || a.id.localeCompare(b.id));
     const lage = S.firmenbriefing.sections.find(s => s.title.startsWith('19'));
     main.innerHTML = `
       <section class="hero">
@@ -124,13 +125,22 @@
         <ul class="schema-list">${ps.map(p => `<li class="${COLORS[p.nr]}"><a href="#/person/${p.nr}">${personDot(p.nr)}<b>${esc(p.name)}</b> <span>${esc(p.funktion.split(' (')[0])}</span></a></li>`).join('')}</ul>
       </section>
       <section class="block">
-        <h2>Was bis zum 2.12. ansteht</h2>
+        <h2>Was ansteht</h2>
+        <p class="next-date">${A.sitzung}</p>
+        <p>${A.pflicht}</p>
+        <h3>Was erwartet ist</h3>
+        <ul class="claims">${A.erwartet.map(li).join('')}</ul>
+        <h3>Freiwillige Übungen</h3>
+        <ul class="ueb">${A.freiwillig.map(u => `<li><span class="size">${esc(u.g)}</span><a href="#/projekt/${u.id}">${esc(u.t)}</a><span data-st="${u.id}"></span> <span class="qs">${u.q}</span></li>`).join('')}</ul>
+      </section>
+      <section class="block">
+        <h2>Aufgabenblätter der Figuren</h2>
+        <p class="hint">${A.ruht}</p>
         <p class="st-summary" id="st-summary"></p>
-        <ol class="timeline">${due.map(p => `<li class="${COLORS[p.person]}">
-          <time>${esc(p.due.slice(0, 6))}</time>
+        <ol class="timeline">${blaetter.map(p => `<li class="${COLORS[p.person]}">
+          <time class="rest">ruht</time>
           <a href="#/projekt/${p.id}"><b>${esc(p.id)}</b> ${esc(p.titel)}</a>
           <span class="who"><span data-st="${p.id}"></span>${personDot(p.person)}${esc(PERS[p.person].name)}</span></li>`).join('')}</ol>
-        <p class="src-note">Termine aus ${S.allgemein['00_Bis_zum_2_12'] ? qLink(S.allgemein['00_Bis_zum_2_12'].file, 'Termine nach Datum') : ''} und den Aufgabenblättern.</p>
       </section>
       ${lage ? `<section class="block">
         <h2>Die Lage im November 2026</h2>
@@ -138,6 +148,7 @@
         <p class="src-note">Quelle: ${qLink(S.firmenbriefing.file, 'Abschnitt 19, S. ' + lage.page)}</p>
       </section>` : ''}`;
   }
+  const dueText = p => p.ruht ? 'ruht bis auf Weiteres' : p.freiwillig ? 'freiwillig bis ' + esc(p.due.slice(0, 6)) : 'bis ' + esc(p.due);
   const toDate = d => { const [t, m, j] = d.split('.'); return new Date(+j, +m - 1, +t).getTime(); };
   function qLink(fileId, loc) {
     const f = FILES[fileId]; if (!f) return '';
@@ -215,12 +226,11 @@
           <div><dt>Jahrgang</dt><dd>${esc(p.jahrgang)}</dd></div>
           <div><dt>Mail</dt><dd><a href="mailto:${esc(p.mail)}">${esc(p.mail)}</a></dd></div>
           <div><dt>Telefon</dt><dd>${esc(p.telefon)}</dd></div>
-          <div><dt>Stunden bis 2.12.</dt><dd>${esc(p.stunden)}</dd></div>
         </dl>
         <p class="qs">${p.quelle}</p>
       </header>
       <section class="block profile"><ul class="claims">${p.profil.map(li).join('')}</ul>
-        <p>Beginnt nach der Sitzung mit <b>${esc(p.beginnt)}</b> <span class="qs">${p.beginntQuelle}</span></p></section>
+        <p>Erste Aufgabe im Aufgabenblatt (ruht bis auf Weiteres): <b>${esc(p.beginnt)}</b> <span class="qs">${p.beginntQuelle}</span></p></section>
       <div class="tabs" role="tablist">${tabs.map(([k, t]) => `<a role="tab" href="#/person/${n}/${k}" aria-selected="${k === tab}">${t}</a>`).join('')}</div>
       <section class="block" id="tab"></section>`;
     const el = $('#tab');
@@ -240,7 +250,7 @@
     if (!list.length) return '<p class="hint">Keine Projekte.</p>';
     return `<ul class="projlist">${list.map(p => `<li class="${COLORS[p.person]}">
       <a href="#/projekt/${p.id}"><b>${esc(p.id)}</b><span>${esc(p.titel)}</span></a>
-      <span class="meta"><span data-st="${p.id}"></span> bis ${esc(p.due)} · ${esc(p.aufwand)} · ${esc(p.kette)}</span></li>`).join('')}</ul>`;
+      <span class="meta"><span data-st="${p.id}"></span> ${dueText(p)} · ${esc(p.aufwand)} · ${esc(p.kette)}</span></li>`).join('')}</ul>`;
   }
 
   // ------------------------------------------------------------------ Projekte
@@ -292,11 +302,12 @@
         <dl class="contact">
           <div><dt>Federführend</dt><dd>${personLink(p.person)}</dd></div>
           <div><dt>Beteiligt</dt><dd>${(p.persons || []).filter(n => n !== p.person).map(personLink).join(' ') || '–'}</dd></div>
-          <div><dt>Fertig bis</dt><dd>${esc(p.due)}</dd></div>
+          <div><dt>Fertig bis</dt><dd>${dueText(p)}</dd></div>
           <div><dt>Aufwand</dt><dd>${esc(p.aufwand)}</dd></div>
           <div><dt>Status</dt><dd data-st="${p.id}"></dd></div>
         </dl>
       </header>
+      ${p.ruht ? `<p class="ruht-note"><b>Ruht bis auf Weiteres.</b> ${S.firma.ansteht.ruht}</p>` : ''}
       <section class="block status-panel" id="st-panel" data-id="${p.id}"><p class="hint">Status wird geladen …</p></section>
       <section class="block summary">
         <h2>Zusammenfassung</h2>
@@ -360,7 +371,7 @@
       ${o.status !== 'fertig' ? `
         <form class="fb-form" id="fb-form">
           <label for="fb-text">${o.status === 'offen' ? 'Hinweis für die KI (optional)' : o.status === 'infos' ? 'Fehlende Infos eintragen' : 'Verbesserungen oder Fehler'}</label>
-          <textarea id="fb-text" rows="5" placeholder="${o.status === 'infos' ? 'Zum Beispiel: Antwort von Kantbogen aus K61 vom 30.11.: Rechnung 2026/3325 wird mit dem Zahllauf am 1.12. bezahlt …' : o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 25.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
+          <textarea id="fb-text" rows="5" placeholder="${o.status === 'infos' ? 'Zum Beispiel: Diese Info haben wir selbst ermittelt oder vom Dozenten bekommen: …' : o.status === 'offen' ? 'Zum Beispiel: Bitte die Zinsen bis zum 18.11. rechnen.' : 'Was ist falsch, was fehlt, was soll anders werden? Gern mit Datei und Stelle.'}" ${canWrite ? '' : 'disabled'}></textarea>
           <label class="fb-attach">Dateien anhängen (optional)<input type="file" id="fb-files" multiple ${canWrite ? '' : 'disabled'}>
             <small>Zum Beispiel eine korrigierte Tabelle, ein Bildschirmfoto der richtigen Stelle oder eine Antwort aus dem Kursteam. Die Dateien landen in der Ablage von ${esc(PERS[p.person].name)} unter „${esc(projFolder(p))}/Verbesserungen“.</small></label>
           <ul class="fb-picked" id="fb-picked"></ul>

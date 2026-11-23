@@ -2,6 +2,13 @@
 
 Du bist der Tagesagent der Projektakte der Gruppe „Luftpfad Anlagentechnik GmbH“ (KI-Vorlesung, Stand der Unterlagen 18.11.2026). Du läufst einmal pro Woche, montags um 9:30 Uhr. Du arbeitest nur in diesem Repository und schreibst auf Deutsch.
 
+## Aktuelle Lage (Paket vom 23.11.2026)
+
+Laut `files/0_Allgemein/00_Bis_zum_2_12.pdf` (Stand 19.11.2026, nach der ersten Sitzung) **ruhen die Aufgabenblätter der Figuren bis auf Weiteres**: Abgabetage, Stundenangaben, Lieferungen an andere Firmen und Post anderer Firmen gelten nicht, der Vortrag mit acht Folien am 2.12. entfällt in dieser Form. Projekte mit `"ruht": true` in `data/site.json` bearbeitest du trotzdem nach den Regeln unten (die Gruppe will die Ergebnisse als Übung), aber:
+- Erwarte keine Eingänge anderer Gruppen. Setze **kein neues** `infos` wegen fehlender Post anderer Firmen, sondern schreib das fertige Teilergebnis, setze `ki_erledigt` und nenne die fehlenden Eingänge im Abschnitt „Was die Gruppe selbst entscheiden oder liefern muss“ mit dem Hinweis, dass sie derzeit nicht kommen.
+- Bestehende `infos`-Projekte bleiben, bis die Gruppe Feedback gibt.
+- Die Übungen `UEB-AKTE` und `UEB-ZAEHLER` sind freiwillig, ohne Abgabe. Ihre Aufträge liegen nicht im Repository: Ohne Auftrag in der Ablage nur einen Vermerk schreiben, was fehlt.
+
 ## Was du bei jedem Lauf tust
 
 1. **Stand holen.** `git pull` und dann lesen:

@@ -1,5 +1,8 @@
 --- Seite 1 ---
  Startblatt Person 4, Luftpfad Anlagentechnik GmbH
+ Stand 19.11.2026, nach der ersten Sitzung. Die Abgabetage, Übergaben und Stundenangaben in diesem
+ Blatt gelten bis auf Weiteres nicht. Was bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf im Ordner
+ 0_Allgemein Ihrer Firma und in 00_Kurs/Bis_zum_2_12.pdf.
  Sie spielen Elena Voss, Automationsfachkraft.
  Ihre Gruppe verteilt die fünf Figuren selbst. Getauscht werden kann zu jedem Semesterbeginn. Der
  Ordner Person_4 entspricht dem Rang der Figur in der Firma.
@@ -23,7 +26,6 @@
  Ihre Aufgaben
  Federführend heißt: Sie sorgen dafür, dass die Aufgabe fertig wird. Gearbeitet wird gemeinsam. Aufwand,
  Beginn und Frist stehen im Inhaltsverzeichnis in 0_Allgemein.
-
  Aufgabe                                               Beginn       fertig bis            Aufwand
  Hauschronik 1990 bis 2026                             19.11.       2.12.2026             2,5 h
  Trendaufzeichnung Forum                               19.11.       2.12.2026             3,5 h
@@ -44,14 +46,15 @@
  Aus 0_Allgemein brauchen Ihre Aufgaben außerdem
  Die Aufgabenblätter nennen die Dateien einzeln. Diese Liste gibt nur die Übersicht, ohne Briefings der
  Firma und ohne Vorlagen, die Sie ohnehin öffnen.
-  • 03_Material/Postfach/06_2026-11-03_Stand_Raum_EG_Forum_heizt_sich_auf.eml
-  • 03_Material/Postfach/16_2026-11-18_Forum_und_EZ_EG.eml
-  • 04_Datenraum/03/03.13.01.012_2008-12-31_Rueckgabeprotokoll_Mietflaeche_Brenner_D.pdf
+
 
 
 Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                          Seite 1
 
 --- Seite 2 ---
+  • 03_Material/Postfach/06_2026-11-03_Stand_Raum_EG_Forum_heizt_sich_auf.eml
+  • 03_Material/Postfach/16_2026-11-18_Forum_und_EZ_EG.eml
+  • 04_Datenraum/03/03.13.01.012_2008-12-31_Rueckgabeprotokoll_Mietflaeche_Brenner_D.pdf
   • 04_Datenraum/04/04.21.04.192_2026-11-02_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
   • 04_Datenraum/07/07.01.01.041_2010-01-01_Partnerschaftsregisterauszug_aktuell_Ins.pdf
   • 04_Datenraum/07/07.17.02.061_2010-07-18_Personen_steckbrief_Sievers_Haus-_und_An.pdf

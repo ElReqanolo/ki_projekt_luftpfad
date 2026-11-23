@@ -293,7 +293,7 @@ def main():
                  ('00_Start_Gruppe', '00_Ablauf', '00_Bis_zum_2_12', '00_Inhaltsverzeichnis', '00_Startfrage')}
 
     site = {
-        'stand': '19.11.2026',
+        'stand': '19.11.2026, nach der ersten Sitzung (Paket vom 23.11.2026)',
         'firma': render_tree(firma, src),
         'firmenbriefing': fb,
         'allgemein': allgemein,

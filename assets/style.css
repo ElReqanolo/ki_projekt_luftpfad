@@ -391,3 +391,12 @@ dialog::backdrop { background: rgba(23, 36, 43, .45); }
 .proj-tools .seg { margin-top: 0; }
 .proj-filter { display: flex; flex-direction: column; font-size: .82rem; color: var(--muted); gap: .2rem; }
 .proj-tools .count { color: var(--muted); font-size: .9rem; margin-left: auto; }
+
+/* Was ansteht */
+.next-date { font-size: 1.15rem; font-weight: 600; margin: .2rem 0 .6rem; max-width: 70ch; }
+.ueb { list-style: none; padding: 0; margin: .4rem 0 0; max-width: 80ch; }
+.ueb li { display: flex; flex-wrap: wrap; gap: .3rem .6rem; align-items: baseline; padding: .4rem 0; border-bottom: 1px solid var(--rule); }
+.ueb .size { min-width: 3.6rem; font-stretch: 80%; font-weight: 700; color: var(--muted); }
+.ueb a { color: var(--ink); font-weight: 600; }
+.timeline time.rest { font-weight: 400; color: var(--muted); }
+.ruht-note { margin: 0 0 1rem; padding: .7rem .9rem; border-left: 4px solid var(--muted); background: rgba(0,0,0,.035); max-width: 80ch; }

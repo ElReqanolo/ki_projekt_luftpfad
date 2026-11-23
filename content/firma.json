@@ -3,18 +3,66 @@
   "kurz": "Wartung und Reparatur gewerblicher Lüftungsanlagen und der zugehörigen Automation. Im Haus am Bogenfeld (Bogenfeld 12, 70565 Stuttgart-Vaihingen) zuständig für die Wartung der Lüftungsanlagen.",
   "kurzQuelle": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.04.02.006|S. 1]]",
   "steckbrief": [
-    {"k": "Rechtsform", "v": "GmbH", "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.01.01.142|Nr. 6a]]"},
-    {"k": "Register", "v": "HRB 724559, Amtsgericht Stuttgart", "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.01.01.142|Kopf]]"},
-    {"k": "Eintragung im Register", "v": "13.06.2002", "q": "[[07.01.01.142|Nr. 6a und Eintragung 1]] [[07.04.02.055|S. 1]]"},
-    {"k": "Gründung", "v": "2002 (Steckbrief und Chronik: 01.01.2002)", "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.04.02.006|S. 1]] [[07.04.02.055|S. 1]]"},
-    {"k": "Sitz", "v": "Luftbogen 9, 70372 Stuttgart", "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.01.01.142|Nr. 2b]]"},
-    {"k": "Stammkapital", "v": "50.000 EUR", "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.01.01.142|Nr. 3]]"},
-    {"k": "Gegenstand laut Register", "v": "Planung, Wartung und Instandhaltung lufttechnischer Anlagen", "q": "[[07.01.01.142|Nr. 2c]]"},
-    {"k": "Beschäftigte", "v": "24 Beschäftigte, 22,00 Vollzeitäquivalente", "q": "[[Firmenbriefing|Abschnitt 1, S. 1]]"},
-    {"k": "Geschäftsführung", "v": "Henrike Baum (technisch, seit 2008), Kai Landmann (kaufmännisch, seit 2020)", "q": "[[Firmenbriefing|Abschnitt 4, S. 3]] [[07.01.01.142|Nr. 4]]"},
-    {"k": "Vertretung", "v": "Gesamtvertretung: zwei Geschäftsführer gemeinsam oder ein Geschäftsführer mit einem Prokuristen; Prokura keine eingetragen", "q": "[[07.01.01.142|Nr. 4 und 5]]"},
-    {"k": "Gesellschafter", "v": "Regina Rothe 60 %, Susanne Stolle 40 %", "q": "[[Firmenbriefing|Abschnitt 4, S. 3]]"},
-    {"k": "Erreichbarkeit", "v": "werktags 07:00 bis 17:00", "q": "[[Firmenbriefing|Abschnitt 1, S. 1]]"}
+    {
+      "k": "Rechtsform",
+      "v": "GmbH",
+      "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.01.01.142|Nr. 6a]]"
+    },
+    {
+      "k": "Register",
+      "v": "HRB 724559, Amtsgericht Stuttgart",
+      "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.01.01.142|Kopf]]"
+    },
+    {
+      "k": "Eintragung im Register",
+      "v": "13.06.2002",
+      "q": "[[07.01.01.142|Nr. 6a und Eintragung 1]] [[07.04.02.055|S. 1]]"
+    },
+    {
+      "k": "Gründung",
+      "v": "2002 (Steckbrief und Chronik: 01.01.2002)",
+      "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.04.02.006|S. 1]] [[07.04.02.055|S. 1]]"
+    },
+    {
+      "k": "Sitz",
+      "v": "Luftbogen 9, 70372 Stuttgart",
+      "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.01.01.142|Nr. 2b]]"
+    },
+    {
+      "k": "Stammkapital",
+      "v": "50.000 EUR",
+      "q": "[[Firmenbriefing|Abschnitt 1, S. 1]] [[07.01.01.142|Nr. 3]]"
+    },
+    {
+      "k": "Gegenstand laut Register",
+      "v": "Planung, Wartung und Instandhaltung lufttechnischer Anlagen",
+      "q": "[[07.01.01.142|Nr. 2c]]"
+    },
+    {
+      "k": "Beschäftigte",
+      "v": "24 Beschäftigte, 22,00 Vollzeitäquivalente",
+      "q": "[[Firmenbriefing|Abschnitt 1, S. 1]]"
+    },
+    {
+      "k": "Geschäftsführung",
+      "v": "Henrike Baum (technisch, seit 2008), Kai Landmann (kaufmännisch, seit 2020)",
+      "q": "[[Firmenbriefing|Abschnitt 4, S. 3]] [[07.01.01.142|Nr. 4]]"
+    },
+    {
+      "k": "Vertretung",
+      "v": "Gesamtvertretung: zwei Geschäftsführer gemeinsam oder ein Geschäftsführer mit einem Prokuristen; Prokura keine eingetragen",
+      "q": "[[07.01.01.142|Nr. 4 und 5]]"
+    },
+    {
+      "k": "Gesellschafter",
+      "v": "Regina Rothe 60 %, Susanne Stolle 40 %",
+      "q": "[[Firmenbriefing|Abschnitt 4, S. 3]]"
+    },
+    {
+      "k": "Erreichbarkeit",
+      "v": "werktags 07:00 bis 17:00",
+      "q": "[[Firmenbriefing|Abschnitt 1, S. 1]]"
+    }
   ],
   "leistung": [
     "Diagnose, Wartung und Reparatur von Lüftung und zugehöriger Automation; Schwerpunkte Ventilatoren, Klappenantriebe, Volumenstromregelung und Einbindung in die Anlagenautomation. [[Firmenbriefing|Abschnitt 1, S. 1]]",
@@ -28,43 +76,211 @@
     "Austausch des Stellantriebs am Forum-Regler im vorhandenen Auftrag am 30.10.2026; Zuluftvolumenstrom danach 1.110 m³/h (vorher 520 m³/h). [[Firmenbriefing|Abschnitt 5 und 18]]"
   ],
   "vertraege": [
-    {"name": "Wartung Absauganlage Lösemittel Hinterhofhalle", "partner": "Brenner Druck GmbH", "beginn": "06.05.2002", "stand": "beendet", "q": "[[Firmenbriefing|Abschnitt 7, S. 4]]"},
-    {"name": "Wartungsvertrag VTR-1005: RLT, Gebäudeautomation und Gasanlagen", "partner": "Kantbogen Bestand GmbH (vertreten durch Torwinkel)", "beginn": "03.04.2018", "stand": "läuft", "q": "[[Firmenbriefing|Abschnitt 7, S. 4]] [[04.03.01.018|S. 1]]"}
+    {
+      "name": "Wartung Absauganlage Lösemittel Hinterhofhalle",
+      "partner": "Brenner Druck GmbH",
+      "beginn": "06.05.2002",
+      "stand": "beendet",
+      "q": "[[Firmenbriefing|Abschnitt 7, S. 4]]"
+    },
+    {
+      "name": "Wartungsvertrag VTR-1005: RLT, Gebäudeautomation und Gasanlagen",
+      "partner": "Kantbogen Bestand GmbH (vertreten durch Torwinkel)",
+      "beginn": "03.04.2018",
+      "stand": "läuft",
+      "q": "[[Firmenbriefing|Abschnitt 7, S. 4]] [[04.03.01.018|S. 1]]"
+    }
   ],
   "gegenueber": [
-    {"firma": "Torwinkel Gebäudeservice GmbH", "rolle": "FM-Dienstleisterin im laufenden Betrieb", "personen": "Rainer Jungmann (Geschäftsführer), Ben Hecht (Servicekoordination)", "q": "[[Firmenbriefing|Abschnitt 6 und 12, S. 10]]"},
-    {"firma": "Kantbogen Bestand GmbH", "rolle": "Eigentümerin und Vermieterin, Auftraggeberin VTR-1005", "personen": "Eva Brandt (Geschäftsführung), Clara Rhein (Rechnungsprüfung Eigentümer)", "q": "[[Firmenbriefing|Abschnitt 6 und 12, S. 10]]"},
-    {"firma": "Raumlot Objektmanagement GmbH", "rolle": "Property Manager im Betrieb", "personen": "Uwe Pohl (Geschäftsführer), Farid Mertens (Technisches Property Management)", "q": "[[Firmenbriefing|Abschnitt 6 und 12, S. 10]]"},
-    {"firma": "Technische Prüfstelle Kastner GmbH (TPK)", "rolle": "Prüforganisation Aufzüge, Druck, Elektro", "personen": "Dr. Franco Esposito (Geschäftsstellenleiter), Olaf Marquardt (Geschäftsführer)", "q": "[[Firmenbriefing|Abschnitt 6 und 12, S. 10]]"},
-    {"firma": "Thermenfeld Wärme und Wasser GmbH", "rolle": "Wärmeverteilung, abgegrenzte Sanitärarbeiten", "personen": "Detlef Brede", "q": "[[Firmenbriefing|Abschnitt 6, S. 3]] [[Personenbriefing_Kai_Landmann|Abschnitt 12, S. 5]]"},
-    {"firma": "Signalsteg Messtechnik GmbH", "rolle": "Mieterin OG1, bietet Raumklimamessung im Forum an", "personen": "Konrad Elster", "q": "[[Firmenbriefing|Abschnitt 6, S. 4]] [[A163_|Teil 4]]"}
+    {
+      "firma": "Torwinkel Gebäudeservice GmbH",
+      "rolle": "FM-Dienstleisterin im laufenden Betrieb",
+      "personen": "Rainer Jungmann (Geschäftsführer), Ben Hecht (Servicekoordination)",
+      "q": "[[Firmenbriefing|Abschnitt 6 und 12, S. 10]]"
+    },
+    {
+      "firma": "Kantbogen Bestand GmbH",
+      "rolle": "Eigentümerin und Vermieterin, Auftraggeberin VTR-1005",
+      "personen": "Eva Brandt (Geschäftsführung), Clara Rhein (Rechnungsprüfung Eigentümer)",
+      "q": "[[Firmenbriefing|Abschnitt 6 und 12, S. 10]]"
+    },
+    {
+      "firma": "Raumlot Objektmanagement GmbH",
+      "rolle": "Property Manager im Betrieb",
+      "personen": "Uwe Pohl (Geschäftsführer), Farid Mertens (Technisches Property Management)",
+      "q": "[[Firmenbriefing|Abschnitt 6 und 12, S. 10]]"
+    },
+    {
+      "firma": "Technische Prüfstelle Kastner GmbH (TPK)",
+      "rolle": "Prüforganisation Aufzüge, Druck, Elektro",
+      "personen": "Dr. Franco Esposito (Geschäftsstellenleiter), Olaf Marquardt (Geschäftsführer)",
+      "q": "[[Firmenbriefing|Abschnitt 6 und 12, S. 10]]"
+    },
+    {
+      "firma": "Thermenfeld Wärme und Wasser GmbH",
+      "rolle": "Wärmeverteilung, abgegrenzte Sanitärarbeiten",
+      "personen": "Detlef Brede",
+      "q": "[[Firmenbriefing|Abschnitt 6, S. 3]] [[Personenbriefing_Kai_Landmann|Abschnitt 12, S. 5]]"
+    },
+    {
+      "firma": "Signalsteg Messtechnik GmbH",
+      "rolle": "Mieterin OG1, bietet Raumklimamessung im Forum an",
+      "personen": "Konrad Elster",
+      "q": "[[Firmenbriefing|Abschnitt 6, S. 4]] [[A163_|Teil 4]]"
+    }
   ],
   "chronik": [
-    {"d": "01.01.2002", "t": "Gründung eines Lüftungsservicebetriebs mit eigener kleiner Werkstatt", "q": "[[07.04.02.055|S. 1]] [[Firmenbriefing|Abschnitt 4, S. 2]]"},
-    {"d": "13.06.2002", "t": "Eintragung im Handelsregister", "q": "[[07.01.01.142|Eintragung 1]] [[07.04.02.055|S. 1]]"},
-    {"d": "04.11.2002", "t": "Bestellung Gerhard Rehm (Geschäftsführer kaufmännisch)", "q": "[[07.01.01.142|Eintragung 2]] [[07.04.02.055|S. 1]]"},
-    {"d": "02.09.2008", "t": "Insolvenzantrag der Brenner Druck GmbH", "q": "[[07.04.02.055|S. 1]]"},
-    {"d": "06.10.2008", "t": "Bestellung Henrike Baum (Geschäftsführerin technisch)", "q": "[[07.01.01.142|Eintragung 3]] [[07.04.02.055|S. 1]]"},
-    {"d": "03.04.2018", "t": "Wartung der Lüftung am Bogenfeld geht von Ostrau an Luftpfad (VTR-1005)", "q": "[[07.04.02.055|S. 1]] [[04.03.01.018|S. 1]]"},
-    {"d": "08.10.2019", "t": "Stellantrieb am Forum-Regler klemmt, Gewährleistung abgelehnt", "q": "[[07.04.02.055|S. 1]]"},
-    {"d": "31.10.2020", "t": "Ausscheiden Gerhard Rehm", "q": "[[07.01.01.142|Eintragung 4]]"},
-    {"d": "02.11.2020", "t": "Bestellung Kai Landmann (Kaufmännischer Geschäftsführer)", "q": "[[07.01.01.142|Eintragung 5]]"},
-    {"d": "04.12.2023", "t": "Indexberechnung Preisgleitklausel (Preisanpassung)", "q": "[[07.24.03.011|S. 1]]"},
-    {"d": "01.01.2024", "t": "Tobias Kernfeld wechselt von Torwinkel zu Luftpfad", "q": "[[07.04.02.055|S. 1]]"},
-    {"d": "29.09.2026", "t": "Kündigung Maximilian Backhaus zum 30.11.2026, letzter Arbeitstag 05.11.2026, keine Übergabe", "q": "[[Firmenbriefing|Abschnitt 18]]"},
-    {"d": "26.10.2026", "t": "Luftmangel im Forum, Auftrag an Luftpfad", "q": "[[07.04.02.055|S. 1]] [[Firmenbriefing|Abschnitt 18]]"},
-    {"d": "30.10.2026", "t": "Ersatz-Stellantrieb am Forum-Regler eingebaut", "q": "[[Firmenbriefing|Abschnitt 18]]"},
-    {"d": "16.11.2026", "t": "Kevin Schuster beginnt als Nachfolger von Maximilian Backhaus", "q": "[[01_Mitteilung_Austritt.txt]] [[Firmenbriefing|Abschnitt 10]]"}
+    {
+      "d": "01.01.2002",
+      "t": "Gründung eines Lüftungsservicebetriebs mit eigener kleiner Werkstatt",
+      "q": "[[07.04.02.055|S. 1]] [[Firmenbriefing|Abschnitt 4, S. 2]]"
+    },
+    {
+      "d": "13.06.2002",
+      "t": "Eintragung im Handelsregister",
+      "q": "[[07.01.01.142|Eintragung 1]] [[07.04.02.055|S. 1]]"
+    },
+    {
+      "d": "04.11.2002",
+      "t": "Bestellung Gerhard Rehm (Geschäftsführer kaufmännisch)",
+      "q": "[[07.01.01.142|Eintragung 2]] [[07.04.02.055|S. 1]]"
+    },
+    {
+      "d": "02.09.2008",
+      "t": "Insolvenzantrag der Brenner Druck GmbH",
+      "q": "[[07.04.02.055|S. 1]]"
+    },
+    {
+      "d": "06.10.2008",
+      "t": "Bestellung Henrike Baum (Geschäftsführerin technisch)",
+      "q": "[[07.01.01.142|Eintragung 3]] [[07.04.02.055|S. 1]]"
+    },
+    {
+      "d": "03.04.2018",
+      "t": "Wartung der Lüftung am Bogenfeld geht von Ostrau an Luftpfad (VTR-1005)",
+      "q": "[[07.04.02.055|S. 1]] [[04.03.01.018|S. 1]]"
+    },
+    {
+      "d": "08.10.2019",
+      "t": "Stellantrieb am Forum-Regler klemmt, Gewährleistung abgelehnt",
+      "q": "[[07.04.02.055|S. 1]]"
+    },
+    {
+      "d": "31.10.2020",
+      "t": "Ausscheiden Gerhard Rehm",
+      "q": "[[07.01.01.142|Eintragung 4]]"
+    },
+    {
+      "d": "02.11.2020",
+      "t": "Bestellung Kai Landmann (Kaufmännischer Geschäftsführer)",
+      "q": "[[07.01.01.142|Eintragung 5]]"
+    },
+    {
+      "d": "04.12.2023",
+      "t": "Indexberechnung Preisgleitklausel (Preisanpassung)",
+      "q": "[[07.24.03.011|S. 1]]"
+    },
+    {
+      "d": "01.01.2024",
+      "t": "Tobias Kernfeld wechselt von Torwinkel zu Luftpfad",
+      "q": "[[07.04.02.055|S. 1]]"
+    },
+    {
+      "d": "29.09.2026",
+      "t": "Kündigung Maximilian Backhaus zum 30.11.2026, letzter Arbeitstag 05.11.2026, keine Übergabe",
+      "q": "[[Firmenbriefing|Abschnitt 18]]"
+    },
+    {
+      "d": "26.10.2026",
+      "t": "Luftmangel im Forum, Auftrag an Luftpfad",
+      "q": "[[07.04.02.055|S. 1]] [[Firmenbriefing|Abschnitt 18]]"
+    },
+    {
+      "d": "30.10.2026",
+      "t": "Ersatz-Stellantrieb am Forum-Regler eingebaut",
+      "q": "[[Firmenbriefing|Abschnitt 18]]"
+    },
+    {
+      "d": "16.11.2026",
+      "t": "Kevin Schuster beginnt als Nachfolger von Maximilian Backhaus",
+      "q": "[[01_Mitteilung_Austritt.txt]] [[Firmenbriefing|Abschnitt 10]]"
+    }
   ],
   "abweichungen": [
-    {"was": "Gründungsdatum", "a": "„gegründet 2002“ ohne Tag [[Firmenbriefing|Abschnitt 1, S. 1]]", "b": "„Gegründet 01.01.2002“ [[07.04.02.006|S. 1]] [[07.04.02.055|S. 1]]"},
-    {"was": "Beginn Wartung Absauganlage Druckerei", "a": "Vertrag ab 06.05.2002 [[Firmenbriefing|Abschnitt 7, S. 4]]", "b": "01.05.2002 laut Chronik [[07.04.02.055|S. 1]], 01.01.2002 laut Steckbrief [[07.04.02.006|Rolle im Haus]]"},
-    {"was": "Amtszeit Gerhard Rehm", "a": "„03.11.2002 bis 31.10.2020“ [[Firmenbriefing|Abschnitt 4, S. 3]]", "b": "Bestellung eingetragen am 04.11.2002 [[07.01.01.142|Eintragung 2]]"},
-    {"was": "Henrike Baum: Beginn bei Luftpfad", "a": "seit 04.02.2008 [[Firmenbriefing|Abschnitt 10]]", "b": "01.01.2008 laut Chronik [[07.04.02.055|S. 1]]; Bestellung zur Geschäftsführerin 06.10.2008 [[07.01.01.142|Eintragung 3]]"},
-    {"was": "Selim Ahrens: Beginn bei Luftpfad", "a": "seit 01.08.2014 [[Firmenbriefing|Abschnitt 10]]", "b": "01.01.2014 laut Chronik [[07.04.02.055|S. 1]]"},
-    {"was": "Tobias Kernfeld: Beginn bei Luftpfad", "a": "seit 15.01.2024 [[Firmenbriefing|Abschnitt 10]]", "b": "01.01.2024 laut Chronik [[07.04.02.055|S. 1]]"},
-    {"was": "Registernummer im Auszug 2002", "a": "„Handelsregister Abteilung B Nr. 24559“ [[07.01.01.021|S. 1]]", "b": "HRB 724559 [[07.01.01.142|Kopf]] [[Firmenbriefing|Abschnitt 1]]"},
-    {"was": "Vertretungsregel", "a": "2002: Gerhard Rehm einzelvertretungsberechtigt [[07.01.01.021|Spalte 4]]", "b": "seit 2020: Gesamtvertretung durch zwei Geschäftsführer [[07.01.01.142|Nr. 4]]"},
-    {"was": "Pauschale und Preisgleitklausel VTR-1005", "a": "Laut Firmenbriefing passen Jahrespauschale und Preisgleitklausel im Scan weder zum Angebot 2018 noch zur Preisanpassung 2023 [[Firmenbriefing|Abschnitt 19, S. 14]]", "b": "Vertrag [[04.03.01.018|S. 1, § 3 und § 4]], Angebot [[07.19.02.040|S. 1]], Preisanpassung [[07.24.03.011|S. 1]]"}
-  ]
+    {
+      "was": "Gründungsdatum",
+      "a": "„gegründet 2002“ ohne Tag [[Firmenbriefing|Abschnitt 1, S. 1]]",
+      "b": "„Gegründet 01.01.2002“ [[07.04.02.006|S. 1]] [[07.04.02.055|S. 1]]"
+    },
+    {
+      "was": "Beginn Wartung Absauganlage Druckerei",
+      "a": "Vertrag ab 06.05.2002 [[Firmenbriefing|Abschnitt 7, S. 4]]",
+      "b": "01.05.2002 laut Chronik [[07.04.02.055|S. 1]], 01.01.2002 laut Steckbrief [[07.04.02.006|Rolle im Haus]]"
+    },
+    {
+      "was": "Amtszeit Gerhard Rehm",
+      "a": "„03.11.2002 bis 31.10.2020“ [[Firmenbriefing|Abschnitt 4, S. 3]]",
+      "b": "Bestellung eingetragen am 04.11.2002 [[07.01.01.142|Eintragung 2]]"
+    },
+    {
+      "was": "Henrike Baum: Beginn bei Luftpfad",
+      "a": "seit 04.02.2008 [[Firmenbriefing|Abschnitt 10]]",
+      "b": "01.01.2008 laut Chronik [[07.04.02.055|S. 1]]; Bestellung zur Geschäftsführerin 06.10.2008 [[07.01.01.142|Eintragung 3]]"
+    },
+    {
+      "was": "Selim Ahrens: Beginn bei Luftpfad",
+      "a": "seit 01.08.2014 [[Firmenbriefing|Abschnitt 10]]",
+      "b": "01.01.2014 laut Chronik [[07.04.02.055|S. 1]]"
+    },
+    {
+      "was": "Tobias Kernfeld: Beginn bei Luftpfad",
+      "a": "seit 15.01.2024 [[Firmenbriefing|Abschnitt 10]]",
+      "b": "01.01.2024 laut Chronik [[07.04.02.055|S. 1]]"
+    },
+    {
+      "was": "Registernummer im Auszug 2002",
+      "a": "„Handelsregister Abteilung B Nr. 24559“ [[07.01.01.021|S. 1]]",
+      "b": "HRB 724559 [[07.01.01.142|Kopf]] [[Firmenbriefing|Abschnitt 1]]"
+    },
+    {
+      "was": "Vertretungsregel",
+      "a": "2002: Gerhard Rehm einzelvertretungsberechtigt [[07.01.01.021|Spalte 4]]",
+      "b": "seit 2020: Gesamtvertretung durch zwei Geschäftsführer [[07.01.01.142|Nr. 4]]"
+    },
+    {
+      "was": "Pauschale und Preisgleitklausel VTR-1005",
+      "a": "Laut Firmenbriefing passen Jahrespauschale und Preisgleitklausel im Scan weder zum Angebot 2018 noch zur Preisanpassung 2023 [[Firmenbriefing|Abschnitt 19, S. 14]]",
+      "b": "Vertrag [[04.03.01.018|S. 1, § 3 und § 4]], Angebot [[07.19.02.040|S. 1]], Preisanpassung [[07.24.03.011|S. 1]]"
+    }
+  ],
+  "ansteht": {
+    "sitzung": "Nächste Sitzung: Mittwoch, 2.12.2026. Was Sie dafür mitbringen, steht vorher im Kurschat Objektwelt; dorthin gehen auch Fragen. [[00_Bis_zum_2_12|Die nächste Sitzung und Fragen]]",
+    "pflicht": "Bis dahin gibt es keine Pflichtaufgabe und keine Abgabetage. [[00_Bis_zum_2_12|Stand 19.11.2026]]",
+    "erwartet": [
+      "Arbeitsplatz der Firma weiterentwickeln: gemeinsamer Ordner mit START, eine Projektanweisung für Luftpfad und ein Gedächtnis der Gruppe mit Stand und Entscheidungen. Es zählt, dass Sie damit arbeiten. [[00_Bis_zum_2_12|Was erwartet ist, 1.]]",
+      "Das Skript „Arbeitsplatz mit KI“ durcharbeiten (kommt vom Dozenten im Kurschat Objektwelt). [[00_Bis_zum_2_12|Was erwartet ist, 2.]]",
+      "Folien der Antrittsvorstellung in 91_Abgabe/Luftpfad_Anlagentechnik nachlegen, falls sie dort noch fehlen. [[00_Bis_zum_2_12|Was bleibt]]"
+    ],
+    "freiwillig": [
+      {
+        "g": "klein",
+        "t": "Die Startfrage noch einmal, ohne Zeitdruck",
+        "id": "START",
+        "q": "[[00_Bis_zum_2_12|Was freiwillig ist]]"
+      },
+      {
+        "g": "mittel",
+        "t": "Zählerfehler 8,4 Mio kWh",
+        "id": "UEB-ZAEHLER",
+        "q": "[[00_Bis_zum_2_12|Was freiwillig ist]]"
+      },
+      {
+        "g": "groß",
+        "t": "Akte Abfluss OG2 West",
+        "id": "UEB-AKTE",
+        "q": "[[00_Bis_zum_2_12|Was freiwillig ist]]"
+      }
+    ],
+    "ruht": "Die Aufgabenblätter der Figuren ruhen bis auf Weiteres: Abgabetage, Stundenangaben, Lieferungen an andere Firmen und der Vortrag mit acht Folien gelten nicht. In 90_Uebergaben wird nichts abgelegt, und niemand wartet auf Post anderer Gruppen. Wann die Blätter wieder gelten, sagt der Dozent. [[00_Bis_zum_2_12|Was bis auf Weiteres nicht gilt]]"
+  }
 }

@@ -1,6 +1,6 @@
 # Startblatt Gruppe Luftpfad
 
-Luftpfad Anlagentechnik GmbH, Ihre Firma im Umfeld des Hauses am Bogenfeld (Bogenfeld 12, 70565 Stuttgart-Vaihingen). Für die erste Sitzung am 19.11.2026 und die Zeit bis zum 2.12.2026.
+Luftpfad Anlagentechnik GmbH, Ihre Firma im Umfeld des Hauses am Bogenfeld (Bogenfeld 12, 70565 Stuttgart-Vaihingen). Für die erste Sitzung am 19.11.2026. Was danach bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf.
 
 ## Ihre Firma
 
@@ -17,7 +17,7 @@ Ihre Gruppe bleibt in dieser Firma bis zum Finale im 6. Semester. Der Dozent hat
 
 ## Wer ist wer
 
-| Ordner | Figur und Stelle | Was diese Figur ausmacht | Sie beginnen mit |
+| Ordner | Figur und Stelle | Was diese Figur ausmacht | Erste Aufgabe im Aufgabenblatt (ruht bis auf Weiteres) |
 |---|---|---|---|
 | Person_1 | **Henrike Baum**, Technische Geschäftsführung | Führt den technischen Betrieb, nimmt keinen Zusatzauftrag in die Woche, ohne nach Kompetenz, Dauer und Anfahrt zu fragen, und will nicht jedes Problem mit Mehrarbeit derselben zwei Personen lösen. | Wartungsbericht Lüftung |
 | Person_2 | **Kai Landmann**, Kaufmännischer Geschäftsführer | Entscheidet schnell, korrigiert lieber später, als lange zu planen, und legt Vorschriften notfalls großzügig aus. | Posteingang sortieren |
@@ -58,14 +58,15 @@ Der genaue Ablauf steht in 0_Allgemein/00_Ablauf.pdf, hier die Kurzfassung.
 2. Arbeitsphase "Antrittsvorstellung" in vier Schritten (umschauen und einlesen, einrichten, Startfrage bearbeiten, Folien und Kundengespräch): Auftrag in 00_Kurs/Antrittsvorstellung, Ihre Startfrage in 0_Allgemein (00_Startfrage.pdf). Dafür lesen Sie das Firmenbriefing (die Abschnitte nennt Ihr Ablauf, Schritt 2) und Ihr eigenes Personenbriefing, befragen die KI dazu und lesen die Antworten an der Quelle gegen.
 3. Pause.
 4. Vorträge aller acht Firmen mit Zeit für Fragen, in dieser Reihenfolge: Werkraum, Luftpfad, Kantbogen, Torwinkel, Raumlot, Thermenfeld, Richtgrund, Signalsteg. Nach Ihrem Vortrag legen Sie die Folien als PDF in 91_Abgabe/Luftpfad_Anlagentechnik (2026-11-19_Antrittsvorstellung_Luftpfad.pdf).
-5. Abschluss: Jede Person macht den ersten Eintrag im Lernprotokoll: was ich übernehme, was ich bis wann liefere, eine offene Frage. Dazu kommt der Ausblick bis zum 2.12. Die erste Aufgabe danach ist die gemeinsame Übung "Akte Abfluss OG2 West".
+5. Abschluss: Jede Person macht den ersten Eintrag im Lernprotokoll: was ich übernehme, was ich bis wann liefere, eine offene Frage. Was bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf.
 
 ## Rahmen bis zum 2.12.2026
 
-- Es gibt zwei Termine: die Sitzung am 19.11. und die Sitzung am 2.12. Dazwischen arbeiten Sie selbst eingeteilt. Die Abgabetage zwischen den Gruppen stehen im Ablauf Ihrer Firma.
-- Jede Person hat bis dahin rund 6 bis 6,5 Stunden eigene Aufgaben. Dazu kommen für alle Gruppen zuerst die gemeinsame Übung "Akte Abfluss OG2 West" bis 25.11. (00_Kurs/Uebung_akte_abfluss), dann die gemeinsame Aufgabe "Zählerfehler 8,4 Mio kWh", Auftrag im Kursteam unter 00_Kurs/Uebung_zaehlerfehler. Deren Ergebnis gehört in den Vortrag.
-- Am 2.12. hält jede der acht Gruppen einen Vortrag. Er berichtet, wie und was Ihre Gruppe gemacht hat: Vorgehen, Werkzeuge, Fehler der KI, falls es welche gab, Ergebnisse und die Lösung des Zählerfehlers. Alle Gruppen haben höchstens acht Folien.
-- Was Sie liefern, legen Sie ab: Lieferungen an andere Firmen in 90_Uebergaben im Unterordner der Kette, in 91_Abgabe im Unterordner Ihrer Firma am 19.11. die Folien der Antrittsvorstellung, am 25.11. das Ergebnis der Akte Abfluss, am 2.12. die Folien des Vortrags und nach den Vorträgen das Protokoll zum Zählerfehler. Bis zum 2.12. legen Sie nichts aus dem Zählerfehler im Kursteam ab.
+- Die nächste Sitzung ist am Mittwoch, 2.12. Bis dahin gibt es keine Pflichtaufgabe.
+- Erwartet ist, dass Sie Ihren Arbeitsplatz weiterentwickeln und das Skript "Arbeitsplatz mit KI" durcharbeiten.
+- Drei Übungen sind freiwillig: Ihre Startfrage noch einmal, der Zählerfehler und die Akte Abfluss. Sie geben nichts ab.
+- Die Aufgaben Ihrer Figuren, die Abgabetage und die Lieferungen an andere Firmen ruhen bis auf Weiteres. Der Vortrag mit acht Folien am 2.12. entfällt in dieser Form.
+- Alles Weitere steht in 00_Bis_zum_2_12.pdf in diesem Ordner.
 
 ## Wenn etwas fehlt
 

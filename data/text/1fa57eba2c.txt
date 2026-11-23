@@ -10,54 +10,36 @@ Die Sitzung dauert vier Unterrichtseinheiten, dazwischen ist eine Pause. Der Abl
 | 2 | Arbeitsphase "Antrittsvorstellung" in vier Schritten (umschauen und einlesen, einrichten, Startfrage bearbeiten, Folien und Kundengespräch): Auftrag im Kursteam, Ordner 00_Kurs/Antrittsvorstellung, Ihre Startfrage in 0_Allgemein (00_Startfrage.pdf). Dafür lesen Sie: Firmenbriefing Abschnitte 1 bis 5 und 19 (Die Lage im November 2026) und Ihr eigenes Personenbriefing, dort den Abschnitt Ihr Fall bis 2.12. |
 | 3 | Pause |
 | 4 | Vorträge aller acht Firmen mit Zeit für Fragen, in dieser Reihenfolge: Werkraum, Luftpfad, Kantbogen, Torwinkel, Raumlot, Thermenfeld, Richtgrund, Signalsteg. Nach Ihrem Vortrag legen Sie die Folien als PDF in 91_Abgabe/Luftpfad_Anlagentechnik (2026-11-19_Antrittsvorstellung_Luftpfad.pdf). |
-| 5 | Abschluss je Person, als erster Eintrag im eigenen Lernprotokoll: was ich übernehme, was ich bis wann liefere, eine offene Frage. Dazu der Ausblick bis zum 2.12.: Die erste Aufgabe nach der Sitzung ist die gemeinsame Übung "Akte Abfluss OG2 West" (Abgabetage unten). |
+| 5 | Abschluss je Person, als erster Eintrag im eigenen Lernprotokoll: was ich übernehme, was ich bis wann liefere, eine offene Frage. Was bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf. |
 
 ## Wer welche Figur übernimmt
 
 Ihre Gruppe verteilt die fünf Figuren selbst. Die Nummer gibt den Ordner im Kursteam an und folgt dem Rang in der Firma. Getauscht werden kann zu jedem Semesterbeginn.
 
-| Ordner | Figur | beginnt nach der Sitzung | Stunden bis 2.12. |
-| --- | --- | --- | --- |
-| Person 1 | Henrike Baum | Wartungsbericht Lüftung | 6,5 |
-| Person 2 | Kai Landmann | Posteingang sortieren | 6,5 |
-| Person 3 | Selim Ahrens | Projektmappe für die eigene Firma anlegen | 6,5 |
-| Person 4 | Elena Voss | Trendaufzeichnung Forum | 6,0 |
-| Person 5 | Nachfolge: Kevin Schuster | Was ohne Übergabe liegen geblieben ist | 6,5 |
+| Ordner | Figur | erste Aufgabe im Aufgabenblatt (ruht bis auf Weiteres) |
+| --- | --- | --- |
+| Person 1 | Henrike Baum | Wartungsbericht Lüftung |
+| Person 2 | Kai Landmann | Posteingang sortieren |
+| Person 3 | Selim Ahrens | Projektmappe für die eigene Firma anlegen |
+| Person 4 | Elena Voss | Trendaufzeichnung Forum |
+| Person 5 | Nachfolge: Kevin Schuster | Was ohne Übergabe liegen geblieben ist |
 
-Dazu kommt die gemeinsame Aufgabe "Zählerfehler 8,4 Mio kWh" für die ganze Gruppe, etwa 2 Stunden. Die Stunden je Figur werden über die sechs Semester ausgeglichen.
+Die Aufgaben der Figuren ruhen bis auf Weiteres. Ihre Figuren behalten Sie.
 
-## Abgabetage bis 2.12.
+## Bis zum 2.12.
 
-Außer den beiden Sitzungen am 19.11. und am 2.12. gibt es keine weiteren Termine. Was nach der ersten Sitzung offen ist, arbeiten Sie selbst eingeteilt bis zu den Abgabetagen ab.
+Die nächste Sitzung ist am Mittwoch, 2.12. Bis dahin gibt es keine Abgabetage und keine Pflichtaufgabe. Erwartet ist, dass Sie Ihren Arbeitsplatz weiterentwickeln und das Skript "Arbeitsplatz mit KI" durcharbeiten. Drei Übungen sind freiwillig. Das Blatt 00_Bis_zum_2_12.pdf in diesem Ordner nennt sie und sagt, was bis auf Weiteres nicht gilt.
 
-* 19.11.: nach Ihrem Vortrag die Folien der Antrittsvorstellung als PDF in 91_Abgabe/Luftpfad_Anlagentechnik (2026-11-19_Antrittsvorstellung_Luftpfad.pdf)
-* 25.11.: gemeinsame Übung aller Gruppen "Akte Abfluss OG2 West", Ihre erste Aufgabe nach der Sitzung, Auftrag im Kursteam, Ordner 00_Kurs/Uebung_akte_abfluss. Am 25.11. legen Sie Antworten, Suchrezepte und Beobachtung als ein PDF in 91_Abgabe/Luftpfad_Anlagentechnik (2026-11-25_Akte_Abfluss_Luftpfad.pdf), nicht früher
-* 25.11.: Ihre fünf Schreiben an andere Firmen in Uebergaben/K61 bis K65 ("Offene Rechnungen und Preisanpassung" Kai mit einem Absatz zur Regierechnung Forum aus den Aufgaben "Regierechnung Forum" und "Wartungsbericht Lüftung" Henrike, "Wartungstermine 2027" Selim, "Trendaufzeichnung Forum" Elena, "Übergabeliste prüfen und Nachfolge regeln" Kevin)
-* 25.11.: Vorlage für die Hauschronik in Uebergaben/K12 und Nachricht an alle Gruppen im Kurschat Objektwelt ("Hauschronik 1990 bis 2026" Elena)
-* 25.11.: Torwinkel legt die Rückfrage zum Protokoll 09384 in Uebergaben/Abnahme_Wartung, Ihre Antwort bis 30.11. in denselben Ordner ("Protokoll 09384" Kevin)
-* 27.11.: Signalsteg legt sein Angebot für eine Raumklimamessung im Forum in Uebergaben/K64, Ihre Antworten darauf bis 30.11. in denselben Ordner ("Trendaufzeichnung Forum" Teil 4 Elena zu Zugang und Rohdaten, "Regierechnung Forum" Teil 2 Kai zu Kosten und Bedingungen), dazu Kais Nachricht an Thermenfeld im Kurschat Objektwelt
-* 30.11.: Antworten von Kantbogen, Raumlot, Torwinkel und Thermenfeld in Uebergaben/K61 bis K65. Lesen Sie sie vor dem 2.12. und halten Sie fest, wie Sie reagieren. Kevin entscheidet nach der Antwort aus K65 über das weitere Vorgehen bei den Klappen ("Übergabeliste prüfen und Nachfolge regeln" Teil 3)
-* 30.11.: Raumlot legt den Prüfauftrag zu den warmen Büros in Uebergaben/K05, Ihre Antwort bis 2.12. in denselben Ordner ("Prüfauftrag der Verwaltung" Selim, unterschrieben von Henrike)
-* 30.11.: Abschnitte der Hauschronik aller Gruppen in Uebergaben/K12, Ihr eigener Abschnitt auch
-* 1.12.: Luftpfad führt die Abschnitte aus Uebergaben/K12 zur gemeinsamen Chronik zusammen, höchstens eine Stunde, und legt sie bis 2.12. in denselben Ordner ("Hauschronik 1990 bis 2026")
-* bis 2.12.: gemeinsame Aufgabe aller Gruppen "Zählerfehler 8,4 Mio kWh", Auftrag im Kursteam, Ordner 00_Kurs/Uebung_zaehlerfehler, etwa 2 Stunden für die Gruppe, das Ergebnis gehört in den Vortrag. Bis zum 2.12. legen Sie nichts aus dieser Aufgabe im Kursteam ab
-* 2.12.: zweite Sitzung mit dem Vortrag (höchstens acht Folien je Gruppe), die Folien als PDF vor dem Vortrag in 91_Abgabe/<Firma>, das Protokoll zum Zählerfehler erst nach den Vorträgen
+Die Folien Ihrer Antrittsvorstellung liegen in 91_Abgabe/Luftpfad_Anlagentechnik. Fehlen sie dort noch, legen Sie sie bitte nach.
 
 ## Post anderer Gruppen an Ihre Firma
 
-| kommt bis | von | Ordner | was | bei Ihnen | Aufgabe |
-| --- | --- | --- | --- | --- | --- |
-| 25.11. | Torwinkel | Uebergaben/Abnahme_Wartung | Abnahmevermerk und Rückfrage zum Protokoll 09384 vom 03.11. | Kevin Schuster mit Henrike Baum | Protokoll 09384 |
-| 27.11. | Signalsteg | Uebergaben/K64 | Angebot für eine unabhängige Raumklimamessung im Forum | Elena Voss mit Henrike Baum, Kosten bei Kai Landmann | Trendaufzeichnung Forum und Regierechnung Forum |
-| 30.11. | Raumlot | Uebergaben/K05 | Prüfauftrag mit höchstens fünf Fragen zu zu warmen Büros | Selim Ahrens, Unterschrift Henrike Baum | Prüfauftrag der Verwaltung |
-| 30.11. | alle Gruppen ("Hauschronik 1990 bis 2026") | Uebergaben/K12 | Abschnitte der Hauschronik | Elena Voss | Hauschronik 1990 bis 2026 |
-| 30.11. | Kantbogen, Raumlot, Torwinkel, Thermenfeld | Uebergaben/K61 bis K65 | Antworten auf Ihre fünf Schreiben | je Person der Absender | Offene Rechnungen und Preisanpassung, Wartungsbericht Lüftung, Wartungstermine 2027, Trendaufzeichnung Forum und Übergabeliste prüfen und Nachfolge regeln |
+Bis auf Weiteres liefern die Firmen einander nichts. Sie warten auf keine Post anderer Gruppen, und keine Gruppe wartet auf Ihre.
 
 ## Wenn etwas fehlt
 
 * Fehlt eine Person, übernimmt die Gruppe ihre Figur und tauscht die Federführung. Vermerken Sie das im Protokoll.
 * Wer keinen eigenen KI-Zugang hat, arbeitet am Gerät einer anderen Person der Gruppe mit und schreibt ein eigenes Lernprotokoll. Daraus entsteht kein Nachteil.
-* Liegt eine Vorarbeit am Morgen nach dem Abgabetag nicht vor, legt die Spielleitung eine Ersatzvorarbeit in denselben Ordner.
 * Fragen an Personen anderer Firmen, die keine Gruppe übernommen hat, richten Sie im Kurschat Objektwelt an die Spielleitung. Das gilt auch für die Mieterin Feldkreis Service GmbH und für die Hochwart Pensionskasse VVaG.
 
 ## Dateien und Geräte
@@ -66,4 +48,4 @@ Alle Dateien liegen im Kursteam. Laden Sie nur den Allgemein-Teil Ihrer Firma un
 
 ## Lernprotokoll
 
-Das Lernprotokoll ist ein fester Teil Ihrer Abgabe.
+Das Lernprotokoll führen Sie für sich. Bis zum 2.12. geben Sie es nicht ab.

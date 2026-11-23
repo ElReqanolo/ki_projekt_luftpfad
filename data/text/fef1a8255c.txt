@@ -1,5 +1,8 @@
 --- Seite 1 ---
  Startblatt Person 1, Luftpfad Anlagentechnik GmbH
+ Stand 19.11.2026, nach der ersten Sitzung. Die Abgabetage, Übergaben und Stundenangaben in diesem
+ Blatt gelten bis auf Weiteres nicht. Was bis zum 2.12. gilt, steht in 00_Bis_zum_2_12.pdf im Ordner
+ 0_Allgemein Ihrer Firma und in 00_Kurs/Bis_zum_2_12.pdf.
  Sie spielen Henrike Baum, Technische Geschäftsführung.
  Ihre Gruppe verteilt die fünf Figuren selbst. Getauscht werden kann zu jedem Semesterbeginn. Der
  Ordner Person_1 entspricht dem Rang der Figur in der Firma.
@@ -23,7 +26,6 @@
  Ihre Aufgaben
  Federführend heißt: Sie sorgen dafür, dass die Aufgabe fertig wird. Gearbeitet wird gemeinsam. Aufwand,
  Beginn und Frist stehen im Inhaltsverzeichnis in 0_Allgemein.
-
  Aufgabe                                                       Beginn    fertig bis          Aufwand
  Der erste Auftrag in fünf Teilen                              19.11.    2.12.2026           1h
  Wartungsbericht Lüftung                                       19.11.    2.12.2026           2,5 h
@@ -44,14 +46,15 @@
  Aus 0_Allgemein brauchen Ihre Aufgaben außerdem
  Die Aufgabenblätter nennen die Dateien einzeln. Diese Liste gibt nur die Übersicht, ohne Briefings der
  Firma und ohne Vorlagen, die Sie ohnehin öffnen.
-  • 02_Aufgaben/A097_Vortrag_Firma_Rollen_Ergebnisse.docx
-  • 02_Aufgaben/A097_Vortrag_Firma_Rollen_Ergebnisse.pdf
-  • 03_Material/Abgang/03_Notizen_MBa.txt
+
 
 
 Luftpfad Anlagentechnik GmbH, Haus am Bogenfeld, Stand 18.11.2026                                          Seite 1
 
 --- Seite 2 ---
+  • 02_Aufgaben/A097_Vortrag_Firma_Rollen_Ergebnisse.docx
+  • 02_Aufgaben/A097_Vortrag_Firma_Rollen_Ergebnisse.pdf
+  • 03_Material/Abgang/03_Notizen_MBa.txt
   • 04_Datenraum/04/04.03.01.018_2018-03-06_Wartungsvertrag_Torwinkel.pdf
   • 04_Datenraum/04/04.21.04.180_2026-03-30_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
   • 04_Datenraum/04/04.21.04.182_2026-04-29_Wartungsprotokoll_Luftpfad_Anlagentechni.pdf
