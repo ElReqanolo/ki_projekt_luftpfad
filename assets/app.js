@@ -119,7 +119,7 @@
     const lage = S.firmenbriefing.sections.find(s => s.title.startsWith('19'));
     main.innerHTML = `
       <section class="hero">
-        <h1>Luftpfad Anlagentechnik GmbH</h1>
+        <h1>Luftpfad <span>Anlagentechnik GmbH</span></h1>
         <p class="lead">${S.firma.kurz} <span class="qs">${S.firma.kurzQuelle}</span></p>
         ${svg}
         <ul class="schema-list">${ps.map(p => `<li class="${COLORS[p.nr]}"><a href="#/person/${p.nr}">${personDot(p.nr)}<b>${esc(p.name)}</b> <span>${esc(p.funktion.split(' (')[0])}</span></a></li>`).join('')}</ul>
