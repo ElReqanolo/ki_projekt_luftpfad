@@ -657,13 +657,25 @@
    "person": 2
   },
   "UEB-AKTE": {
-   "status": "infos",
+   "status": "ueberprueft",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_1/UEB-AKTE_Gemeinsame_Uebung/KI_Ergebnis_UEB-AKTE_v2.md"
    ],
    "hinweis": "Runde 2: Übung ist jetzt freiwillig ohne Abgabe; Räume im 2. OG West aus dem 3D-Modell. Der Auftrag liegt nur im Kursteam. Es fehlen Infos, siehe Liste.",
-   "feedback": [],
+   "feedback": [
+    {
+     "datum": "2026-11-23T13:57:19.092Z",
+     "von": "Henrike Baum",
+     "text": "Siehe angehängte Dateien.",
+     "runde": 2,
+     "erledigt": false,
+     "dateien": [
+      "ablage/Person_1/UEB-AKTE_Freiwillige_Uebung/Verbesserungen/2026-11-23_1457_00_Auszug_Datenraumindex.csv"
+     ],
+     "art": "infos"
+    }
+   ],
    "verlauf": [
     {
      "datum": "19.11.2026",
@@ -688,6 +700,12 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
+    },
+    {
+     "datum": "2026-11-23T13:57:19.092Z",
+     "von": "Henrike Baum",
+     "art": "infos",
+     "text": "Fehlende Infos eingetragen, Status „Überprüft“"
     }
    ],
    "person": 1,
