@@ -3,7 +3,7 @@
  "letzterLauf": "2026-11-23T10:16:02+01:00",
  "projekte": {
   "START": {
-   "status": "ki_erledigt",
+   "status": "fertig",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_2/START_Startfrage/KI_Ergebnis_START_v2.md",
@@ -23,6 +23,12 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Runde 2: auf Wunsch unabhängig vom Status geprüft und an die Lage vom 23.11. angepasst"
+    },
+    {
+     "datum": "2026-11-23T09:23:17.843Z",
+     "von": "Kai Landmann",
+     "art": "abgenommen",
+     "text": "Haken gesetzt: abgenommen"
     }
    ],
    "person": 2
