@@ -650,13 +650,25 @@
    ]
   },
   "UEB-ZAEHLER": {
-   "status": "infos",
+   "status": "ueberprueft",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_3/UEB-ZAEHLER_Gemeinsame_Aufgabe/KI_Ergebnis_UEB-ZAEHLER_v2.md"
    ],
    "hinweis": "Runde 2: Übung ist jetzt freiwillig ohne Abgabe; Auftrag und Zählerdaten liegen nur im Kursteam. Es fehlen Infos, siehe Liste.",
-   "feedback": [],
+   "feedback": [
+    {
+     "datum": "2026-11-23T12:13:41.560Z",
+     "von": "Selim Ahrens",
+     "text": "Hier sind die Angeforderten Dateien",
+     "runde": 2,
+     "erledigt": false,
+     "dateien": [
+      "ablage/Person_3/UEB-ZAEHLER_Freiwillige_Uebung/Verbesserungen/2026-11-23_1313_Uebung_zaehlerfehler.zip"
+     ],
+     "art": "infos"
+    }
+   ],
    "verlauf": [
     {
      "datum": "20.11.2026",
@@ -681,6 +693,12 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
+    },
+    {
+     "datum": "2026-11-23T12:13:41.560Z",
+     "von": "Selim Ahrens",
+     "art": "infos",
+     "text": "Fehlende Infos eingetragen, Status „Überprüft“"
     }
    ],
    "person": 3,
