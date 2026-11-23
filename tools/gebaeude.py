@@ -73,6 +73,17 @@ NUTZUNG = {
     'light_workshop': 'Werkstatt', 'staff_changing': 'Umkleide', 'operations_storage': 'Betriebslager', 'training': 'Schulung',
     'sample_display': 'Musterraum', 'demonstration': 'Vorführung', 'vehicle_ramp': 'Rampe', 'unfitted_reserve': 'freie Ausbaufläche',
     'core_reservation': 'Kernreserve',
+    'air_exhaust_structure': 'Fortluftbauwerk', 'air_intake_structure': 'Zuluftbauwerk', 'bicycle_storage': 'Fahrradraum',
+    'built_in_storage': 'Einbaulager', 'cold_storage': 'Kühllager', 'common_entrance': 'Eingang', 'cooling_plant': 'Kältetechnik',
+    'dining': 'Gastraum', 'dishwashing': 'Spülraum', 'event_storage': 'Lager Veranstaltung', 'facility_management': 'FM-Büro',
+    'food_preparation': 'Küche', 'food_service_circulation': 'Servicegang Gastro', 'food_storage': 'Lebensmittellager',
+    'food_waste_holding': 'Abfall Gastro', 'furniture_storage': 'Möbellager', 'garage_parking': 'Garage', 'goods_inspection': 'Wareneingangsprüfung',
+    'goods_receiving': 'Warenannahme', 'grease_separation': 'Fettabscheider', 'heating_plant': 'Wärmetechnik', 'it_distribution': 'Datennetz',
+    'kitchen_riser': 'Küchenschacht', 'logistics': 'Logistik', 'logistics_storage': 'Logistiklager', 'maintenance_workshop': 'Betriebswerkstatt',
+    'reserve': 'Reserve', 'returns_storage': 'Rücklauflager', 'safety_plant': 'Sicherheitstechnik', 'sample_consultation': 'Bemusterung',
+    'sample_storage': 'Musterlager', 'sanitary_riser': 'Sanitärschacht', 'spare_parts_storage': 'Ersatzteillager', 'staff_wc': 'WC Personal',
+    'technical_reserve': 'Technikreserve', 'telecom_plant': 'Fernmeldetechnik', 'tenant_goods_buffer': 'Mieterlager Puffer',
+    'tenant_storage': 'Mieterlager', 'tutorial': 'Tutorium', 'waiting': 'Wartebereich',
 }
 raeume = []
 for o in by_tab['space']:

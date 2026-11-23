@@ -1,0 +1,54 @@
+Teil;Bezeichnung;Zeilen_CSV;Anzahl_Stunden;Stellsignal_%;Rueckmeldung_%;Zuluft_vor_LE_degC;Zuluft_nach_LE_degC;Erwaermung_K;Zuluft_Soll_degC;HK_Vorlauf_degC;VSR_Ist_l_s;VSR_Ist_m3_h_(x3,6);VSR_Soll_m3_h;RT_Forum_degC_Mittel;RT_Forum_degC_Max;Bemerkung
+Zeitraum;A vor Tausch, Betrieb 06-17 UTC, Ventil 0;13-112 (Auswahl, siehe Bemerkung);52;0.0;0.0;16.1;23.1;6.9;18.0;55.5;144.0;518.5;1080.0;24.1;26.1;Volumenstrom ~52 % Soll
+Zeitraum;B nach Tausch, Betrieb 06-17 UTC, Ventil 0;113-540 (Auswahl, siehe Bemerkung);146;0.0;0.0;16.2;23.1;6.9;18.0;55.4;305.9;1101.1;1080.0;23.9;25.9;Volumenstrom ~Soll, trotzdem +7 K bei Ventil 0 %
+Zeitraum;C Anfahrstunde 05 UTC (Ventil offen);12-528 (Auswahl, siehe Bemerkung);16;21.4;21.7;16.1;26.2;10.1;18.0;55.6;254.0;914.5;1080.0;21.5;21.6;Ventil 18-24 % in der Anfahrstunde
+Zeitraum;D Stillstand Werktag-Nacht 18-04 UTC;7-546 (Auswahl, siehe Bemerkung);131;0.0;0.0;17.5;27.7;10.2;18.0;45.7;0.0;0.0;0.0;21.1;21.5;"Ventilator aus, Zuluftfuehler misst stehende Luft am Register; ohne Zeile 358"
+Zeitraum;E Wochenende;127-498 (Auswahl, siehe Bemerkung);144;0.0;0.0;17.5;27.8;10.2;18.0;56.4;0.0;0.0;0.0;20.4;20.8;"Anlage aus; ohne Zeile 358"
+Zeitraum;F 02.11. Betrieb;180-192 (Auswahl, siehe Bemerkung);13;1.7;1.7;16.0;23.0;7.1;18.0;55.3;304.4;1095.7;1080.0;23.6;25.0;Tag des Protokolls 09354
+Tag (Betriebsstunden);26.10.2026 Mon;12-24;13;1.4;1.4;16.3;23.3;7.0;18.0;55.4;144.1;518.8;1080.0;22.8;26.0;
+Tag (Betriebsstunden);27.10.2026 Tue;36-48;13;1.7;1.8;16.0;23.1;7.1;18.0;55.7;144.5;520.3;1080.0;22.8;26.1;
+Tag (Betriebsstunden);28.10.2026 Wed;60-72;13;1.8;1.8;16.1;23.3;7.2;18.0;55.3;143.4;516.3;1080.0;22.9;26.1;
+Tag (Betriebsstunden);29.10.2026 Thu;84-96;13;1.8;1.8;16.3;23.5;7.2;18.0;55.4;144.8;521.2;1080.0;22.8;26.0;
+Tag (Betriebsstunden);30.10.2026 Fri;108-120;13;1.8;1.8;16.0;23.2;7.2;18.0;55.3;242.1;871.4;1080.0;22.6;25.1;Volumenstromsprung ab Zeile 113 (10:00 UTC), Tausch Stellantrieb
+Tag (Betriebsstunden);31.10.2026 Sat;127-150;0;;;;;;;;;;;20.4;20.6;Anlage aus (VSR-Soll 0)
+Tag (Betriebsstunden);01.11.2026 Sun;151-174;0;;;;;;;;;;;20.4;20.8;Anlage aus (VSR-Soll 0)
+Tag (Betriebsstunden);02.11.2026 Mon;180-192;13;1.7;1.7;16.0;23.0;7.1;18.0;55.3;304.4;1095.7;1080.0;22.6;25.0;"Protokoll 09354; kein Stillstand in der Reihe"
+Tag (Betriebsstunden);03.11.2026 Tue;204-216;13;1.5;1.6;16.1;23.3;7.2;18.0;55.4;305.5;1099.8;1080.0;22.6;25.1;
+Tag (Betriebsstunden);04.11.2026 Wed;228-240;13;1.4;1.4;16.3;23.5;7.2;18.0;55.3;305.1;1098.3;1080.0;22.5;24.9;
+Tag (Betriebsstunden);05.11.2026 Thu;252-264;13;1.5;1.5;16.1;23.3;7.1;18.0;55.7;306.2;1102.3;1080.0;22.5;25.1;
+Tag (Betriebsstunden);06.11.2026 Fri;271-276;6;0.0;0.0;16.4;23.3;6.9;18.0;55.5;307.1;1105.6;1080.0;22.9;25.0;00-11 UTC fehlen (zwischen Zeile 270 und 271)
+Tag (Betriebsstunden);07.11.2026 Sat;283-306;0;;;;;;;;;;;20.4;20.5;Anlage aus (VSR-Soll 0)
+Tag (Betriebsstunden);08.11.2026 Sun;307-330;0;;;;;;;;;;;20.4;20.7;Anlage aus (VSR-Soll 0)
+Tag (Betriebsstunden);09.11.2026 Mon;336-348;13;1.8;1.8;16.2;23.2;7.0;18.0;55.5;303.7;1093.3;1080.0;22.5;24.9;
+Tag (Betriebsstunden);10.11.2026 Tue;360-372;13;1.6;1.6;16.1;23.2;7.0;18.0;55.8;306.4;1103.2;1080.0;22.6;25.0;Zeile 358 RT 85,0 degC ausgeschlossen
+Tag (Betriebsstunden);11.11.2026 Wed;384-396;13;1.6;1.7;16.1;23.1;7.1;18.0;55.6;306.5;1103.3;1080.0;22.6;25.0;
+Tag (Betriebsstunden);12.11.2026 Thu;408-420;13;1.7;1.7;16.2;23.4;7.2;18.0;55.1;306.4;1102.9;1080.0;22.9;25.9;
+Tag (Betriebsstunden);13.11.2026 Fri;432-444;13;1.6;1.6;16.4;23.7;7.3;18.0;55.4;306.5;1103.2;1080.0;22.5;25.1;
+Tag (Betriebsstunden);14.11.2026 Sat;451-474;0;;;;;;;;;;;20.4;20.6;Anlage aus (VSR-Soll 0)
+Tag (Betriebsstunden);15.11.2026 Sun;475-498;0;;;;;;;;;;;20.4;20.7;Anlage aus (VSR-Soll 0)
+Tag (Betriebsstunden);16.11.2026 Mon;504-516;13;1.8;1.8;16.1;23.3;7.2;18.0;55.1;307.0;1105.1;1080.0;22.5;25.0;
+Tag (Betriebsstunden);17.11.2026 Tue;528-540;13;1.6;1.7;16.1;23.2;7.1;18.0;55.2;305.6;1100.2;1080.0;22.6;25.0;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);00:00 UTC = 01:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;17.5;27.8;10.3;18.0;45.8;0.0;0.0;0.0;21.0;21.1;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);01:00 UTC = 02:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;17.7;27.8;10.1;18.0;45.7;0.0;0.0;0.0;21.0;21.1;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);02:00 UTC = 03:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;17.5;27.7;10.3;18.0;45.7;0.0;0.0;0.0;21.0;21.1;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);03:00 UTC = 04:00 MEZ;je Stunde 11-12 Werte;10;0.0;0.0;17.5;27.8;10.3;18.0;45.6;0.0;0.0;0.0;21.0;21.1;ohne Zeile 358
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);04:00 UTC = 05:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;17.5;27.5;10.0;18.0;55.3;0.0;0.0;0.0;21.0;21.0;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);05:00 UTC = 06:00 MEZ;je Stunde 11-12 Werte;11;21.2;21.5;16.1;26.1;10.1;18.0;55.5;303.6;1093.1;1080.0;21.5;21.6;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);06:00 UTC = 07:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;16.1;23.2;7.0;18.0;55.1;305.8;1100.8;1080.0;22.0;22.1;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);07:00 UTC = 08:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;16.2;23.1;6.9;18.0;55.7;307.2;1105.8;1080.0;22.3;22.4;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);08:00 UTC = 09:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;16.3;23.1;6.9;18.0;55.1;305.6;1100.1;1080.0;22.7;23.3;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);09:00 UTC = 10:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;16.1;22.9;6.8;18.0;55.0;303.8;1093.7;1080.0;23.1;23.9;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);10:00 UTC = 11:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;16.1;23.0;6.9;18.0;55.4;306.4;1103.0;1080.0;23.5;24.3;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);11:00 UTC = 12:00 MEZ;je Stunde 11-12 Werte;11;0.0;0.0;16.1;23.0;6.8;18.0;55.4;307.3;1106.1;1080.0;23.8;24.7;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);12:00 UTC = 13:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;16.1;22.9;6.8;18.0;55.6;307.0;1105.1;1080.0;24.0;25.1;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);13:00 UTC = 14:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;16.2;23.1;6.9;18.0;55.6;306.8;1104.4;1080.0;24.4;25.5;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);14:00 UTC = 15:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;16.1;23.0;6.9;18.0;55.5;305.6;1100.0;1080.0;24.8;25.8;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);15:00 UTC = 16:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;16.3;23.2;6.9;18.0;55.5;304.8;1097.1;1080.0;25.0;25.9;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);16:00 UTC = 17:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;16.3;23.2;6.8;18.0;55.3;305.2;1098.8;1080.0;25.0;25.4;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);17:00 UTC = 18:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;16.1;23.1;7.0;18.0;55.7;306.4;1102.9;1080.0;25.0;25.2;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);18:00 UTC = 19:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;17.4;27.8;10.4;18.0;56.0;0.0;0.0;0.0;22.8;22.9;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);19:00 UTC = 20:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;17.4;27.7;10.2;18.0;56.0;0.0;0.0;0.0;21.8;21.9;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);20:00 UTC = 21:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;17.4;27.5;10.2;18.0;45.8;0.0;0.0;0.0;21.4;21.5;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);21:00 UTC = 22:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;17.4;27.7;10.2;18.0;45.8;0.0;0.0;0.0;21.2;21.3;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);22:00 UTC = 23:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;17.5;27.7;10.2;18.0;46.0;0.0;0.0;0.0;21.1;21.2;
+Tagesgang Werktage 02.-17.11. (UTC-Stunde);23:00 UTC = 00:00 MEZ;je Stunde 11-12 Werte;12;0.0;0.0;17.6;27.8;10.2;18.0;45.5;0.0;0.0;0.0;21.0;21.2;
