@@ -91,7 +91,7 @@
     document.body.classList.remove('nav-open'); $('.menu-btn').setAttribute('aria-expanded', 'false');
     const nav = view === 'person' ? 'person-' + a : view === 'projekt' ? 'projekte' : view === 'datei' ? 'dateien' : (view || 'home');
     $$('.nav a[data-nav]').forEach(x => x.toggleAttribute('aria-current', x.dataset.nav === nav));
-    const views = { '': home, firma, projekte, projekt: () => projekt(a), dateien, datei: () => datei(a, b), person: () => person(a, b), suche: () => suche(decodeURIComponent(a || '')), admin };
+    const views = { '': home, firma, gebaeude, projekte, projekt: () => projekt(a), dateien, datei: () => datei(a, b), person: () => person(a, b), suche: () => suche(decodeURIComponent(a || '')), admin };
     (views[view || ''] || home)();
     paintStatus();
     window.scrollTo(0, 0);
@@ -154,6 +154,81 @@
     const f = FILES[fileId]; if (!f) return '';
     const lab = (f.name.startsWith('Firmenbriefing') ? 'Firmenbriefing' : f.name.replace(/\.[^.]+$/, '').replace(/_/g, ' ')) + (loc ? ', ' + loc : '');
     return `<a class="q" href="#/datei/${f.id}" data-file="${f.id}" data-loc="${esc(loc || '')}" title="Quelle: ${esc(f.path)}">${esc(lab)}</a>`;
+  }
+
+  // ------------------------------------------------------------------ Gebäude (3D-Modell Objektwelt)
+  let GEB = null;
+  async function gebaeude() {
+    main.innerHTML = '<p class="hint">Gebäudedaten werden geladen …</p>';
+    if (!GEB) {
+      try { GEB = await (await fetch('data/gebaeude.json', { cache: 'no-cache' })).json(); }
+      catch (e) { main.innerHTML = '<p class="hint">Die Gebäudedaten konnten nicht geladen werden.</p>'; return; }
+    }
+    if (!location.hash.startsWith('#/gebaeude')) return;
+    const G = GEB, C = S.gebaeude || {};
+    const mq = (id) => `<a class="q ext" href="${esc(G.quelle)}" target="_blank" rel="noopener" title="Quelle: 3D-Modell Objektwelt${id ? ', Objekt ' + esc(id) : ''}">3D-Modell${id ? ', ' + esc(id) : ''}</a>`;
+    const fl = G.geschosse.map(g => g.label);
+    const k = G.klappen;
+    main.innerHTML = `
+      <header class="page-head"><h1>Gebäude Bogenfeld 12</h1>
+        <p class="lead">Räume, Lüftungsanlagen und Brandschutzklappen aus dem 3D-Modell „Objektwelt“, Modellstand ${esc(G.stand)} (Version ${esc(G.version)}, ${G.objekte.toLocaleString('de-DE')} Objekte). ${mq('')}</p>
+        <p><a class="btn" href="${esc(G.quelle)}" target="_blank" rel="noopener">3D-Modell öffnen</a></p></header>
+      <nav class="toc" aria-label="Auf dieser Seite">
+        <a href="#/gebaeude" data-jump="g-einordnung">Einordnung</a><a href="#/gebaeude" data-jump="g-geschosse">Geschosse</a><a href="#/gebaeude" data-jump="g-nutzer">Nutzer</a><a href="#/gebaeude" data-jump="g-lueftung">Lüftungsanlagen</a><a href="#/gebaeude" data-jump="g-klappen">Brandschutzklappen</a><a href="#/gebaeude" data-jump="g-raeume">Raumliste</a>
+      </nav>
+      <section class="block" id="g-einordnung"><h2>Einordnung</h2>
+        <ul class="claims">
+          <li>Das Modell ist ein Planungsmodell des Hauses mit Räumen, Technik und Brandschutz. Viele Werte darin sind abgeleitet oder als Kandidat markiert. Was tatsächlich gebaut ist und was Luftpfad vertraglich schuldet, entscheiden weiter die Unterlagen im Paket. ${mq('')}</li>
+          ${(C.einordnung || []).map(li).join('')}
+        </ul>
+        ${C.projekte ? `<h3>Wofür das in unseren Projekten hilft</h3><ul class="claims">${C.projekte.map(x => PROJ[x.id] ? `<li><a href="#/projekt/${x.id}"><b>${esc(x.id)}</b></a> ${esc(x.t)}</li>` : '').join('')}</ul>` : ''}
+      </section>
+      <section class="block" id="g-geschosse"><h2>Geschosse</h2>
+        <table class="grid"><thead><tr><th>Geschoss</th><th class="num">Räume</th><th class="num">Fläche m²</th><th class="num">Brandschutzklappen</th></tr></thead>
+        <tbody>${G.geschosse.slice().reverse().map(g => `<tr><th scope="row">${esc(g.label)}</th><td class="num">${g.raeume}</td><td class="num">${g.flaeche.toLocaleString('de-DE')}</td><td class="num">${(k.nachGeschoss.find(x => x.geschoss === g.label) || {}).anzahl || '–'}</td></tr>`).join('')}</tbody></table>
+        <p class="src-note">Netto-Raumflächen laut Modell. ${mq('')}</p>
+      </section>
+      <section class="block" id="g-nutzer"><h2>Nutzer laut Raumbezeichnung</h2>
+        <p class="hint">Im Modell tragen die Räume den Namen ihres Nutzers als Vorsilbe, zum Beispiel „Signalsteg Büro Entwicklung West“. Daraus ergibt sich diese Liste.</p>
+        <table class="grid"><thead><tr><th>Nutzer</th><th>Geschoss</th><th class="num">Räume</th><th class="num">Fläche m²</th></tr></thead>
+        <tbody>${G.nutzer.map(n => `<tr><th scope="row"><a href="#/gebaeude" data-nutzer="${esc(n.name)}">${esc(n.name)}</a></th><td>${n.geschosse.map(esc).join(', ')}</td><td class="num">${n.raeume}</td><td class="num">${n.flaeche.toLocaleString('de-DE')}</td></tr>`).join('')}</tbody></table>
+        <p class="src-note">${mq('')}</p>
+      </section>
+      <section class="block" id="g-lueftung"><h2>Lüftungsanlagen</h2>
+        <table class="grid"><thead><tr><th>Anlage</th><th>Geschosse mit Auslässen</th><th class="num">Zuluft</th><th class="num">Abluft</th><th class="num">Räume</th></tr></thead>
+        <tbody>${G.lueftung.map(l => `<tr><th scope="row">${esc(l.name)}<div class="qs">${mq(l.id)}</div></th><td>${l.geschosse.map(esc).join(', ') || '–'}</td><td class="num">${l.zuluft || '–'}</td><td class="num">${l.abluft || '–'}</td><td class="num">${l.raeume || '–'}</td></tr>`).join('')}</tbody></table>
+        <p class="src-note">Gezählt sind Zu- und Abluftauslässe, die das Modell einem Raum zuordnet. Räume ohne eigene Auslässe, etwa über Raumgeräte versorgt, fehlen in dieser Zählung.</p>
+      </section>
+      <section class="block" id="g-klappen"><h2>Brandschutzklappen</h2>
+        <p class="next-date">${k.gesamt} Brandschutzklappen im Modell, dazu ${k.kuechenabluft} Absperrvorrichtung in der Küchenabluft. ${mq('')}</p>
+        <table class="grid"><thead><tr><th>Klasse</th><th>Einbau</th><th class="num">Anzahl</th></tr></thead>
+        <tbody>${k.nachKlasse.map(x => `<tr><td>${esc(x.klasse)}</td><td>${esc(x.einbau)}</td><td class="num">${x.anzahl}</td></tr>`).join('')}
+          <tr><td colspan="2">davon Überströmklappen</td><td class="num">${k.ueberstroem}</td></tr></tbody></table>
+        ${C.klappenAbgleich ? `<h3>Abgleich mit den Prüfprotokollen von Luftpfad</h3><p>${C.klappenAbgleich}</p>
+          <p class="ok-note"><b>Ergebnis:</b> Modell und Prüfprotokolle stimmen in der Gesamtzahl, je Geschoss und je Klasse überein.</p>` : ''}
+        <p class="src-note">Status aller Klappen im Modell: Maßnahme zugeordnet, Produkt und Nachweis offen. ${mq('')}</p>
+      </section>
+      <section class="block" id="g-raeume"><h2>Raumliste</h2>
+        <div class="proj-tools">
+          <label class="proj-filter">Geschoss <select id="g-fl"><option value="">alle</option>${fl.map(f => `<option>${esc(f)}</option>`).join('')}</select></label>
+          <label class="proj-filter">Nutzer <select id="g-nu"><option value="">alle</option>${G.nutzer.map(n => `<option>${esc(n.name)}</option>`).join('')}</select></label>
+          <label class="proj-filter">Suche <input id="g-q" type="search" placeholder="Raumname oder Nummer"></label>
+          <span class="count" id="g-count"></span>
+        </div>
+        <table class="grid"><thead><tr><th>Nr.</th><th>Raum</th><th>Geschoss</th><th>Nutzung</th><th class="num">Fläche m²</th></tr></thead><tbody id="g-rows"></tbody></table>
+        <p class="src-note">Raumnummer = Endung der Raum-ID im Modell. ${mq('')}</p>
+      </section>`;
+    const paint = () => {
+      const f = $('#g-fl').value, n = $('#g-nu').value, q = $('#g-q').value.trim().toLowerCase();
+      const rows = G.raeume.filter(r => (!f || r.geschoss === f) && (!n || r.nutzer === n) && (!q || (r.nr + ' ' + r.name).toLowerCase().includes(q)));
+      $('#g-rows').innerHTML = rows.map(r => `<tr title="${esc(r.id)}"><td class="num">${esc(r.nr)}</td><td>${esc(r.name)}</td><td>${esc(r.geschoss)}</td><td>${esc(r.nutzung)}</td><td class="num">${r.flaeche.toLocaleString('de-DE')}</td></tr>`).join('');
+      $('#g-count').textContent = `${rows.length} von ${G.raeume.length} Räumen`;
+    };
+    ['g-fl', 'g-nu'].forEach(id => $('#' + id).onchange = paint);
+    $('#g-q').oninput = paint;
+    main.querySelectorAll('[data-jump]').forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById(a.dataset.jump).scrollIntoView({ behavior: 'smooth' }); });
+    main.querySelectorAll('[data-nutzer]').forEach(a => a.onclick = e => { e.preventDefault(); $('#g-nu').value = a.dataset.nutzer; paint(); document.getElementById('g-raeume').scrollIntoView({ behavior: 'smooth' }); });
+    paint();
   }
 
   // ------------------------------------------------------------------ Unternehmen
@@ -569,7 +644,7 @@
   function closeDrawer() { const d = $('#drawer'); d.classList.remove('on'); d.setAttribute('aria-hidden', 'true'); }
 
   document.addEventListener('click', e => {
-    const q = e.target.closest('a.q');
+    const q = e.target.closest('a.q[data-file]');
     if (q && !e.metaKey && !e.ctrlKey) { e.preventDefault(); openDrawer(q.dataset.file, q.dataset.loc || ''); return; }
     const rv = e.target.closest('[data-reveal]');
     if (rv) { const box = rv.closest('[data-private]'); $('.prose', box).hidden = false; rv.remove(); return; }

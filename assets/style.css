@@ -400,3 +400,8 @@ dialog::backdrop { background: rgba(23, 36, 43, .45); }
 .ueb a { color: var(--ink); font-weight: 600; }
 .timeline time.rest { font-weight: 400; color: var(--muted); }
 .ruht-note { margin: 0 0 1rem; padding: .7rem .9rem; border-left: 4px solid var(--muted); background: rgba(0,0,0,.035); max-width: 80ch; }
+
+/* Gebäude */
+.q.ext::after { content: " ↗"; }
+.ok-note { margin: .6rem 0; padding: .6rem .9rem; border-left: 4px solid var(--p1); background: rgba(47,125,87,.08); max-width: 80ch; }
+#g-rows td.num { font-variant-numeric: tabular-nums; }

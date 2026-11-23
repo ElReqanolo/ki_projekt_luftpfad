@@ -265,6 +265,8 @@ def main():
     firma = json.load(open(os.path.join(content, 'firma.json'), encoding='utf-8'))
     personen = json.load(open(os.path.join(content, 'personen.json'), encoding='utf-8'))
     projekte = json.load(open(os.path.join(content, 'projekte.json'), encoding='utf-8'))
+    gpath = os.path.join(content, 'gebaeude.json')
+    gebaeude = json.load(open(gpath, encoding='utf-8')) if os.path.exists(gpath) else {}
 
     print('Briefings und Aufgabenblätter umwandeln …')
     fb = briefing(files, '0_Allgemein/01_Briefings/Firmenbriefing_Luftpfad_Anlagentechnik.docx',
@@ -299,6 +301,7 @@ def main():
         'allgemein': allgemein,
         'personen': render_tree(personen['personen'], src),
         'projekte': render_tree(projekte['projekte'], src),
+        'gebaeude': render_tree(gebaeude, src),
         'ketten': personen.get('ketten', {}),
         'dateien': files,
     }

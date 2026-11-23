@@ -1,0 +1,36 @@
+{
+  "einordnung": [
+    "Luftpfad wartet im Haus die Lüftungsanlagen. [[Firmenbriefing|Abschnitt 1, S. 1]]"
+  ],
+  "klappenAbgleich": "Die drei Prüfprotokolle der Brandschutzklappen nennen 235 geprüfte Klappen vom 1. UG bis 5. OG: 112 im 1. UG, 22 im EG, 49 im 1. OG, 15 im 2. OG, 8 im 3. OG, 13 im 4. OG und 16 im 5. OG. Davon 191 Klappen EI 90 (ve) in Wänden, 4 Klappen EI 90 (ho) in Decken und 40 Klappen EI 30 in Flurwänden, darunter 24 Überströmklappen, dazu die Absperrvorrichtung der Küchenabluft im EG. [[04.21.04.145|S. 1, Prüfumfang]] [[04.21.04.168|S. 1, Prüfumfang]] [[04.21.04.190|S. 1, Prüfumfang]]",
+  "projekte": [
+    {
+      "id": "A008",
+      "t": "Brandschutzklappen: Anzahl je Geschoss und Klasse zum Abgleich mit den Klappenprotokollen."
+    },
+    {
+      "id": "A164",
+      "t": "Protokoll 09384: Klappen und Anlagen, auf die sich die Rückfrage bezieht."
+    },
+    {
+      "id": "A162",
+      "t": "Wartungstermine 2027: welche Lüftungsanlage welche Geschosse versorgt, wichtig für Abschaltungen."
+    },
+    {
+      "id": "A163",
+      "t": "Forum: Raum 0001 im EG mit Fläche und Nutzung."
+    },
+    {
+      "id": "A165",
+      "t": "Zu warme Büros: Raumliste mit Nutzern je Geschoss."
+    },
+    {
+      "id": "A005",
+      "t": "Wer ist wer im Haus: Nutzer laut Raumbezeichnung und ihre Geschosse."
+    },
+    {
+      "id": "UEB-AKTE",
+      "t": "Akte Abfluss OG2 West: Räume im 2. OG."
+    }
+  ]
+}

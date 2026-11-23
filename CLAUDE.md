@@ -9,6 +9,7 @@ Live: https://elreqanolo.github.io/ki_projekt_luftpfad/ (GitHub Pages, Branch `m
 - Statische Einzelseite ohne Build-Schritt und ohne Abhängigkeiten: `index.html`, `assets/app.js` (alle Ansichten, Hash-Routing `#/…`), `assets/store.js` (Datenablage, Projektstatus, Login), `assets/zip.js`, `assets/style.css`, `assets/config.js` (Repo und Adresse des Login-Dienstes).
 - `data/site.json` wird erzeugt, nie von Hand ändern. Quelle: `files/` (Originalpaket) und die handgeschriebenen Inhalte in `content/firma.json`, `content/personen.json`, `content/projekte.json`.
 - Neu bauen: `python3 tools/build.py <Pfad>/02_Luftpfad_Anlagentechnik .` (braucht pandoc, pdftotext, tesseract mit deu, openpyxl). Das Originalpaket liegt nicht im Repo, `files/` enthält aber dieselben Dateien.
+- `data/gebaeude.json`: Räume, Lüftungsanlagen, Brandschutzklappen aus dem 3D-Modell https://denizalatas2.github.io/objektwelt-3d/ (Repo denizalatas2/objektwelt-3d). Neu erzeugen: Repo klonen, dann `python3 -I tools/gebaeude.py <Klon> .`. Planungsmodell: bei Widerspruch gelten die Unterlagen in `files/`. Ansicht `#/gebaeude`, Aussagen mit Quellenmarken dazu in `content/gebaeude.json`.
 - `files/`: die 130 Originaldateien wie im Kursteam (0_Allgemein, Person_1 bis Person_5). Nicht verändern.
 - `ablage/Person_N/`: Datenablage der Personen, Herkunftsangaben in `.meta.json`.
 - `status.json`: Projektstatus. Wird von der Webseite (über den Login-Dienst) und vom Tagesagenten geschrieben.

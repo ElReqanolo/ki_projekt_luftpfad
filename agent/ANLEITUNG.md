@@ -9,6 +9,10 @@ Laut `files/0_Allgemein/00_Bis_zum_2_12.pdf` (Stand 19.11.2026, nach der ersten 
 - Bestehende `infos`-Projekte bleiben, bis die Gruppe Feedback gibt.
 - Die Übungen `UEB-AKTE` und `UEB-ZAEHLER` sind freiwillig, ohne Abgabe. Ihre Aufträge liegen nicht im Repository: Ohne Auftrag in der Ablage nur einen Vermerk schreiben, was fehlt.
 
+## Gebäudedaten (3D-Modell)
+
+`data/gebaeude.json` enthält Räume, Nutzer laut Raumbezeichnung, Lüftungsanlagen und Brandschutzklappen aus dem 3D-Modell „Objektwelt“ (https://denizalatas2.github.io/objektwelt-3d/), erzeugt mit `tools/gebaeude.py`. Du darfst es als Zusatzquelle nutzen, zitiere dann „3D-Modell Objektwelt, Stand <stand>, Objekt <id>“. Es ist ein Planungsmodell: Bei Widerspruch zu den Unterlagen in `files/` gelten die Unterlagen; nenne den Widerspruch.
+
 ## Was du bei jedem Lauf tust
 
 1. **Stand holen.** `git pull` und dann lesen:
