@@ -157,14 +157,26 @@
    ]
   },
   "A004": {
-   "status": "infos",
+   "status": "ueberprueft",
    "runde": 2,
    "ergebnis": [
     "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v2.md",
     "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v2.csv"
    ],
    "hinweis": "Runde 2: geprüft, unverändert. Offen: Frage festlegen, beide Chats führen, Vergleich. Es fehlen Infos, siehe Liste.",
-   "feedback": [],
+   "feedback": [
+    {
+     "datum": "2026-11-23T13:05:58.673Z",
+     "von": "Henrike Baum",
+     "text": "Siehe angehängte Dateien.",
+     "runde": 2,
+     "erledigt": false,
+     "dateien": [
+      "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/Verbesserungen/2026-11-23_1405_A004_Der_erste_Auftrag_in_fuenf_Teilen.pdf"
+     ],
+     "art": "infos"
+    }
+   ],
    "verlauf": [
     {
      "datum": "19.11.2026",
@@ -183,6 +195,12 @@
      "von": "KI-Agent",
      "art": "ki",
      "text": "Status „Infos benötigt“: fehlende Infos aus der Gruppe bzw. vom Dozenten (neue Regel: egal von wem)"
+    },
+    {
+     "datum": "2026-11-23T13:05:58.673Z",
+     "von": "Henrike Baum",
+     "art": "infos",
+     "text": "Fehlende Infos eingetragen, Status „Überprüft“"
     }
    ],
    "person": 1,
