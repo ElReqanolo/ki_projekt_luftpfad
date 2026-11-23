@@ -895,16 +895,16 @@
   }
   $('#open-settings').onclick = settings;
 
-  // Helles/dunkles Design: ohne gespeicherte Wahl gilt die Systemeinstellung
+  // Design: System → Hell → Dunkel → System; ohne gespeicherte Wahl gilt die Systemeinstellung
   const themeBtn = $('#theme-btn'), root = document.documentElement;
-  const isDark = () => root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-  const showTheme = () => { themeBtn.textContent = isDark() ? 'Helles Design' : 'Dunkles Design'; };
+  const NEXT = { '': 'light', light: 'dark', dark: '' }, NAME = { '': 'wie System', light: 'Hell', dark: 'Dunkel' };
+  const showTheme = () => { themeBtn.textContent = 'Design: ' + NAME[root.dataset.theme || '']; };
   themeBtn.onclick = () => {
-    root.dataset.theme = isDark() ? 'light' : 'dark';
-    try { localStorage.setItem('theme', root.dataset.theme); } catch (e) { /* ohne Speicher gilt die Wahl nur bis zum Neuladen */ }
+    const t = NEXT[root.dataset.theme || ''];
+    if (t) root.dataset.theme = t; else delete root.dataset.theme;
+    try { t ? localStorage.setItem('theme', t) : localStorage.removeItem('theme'); } catch (e) { /* ohne Speicher gilt die Wahl nur bis zum Neuladen */ }
     showTheme();
   };
-  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', showTheme);
   showTheme();
 
   // ------------------------------------------------------------------ Anmeldung
