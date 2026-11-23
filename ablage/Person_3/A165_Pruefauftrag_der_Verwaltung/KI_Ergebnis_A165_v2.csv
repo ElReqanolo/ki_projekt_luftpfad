@@ -1,0 +1,81 @@
+Zeile_XLSX;Ticket;gemeldet;Einsatz_am;Jahr_Einsatz;Monat_Einsatz;Raum;Meldung;Bestellung;bestellt_von;Bestellgrenze_EUR;Std_Monteur;Satz_EUR;Anfahrt_EUR;Material_EUR;Netto_EUR;Netto_nachgerechnet_EUR;Anteil_an_Grenze_Prozent;Rechnung;Status;Einsatz_Nr_im_Raum;Tage_seit_letztem_Einsatz_im_Raum;Wiederholung_innerhalb_12_Monaten
+5;TKT-112088;10.01.2025 17:24;12.01.2025;2025;01;OG4 Ost;Temperatur OG4 Ost über 27 Grad;AUF-2406;Torwinkel, Haustechniker;500;1,75;63,91;50,55;0,00;162,39;162,39;32,48;2025/1312;bezahlt;1;;nein
+6;TKT-112105;18.01.2025 09:37;21.01.2025;2025;01;EG Bistro;Raum EG Bistro heizt sich auf;AUF-2412;Torwinkel, Haustechniker;500;3,00;63,91;50,55;94,40;336,68;336,68;67,34;2025/1313;bezahlt;1;;nein
+7;TKT-112107;20.01.2025 22:10;22.01.2025;2025;01;EG Westfoyer;Büro im EG Westfoyer zu warm;AUF-2413;Torwinkel, Haustechniker;500;3,50;63,91;50,55;56,29;330,53;330,53;66,11;2025/1314;bezahlt;1;;nein
+8;TKT-112282;01.04.2025 11:44;04.04.2025;2025;04;OG2 West;Raum OG2 West heizt sich auf;AUF-2452;Torwinkel, Haustechniker;500;2,50;63,91;50,55;0,00;210,33;210,32;42,07;2025/1329;bezahlt;1;;nein
+9;TKT-112395;14.05.2025 14:12;15.05.2025;2025;05;Kern 2 Treppenhaus;Büro im Kern 2 Treppenhaus zu warm;AUF-2462;Torwinkel, Haustechniker;500;3,75;63,91;50,55;0,00;290,21;290,21;58,04;2025/1333;bezahlt;1;;nein
+10;TKT-112424;29.05.2025 17:48;05.06.2025;2025;06;Teeküche OG2;Büro im Teeküche OG2 zu warm;AUF-2474;Torwinkel, Haustechniker;500;2,75;63,91;50,55;43,33;269,63;269,63;53,93;2025/1340;bezahlt;1;;nein
+11;TKT-112426;30.05.2025 12:05;07.06.2025;2025;06;OG4 Ost;Büro im OG4 Ost zu warm;AUF-2472;Torwinkel, Haustechniker;500;3,00;63,91;50,55;0,00;242,28;242,28;48,46;2025/1339;bezahlt;2;146;ja
+12;TKT-112434;02.06.2025 12:44;02.06.2025;2025;06;OG3 Büro Nord;Büro im OG3 Büro Nord zu warm;AUF-2471;Torwinkel, Haustechniker;500;2,25;63,91;50,55;0,00;194,35;194,35;38,87;2025/1338;bezahlt;1;;nein
+13;TKT-112437;03.06.2025 10:31;05.06.2025;2025;06;Technikzentrale;Raum Technikzentrale heizt sich auf;AUF-2468;Torwinkel, Haustechniker;500;3,75;63,91;50,55;0,00;290,21;290,21;58,04;2025/1336;bezahlt;1;;nein
+14;TKT-112465;17.06.2025 14:02;19.06.2025;2025;06;OG5;Temperatur OG5 über 27 Grad;AUF-2482;Torwinkel, Haustechniker;500;3,00;63,91;50,55;0,00;242,28;242,28;48,46;2025/1342;bezahlt;1;;nein
+15;TKT-112474;20.06.2025 07:33;28.06.2025;2025;06;Teeküche OG1;Temperatur Teeküche OG1 über 27 Grad;AUF-2490;Torwinkel, Haustechniker;500;3,75;63,91;50,55;0,00;290,21;290,21;58,04;2025/1352;bezahlt;1;;nein
+16;TKT-112476;20.06.2025 15:56;27.06.2025;2025;06;Kern 1 Treppenhaus;Temperatur Kern 1 Treppenhaus über 27 Grad;AUF-2484;Torwinkel, Haustechniker;500;3,50;63,91;50,55;30,64;304,88;304,88;60,98;2025/1343;bezahlt;1;;nein
+17;TKT-112477;20.06.2025 16:56;23.06.2025;2025;06;OG2 West;Raum OG2 West heizt sich auf;AUF-2485;Torwinkel, Haustechniker;500;3,00;63,91;50,55;0,00;242,28;242,28;48,46;2025/1344;bezahlt;2;80;ja
+18;TKT-112481;24.06.2025 08:18;27.06.2025;2025;06;OG3 Büro Süd;Büro im OG3 Büro Süd zu warm;AUF-2481;Torwinkel, Haustechniker;500;3,75;63,91;50,55;0,00;290,21;290,21;58,04;2025/1341;bezahlt;1;;nein
+19;TKT-112491;26.06.2025 12:39;27.06.2025;2025;06;Teeküche OG2;Temperatur Teeküche OG2 über 27 Grad;AUF-2486;Torwinkel, Haustechniker;500;3,75;63,91;50,55;91,26;381,47;381,47;76,29;2025/1346;bezahlt;2;22;ja
+20;TKT-112509;02.07.2025 12:58;06.07.2025;2025;07;OG5;Büro im OG5 zu warm;AUF-2492;Torwinkel, Haustechniker;500;1,25;63,91;50,55;38,54;168,98;168,98;33,80;2025/1354;bezahlt;3;2;ja
+21;TKT-112514;03.07.2025 11:50;10.07.2025;2025;07;EG Bistro;Temperatur EG Bistro über 27 Grad;AUF-2493;Torwinkel, Haustechniker;500;3,00;63,91;50,55;0,00;242,28;242,28;48,46;2025/1355;bezahlt;2;170;ja
+22;TKT-112516;03.07.2025 13:27;10.07.2025;2025;07;Kern 2 Treppenhaus;Temperatur Kern 2 Treppenhaus über 27 Grad;AUF-2491;Torwinkel, Haustechniker;500;3,50;63,91;50,55;0,00;274,24;274,24;54,85;2025/1353;bezahlt;2;56;ja
+23;TKT-112519;04.07.2025 07:11;05.07.2025;2025;07;OG2 West;Raum OG2 West heizt sich auf;AUF-2487;Torwinkel, Haustechniker;500;1,25;63,91;50,55;0,00;130,44;130,44;26,09;2025/1349;bezahlt;3;12;ja
+24;TKT-112520;04.07.2025 08:22;04.07.2025;2025;07;OG5;Büro im OG5 zu warm;AUF-2488;Torwinkel, Haustechniker;500;4,00;63,91;50,55;0,00;306,19;306,19;61,24;2025/1350;bezahlt;2;15;ja
+25;TKT-112521;04.07.2025 08:49;12.07.2025;2025;07;Kern 1 Treppenhaus;Temperatur Kern 1 Treppenhaus über 27 Grad;AUF-2494;Torwinkel, Haustechniker;500;2,75;63,91;50,55;9,04;235,34;235,34;47,07;2025/1356;bezahlt;2;15;ja
+26;TKT-112524;04.07.2025 14:33;04.07.2025;2025;07;Besprechungsraum OG3;Temperatur Besprechungsraum OG3 über 27 Grad;AUF-2489;Torwinkel, Haustechniker;500;1,75;63,91;50,55;0,00;162,39;162,39;32,48;2025/1351;bezahlt;1;;nein
+27;TKT-112539;15.07.2025 09:50;16.07.2025;2025;07;Teeküche OG2;Büro im Teeküche OG2 zu warm;AUF-2499;Torwinkel, Haustechniker;500;4,00;63,91;50,55;36,06;342,25;342,25;68,45;2025/1360;bezahlt;3;19;ja
+28;TKT-112541;16.07.2025 08:25;23.07.2025;2025;07;OG4 West;Raum OG4 West heizt sich auf;AUF-2495;Torwinkel, Haustechniker;500;1,25;63,91;50,55;0,00;130,44;130,44;26,09;2025/1357;bezahlt;1;;nein
+29;TKT-112551;19.07.2025 15:15;19.07.2025;2025;07;EG Forum;Büro im EG Forum zu warm;AUF-2497;Torwinkel, Haustechniker;500;3,75;63,91;50,55;62,71;352,92;352,92;70,58;2025/1358;bezahlt;1;;nein
+30;TKT-112573;30.07.2025 12:54;30.07.2025;2025;07;Besprechungsraum OG3;Büro im Besprechungsraum OG3 zu warm;AUF-2498;Torwinkel, Haustechniker;500;2,00;63,91;50,55;80,39;258,76;258,76;51,75;2025/1359;bezahlt;2;26;ja
+31;TKT-112575;30.07.2025 16:56;31.07.2025;2025;07;OG2 Ost;Büro im OG2 Ost zu warm;AUF-2502;Torwinkel, Haustechniker;500;1,50;63,91;50,55;0,00;146,42;146,41;29,28;2025/1361;bezahlt;1;;nein
+32;TKT-112578;01.08.2025 14:27;04.08.2025;2025;08;OG4 West;Raum OG4 West heizt sich auf;AUF-2504;Torwinkel, Haustechniker;500;2,75;63,91;50,55;0,00;226,30;226,30;45,26;2025/1365;bezahlt;2;12;ja
+33;TKT-112585;03.08.2025 13:47;08.08.2025;2025;08;OG2 West;Temperatur OG2 West über 27 Grad;AUF-2503;Torwinkel, Haustechniker;500;1,00;63,91;50,55;10,18;124,64;124,64;24,93;2025/1362;bezahlt;4;34;ja
+34;TKT-112600;08.08.2025 09:54;09.08.2025;2025;08;EG Bistro;Raum EG Bistro heizt sich auf;AUF-2505;Torwinkel, Haustechniker;500;2,25;63,91;50,55;0,00;194,35;194,35;38,87;2025/1366;bezahlt;3;30;ja
+35;TKT-112610;14.08.2025 07:52;16.08.2025;2025;08;OG1 Ost;Raum OG1 Ost heizt sich auf;AUF-2507;Torwinkel, Haustechniker;500;1,25;63,91;50,55;33,85;164,29;164,29;32,86;2025/1367;bezahlt;1;;nein
+36;TKT-112618;18.08.2025 11:35;21.08.2025;2025;08;OG3 Büro Süd;Temperatur OG3 Büro Süd über 27 Grad;AUF-2508;Torwinkel, Haustechniker;500;2,75;63,91;50,55;35,38;261,68;261,68;52,34;2025/1368;bezahlt;2;55;ja
+37;TKT-112622;19.08.2025 14:16;19.08.2025;2025;08;EG Bistro;Büro im EG Bistro zu warm;AUF-2509;Torwinkel, Haustechniker;500;2,00;63,91;50,55;28,39;206,76;206,76;41,35;2025/1369;bezahlt;4;10;ja
+38;TKT-112630;24.08.2025 13:31;29.08.2025;2025;08;UG Lager;Büro im UG Lager zu warm;AUF-2515;Torwinkel, Haustechniker;500;3,25;63,91;50,55;79,38;337,64;337,64;67,53;2025/1374;bezahlt;1;;nein
+39;TKT-112633;25.08.2025 12:00;28.08.2025;2025;08;OG1 West;Raum OG1 West heizt sich auf;AUF-2516;Torwinkel, Haustechniker;500;1,50;63,91;50,55;86,25;232,67;232,66;46,53;2025/1375;bezahlt;1;;nein
+40;TKT-112636;26.08.2025 09:51;30.08.2025;2025;08;OG2 West;Temperatur OG2 West über 27 Grad;AUF-2517;Torwinkel, Haustechniker;500;2,00;63,91;50,55;0,00;178,37;178,37;35,67;2025/1376;bezahlt;5;22;ja
+41;TKT-112666;05.09.2025 08:14;10.09.2025;2025;09;OG1 West;Büro im OG1 West zu warm;AUF-2518;Torwinkel, Haustechniker;500;1,75;63,91;50,55;89,64;252,03;252,03;50,41;2025/1378;bezahlt;2;13;ja
+42;TKT-112678;10.09.2025 14:03;12.09.2025;2025;09;OG2 Ost;Büro im OG2 Ost zu warm;AUF-2525;Torwinkel, Haustechniker;500;1,75;63,91;50,55;0,00;162,39;162,39;32,48;2025/1379;bezahlt;2;43;ja
+43;TKT-112709;23.09.2025 17:25;24.09.2025;2025;09;OG5;Raum OG5 heizt sich auf;AUF-2530;Torwinkel, Haustechniker;500;3,75;63,91;50,55;0,00;290,21;290,21;58,04;2025/1383;bezahlt;4;80;ja
+44;TKT-112832;13.11.2025 10:06;22.11.2025;2025;11;OG5;Raum OG5 heizt sich auf;AUF-2548;Torwinkel, Haustechniker;500;3,50;63,91;50,55;0,00;274,24;274,24;54,85;2025/1393;bezahlt;5;59;ja
+45;TKT-113067;14.02.2026 09:25;17.02.2026;2026;02;Kern 1 Treppenhaus;Büro im Kern 1 Treppenhaus zu warm;AUF-2584;Torwinkel, Haustechniker;500;3,00;65,24;51,60;0,00;247,32;247,32;49,46;2026/3260;bezahlt;3;220;ja
+46;TKT-113151;10.04.2026 08:10;19.04.2026;2026;04;OG4 West;Raum OG4 West heizt sich auf;AUF-2593;Torwinkel, Haustechniker;500;3,50;65,24;51,60;0,00;279,94;279,94;55,99;2026/3270;bezahlt;3;258;ja
+47;TKT-113163;21.04.2026 08:55;22.04.2026;2026;04;Technikzentrale;Temperatur Technikzentrale über 27 Grad;AUF-2596;Torwinkel, Haustechniker;500;2,50;65,24;51,60;0,00;214,70;214,70;42,94;2026/3272;bezahlt;2;321;ja
+48;TKT-113195;14.05.2026 16:26;15.05.2026;2026;05;Teeküche OG1;Temperatur Teeküche OG1 über 27 Grad;AUF-2601;Torwinkel, Haustechniker;500;3,75;65,24;51,60;0,00;296,25;296,25;59,25;2026/3276;bezahlt;2;321;ja
+49;TKT-113204;25.05.2026 08:01;29.05.2026;2026;05;Teeküche OG1;Raum Teeküche OG1 heizt sich auf;AUF-2603;Torwinkel, Haustechniker;500;3,50;65,24;51,60;22,04;301,98;301,98;60,40;2026/3277;bezahlt;3;14;ja
+50;TKT-113214;01.06.2026 07:08;09.06.2026;2026;06;Besprechungsraum OG3;Büro im Besprechungsraum OG3 zu warm;AUF-2614;Torwinkel, FM-Objektleitung;200;1,25;65,24;51,60;0,00;133,15;133,15;66,58;2026/3284;bezahlt;3;314;ja
+51;TKT-113222;04.06.2026 09:52;06.06.2026;2026;06;Technikzentrale;Temperatur Technikzentrale über 27 Grad;AUF-2610;Torwinkel, Haustechniker;500;3,75;65,24;51,60;0,00;296,25;296,25;59,25;2026/3282;bezahlt;3;45;ja
+52;TKT-113228;06.06.2026 16:35;15.06.2026;2026;06;OG1 Ost;Raum OG1 Ost heizt sich auf;AUF-2608;Torwinkel, Haustechniker;500;2,75;65,24;51,60;80,01;311,02;311,02;62,20;2026/3281;bezahlt;2;303;ja
+53;TKT-113230;08.06.2026 10:20;09.06.2026;2026;06;OG2 West;Büro im OG2 West zu warm;AUF-2606;Torwinkel, FM-Objektleitung;200;1,75;65,24;51,60;11,81;177,58;177,58;88,79;2026/3280;bezahlt;6;283;ja
+54;TKT-113236;12.06.2026 10:49;20.06.2026;2026;06;OG2 West;Raum OG2 West heizt sich auf;AUF-2612;Torwinkel, Haustechniker;500;2,75;65,24;51,60;0,00;231,01;231,01;46,20;2026/3283;bezahlt;7;11;ja
+55;TKT-113248;24.06.2026 11:25;28.06.2026;2026;06;Technikzentrale;Raum Technikzentrale heizt sich auf;AUF-2615;Torwinkel, Haustechniker;500;1,50;65,24;51,60;75,21;224,67;224,67;44,93;2026/3285;bezahlt;4;22;ja
+56;TKT-113267;07.07.2026 16:26;16.07.2026;2026;07;EG Forum;Raum EG Forum heizt sich auf;AUF-2624;Torwinkel, Haustechniker;500;3,75;65,24;51,60;0,00;296,25;296,25;59,25;2026/3291;bezahlt;2;362;ja
+57;TKT-113272;09.07.2026 15:51;10.07.2026;2026;07;Kern 1 Treppenhaus;Büro im Kern 1 Treppenhaus zu warm;AUF-2625;Torwinkel, FM-Objektleitung;200;2,00;65,24;51,60;0,00;182,08;182,08;91,04;2026/3292;bezahlt;4;143;ja
+58;TKT-113286;17.07.2026 16:07;26.07.2026;2026;07;OG1 Ost;Temperatur OG1 Ost über 27 Grad;AUF-2634;Torwinkel, Haustechniker;500;3,00;65,24;51,60;0,00;247,32;247,32;49,46;2026/3302;bezahlt;3;41;ja
+59;TKT-113290;20.07.2026 10:52;20.07.2026;2026;07;OG3 Büro Süd;Büro im OG3 Büro Süd zu warm;AUF-2630;Torwinkel, FM-Objektleitung;200;1,25;65,24;51,60;29,06;162,21;162,21;81,11;2026/3297;bezahlt;3;333;ja
+60;TKT-113291;20.07.2026 12:44;21.07.2026;2026;07;Teeküche OG1;Raum Teeküche OG1 heizt sich auf;AUF-2627;Torwinkel, Haustechniker;500;3,75;65,24;51,60;41,52;337,77;337,77;67,55;2026/3294;bezahlt;4;53;ja
+61;TKT-113292;20.07.2026 13:22;23.07.2026;2026;07;EG Westfoyer;Büro im EG Westfoyer zu warm;AUF-2635;Torwinkel, Haustechniker;500;3,50;65,24;51,60;36,81;316,75;316,75;63,35;2026/3303;bezahlt;2;547;nein
+62;TKT-113293;20.07.2026 13:35;22.07.2026;2026;07;OG3 Büro Süd;Büro im OG3 Büro Süd zu warm;AUF-2628;Torwinkel, Haustechniker;500;2,25;65,24;51,60;70,71;269,10;269,10;53,82;2026/3295;bezahlt;4;2;ja
+63;TKT-113294;20.07.2026 15:22;23.07.2026;2026;07;OG2 West;Raum OG2 West heizt sich auf;AUF-2622;Torwinkel, Haustechniker;500;1,25;65,24;51,60;68,07;201,22;201,22;40,24;2026/3290;bezahlt;8;33;ja
+64;TKT-113297;21.07.2026 13:01;24.07.2026;2026;07;UG Lager;Raum UG Lager heizt sich auf;AUF-2631;Torwinkel, Haustechniker;500;2,75;65,24;51,60;18,57;249,58;249,58;49,92;2026/3298;bezahlt;2;329;ja
+65;TKT-113299;22.07.2026 10:17;28.07.2026;2026;07;EG Forum;Temperatur EG Forum über 27 Grad;AUF-2629;Torwinkel, FM-Objektleitung;200;1,25;65,24;51,60;0,00;133,15;133,15;66,58;2026/3296;bezahlt;3;12;ja
+66;TKT-113303;22.07.2026 16:04;29.07.2026;2026;07;OG3 Büro Süd;Büro im OG3 Büro Süd zu warm;AUF-2639;Torwinkel, Haustechniker;500;2,50;65,24;51,60;0,00;214,70;214,70;42,94;2026/3307;bezahlt;5;7;ja
+67;TKT-113304;22.07.2026 16:49;24.07.2026;2026;07;EG Westfoyer;Temperatur EG Westfoyer über 27 Grad;AUF-2632;Torwinkel, Haustechniker;500;3,00;65,24;51,60;0,00;247,32;247,32;49,46;2026/3299;bezahlt;3;1;ja
+68;TKT-113306;23.07.2026 10:35;24.07.2026;2026;07;Technikzentrale;Büro im Technikzentrale zu warm;AUF-2626;Torwinkel, FM-Objektleitung;200;1,25;65,24;51,60;39,94;173,09;173,09;86,55;2026/3293;bezahlt;5;26;ja
+69;TKT-113310;24.07.2026 09:07;01.08.2026;2026;08;Teeküche OG1;Büro im Teeküche OG1 zu warm;AUF-2636;Torwinkel, FM-Objektleitung;200;2,00;65,24;51,60;0,00;182,08;182,08;91,04;2026/3304;bezahlt;5;11;ja
+70;TKT-113312;24.07.2026 15:36;01.08.2026;2026;08;Kern 2 Treppenhaus;Büro im Kern 2 Treppenhaus zu warm;AUF-2643;Torwinkel, Haustechniker;500;3,50;65,24;51,60;0,00;279,94;279,94;55,99;2026/3310;bezahlt;3;387;nein
+71;TKT-113314;26.07.2026 07:54;04.08.2026;2026;08;EG Westfoyer;Büro im EG Westfoyer zu warm;AUF-2645;Torwinkel, Haustechniker;500;2,50;65,24;51,60;0,00;214,70;214,70;42,94;2026/3312;bezahlt;4;11;ja
+72;TKT-113316;27.07.2026 09:53;27.07.2026;2026;07;OG2 Ost;Raum OG2 Ost heizt sich auf;AUF-2637;Torwinkel, Haustechniker;500;2,50;65,24;51,60;0,00;214,70;214,70;42,94;2026/3305;bezahlt;3;318;ja
+73;TKT-113317;27.07.2026 11:38;30.07.2026;2026;07;OG3 Büro Nord;Raum OG3 Büro Nord heizt sich auf;AUF-2644;Torwinkel, FM-Objektleitung;200;1,50;65,24;51,60;0,00;149,46;149,46;74,73;2026/3311;bezahlt;2;423;nein
+74;TKT-113319;27.07.2026 15:16;01.08.2026;2026;08;OG5;Büro im OG5 zu warm;AUF-2633;Torwinkel, FM-Objektleitung;200;2,00;65,24;51,60;0,00;182,08;182,08;91,04;2026/3300;bezahlt;7;2;ja
+75;TKT-113330;29.07.2026 16:03;05.08.2026;2026;08;OG4 West;Raum OG4 West heizt sich auf;AUF-2646;Torwinkel, Haustechniker;500;3,00;65,24;51,60;0,00;247,32;247,32;49,46;2026/3313;bezahlt;4;108;ja
+76;TKT-113331;29.07.2026 16:48;30.07.2026;2026;07;OG5;Büro im OG5 zu warm;AUF-2640;Torwinkel, Haustechniker;500;3,50;65,24;51,60;11,01;290,95;290,95;58,19;2026/3308;bezahlt;6;250;ja
+77;TKT-113335;31.07.2026 12:55;04.08.2026;2026;08;OG3 Büro Süd;Büro im OG3 Büro Süd zu warm;AUF-2641;Torwinkel, Haustechniker;500;2,25;65,24;51,60;70,63;269,02;269,02;53,80;2026/3309;bezahlt;6;6;ja
+78;TKT-113339;03.08.2026 17:40;09.08.2026;2026;08;OG3 Büro Nord;Raum OG3 Büro Nord heizt sich auf;AUF-2647;Torwinkel, Haustechniker;500;2,75;65,24;51,60;0,00;231,01;231,01;46,20;2026/3314;bezahlt;3;10;ja
+79;TKT-113351;12.08.2026 10:26;18.08.2026;2026;08;EG Bistro;Temperatur EG Bistro über 27 Grad;AUF-2648;Torwinkel, Haustechniker;500;3,50;65,24;51,60;55,49;335,43;335,43;67,09;2026/3315;bezahlt;5;364;ja
+80;TKT-113357;17.08.2026 11:14;18.08.2026;2026;08;OG4 West;Raum OG4 West heizt sich auf;AUF-2650;Torwinkel, Haustechniker;500;4,00;65,24;51,60;0,00;312,56;312,56;62,51;2026/3316;bezahlt;5;13;ja
+81;TKT-113358;17.08.2026 17:19;22.08.2026;2026;08;UG Lager;Temperatur UG Lager über 27 Grad;AUF-2655;Torwinkel, FM-Objektleitung;200;2,00;65,24;51,60;0,00;182,08;182,08;91,04;2026/3318;bezahlt;3;29;ja
+82;TKT-113367;23.08.2026 11:18;24.08.2026;2026;08;EG Forum;Raum EG Forum heizt sich auf;AUF-2651;Torwinkel, FM-Objektleitung;200;1,25;65,24;51,60;0,00;133,15;133,15;66,58;2026/3317;bezahlt;4;27;ja
+83;TKT-113393;07.09.2026 14:49;07.09.2026;2026;09;Kern 2 Treppenhaus;Raum Kern 2 Treppenhaus heizt sich auf;AUF-2656;Torwinkel, FM-Objektleitung;200;2,25;65,24;51,60;0,00;198,39;198,39;99,19;2026/3321;bezahlt;4;37;ja
+84;TKT-113397;08.09.2026 11:48;15.09.2026;2026;09;OG4 West;Raum OG4 West heizt sich auf;AUF-2662;Torwinkel, Haustechniker;500;3,75;65,24;51,60;0,00;296,25;296,25;59,25;2026/3324;bezahlt;6;28;ja
