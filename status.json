@@ -1,6 +1,6 @@
 {
  "version": 1,
- "letzterLauf": "2026-11-23T10:16:02+01:00",
+ "letzterLauf": "2026-11-25T13:16:45+01:00",
  "projekte": {
   "START": {
    "status": "fertig",
@@ -71,19 +71,20 @@
    ]
   },
   "A002": {
-   "status": "ueberprueft",
-   "runde": 2,
+   "status": "ki_erledigt",
+   "runde": 3,
    "ergebnis": [
-    "ablage/Person_2/A002_Unsere_Firma_auf_einer_Seite/KI_Ergebnis_A002_v2.md"
+    "ablage/Person_2/A002_Unsere_Firma_auf_einer_Seite/KI_Ergebnis_A002_v3.md"
    ],
-   "hinweis": "Runde 2: Wortzahl korrigiert (227 statt 233, Grenze 300 eingehalten); Antwort aus K61 ruht. Offen: Satzprüfung und Bildschirmfotos.",
+   "hinweis": "Runde 3: Bei jeder Abweichung steht jetzt, welcher Quelle der Agent glaubt und warum (Register vor Vertrag vor Briefing vor CAFM-Export); die Seite nennt abweichende Angaben (270 Wörter, 16 Sätze). Offen: Urteile prüfen, Bildschirmfotos, ob Kantbogen die Liste bekommt.",
    "feedback": [
     {
      "datum": "2026-11-23T09:31:35.346Z",
      "von": "Kai Landmann",
      "text": "Wenn zwei quellen verschiedenes sagen. Entscheide selber welcher du mehr glaubst, dafür schreibe auch hin das es verschiedene angaben gibt.",
      "runde": 2,
-     "erledigt": false
+     "erledigt": true,
+     "antwort": "Abweichungsliste um eine Spalte „Urteil“ (welcher Angabe der Agent glaubt und warum) ergänzt, auf der Seite die abweichenden Angaben bei Gründung und Absauganlage vermerkt und die Entscheidungsregel als Satz 16 aufgenommen."
     }
    ],
    "verlauf": [
@@ -104,6 +105,12 @@
      "von": "Kai Landmann",
      "art": "feedback",
      "text": "Verbesserungen eingetragen, Status „Überprüft“"
+    },
+    {
+     "datum": "2026-11-25T13:16:45+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 3: Feedback eingearbeitet"
     }
    ],
    "person": 2
@@ -157,44 +164,47 @@
    ]
   },
   "A004": {
-   "status": "ueberprueft",
-   "runde": 2,
+   "status": "ki_erledigt",
+   "runde": 3,
    "ergebnis": [
-    "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v2.md",
+    "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v3.md",
     "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/KI_Ergebnis_A004_v2.csv"
    ],
-   "hinweis": "Runde 2: geprüft, unverändert. Offen: Frage festlegen, beide Chats führen, Vergleich. Es fehlen Infos, siehe Liste.",
+   "hinweis": "Runde 3: Zwei Fragen aus A001/A002 abgeleitet (Bestellungsdatum Landmann mit Widerspruch im Briefing; Gründungstag nicht im Briefing), Kündigungsfrist VTR-1005 bleibt Hauptvorschlag. Offen: Frage wählen, beide Chats selbst führen, Vergleich und Bildschirmfoto.",
    "feedback": [
     {
      "datum": "2026-11-23T13:05:58.673Z",
      "von": "Henrike Baum",
      "text": "Siehe angehängte Dateien.",
      "runde": 2,
-     "erledigt": false,
+     "erledigt": true,
      "dateien": [
       "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/Verbesserungen/2026-11-23_1405_A004_Der_erste_Auftrag_in_fuenf_Teilen.pdf"
      ],
-     "art": "infos"
+     "art": "infos",
+     "antwort": "Die angehängte Datei ist das unveränderte Aufgabenblatt A004; die offene Frage aus A001/A002 hat der Agent stattdessen aus deren Ergebnissen abgeleitet (Abschnitt 1.0, Kandidaten A und B)."
     },
     {
      "datum": "2026-11-23T13:07:10.042Z",
      "von": "Henrike Baum",
      "text": "Siehe angehängte Dateien.",
      "runde": 2,
-     "erledigt": false,
+     "erledigt": true,
      "dateien": [
       "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/Verbesserungen/2026-11-23_1407_A002_Unsere_Firma_auf_einer_Seite.pdf"
-     ]
+     ],
+     "antwort": "Angehängtes Aufgabenblatt A002 (unverändert) genutzt: offene Stelle Gründungstag als Kandidat B in Abschnitt 1.0 aufgenommen."
     },
     {
      "datum": "2026-11-23T13:08:13.534Z",
      "von": "Henrike Baum",
      "text": "Siehe angehängte Dateien.",
      "runde": 2,
-     "erledigt": false,
+     "erledigt": true,
      "dateien": [
       "ablage/Person_1/A004_Der_erste_Auftrag_in_fuenf_Teilen/Verbesserungen/2026-11-23_1408_A001_Projektmappe_fuer_die_eigene_Firma_anlegen.pdf"
-     ]
+     ],
+     "antwort": "Angehängtes Aufgabenblatt A001 (unverändert) genutzt: offene Stelle Bestellungsdatum Kai Landmann als Kandidat A mit beiden Fassungen und Referenz in Abschnitt 1.0 aufgenommen."
     }
    ],
    "verlauf": [
@@ -233,16 +243,15 @@
      "von": "Henrike Baum",
      "art": "feedback",
      "text": "Hinweis für die KI eingetragen"
+    },
+    {
+     "datum": "2026-11-25T13:16:45+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 3: Feedback und Anhänge eingearbeitet"
     }
    ],
-   "person": 1,
-   "benoetigt": [
-    {
-     "was": "Welche Frage zum Firmenbriefing in A001 bzw. A002 offen geblieben ist (eine davon kann die Frage für A004 werden)",
-     "von": "Selim Ahrens, Kai Landmann",
-     "wo": "Verbesserungsfeld dieses Projekts"
-    }
-   ]
+   "person": 1
   },
   "A005": {
    "status": "infos",
@@ -657,23 +666,25 @@
    "person": 2
   },
   "UEB-AKTE": {
-   "status": "ueberprueft",
-   "runde": 2,
+   "status": "infos",
+   "runde": 3,
    "ergebnis": [
-    "ablage/Person_1/UEB-AKTE_Gemeinsame_Uebung/KI_Ergebnis_UEB-AKTE_v2.md"
+    "ablage/Person_1/UEB-AKTE_Freiwillige_Uebung/KI_Ergebnis_UEB-AKTE_v3.md",
+    "ablage/Person_1/UEB-AKTE_Freiwillige_Uebung/KI_Ergebnis_UEB-AKTE_v3.csv"
    ],
-   "hinweis": "Runde 2: Übung ist jetzt freiwillig ohne Abgabe; Räume im 2. OG West aus dem 3D-Modell. Der Auftrag liegt nur im Kursteam. Es fehlen Infos, siehe Liste.",
+   "hinweis": "Runde 3 (Teilergebnis): Index ausgewertet: 9 Einträge „Abfluss langsam“, vermutete Kette 29.04.–06.05.2025 (Raumpuls), 10 Fehlablagen, 36 Dateinamen ohne Nummer. Es fehlen der Auftrag und die Dokumente selbst.",
    "feedback": [
     {
      "datum": "2026-11-23T13:57:19.092Z",
      "von": "Henrike Baum",
      "text": "Siehe angehängte Dateien.",
      "runde": 2,
-     "erledigt": false,
+     "erledigt": true,
      "dateien": [
       "ablage/Person_1/UEB-AKTE_Freiwillige_Uebung/Verbesserungen/2026-11-23_1457_00_Auszug_Datenraumindex.csv"
      ],
-     "art": "infos"
+     "art": "infos",
+     "antwort": "Datenraumindex vollständig ausgewertet (Abfluss-Einträge, Kette Frühjahr 2025, Fehlablagen und Dateinamen); Auftrag und Dokumente selbst fehlen weiterhin."
     }
    ],
    "verlauf": [
@@ -706,35 +717,48 @@
      "von": "Henrike Baum",
      "art": "infos",
      "text": "Fehlende Infos eingetragen, Status „Überprüft“"
+    },
+    {
+     "datum": "2026-11-25T13:16:45+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 3: Infos eingearbeitet, Teilergebnis; Auftrag und Dokumente fehlen weiter"
     }
    ],
    "person": 1,
    "benoetigt": [
     {
-     "was": "Auftrag der Übung „Akte Abfluss OG2 West“ mit allen zugehörigen Dateien",
-     "von": "Dozent (Kursteam)",
-     "wo": "00_Kurs/Uebung_akte_abfluss; in die Ablage oder als Anhang hier"
+     "was": "Auftrag der Übung „Akte Abfluss OG2 West“ (Auftragstext)",
+     "von": "Dozent (Kursteam), über Henrike Baum",
+     "wo": "00_Kurs/Uebung_akte_abfluss; als Anhang im Verbesserungsfeld"
+    },
+    {
+     "was": "Die Dokumente aus dem Auszug (PDFs aus der Spalte „Datei im Auszug“, mindestens die 22 Einträge zu Wasser/Abfluss), z. B. als ZIP",
+     "von": "Dozent (Kursteam), über Henrike Baum",
+     "wo": "00_Kurs/Uebung_akte_abfluss; als Anhang im Verbesserungsfeld"
     }
    ]
   },
   "UEB-ZAEHLER": {
-   "status": "ueberprueft",
-   "runde": 2,
+   "status": "ki_erledigt",
+   "runde": 3,
    "ergebnis": [
-    "ablage/Person_3/UEB-ZAEHLER_Gemeinsame_Aufgabe/KI_Ergebnis_UEB-ZAEHLER_v2.md"
+    "ablage/Person_3/UEB-ZAEHLER_Freiwillige_Uebung/KI_Ergebnis_UEB-ZAEHLER_v3.md",
+    "ablage/Person_3/UEB-ZAEHLER_Freiwillige_Uebung/KI_Ergebnis_UEB-ZAEHLER_v3.csv"
    ],
-   "hinweis": "Runde 2: Übung ist jetzt freiwillig ohne Abgabe; Auftrag und Zählerdaten liegen nur im Kursteam. Es fehlen Infos, siehe Liste.",
+   "hinweis": "Runde 3: Übung gelöst: Tippfehler (eine Null zu viel) am 24.06.2026, richtiger Verbrauch 3.577 kWh; Haus 2026 rund 1,385 Mio kWh (nur Hauptzähler). Offen: Schritt 1 und Bilanz selbst machen; Achtung, das öffentliche Repository macht Daten und Lösung für andere Gruppen sichtbar.",
    "feedback": [
     {
      "datum": "2026-11-23T12:13:41.560Z",
      "von": "Selim Ahrens",
      "text": "Hier sind die Angeforderten Dateien",
      "runde": 2,
-     "erledigt": false,
+     "erledigt": true,
      "dateien": [
       "ablage/Person_3/UEB-ZAEHLER_Freiwillige_Uebung/Verbesserungen/2026-11-23_1313_Uebung_zaehlerfehler.zip"
      ],
-     "art": "infos"
+     "art": "infos",
+     "antwort": "ZIP vollständig ausgewertet: Fehlerzeile gefunden (24.06.2026, Zähler 21950889, 9.346.940 statt etwa 934.694 kWh), Gegenproben, Antworten auf beide Fragen und Entwurf des Prüfprotokolls in v3."
     }
    ],
    "verlauf": [
@@ -767,16 +791,15 @@
      "von": "Selim Ahrens",
      "art": "infos",
      "text": "Fehlende Infos eingetragen, Status „Überprüft“"
+    },
+    {
+     "datum": "2026-11-25T13:16:45+01:00",
+     "von": "KI-Agent",
+     "art": "ki",
+     "text": "Runde 3: Infos eingearbeitet"
     }
    ],
-   "person": 3,
-   "benoetigt": [
-    {
-     "was": "Auftrag der Übung „Zählerfehler 8,4 Mio kWh“ mit den Daten (Zählerliste, Energiebericht 2026)",
-     "von": "Dozent (Kursteam)",
-     "wo": "00_Kurs/Uebung_zaehlerfehler; in die Ablage oder als Anhang hier"
-    }
-   ]
+   "person": 3
   }
  }
 }

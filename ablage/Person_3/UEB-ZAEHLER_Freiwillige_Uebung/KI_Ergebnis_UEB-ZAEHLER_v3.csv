@@ -1,0 +1,21 @@
+Kennung;Beschreibung;Wert;Einheit;Rechenweg;Quelle
+F1_KI;Größter Verbrauch 2026 laut fehlerhafter Zeile (Zähler 21950889, 12.06.-24.06.2026);8415823;kWh;9346940 - 931117;Zaehlerstaende_Strom_2017_2026.xlsx, Ablesungen Z. 5555 und 5575
+F1_Folge;Differenz zur nächsten Ablesung (24.06.-06.07.2026);-8408308;kWh;938632 - 9346940;ebd. Z. 5575 und 5593
+G4_Leistung;Nötige Dauerleistung für 8.415.823 kWh in 12 Tagen;29222;kW;8415823 / 288 h;Rechnung
+G3_typisch;Mittlerer Verbrauch 21950889 je Ableseabstand 2026 (ohne Z. 5575/5593);3464;kWh;Mittel von 22 Abständen, Spanne 2759 bis 4553;ebd. alle Zeilen 21950889 2026
+G1_Jahr2025;Strombezug Haus 2025;1630090;kWh;Energiebericht 2025 = Summe FM-Monate 2025;11.06.027 S. 1; FM_Kennzahlen Spalte N
+G1_Juni2026;Strombezug Haus Juni 2026;168523;kWh;;FM_Kennzahlen Monatswerte Z. 111 Spalte N
+G2_Haupt;Hauptzähler 15.06.-22.06.2026;38284;kWh;14519747 - 14481463 (Verbrauchsspalte 38283);Strom-Export Z. 5557 und 5566
+K_Stand;Korrigierter Zählerstand 21950889 am 24.06.2026;934694;kWh;9346940 ohne letzte Ziffer (±1);ebd. Z. 5575
+K_Verbr1;Korrigierter Verbrauch 12.06.-24.06.2026;3577;kWh;934694 - 931117;ebd. Z. 5555
+K_Verbr2;Korrigierter Verbrauch 24.06.-06.07.2026;3938;kWh;938632 - 934694 (Verbrauchsspalte 3937);ebd. Z. 5593
+F1_korr;Größter Verbrauch 2026 nach Korrektur (Hauptzähler 18838817, 15.06.-22.06.);38284;kWh;Differenz der Zählerstände;ebd. Z. 5557 und 5566
+F1_korr_UZ;Größter Verbrauch 2026 eines Unterzählers (21950889, 11.08.-24.08.);4553;kWh;954366 - 949813;ebd. Z. 5654 und 5673
+F2_Diff;Haus 2026 bis letzte Ablesung, Hauptzähler 29.12.2025 bis 02.11.2026;1385132;kWh;15133731 - 13748599;ebd. Z. 5281 und 5783
+F2_Spalte;Summe Verbrauchsspalte Hauptzähler 2026;1385114;kWh;Summe Spalte H;ebd.
+F2_EB26;Energiebericht 2026 Elektrizität;1385114;kWh;;11.06.030 S. 1
+F2_FM;FM-Monate Jan-Okt 2026;1355938;kWh;Summe Z. 106-115 Spalte N;FM_Kennzahlen
+F2_ab0101;Haus ab 01.01.2026 (Stand 01.01. linear geschätzt);1371205;kWh;15133731 - 13762526 [Annahme];Strom-Export Z. 5281, 5290, 5783
+naiv_alle_19;Falsch: Summe aller 19 Zähler 2026;2663916;kWh;Doppelzählung Haupt- und Unterzähler;Rechnung
+UZ_Summe;Summe der 18 Unterzähler 2026;1278784;kWh;;Rechnung
+Rundung;Zeilen mit Verbrauchsspalte = Differenz - 1;2870;Zeilen;2898 Zeilen genau gleich;Rechnung über Strom-Export
